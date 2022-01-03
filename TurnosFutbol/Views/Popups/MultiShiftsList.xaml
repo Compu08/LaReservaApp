@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TurnosFutbol.Views.Popups.MultiShiftsList"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:converter="clr-namespace:TurnosFutbol.Converters" xmlns:textinputlayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms" xmlns:lstview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"
+            />
+    </pages:PopupPage.Animation>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <converter:BooleanToColorConverter x:Key="BoolToColorConverter" />
+            <converter:StringToGlyphConverter x:Key="GlyphConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame Margin="12" Padding="0" BackgroundColor="{StaticResource ItemsBackground}" CornerRadius="8" HasShadow="True">
+                <StackLayout>
+                <Grid BackgroundColor="{DynamicResource ButtonBackground}" ColumnDefinitions="Auto,*"  RowDefinitions="50,50" Padding="20,0,20,0">
+                    <Label x:Name="topText" Text="EDITAR" TextColor="White" Opacity="0.5" FontFamily="{StaticResource BwModelicaMedium}" Grid.Row="0" Grid.Column="0" FontSize="18" VerticalOptions="Start" Padding="0,10,0,0"/>
+                    <Label x:Name="labelSpot" Text="NOMBRE" CharacterSpacing="1.5" TextColor="White" FontAttributes="Bold" FontFamily="{StaticResource BwModelicaMedium}" Grid.Row="1" Grid.Column="0" FontSize="26" VerticalOptions="Start"/>
+                    <Label x:Name="CrossLabel" Grid.Column="1" Grid.RowSpan="2" Text="" FontSize="18" Style="{StaticResource IconButton}" TextColor="White" HorizontalOptions="End">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="CloseModal">
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+                    
+                    <Label x:Name="LabelEmpty" 
+                           IsVisible="false"
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center" 
+                           Padding="10,50,10,50" 
+                           HorizontalTextAlignment="Center" 
+                           Text="Este turno no posee reservas." 
+                           FontSize="16" Style="{StaticResource LabelStyleHome}" 
+                           TextColor="{DynamicResource ItemTextColor}"/>
+                    
+                    <lstview:SfListView x:Name="lstView" IsScrollingEnabled="True" AllowSwiping="True" SwipeOffset="60" SwipeThreshold="30" SelectionMode="None"
+                                        SwipeStarted="lstView_SwipeStarted" SwipeEnded="lstView_SwipeEnded" ItemSize="50"
+                                        ItemTapped="lstView_ItemTapped"
+                                        ItemHolding="lstView_ItemHolding"
+                                        >
+                        <lstview:SfListView.LeftSwipeTemplate>
+                            <DataTemplate x:Name="LeftSwipeTemplate">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid BackgroundColor="#25D366" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                        <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Image Grid.Column="0"
+                                     Grid.Row="0"
+                                     BackgroundColor="Transparent"
+                                     HeightRequest="35"
+                                     WidthRequest="35"
+                                     Source="wspLogo.png" />
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </lstview:SfListView.LeftSwipeTemplate>
+
+                        <lstview:SfListView.RightSwipeTemplate>
+                            <DataTemplate x:Name="RightSwipeTemplate">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid BackgroundColor="#4464cf" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                        <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Image Grid.Column="0"
+                                     Grid.Row="0"
+                                     BackgroundColor="Transparent"
+                                     HeightRequest="35"
+                                     WidthRequest="35"
+                                     Source="iconCall.png" />
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </lstview:SfListView.RightSwipeTemplate>
+                    
+                        <lstview:SfListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                   <StackLayout>
+                                            <Grid ColumnDefinitions="20,*,Auto,Auto" Padding="10,5,10,5" ColumnSpacing="5">
+                                            <Image
+                                            Grid.Column="0"
+                                            IsVisible="{Binding fixedSub}"
+                                            Source="FixedPin.png"
+                                            Scale="0.90"
+                                                Margin="0,0,5,0"
+                                            />
+
+                                            <Label 
+                                            Text="{Binding personaSub}"
+                                            Grid.Column="1"
+                                                FontSize="16"
+                                                FontAttributes="Bold"
+                                            TextColor="{DynamicResource TextHour}"
+                                            />
+
+                                            <Label 
+                                            Text="{Binding telefonoSub}"
+                                            FontSize="16"
+                                            FontAttributes="Bold"
+                                            TextColor="{DynamicResource TextPerson}"
+                                            Grid.Column="2" />
+
+                                            <Label 
+                                            Text="&#xf2ed;"
+                                            Grid.Column="3"
+                                            FontFamily="{StaticResource FontIcons-2}"
+                                            FontSize="16"
+                                            Padding="10,3,0,0"
+                                            TextColor="Red"
+                                                />
+                                            </Grid>
+                                        <BoxView BackgroundColor="{DynamicResource DivisionLinesListView}" HeightRequest="1" />
+                                       </StackLayout>
+                                    </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </lstview:SfListView.ItemTemplate>
+                </lstview:SfListView>
+                    
+                    <Button x:Name="ButtonEditValue" 
+                    Text="Agregar Turno" 
+                    Clicked="PushAddNewShift"
+                    BackgroundColor="{DynamicResource ButtonBackground}"
+                    TextColor="White"
+                    Padding="8"
+                    Margin="0,20,0,0"
+                    />
+                    
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</pages:PopupPage>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms" 
+             xmlns:segmentedbar="clr-namespace:Plugin.Segmented.Control;assembly=Plugin.Segmented"
+             xmlns:controls="clr-namespace:TurnosFutbol.Controls;assembly=TurnosFutbol"
+             x:Class="TurnosFutbol.Views.Navigation.ShiftsEditor"
+             xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:system="clr-namespace:System;assembly=netstandard" xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" xmlns:textinputlayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms" xmlns:local="clr-namespace:TurnosFutbol.Converters"
+             iOsSpecific:Page.UseSafeArea="true"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{DynamicResource BackgroundBase}">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary Source="Styles.xaml">
+            <local:PhoneConverter x:Key="phoneConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Editar Horarios" BackgroundColor="{DynamicResource TitleViewBackground} ">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="Mi"
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}"
+                            TextColor="{DynamicResource ItemTextColor}"
+                        />
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.Content>
+            <ScrollView>
+            <StackLayout>
+        <Grid x:Name="PrincipalGrid" RowSpacing="0" BackgroundColor="{DynamicResource BackgroundBase}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <segmentedbar:SegmentedControl x:Name="SegmentedControl"
+                                           SelectedSegment="{Binding SegmentSelection}"
+                                           TintColor="{DynamicResource ButtonBackground}"
+                                           SelectedTextColor="White"
+                                           TextColor="{DynamicResource ButtonBackground}"
+                                           DisabledColor="Gray"
+                                           OnSegmentSelected="DayChanged"
+                                           Grid.Row="1">
+                <segmentedbar:SegmentedControl.Margin>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <On Platform="iOS" Value="8,8,8,8" />
+                        <On Platform="Android" Value="8,8,8,0"></On>
+                    </OnPlatform>
+                </segmentedbar:SegmentedControl.Margin>
+                <segmentedbar:SegmentedControl.Children>
+                    <segmentedbar:SegmentedControlOption Text="Dom" />
+                    <segmentedbar:SegmentedControlOption Text="Lun" />
+                    <segmentedbar:SegmentedControlOption Text="Mar" />
+                    <segmentedbar:SegmentedControlOption Text="Mie" />
+                    <segmentedbar:SegmentedControlOption Text="Jue" />
+                    <segmentedbar:SegmentedControlOption Text="Vie" />
+                    <segmentedbar:SegmentedControlOption Text="Sab" />
+                </segmentedbar:SegmentedControl.Children>
+            </segmentedbar:SegmentedControl>
+
+            <Grid ColumnSpacing="5" Grid.Row="2" Margin="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Padding="15,0,0,0" Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <textinputlayout:SfTextInputLayout Hint="Tipo" x:Name="TextTypeLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="typePicker" SelectedIndexChanged="TypePicked" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+                </StackLayout>
+
+                <StackLayout Padding="0,0,15,0" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <textinputlayout:SfTextInputLayout Hint="Lugar" x:Name="TextPlaceLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="placePicker" SelectedIndexChanged="PlacePicked" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+                </StackLayout>
+            </Grid>
+
+            <Button x:Name="addButton"
+                    Text="&#xf055; Agregar horario"
+                    FontFamily="{StaticResource FontIcons-2}"
+                    BackgroundColor="{DynamicResource ButtonBackground}"
+                    TextColor="White"
+                    Grid.Row="3"
+                    Margin="20,0,20,0"
+                    Padding="0"
+                    Clicked="AddNewShift"
+                    IsVisible="False"
+                    />
+        </Grid>
+            <listView:SfListView x:Name ="lstView" 
+                      ItemsSource="{Binding shiftsTest,Mode=TwoWay}"
+                      IsStickyGroupHeader="True"
+                      VerticalOptions="FillAndExpand"
+                      AllowGroupExpandCollapse="True"
+                      HorizontalOptions="CenterAndExpand"
+                      Margin="20"
+                      AutoFitMode="Height"
+                      IsScrollBarVisible="False"
+                      SelectionMode="None"
+                      ItemTapped="DeleteItem"
+                      IsVisible="True"
+                      GroupHeaderSize="55"
+                      >
+
+                <listView:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="20,0,20,0" RowDefinitions="Auto,1" RowSpacing="0" ColumnSpacing="0"  >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                    <BoxView Color="{DynamicResource DivisionLinesListView}" HeightRequest="1" Grid.Row="1" Grid.ColumnSpan="3"/>
+                                    <Label Text="{Binding hora}"
+                                           VerticalOptions="Center"
+                                           Grid.Column="0"
+                                           Grid.Row="0"
+                                           FontSize="14"
+                                           FontAttributes="Bold"
+                                           TextColor="{DynamicResource ItemTextColor}"
+                                        />
+
+                                    <Label Text="{Binding persona}"
+                                           TextColor="{DynamicResource ItemTextColor}"
+                                           HorizontalOptions="Center"
+                                           FontSize="14"
+                                           Grid.Row="0"
+                                           FontAttributes="None"
+                                           FontFamily="Montserrat"
+                                           Grid.Column="1"
+                                           Style="{StaticResource LabelStyleHome}"
+                                           Padding="0,10,0,10"
+                                        />
+
+                                        <Label 
+                                            x:Name="maxS"
+                                            TextColor="{DynamicResource ItemTextColor}"
+                                           VerticalOptions="Center"
+                                           Grid.Column="2"
+                                           Grid.Row="0"
+                                           FontFamily="{StaticResource FontIcons-2}"
+                                           Text="{Binding maxShifts}"
+                                            Padding="5,0,10,0"
+                                           IsVisible="{Binding maxShifts, Converter={StaticResource phoneConverter}, ConverterParameter={Binding maxS}}"
+                                            >
+                                            
+                                        </Label>
+
+                                        <Label TextColor="Red"
+                                           VerticalOptions="Center"
+                                           Grid.Column="3"
+                                           Grid.Row="0"
+                                           FontFamily="{StaticResource FontIcons-2}"
+                                           Text="&#xf056;">
+                                    </Label>
+                                    
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </listView:SfListView.ItemTemplate>
+            </listView:SfListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

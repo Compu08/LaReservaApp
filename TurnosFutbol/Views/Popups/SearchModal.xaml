@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TurnosFutbol.Views.Popups.SearchModal"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms" xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms" xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms" xmlns:behaviors="clr-namespace:TurnosFutbol.Behaviors"
+             ios:Page.UseSafeArea="true"
+             BackgroundColor="{DynamicResource BackgroundBase}"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid x:Name="principalGrid" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" RowSpacing="8" ColumnSpacing="2" Padding="0,8,0,0"  BackgroundColor="{DynamicResource BackgroundBase}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="1" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8" />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="8" />
+                </Grid.ColumnDefinitions>
+
+                <buttons:SfButton
+                            x:Name="backButton"
+                            Command="{TemplateBinding BindingContext.BackButtonCommand}"
+                            CommandParameter="{x:Reference backButton}"
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            HorizontalOptions="Start"
+                            HorizontalTextAlignment="Start"
+                            Text="{StaticResource Back}"
+                            TextColor="{DynamicResource ItemTextColor}"
+                            Grid.Column="1"/>
+
+                <SearchBar x:Name="theSearch" TextChanged="theSearch_TextChanged" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,20,0" Grid.Row="0" Placeholder="Buscar..." TextColor="{DynamicResource TitleTextColor}"/>
+                <BoxView Color="{DynamicResource DivisionLines}" Grid.Row="1" Grid.ColumnSpan="5" />
+            </Grid>
+
+            <Image x:Name="LogoBackground" Source="LogotipoLowOpacity.png" Grid.Row="2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Label x:Name="NotFoundLabel" Text="No se encontraron resultados para la búsqueda." Grid.Row="2" IsVisible="false" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="19" FontAttributes="Bold" Padding="12" HorizontalTextAlignment="Center"/>
+            <!-- Clubs Template and Binding -->
+            <listView:SfListView x:Name="SfListView" 
+                                         Grid.Row="2"
+                                         VerticalOptions="FillAndExpand"
+                                         HorizontalOptions="CenterAndExpand"
+                                         Margin="0"
+                                         SelectionMode="None" 
+                                         AutoFitMode="None"          
+                                         ItemSpacing="0"
+                                         IsVisible="False" 
+                                         ItemSize="110"
+                                         ItemsSource="{Binding ClubsItem,Mode=TwoWay}"
+                                         ItemTapped="SfListView_ItemTapped">
+
+
+
+
+                <listView:SfListView.ItemTemplate>
+                    <DataTemplate>
+
+                        <cards:SfCardView CornerRadius="4" 
+                                                      Style="{StaticResource CardsClub}"
+                                                      Margin="12,5,12,5"
+                                    >
+
+                            <border:SfBorder BorderWidth="1" 
+                                                         BorderColor="{DynamicResource ItemsBackground}">
+
+                                <Grid Padding="12,5,12,5" RowSpacing="0" ColumnSpacing="30" BackgroundColor="{DynamicResource ItemsBackground}">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Grid.Column="0"
+                                                    Grid.RowSpan="4"
+                                                    Source="{Binding picture}"
+                                                    />
+
+                                    <Label Grid.Column="1"
+                                                    Grid.Row="0"
+                                                    FontSize="16" 
+                                                    FontAttributes="Bold"
+                                                    FontFamily="Arial"
+                                                    TextColor="{DynamicResource ItemTextColor}" 
+                                                    HorizontalOptions="Start" 
+                                                    Text="{Binding place}" 
+                                                    Style="{StaticResource LabelStyleHome}"/>
+
+                                    <Image Grid.Column="1" Grid.Row="0"
+                                                   Source="crown.png"
+                                                   HorizontalOptions="End"
+                                                   VerticalOptions="Center"
+                                                   IsVisible="{Binding vip}"
+                                            />
+
+                                    <Image Grid.Column="1" Grid.Row="1"
+                                                   Source="locked.png"
+                                                   HorizontalOptions="End"
+                                                   VerticalOptions="Start"
+                                                   IsVisible="{Binding isLocked}"
+                                            />
+
+                                    <Label Grid.Column="1"
+                                                    Grid.Row="1"
+                                                    FontSize="12"
+                                                    FontAttributes="None"
+                                                    TextColor="{StaticResource Gray-500}" 
+                                                    HorizontalOptions="Start" 
+                                                    Text="{Binding adress}" 
+                                                    Style="{StaticResource LabelStyleHome}"/>
+
+                                    <Label Grid.Column="1"
+                                                    Grid.Row="2"
+                                                    FontSize="12" 
+                                                    TextColor="{StaticResource Gray-500}" 
+                                                    HorizontalOptions="Start" 
+                                                    Text="{Binding phone}" 
+                                                    Style="{StaticResource LabelStyleHome}"/>
+
+                                    <Label Grid.Column="1"
+                                                    Grid.Row="3"
+                                                    FontSize="12" 
+                                                    TextColor="{StaticResource Gray-500}" 
+                                                    HorizontalOptions="Start" 
+                                                    Text="{Binding courts}" 
+                                                    Style="{StaticResource LabelStyleHome}"/>
+
+                                    <Label Grid.Column="1"
+                                                    Grid.Row="3"
+                                                    FontSize="12" 
+                                                    TextColor="{StaticResource Gray-700}" 
+                                                    HorizontalOptions="End"
+                                                    HorizontalTextAlignment="End"
+                                                   VerticalOptions="End"
+                                                    Text="{Binding value}" 
+                                                    Style="{StaticResource LabelStyleHome}"/>
+
+
+                                </Grid>
+
+                            </border:SfBorder>
+                        </cards:SfCardView>
+
+                    </DataTemplate>
+                </listView:SfListView.ItemTemplate>
+
+                <listView:SfListView.Behaviors>
+                    <behaviors:SfListViewExtendHeightBehavior/>
+                </listView:SfListView.Behaviors>
+
+                <listView:SfListView.LayoutManager>
+                    <listView:GridLayout SpanCount="1" />
+                </listView:SfListView.LayoutManager>
+
+            </listView:SfListView>
+
+
+        </Grid>
+
+
+    </ContentPage.Content>
+</ContentPage>

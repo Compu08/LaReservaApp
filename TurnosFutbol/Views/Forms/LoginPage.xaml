@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TurnosFutbol.Views.Forms.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:control="clr-namespace:TurnosFutbol.Controls"
+    xmlns:converter="clr-namespace:TurnosFutbol.Converters"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    xmlns:local="clr-namespace:TurnosFutbol.Views.Forms"
+    xmlns:viewModel="clr-namespace:TurnosFutbol.ViewModels.Forms"
+    NavigationPage.HasNavigationBar="False"
+    Style="{StaticResource ContentPageStyle}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:BooleanToColorConverter x:Key="ColorConverter" />
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!--  Binding context for login page  -->
+    <ContentPage.BindingContext>
+        <viewModel:LoginPageViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid>
+
+            <gradient:SfGradientView Style="{StaticResource SfGradientViewStyle}" />
+            <ScrollView HorizontalOptions="Center">
+                <ScrollView.VerticalOptions>
+                    <OnIdiom
+                        x:TypeArguments="LayoutOptions"
+                        Default="CenterAndExpand"
+                        Phone="FillAndExpand" />
+                </ScrollView.VerticalOptions>
+
+                <StackLayout
+                    Margin="{core:OnPlatformOrientationThickness PhonePortrait='20,32',
+                                                                 PhoneLandscape='150,32',
+                                                                 TabletPortrait='200,50',
+                                                                 TabletLandscape='300,50',
+                                                                 Desktop='30'}"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand">
+
+                    <Image 
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        Source="LaReservaFUTBOL_2.png"
+                        Margin="0,0,0,0" />
+                    
+                    <Grid RowSpacing="0" VerticalOptions="StartAndExpand">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            
+                        </Grid.RowDefinitions>
+                        
+                        <!--  Label to display the title of this page  -->
+                        <Label
+                            Grid.Row="0"
+                            FontFamily="{StaticResource Montserrat-SemiBold}"
+                            FontSize="20"
+                            HorizontalTextAlignment="Center"
+                            Style="{StaticResource LabelStyle}"
+                            Text="Registrate" />
+
+                        <!--  Label to display the description of this page  -->
+                        <Label
+                            Grid.Row="1"
+                            Margin="0,8,0,0"
+                            FontFamily="{StaticResource Montserrat-Medium}"
+                            HorizontalTextAlignment="Center"
+                            Style="{StaticResource LabelStyle}"
+                            Text="¡Y comenzá a reservar tus turnos!" />
+
+                        <!--  Entry to get email ID from user  -->
+                        <Label Grid.Row="2" Text="(*) Ingrese Nombre y Apellido"
+                               TextColor="Red"
+                               IsVisible="False"
+                               x:Name="ErrorUserLabel"
+                               />
+                        <border:SfBorder
+                            Margin="0,24"
+                            x:Name="UserField"
+                            Grid.Row="3"
+                            BorderColor="{Binding Source={x:Reference UserEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=0}"
+                            Style="{StaticResource SfBorderStyle}"
+                            >
+                            <control:BorderlessEntry
+                                x:Name="UserEntry"
+                                Placeholder="Nombre y Apellido"
+                                Style="{StaticResource EntryStyle}"
+                                />
+                        </border:SfBorder>
+
+                        <!--  Entry to get password from user  -->
+                        <Label Grid.Row="4" 
+                               Text="(*) Ingrese Número de Teléfono"
+                               TextColor="Red" 
+                               IsVisible="False"
+                               x:Name="ErrorPhoneLabel"/>
+                        <border:SfBorder
+                            x:Name="PhoneField"
+                            Grid.Row="5"
+                            BorderColor="{Binding Source={x:Reference PasswordEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=0}"
+                            Style="{StaticResource SfBorderStyle}"
+                            Margin="0,0,0,4">
+                            <control:BorderlessEntry
+                                x:Name="PasswordEntry"
+                                Placeholder="Telefono"
+                                Keyboard="Numeric"
+                                Text="{Binding PhoneText}"
+                                Style="{StaticResource EntryStyle}"
+                                />
+                        </border:SfBorder>
+
+                        <!--  Login button  -->
+                        <Label Grid.Row="6" 
+                               Text="(*) El campo teléfono no es obligatorio."
+                               HorizontalTextAlignment="Start"
+                               VerticalTextAlignment="Start"
+                               Padding="15,0,0,0"
+                               Margin="0,0,0,16"
+                               TextColor="#AAFFFFFF" 
+                               FontSize="9"
+                               IsVisible="true"
+                               x:Name="ErrorFields"/>
+                        <buttons:SfButton
+                            Grid.Row="7"
+                            Clicked="SaveAndGoNextPage"
+                            Style="{StaticResource SfButtonStyle}"
+                            Text="GUARDAR" />
+
+                    </Grid>
+
+                    <StackLayout
+                        HorizontalOptions="Center"
+                        Orientation="Horizontal"
+                        Spacing="1"
+                        VerticalOptions="End"
+                        Padding="0,48,0,0">
+
+                        
+
+                        <Image
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="End"
+                            Source="logo_urban_cw.png"
+                            />
+                        
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

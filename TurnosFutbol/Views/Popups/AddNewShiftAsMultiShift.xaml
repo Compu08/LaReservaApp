@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TurnosFutbol.Views.Popups.AddNewShiftAsMultiShift"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:converter="clr-namespace:TurnosFutbol.Converters" xmlns:textinputlayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"
+            />
+    </pages:PopupPage.Animation>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <converter:BooleanToColorConverter x:Key="BoolToColorConverter" />
+            <converter:StringToGlyphConverter x:Key="GlyphConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+    <StackLayout>
+        <Frame Margin="30" Padding="0" BackgroundColor="{StaticResource ItemsBackground}" CornerRadius="8" HasShadow="True">
+            <StackLayout>
+                <Grid BackgroundColor="{DynamicResource ButtonBackground}" ColumnDefinitions="Auto,*"  RowDefinitions="50,50" Padding="20,0,20,0">
+                    <Label Text="AGREGAR" TextColor="White" Opacity="0.5" FontFamily="{StaticResource BwModelicaMedium}" Grid.Row="0" Grid.Column="0" FontSize="18" VerticalOptions="Start" Padding="0,10,0,0"/>
+                    <Label x:Name="labelSpot" Text="TURNO" CharacterSpacing="1.5" TextColor="White" FontAttributes="Bold" FontFamily="{StaticResource BwModelicaMedium}" Grid.Row="1" Grid.Column="0" FontSize="26" VerticalOptions="Start"/>
+                    <Label x:Name="CrossLabel" Grid.Column="1" Grid.RowSpan="2" Text="" FontSize="18" Style="{StaticResource IconButton}" TextColor="White" HorizontalOptions="End">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="CloseModal">
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+                <StackLayout Padding="20,10,20,5" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <textinputlayout:SfTextInputLayout Hint="Nombre y Apellido" x:Name="ShiftNameLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="ShiftName" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+                </StackLayout>
+
+                <StackLayout Padding="20,5,10,5" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <textinputlayout:SfTextInputLayout Hint="Telefono" x:Name="ShiftPhoneLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="ShiftPhone" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+                </StackLayout>
+
+                <Grid ColumnDefinitions="Auto,Auto" Padding="15,0,15,0">
+                    <CheckBox Color="{DynamicResource ButtonBackground}" x:Name="isOn" Grid.Column="0" VerticalOptions="Center"/>
+                    <Label Text="Turno Fijo" TextColor="{DynamicResource ItemTextColor}" FontSize="19" Grid.Column="1" VerticalOptions="Center" Padding="0,0,0,3"/>
+                </Grid>
+
+                <Button Text="GUARDAR" Clicked="SaveNewShift" Margin="0,20,0,0" BackgroundColor="{StaticResource ButtonBackground}" TextColor="White" />
+                
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</pages:PopupPage>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TurnosFutbol.Views.Navigation"
+             xmlns:local2="clr-namespace:TurnosFutbol.Views.Settings"
+             xmlns:local3="clr-namespace:TurnosFutbol.Views.ContactUs"
+             x:Class="TurnosFutbol.Views.Navigation.BottomNavigationPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarSelectedItemColor="{DynamicResource BarSelectedItem}"
+             android:TabbedPage.BarItemColor="{DynamicResource Gray-600}"
+             BarBackgroundColor="{DynamicResource ItemsBackground}"
+             BarTextColor="{DynamicResource ItemTextColor}"
+             NavigationPage.HasNavigationBar="False">
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    <local:PhotosPage Title="Inicio">
+        <local:PhotosPage.IconImageSource>
+            <FontImageSource FontFamily="{StaticResource FontIcons}"
+                                 Glyph="{StaticResource HomeIcon}"
+                                 Size="16"/>
+        </local:PhotosPage.IconImageSource>
+    </local:PhotosPage>
+    <local3:ContactUsPage Title="Contacto">
+        <local3:ContactUsPage.IconImageSource>
+            <FontImageSource FontFamily="{StaticResource FontIcons}"
+                                 Glyph="{StaticResource ContactIcon}"
+                                 Size="16"/>
+        </local3:ContactUsPage.IconImageSource>
+    </local3:ContactUsPage>
+    <local2:SettingPage Title="Configuración">
+        <local2:SettingPage.IconImageSource>
+            <FontImageSource FontFamily="{StaticResource FontIcons}"
+                                 Glyph="{StaticResource SettingsIcon}"
+                                 Size="16"/>
+        </local2:SettingPage.IconImageSource>
+    </local2:SettingPage>
+</TabbedPage>

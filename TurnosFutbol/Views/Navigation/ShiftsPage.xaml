@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms" 
+             xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:behaviors="clr-namespace:TurnosFutbol.Behaviors;assembly=TurnosFutbol"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:local="clr-namespace:TurnosFutbol.Converters"
+             ios:Page.UseSafeArea="true"
+             x:Class="TurnosFutbol.Views.Navigation.ShiftsPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{DynamicResource BackgroundBase}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary Source="Styles.xaml">
+            <local:PhoneConverter x:Key="phoneConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid x:Name="PrincipalGrid" RowSpacing="0" BackgroundColor="{DynamicResource BackgroundBase}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" RowSpacing="8" ColumnSpacing="2" Padding="0,8,0,0"  BackgroundColor="{DynamicResource BackgroundBase}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="1" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="8" />
+                </Grid.ColumnDefinitions>
+
+
+                <buttons:SfButton
+                            x:Name="backButton"
+                            Command="{TemplateBinding BindingContext.BackButtonCommand}"
+                            CommandParameter="{x:Reference backButton}"
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            HorizontalOptions="Start"
+                            HorizontalTextAlignment="Start"
+                            Text="{StaticResource Back}"
+                            TextColor="{DynamicResource ItemTextColor}"
+                            Grid.Column="1"/>
+
+                <Label x:Name="titleName" Text="-" Grid.Row="0" Grid.Column="2" Style="{StaticResource titlePages}"/>
+                <Label Text="&#xf073;" TextColor="{DynamicResource ItemTextColor}" Grid.Column="3" Padding="10,0,0,0" FontFamily="{StaticResource FontIcons-2}" VerticalOptions="Center" HorizontalOptions="End" FontSize="18">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OpenDate" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <DatePicker x:Name="datePicker" MinimumDate="02/11/2021" MaximumDate="02/18/2021" Date="02/11/2021" TextColor="{StaticResource Gray-900}" Margin="0" FontSize="14" HorizontalOptions="Center" IsVisible="false" DateSelected="UpdateLabelDate">
+                    <DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
+                </DatePicker>
+                <BoxView Color="{DynamicResource DivisionLinesListView}" Grid.Row="1" Grid.ColumnSpan="5" />
+                <Label x:Name="LabelDate" FontAttributes="Bold" TextColor="{DynamicResource TitleTextColor}" Text="Lunes 25 de Marzo" HorizontalOptions="Center" FontSize="13" VerticalOptions="Center" Margin="0,1,0,1" Grid.Row="2" Grid.ColumnSpan="5"/>
+            </Grid>
+
+            <Picker x:Name="ShiftAdminPicker" SelectedIndexChanged="PickedShiftOptionAdmin" IsVisible="false">
+                <Picker.Items>
+                    <x:String>Reservar Turno</x:String>
+                    <x:String>Clases</x:String>
+                    <x:String>Torneo</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Picker x:Name="GymClassPicker" SelectedIndexChanged="GymClassPicker_SelectedIndexChanged" IsVisible="false">
+                <Picker.Items>
+                    <x:String>Body Combat</x:String>
+                    <x:String>Body Pump</x:String>
+                    <x:String>Localizado</x:String>
+                    <x:String>Pilates</x:String>
+                    <x:String>Spinning</x:String>
+                    <x:String>Yoga</x:String>
+                    <x:String>XCore</x:String>
+                    <x:String>Zumba</x:String>
+                    <x:String>Otro</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label x:Name="LabelEmpty" 
+                   Grid.Row="1" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Padding="10,0,10,0" 
+                   HorizontalTextAlignment="Center" 
+                   Text="Este lugar no posee turnos cargados para el dia seleccionado." 
+                   FontSize="16" Style="{StaticResource LabelStyleHome}" 
+                   TextColor="{DynamicResource ItemTextColor}"/>
+
+            <listView:SfListView x:Name ="lstView" 
+                      ItemsSource="{Binding shiftsTest,Mode=TwoWay}"
+                      AutoFitMode="DynamicHeight"
+                      IsStickyGroupHeader="True"
+                      ItemSize="77"
+                      VerticalOptions="FillAndExpand"
+                      AllowGroupExpandCollapse="True"
+                      HorizontalOptions="CenterAndExpand"
+                      ItemHolding="ShiftFixed"
+                      ItemTapped="ShiftPicked"
+                      Margin="0"
+                      Grid.Row="1"
+                      SelectionMode="None"
+                      GroupHeaderSize="55"
+                      AllowSwiping="False"
+                      SwipeStarted="lstView_SwipeStarted"
+                      SwipeEnded="lstView_SwipeEnded"
+                      SwipeOffset="60"
+                      SwipeThreshold="30"
+                      >
+
+                <listView:SfListView.LeftSwipeTemplate>
+                    <DataTemplate x:Name="LeftSwipeTemplate">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid BackgroundColor="#25D366" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Image Grid.Column="0"
+                                     Grid.Row="0"
+                                     BackgroundColor="Transparent"
+                                     HeightRequest="35"
+                                     WidthRequest="35"
+                                     Source="wspLogo.png" />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </listView:SfListView.LeftSwipeTemplate>
+
+                <listView:SfListView.RightSwipeTemplate>
+                    <DataTemplate x:Name="RightSwipeTemplate">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid BackgroundColor="#4464cf" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                    <Image Grid.Column="0"
+                                     Grid.Row="0"
+                                     BackgroundColor="Transparent"
+                                     HeightRequest="35"
+                                     WidthRequest="35"
+                                     Source="iconCall.png" />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </listView:SfListView.RightSwipeTemplate>
+
+                <listView:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <Grid Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0" Padding="0,10,0,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="20" />
+                                            <ColumnDefinition Width="40" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="20" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Text="{Binding icon}"
+                                           TextColor="{Binding iconColor}"
+                                           VerticalOptions="Center"
+                                           Grid.RowSpan="3"
+                                           Grid.Column="1"
+                                           FontSize="16"
+                                           FontFamily="{StaticResource FontIcons-2}"
+                                        />
+
+                                        <Label Text="{Binding hora}"
+                                           HorizontalOptions="Start"
+                                           Grid.Row="0"
+                                           Grid.Column="2"
+                                           Style="{StaticResource LabelStyleHome}"
+                                           TextColor="{DynamicResource TextHour}"
+                                        />
+
+                                        <Label Text="{Binding outputName}"
+                                           TextColor="{DynamicResource TextPerson}"
+                                           HorizontalOptions="Start"
+                                           FontSize="14"
+                                           Grid.Row="1"
+                                           Grid.Column="2"
+                                           Style="{StaticResource LabelStyleHome}"
+                                        />
+
+                                        <Label
+                                           x:Name="outputP"
+                                           Text="{Binding outputPhone}"
+                                           TextColor="{StaticResource Gray-500}"
+                                           HorizontalOptions="Start"
+                                           FontSize="12"
+                                           Grid.Row="2"
+                                           Grid.Column="2"
+                                           Style="{StaticResource LabelStyleHome}"
+                                           IsVisible="{Binding outputPhone, Converter={StaticResource phoneConverter}, ConverterParameter={Binding outputP}}"
+                                        />
+
+                                        <Label Text="RESERVAR"
+                                           TextColor="{Binding textColor}"
+                                           VerticalOptions="Center"
+                                           Grid.RowSpan="3"
+                                           Grid.Column="3"
+                                           Margin="1,0,1,0"
+                                           FontAttributes="Bold"
+                                        />
+
+                                        <Image Source="FixedPin.png"
+                                           IsVisible="{Binding shiftFixed}"
+                                           VerticalOptions="Start"
+                                           HorizontalOptions="End"
+                                           Grid.RowSpan="2"
+                                           Grid.Column="4"
+                                           Margin="3,0,0,0"
+                                        />
+
+                                    </Grid>
+                                    <BoxView BackgroundColor="{DynamicResource DivisionLinesListView}" HeightRequest="1" Margin="0,10,0,0" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </listView:SfListView.ItemTemplate>
+
+
+
+            </listView:SfListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,47 @@
+{
+	"project_info": {
+		"project_number": "1066149063662",
+		"firebase_url": "https://lareserva-9d2f1-default-rtdb.firebaseio.com",
+		"project_id": "lareserva-9d2f1",
+		"storage_bucket": "lareserva-9d2f1.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:1066149063662:android:14fc48eedf6ed1f11abcff",
+				"android_client_info": {
+					"package_name": "com.urbansi.lareserva"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "1066149063662-5ttar0ma89av10cfu227s8oi0likrdio.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyCyzEr0MjM1AC_JVl0gFeevuYaxzf6tScA"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "1066149063662-5ttar0ma89av10cfu227s8oi0likrdio.apps.googleusercontent.com",
+							"client_type": 3
+						},
+						{
+							"client_id": "1066149063662-t6vcpaagqmcrasjbo94khqe1q34o61nc.apps.googleusercontent.com",
+							"client_type": 2,
+							"ios_info": {
+								"bundle_id": "com.urbansi.lareserva"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

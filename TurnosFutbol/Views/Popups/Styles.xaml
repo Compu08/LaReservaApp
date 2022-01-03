@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary
+    x:Class="TurnosFutbol.Views.Popups.Styles"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:converter="clr-namespace:TurnosFutbol.Converters"
+    xmlns:graphics="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    >
+
+    <x:String x:Key="Menu">&#xe72e;</x:String>
+    <x:String x:Key="Bell">&#xe700;</x:String>
+    <x:String x:Key="Back">&#xe709;</x:String>
+    <x:String x:Key="DropDownButtonIcon">&#xe70b;</x:String>
+
+    <Color x:Key="GradientStartColor">#012E8B</Color>
+    <Color x:Key="GradientEndColor">#00411d</Color>
+    <Color x:Key="Transparent">Transparent</Color>
+    <Color x:Key="TappedBackgroundColor">#eaeaea</Color>
+    <Color x:Key="Green">#7ed321</Color>
+    <Color x:Key="GreenHeaders">#529905</Color>
+    <Color x:Key="GradientStart">#373668</Color>
+    <Color x:Key="GradientEnd">#24243b</Color>
+    <Color x:Key="primary-lighter">#edcacd</Color>
+    <Color x:Key="PrimaryColor">#f54e5e</Color>
+    <Color x:Key="Liliac">#d483fc</Color>
+    <Color x:Key="Purpleish-Blue">#5d4cf7</Color>
+    <Color x:Key="Link">#567cd7</Color>
+    <Color x:Key="Bright-Cyan">#3cdeff</Color>
+    <Color x:Key="Lemon-Lime">#bdff27</Color>
+
+
+    <Style x:Key="IconButton" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource FontIcons-2}"></Setter>
+        <Setter Property="FontSize" Value="16"></Setter>
+        <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+        <Setter Property="TextColor" Value="{StaticResource Gray-600}"></Setter>
+    </Style>
+
+    <Style x:Key="IconButtonStyle" TargetType="buttons:SfButton">
+        <Setter Property="TextColor" Value="{DynamicResource Gray-600}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource Transparent}" />
+        <Setter Property="FontFamily" Value="{StaticResource FontIcons}" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HeightRequest" Value="40" />
+        <Setter Property="WidthRequest" Value="40" />
+    </Style>
+
+    <!-- Common style for title labels -->
+    <Style x:Key="TitlePages" TargetType="Label">
+        <Setter Property="TextColor" Value="{DynamicResource Gray-900}" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="FontFamily" Value="{StaticResource Montserrat}" />
+        <Setter Property="LineHeight" Value="1.5" />
+    </Style>
+    
+    <!--  Common style for SfSegmentedControl  -->
+    <Style x:Key="SfSegmentedControlStyle" TargetType="buttons:SfSegmentedControl">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontFamily" Value="Montserrat-Bold" />
+        <Setter Property="FontColor" Value="{DynamicResource Gray-900}" />
+        <Setter Property="SelectionTextColor" Value="{DynamicResource Gray-White}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="SegmentBackgroundColor" Value="{DynamicResource Gray-White}" />
+        <Setter Property="SegmentBorderColor" Value="{DynamicResource Gray-White}" />
+        <Setter Property="SegmentBorderThickness" Value="0" />
+        <Setter Property="SegmentCornerRadius" Value="16" />
+        <Setter Property="SegmentHeight" Value="32" />
+        <Setter Property="SegmentWidth" Value="32" />
+        <Setter Property="SegmentPadding" Value="16" />
+        <Setter Property="SelectionAnimationDuration" Value="0" />
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="SelectionIndicatorSettings">
+            <Setter.Value>
+                <buttons:SelectionIndicatorSettings
+                    CornerRadius="16"
+                    StrokeThickness="0"
+                    Color="{DynamicResource PrimaryColor}" />
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <!--  Common style for profile border style  -->
+    <Style x:Key="ProfileBorderStyle" TargetType="border:SfBorder">
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="BorderColor" Value="{DynamicResource Gray-White}" />
+        <Setter Property="CornerRadius" Value="20" />
+    </Style>
+
+    <Style x:Key="LabelStyleHome" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource Montserrat-SemiBold}" />
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{DynamicResource Gray-900}"/>
+    </Style>
+
+    <Style x:Key="LabelStyle" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource Montserrat-SemiBold}" />
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{DynamicResource Gray-900}"/>
+    </Style>
+
+    <Style x:Key="SfGradientStyle" TargetType="graphics:SfGradientView">
+        <Setter Property="Opacity" Value="1.0" />
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="BackgroundBrush">
+            <Setter.Value>
+                <graphics:SfLinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <graphics:SfLinearGradientBrush.GradientStops>
+                        <graphics:SfGradientStop Offset="1.0" Color="{StaticResource GradientEnd}" />
+                        <graphics:SfGradientStop Offset="0.0" Color="{StaticResource GradientStart}" />
+                    </graphics:SfLinearGradientBrush.GradientStops>
+                </graphics:SfLinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Common style for seperators -->
+    <Style x:Key="SeparatorStyle" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource Gray-200}" />
+    </Style>
+
+    <Style x:Key="PickerStyle" TargetType="Picker">
+        <Setter Property="BackgroundColor" Value="{DynamicResource Gray-200}" />
+        <Setter Property="Margin" Value="10,0,10,0"/>
+    </Style>
+
+</ResourceDictionary>

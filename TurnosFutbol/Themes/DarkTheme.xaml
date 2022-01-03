@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             xmlns:graphics="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             x:Class="TurnosFutbol.Themes.DarkTheme">
+
+        <Color x:Key="ButtonsColor">#012E8B</Color>
+        <Color x:Key="PrimaryColor">#f54e5e</Color>
+        <Color x:Key="PrimaryDarkColor">#d0424f</Color>
+        <Color x:Key="PrimaryDarkenColor">#ab3641</Color>
+        <Color x:Key="PrimaryLighterColor">#edcacd</Color>
+        <Color x:Key="PrimaryGradient">#e83f94</Color>
+        <Color x:Key="PrimaryLight">#ffe8f4</Color>
+        <Color x:Key="SecondaryGradient">#7644ad</Color>
+        <Color x:Key="Secondary">#d54381</Color>
+        <Color x:Key="Green">#7ed321</Color>
+    <Color x:Key="GreenBlacked">#5ba807</Color>
+    <Color x:Key="GreenClarity">#34529905</Color>
+        <Color x:Key="Red">#ff4a4a</Color>
+        <Color x:Key="ButtonBackground">#4EC3E9</Color>
+    <Color x:Key="SwitchOffColor">#141e30</Color>
+    <Color x:Key="SwitchOnColor">#4EC3E9</Color>
+    <Color x:Key="BackgroundBase">#141e30</Color>
+    <Color x:Key="ItemsBackground">#243b55</Color>
+    <Color x:Key="ItemTextColor">#ffffff</Color>
+    <Color x:Key="TitleTextColor">#ffffff</Color>
+    <Color x:Key="DivisionLines">#2f456e</Color>
+    <Color x:Key="ShadowColor">Transparent</Color>
+    <Color x:Key="TitleViewBackground">#141e30</Color>
+    <Color x:Key="DivisionLinesListView">#2f456e</Color>
+    <Color x:Key="TextPerson">#ffffff</Color>
+    <Color x:Key="TextHour">#959eac</Color>
+    <Color x:Key="BarSelectedItem">#ffffff</Color>
+    <Color x:Key="IconNotifColor">#4acaff</Color>
+    <Color x:Key="Blue">#4acaff</Color>
+        <Color x:Key="HyperLink">#567cd7</Color>
+    <Color x:Key="GradientStart">#141e30</Color>
+    <Color x:Key="GradientEnd">#243b55</Color>
+    <Color x:Key="HomeCardBorder">#2f456e</Color>
+
+    <Color x:Key="Gray-100">#f6f7f8</Color>
+        <Color x:Key="Gray-200">#ebecef</Color>
+        <Color x:Key="Gray-300">#ced2d9</Color>
+        <Color x:Key="Gray-400">#b2b8c2</Color>
+        <Color x:Key="Gray-500">#959eac</Color>
+        <Color x:Key="Gray-600">#788396</Color>
+        <Color x:Key="Gray-700">#606a7b</Color>
+        <Color x:Key="Gray-800">#4a515e</Color>
+        <Color x:Key="Gray-900">#333942</Color>
+        <Color x:Key="Gray-Black">#000000</Color>
+        <Color x:Key="Gray-White">#ffffff</Color>
+
+    <Style x:Key="CardsClub" TargetType="cards:SfCardView">
+        <Setter Property="HasShadow">False</Setter>
+        <Setter Property="ShadowColor">Transparent</Setter>
+    </Style>
+
+    <Style x:Key="MainPageUrbanLogo" TargetType="Image">
+        <Setter Property="Source">logo_urban_cw.png</Setter>
+        <Setter Property="HorizontalOptions">Center</Setter>
+        <Setter Property="VerticalOptions">End</Setter>
+    </Style>
+
+    <Style x:Key="BigUrbanLogo" TargetType="Image">
+        <Setter Property="Source">UrbanBIGLogo_cw.png</Setter>
+        <Setter Property="WidthRequest">175</Setter>
+        <Setter Property="HeightRequest">175</Setter>
+    </Style>
+
+    <!--  Common style for buttons  -->
+    <Style x:Key="GradientHome" TargetType="graphics:SfGradientView">
+        <Setter Property="Opacity" Value="1" />
+        <Setter Property="IsVisible">True</Setter>
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="BackgroundBrush">
+            <Setter.Value>
+                <graphics:SfLinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <graphics:SfLinearGradientBrush.GradientStops>
+                        <graphics:SfGradientStop Offset="0.0" Color="{StaticResource GradientStart}" />
+                        <graphics:SfGradientStop Offset="1.0" Color="{StaticResource GradientEnd}" />
+                    </graphics:SfLinearGradientBrush.GradientStops>
+                </graphics:SfLinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--  Common style for buttons  -->
+    <Style x:Key="SfGradientViewStyleHome" TargetType="graphics:SfGradientView">
+        <Setter Property="IsVisible">False</Setter>
+    </Style>
+
+    <OnPlatform x:Key="BwModelicaMedium" x:TypeArguments="x:String">
+        <OnPlatform.Platforms>
+            <On Platform="Android" Value="BwModelica-Medium.otf#BwModelica-Medium" />
+            <On Platform="iOS" Value="Bw Modelica Medium" />
+        </OnPlatform.Platforms>
+    </OnPlatform>
+    
+    <OnPlatform x:Key="FontIcons" x:TypeArguments="x:String">
+        <OnPlatform.Platforms>
+            <On Platform="Android" Value="UIFontIcons.ttf#UIFontIcons" />
+            <On Platform="iOS" Value="UIFontIcons" />
+            <On Platform="UWP" Value="Assets/UIFontIcons.ttf#UIFontIcons" />
+        </OnPlatform.Platforms>
+    </OnPlatform>
+
+        <OnPlatform x:Key="FontIcons-2" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="fa-solid-900-pro.ttf#UIFontIcons2" />
+                <On Platform="iOS" Value="Font Awesome 5 Pro" />
+                <On Platform="UWP" Value="Assets/fa-solid-900-pro.ttf#UIFontIcons2" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+
+        <OnPlatform x:Key="FontIcons-3" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="fa-regular-400.ttf#UIFontIcons3" />
+                <On Platform="iOS" Value="Font Awesome 5 Free Regular" />
+                <On Platform="UWP" Value="Assets/fa-regular-400.ttf#UIFontIcons3" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+
+        <OnPlatform x:Key="Montserrat" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                <On Platform="iOS" Value="Montserrat-Medium" />
+                <On Platform="UWP" Value="Assets/Montserrat-Medium.ttf#Montserrat-Medium" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+
+        <OnPlatform x:Key="Montserrat-SemiBold" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="Montserrat-SemiBold.ttf#Montserrat-SemiBold" />
+                <On Platform="iOS" Value="Montserrat-SemiBold" />
+                <On Platform="UWP" Value="Assets/Montserrat-SemiBold.ttf#Montserrat-SemiBold" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+
+        <OnPlatform x:Key="Montserrat-Regular" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="Montserrat-Regular.ttf#Montserrat-Regular" />
+                <On Platform="iOS" Value="Montserrat-Regular" />
+                <On Platform="UWP" Value="Assets/Montserrat-Regular.ttf#Montserrat-Regular" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+
+        <OnPlatform x:Key="Montserrat-Medium" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="Montserrat-Medium.ttf#Montserrat-Medium" />
+                <On Platform="iOS" Value="Montserrat-Medium" />
+                <On Platform="UWP" Value="Assets/Montserrat-Medium.ttf#Montserrat-Medium" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+
+        <OnPlatform x:Key="Montserrat-Bold" x:TypeArguments="x:String">
+            <OnPlatform.Platforms>
+                <On Platform="Android" Value="Montserrat-Bold.ttf#Montserrat-Bold" />
+                <On Platform="iOS" Value="Montserrat-Bold" />
+                <On Platform="UWP" Value="Assets/Montserrat-Bold.ttf#Montserrat-Bold" />
+            </OnPlatform.Platforms>
+        </OnPlatform>
+</ResourceDictionary>

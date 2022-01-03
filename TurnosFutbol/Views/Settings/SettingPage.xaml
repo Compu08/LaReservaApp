@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TurnosFutbol.Views.Settings.SettingPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:controls="clr-namespace:TurnosFutbol.Controls"
+    xmlns:effectView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    xmlns:viewModel="clr-namespace:TurnosFutbol.ViewModels.Settings"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:system="clr-namespace:System;assembly=netstandard"
+    ios:Page.UseSafeArea="true"
+    x:Name="settingPage"
+    BackgroundColor="{DynamicResource BackgroundBase}"
+    NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Configuración" FontSize="12" BackgroundColor="{DynamicResource TitleViewBackground}">
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.BindingContext>
+        <viewModel:SettingViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="{DynamicResource BackgroundBase}" Spacing="0">
+
+                <!--  Header label for account setting  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="PERSONAL"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+
+
+                <!--  Grid for Edit profile label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangeName"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Edit profile icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Account}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        />
+                    <!--  Edit profile label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Nombre" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="NameLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Change password label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePhone"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Account}" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Telefono" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="PhoneLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <Grid IsVisible="False"
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangeCity"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Account}" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Ciudad" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="CityLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Change password label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="SetAdminKey"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Account}" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Clave de Administrador" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="AdminKeyLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Change password label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.IsVisible>
+                        <OnPlatform x:TypeArguments="system:Boolean">
+                            <On Platform="iOS" Value="False" />
+                            <On Platform="Android" Value="True" />
+                        </OnPlatform>
+                    </Grid.IsVisible>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Account}" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Modo Nocturno" />
+                    <!--  Navigation icon  -->
+                    <buttons:SfSwitch
+                        x:Name="SwitchNightMode"
+                        Grid.Column="2"
+                        Margin="8,0"
+                        AllowIndeterminateState="False"
+                        HeightRequest="28"
+                        VisualType="Cupertino"
+                        StateChanged="NightModeChanged">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="On">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OnState"
+                                                    ThumbBorderColor="{DynamicResource Gray-White}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource SwitchOffColor}"
+                                                    TrackColor="{DynamicResource SwitchOnColor}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Off">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OffState"
+                                                    ThumbBorderColor="{DynamicResource Gray-White}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource SwitchOffColor}"
+                                                    TrackColor="{DynamicResource SwitchOffColor}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </buttons:SfSwitch>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+
+                <!--  Header lable for notifications  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="NOTIFICACIONES"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+
+                <!--  Grid for Notifications label and switch  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Notifications icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Bell}" />
+                    <!--  Notification label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Recordatorio Turno" />
+                    <!--  Notifications switch  -->
+                    <buttons:SfSwitch
+                        x:Name="SwitchRecordatorioTurno"
+                        Grid.Column="2"
+                        Margin="8,0"
+                        AllowIndeterminateState="False"
+                        HeightRequest="28"
+                        VisualType="Cupertino"
+                        StateChanged="ShiftRecordatoryChanged"
+                        >
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="On">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OnState"
+                                                    ThumbBorderColor="{DynamicResource Gray-White}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource SwitchOffColor}"
+                                                    TrackColor="{DynamicResource SwitchOnColor}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Off">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OffState"
+                                                    ThumbBorderColor="{DynamicResource Gray-White}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource SwitchOffColor}"
+                                                    TrackColor="{DynamicResource SwitchOffColor}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </buttons:SfSwitch>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Email notifications and switch  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Email notification icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Mail}" />
+                    <!--  Email notification label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Difusiones" />
+                    <!--  Email notification switch  -->
+                    <buttons:SfSwitch
+                        x:Name="SwitchDifusions"
+                        Grid.Column="2"
+                        Margin="8,0"
+                        AllowIndeterminateState="False"
+                        HeightRequest="28"
+                        VisualType="Cupertino"
+                        StateChanged="DifusionsChanged">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="On">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OnState"
+                                                    ThumbBorderColor="{DynamicResource Gray-White}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource SwitchOffColor}"
+                                                    TrackColor="{DynamicResource SwitchOnColor}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Off">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OffState"
+                                                    ThumbBorderColor="{DynamicResource Gray-White}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource SwitchOffColor}"
+                                                    TrackColor="{DynamicResource SwitchOffColor}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </buttons:SfSwitch>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Header label for Support setting  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="SOPORTE"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+
+                <!--  Grid for Help label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    IsVisible="false"
+                    RowSpacing="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  help icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Help}" 
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Help text label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Ayuda"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Navigation icon  -->
+                    <Label
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Terms of service label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushTermsAndConditions"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Terms of service icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Account}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Terms of service label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Terminos y Condiciones"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Navigation icon  -->
+                    <Label
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Privacy policy label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushPrivacyPolicy"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Privacy policy icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Account}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        />
+                    <!--  Privacy policy text label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Politicas de Privacidad" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

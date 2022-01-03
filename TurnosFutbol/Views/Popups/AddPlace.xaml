@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:controls="clr-namespace:TurnosFutbol.Controls;assembly=TurnosFutbol"
+             xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" xmlns:textinputlayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             x:Class="TurnosFutbol.Views.Popups.AddPlace"
+             iOsSpecific:Page.UseSafeArea="true"
+             BackgroundColor="{StaticResource BackgroundBase}"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Agregar Lugar" BackgroundColor="{StaticResource TitleViewBackground} ">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="Mi"
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}"
+                            TextColor="{StaticResource ItemTextColor}"/>
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.Content>
+        <ScrollView>
+                <StackLayout Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+                    <textinputlayout:SfTextInputLayout Hint="Nombre" x:Name="TextNameLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlaceName" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Direccion" x:Name="TextAdressLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlaceAdress" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Telefono" x:Name="TextPhoneLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlacePhone" Keyboard="Numeric" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Ciudad" x:Name="TextCityLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="PlaceCity" ItemsSource="{Binding CitysItem,Mode=TwoWay}" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Tipo" x:Name="TextTypeLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="PlaceType" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" >
+                            <Picker.Items>
+                                <x:String>Futbol</x:String>
+                                <x:String>Tenis</x:String>
+                                <x:String>Paddel</x:String>
+                                <x:String>Restaurantes</x:String>
+                                <x:String>Peluqueria</x:String>
+                                <x:String>Gimnasios</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Cantidad de Canchas/Mesas/Sillas" x:Name="TextSpotsLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlaceCourts" Keyboard="Numeric" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Valor del Turno" x:Name="TextValueLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlaceShiftPrice" Keyboard="Numeric" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Cuota Mensual a Pagar" x:Name="TextPriceLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlacePrice" Keyboard="Numeric" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Telefono de Contacto" x:Name="TextContactLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="PlaceContact" Keyboard="Numeric" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <Button Text="Confirmar" Grid.Row="19" Clicked="SaveClicked" BackgroundColor="{StaticResource ButtonBackground}" TextColor="White" FontSize="16"/>
+                </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

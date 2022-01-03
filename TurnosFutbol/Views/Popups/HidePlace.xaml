@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:TurnosFutbol.Behaviors;assembly=TurnosFutbol"
+             xmlns:controls="clr-namespace:TurnosFutbol.Controls;assembly=TurnosFutbol"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             iOsSpecific:Page.UseSafeArea="true"
+             x:Class="TurnosFutbol.Views.Popups.HidePlace"
+             BackgroundColor="{DynamicResource BackgroundBase}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Ocultar Lugar" BackgroundColor="{DynamicResource TitleViewBackground} ">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="Mi"
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}"
+                            TextColor="{DynamicResource ItemTextColor}"/>
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <ListView x:Name="lstview"
+                          ItemsSource="{Binding PaymentsItems,Mode=TwoWay}"
+                          HasUnevenRows="True"
+                          VerticalOptions="FillAndExpand"
+                          HorizontalOptions="CenterAndExpand"
+                          SeparatorColor="{DynamicResource DivisionLinesListView}"
+                          Margin="0"
+                          ItemSelected="PickedItem"
+                          >
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="15,5,15,5" ColumnSpacing="8" HeightRequest="30" Margin="0" RowSpacing="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="30" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0"
+                                           Text="{Binding place}"
+                                           TextColor="{DynamicResource ItemTextColor}"
+                                           VerticalOptions="Center"
+                                       />
+
+                                <Label Grid.Column="1"
+                                       Text="{Binding type}"
+                                       TextColor="{DynamicResource ItemTextColor}"
+                                       VerticalOptions="Center"
+                                       />
+
+                                <Label Grid.Column="2"
+                                       Text="{Binding price}"
+                                       TextColor="{DynamicResource ItemTextColor}"
+                                       VerticalOptions="Center"
+                                       />
+                                
+                                <Label Grid.Column="3"
+                                        Text="{Binding hideT}"
+                                        FontFamily="{StaticResource FontIcons-2}"
+                                        TextColor="{Binding hideC}"
+                                        Padding="0"
+                                        Margin="0"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"
+                                        >
+
+                                    <Label.Behaviors>
+                                        <behaviors:ViewTappedButtonBehavior AnimationType="Scale"/>
+                                    </Label.Behaviors>
+                                </Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

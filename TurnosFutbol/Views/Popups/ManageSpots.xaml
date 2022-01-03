@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TurnosFutbol.Views.Popups.ManageSpots"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:controls="clr-namespace:TurnosFutbol.Controls;assembly=TurnosFutbol"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             iOsSpecific:Page.UseSafeArea="true"
+             BackgroundColor="{DynamicResource BackgroundBase}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Editar Valores" BackgroundColor="{DynamicResource TitleViewBackground} ">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="Mi"
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}"
+                            TextColor="{DynamicResource ItemTextColor}"/>
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+    
+    <ContentPage.Content>
+        <StackLayout x:Name="StkContent" Padding="15">
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" BackgroundColor="{StaticResource Gray-200}" RowSpacing="0" VerticalOptions="FillAndExpand" Margin="20,0,20,0" Padding="10,5,5,15">
+                <Picker x:Name="TypePicker"  SelectedIndexChanged="TypePickerChanged" IsVisible="False"/>
+                <Label x:Name="TypePickerText" Text="Tipo" Grid.Row="0" Grid.Column="0" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-400}" FontSize="13" />
+                <Label x:Name="TypePickerLabel" Text="-" Grid.Row="1" Grid.Column="0" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" FontSize="18" />
+                <Label x:Name="TypePickerArrow" Text="&#xf0d7;" Grid.Column="1" Grid.Row="1" Padding="8,0,8,0" TextColor="{StaticResource Gray-Black}" FontFamily="{StaticResource FontIcons-2}" FontSize="18" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TypeTapped" />
+                </Grid.GestureRecognizers>
+            </Grid>
+
+            <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" BackgroundColor="{StaticResource Gray-200}" RowSpacing="0" VerticalOptions="FillAndExpand" Margin="20,0,20,0" Padding="10,5,5,15">
+                <Picker x:Name="PlacePicker" SelectedIndexChanged="PlacePickerChanged" IsVisible="False"/>
+                <Label x:Name="PlacePickerText" Text="Lugar" Grid.Row="0" Grid.Column="0" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-400}" FontSize="13" />
+                <Label x:Name="PlacePickerLabel" Text="-" Grid.Row="1" Grid.Column="0" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" FontSize="18" />
+                <Label x:Name="PlacePickerArrow" Text="&#xf0d7;" Grid.Column="1" Grid.Row="1" Padding="8,0,8,0" TextColor="{StaticResource Gray-Black}" FontFamily="{StaticResource FontIcons-2}" FontSize="18" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="PlaceTapped" />
+                </Grid.GestureRecognizers>
+            </Grid>
+
+            <Button x:Name="ButtonEditValue" 
+                    Text="Editar Valor Mensual" IsVisible="False" Clicked="PushSetValuePopup"
+                    BackgroundColor="{DynamicResource ButtonBackground}"
+                    TextColor="White"
+                    Padding="8"
+                    Margin="0,20,0,0"
+                    />
+            
+            <listView:SfListView x:Name ="lstView" 
+                      ItemsSource="{Binding shiftsTest,Mode=TwoWay}"
+                      IsStickyGroupHeader="True"
+                      AutoFitMode="Height"
+                      VerticalOptions="FillAndExpand"
+                      AllowGroupExpandCollapse="True"
+                      HorizontalOptions="CenterAndExpand"
+                      Margin="0"
+                      SelectionMode="Single"
+                      ItemTapped="PushSpotEditor"
+                      IsVisible="True"
+                      RowSpacing="0"
+                      ItemSpacing="8"
+                      >
+                <listView:SfListView.SelectedItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid RowDefinitions="1,Auto,Auto,Auto,1" BackgroundColor="{DynamicResource ButtonBackground}">
+                                    <BoxView Color="{DynamicResource Gray-Black}" HeightRequest="1" Grid.Row="0"/>
+                                    <Label Text="{Binding spotString}" Grid.Row="1" FontSize="18" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding type}" Grid.Row="2" FontSize="15" TextColor="White" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding priceString}" Grid.Row="3" FontSize="15" TextColor="White" HorizontalTextAlignment="Center"/>
+                                    <BoxView Color="{DynamicResource Gray-Black}" HeightRequest="1" Grid.Row="4"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </listView:SfListView.SelectedItemTemplate>
+                <listView:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid RowDefinitions="1,Auto,Auto,Auto,1">
+                                    <BoxView Color="{DynamicResource DivisionLinesListView}" HeightRequest="1" Grid.Row="0"/>
+                                    <Label Text="{Binding spotString}" Grid.Row="1" FontSize="18" TextColor="{StaticResource Gray-Black}" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding type}" Grid.Row="2" FontSize="15" TextColor="{StaticResource Gray-Black}" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding priceString}" Grid.Row="3" FontSize="15" TextColor="{StaticResource Gray-Black}" HorizontalTextAlignment="Center"/>
+                                    <BoxView Color="{DynamicResource DivisionLinesListView}" HeightRequest="1" Grid.Row="4"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </listView:SfListView.ItemTemplate>
+            </listView:SfListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

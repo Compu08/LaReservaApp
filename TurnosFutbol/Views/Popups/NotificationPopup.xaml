@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:converters="clr-namespace:TurnosFutbol.Converters;assembly=TurnosFutbol"
+             x:Class="TurnosFutbol.Views.Popups.NotificationPopup">
+
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"
+        />
+    </pages:PopupPage.Animation>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <converters:BooleanToColorConverter x:Key="BoolToColorConverter" />
+            <converters:StringToGlyphConverter x:Key="GlyphConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Frame Margin="30" Padding="20,20,20,20" BackgroundColor="{StaticResource ItemsBackground}" CornerRadius="15">
+            <StackLayout>
+                <Label x:Name="CrossLabel" Text="" Padding="30,0,0,0" Style="{StaticResource IconButton}" HorizontalOptions="End">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="CloseModal">
+                        </TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Image x:Name="LogoLabel"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       Margin="0,10,0,10"/>
+                <Label x:Name="TitleLabel"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="16"
+                       TextColor="{StaticResource ItemTextColor}"/>
+                <Label x:Name="PlaceLabel"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="12"
+                       FontFamily="{DynamicResource Montserrat-Medium}"
+                       Margin="0,0,0,15"
+                       TextColor="{StaticResource Gray-500}"/>
+                <Label x:Name="TextLabel"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       TextColor="{StaticResource ItemTextColor}"/>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}" Margin="0,15,0,5"/>
+                <Label x:Name="TimeLabel"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontFamily="{DynamicResource Montserrat-Medium}"
+                       FontSize="12"
+                       TextColor="{StaticResource Gray-500}"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</pages:PopupPage>

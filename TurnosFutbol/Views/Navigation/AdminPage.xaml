@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:controls="clr-namespace:TurnosFutbol.Controls"
+             xmlns:viewModel="clr-namespace:TurnosFutbol.ViewModels.Settings"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             x:Class="TurnosFutbol.Views.Navigation.AdminPage"
+             BackgroundColor="{DynamicResource BackgroundBase}"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Mi Lugar" BackgroundColor="{DynamicResource TitleViewBackground} ">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="Mi "
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}"
+                            
+                            />
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.BindingContext>
+        <viewModel:SettingViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="{DynamicResource BackgroundBase}" Spacing="0">
+                <!--  Header label for account setting  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="DATOS"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+
+
+                <!--  Grid for Edit profile label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ShiftsEditClicked"> </TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <!--  Edit profile icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,5,10,5"
+                        Style="{StaticResource IconLabelStyle}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf017;" 
+                        TextColor="{DynamicResource ItemTextColor}" />
+                    <!--  Edit profile label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Editar Horarios"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="NameLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}" />
+
+                <!--  Grid for Change password label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TimeBeforeClicked"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,5,10,5"
+                        Style="{StaticResource IconLabelStyle}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf04a;"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Limite de horario"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="TimeLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}" />
+
+                <!--  Grid for asddas  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ValueClicked"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <!--  Edit profile icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,5,10,5"
+                        Style="{StaticResource IconLabelStyle}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf155;" 
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Edit profile label  -->
+                    <Label
+                        x:Name="LabelAdminSpots"
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Valor turno"
+                        TextColor="{DynamicResource ItemTextColor}" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="ValueLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for asddas  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PasswordClicked"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <!--  Edit profile icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,5,10,5"
+                        Style="{StaticResource IconLabelStyle}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf023;" 
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Edit profile label  -->
+                    <Label
+                        x:Name="LabelAdminPass"
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Configurar Contraseña"
+                        TextColor="{DynamicResource ItemTextColor}" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="PassLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+
+                <!--  Header lable for notifications  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="FUNCIONES ESPECIALES"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+
+                <!--  Grid for Notifications label and switch  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PopupDifusion"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <!--  Notifications icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,5,10,5"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="&#xf0f3;"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Notification label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Enviar Difusión"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <Label
+                        x:Name="SendDifusion"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}" />
+
+                <!--  Grid for Email notifications and switch  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0"
+                    IsVisible="False">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Email notification icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,5,10,5"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="&#xf09d;"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Email notification label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        Text="Seña de Reserva" 
+                        TextColor="{DynamicResource ItemTextColor}"/>
+                    <!--  Email notification switch  -->
+                    <buttons:SfSwitch
+                        Grid.Column="2"
+                        Margin="8,0"
+                        AllowIndeterminateState="False"
+                        HeightRequest="28"
+                        VisualType="Cupertino">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="On">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OnState"
+                                                    ThumbBorderColor="{DynamicResource Gray-200}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource Gray-200}"
+                                                    TrackColor="{DynamicResource GreenBlacked}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState x:Name="Off">
+                                    <VisualState.Setters>
+                                        <Setter Property="SwitchSettings">
+                                            <Setter.Value>
+                                                <buttons:CupertinoSwitchSettings
+                                                    x:TypeArguments="buttons:OffState"
+                                                    ThumbBorderColor="{DynamicResource Gray-200}"
+                                                    ThumbColor="{DynamicResource Gray-White}"
+                                                    TrackBorderColor="{DynamicResource Gray-200}"
+                                                    TrackColor="{DynamicResource Gray-200}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </buttons:SfSwitch>
+                </Grid>
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

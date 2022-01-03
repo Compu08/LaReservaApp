@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TurnosFutbol.Views.Navigation.PhotosPage"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+             xmlns:data="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable"
+             xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             xmlns:behaviors="clr-namespace:TurnosFutbol.Behaviors;assembly=TurnosFutbol"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             BackgroundColor="{DynamicResource ItemsBackground}"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Grid VerticalOptions="FillAndExpand" x:Name="PrincipalGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="65" />
+                    <RowDefinition Height="275" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <gradient:SfGradientView x:Name="GradientHome" Style="{DynamicResource SfGradientViewStyleHome}" Grid.RowSpan="2"/>
+
+                <gradient:SfGradientView x:Name="GradientHome2" Style="{DynamicResource GradientHome}" Grid.RowSpan="5"/>
+                
+                <Grid x:Name="TopLayout" Grid.Row="0" VerticalOptions="CenterAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1" ColumnDefinitions="Auto,Auto" HorizontalOptions="End" ColumnSpacing="0">
+                        <buttons:SfButton
+                        Padding="0"
+                        Clicked="SearchModal"
+                        BackgroundColor="Transparent"
+                        Command="{Binding EditCommand}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        FontSize="18"
+                        Margin="0,10,0,0"
+                        HorizontalOptions="End"
+                        Text="&#xf002;"
+                        TextColor="White"
+                        VerticalOptions="Center"
+                        WidthRequest="40"
+                        Grid.Column="0"
+                        TabIndex="999"
+                    />
+                        <buttons:SfButton
+                        Padding="0"
+                        Clicked="GoToNotifications"
+                        BackgroundColor="Transparent"
+                        Command="{Binding EditCommand}"
+                        FontFamily="{StaticResource FontIcons-3}"
+                        FontSize="18"
+                        Margin="0,10,0,0"
+                        HorizontalOptions="End"
+                        Text="&#xf0f3;"
+                        TextColor="White"
+                        VerticalOptions="Center"
+                        WidthRequest="40"
+                        Grid.Column="1"
+                        TabIndex="999"
+                    />
+                    </Grid>
+
+                    <Grid x:Name="gridAdmins" Grid.Column="0" ColumnDefinitions="Auto,Auto">
+                        <buttons:SfButton
+                        x:Name="adminButton"
+                        Padding="0"
+                        Clicked="GoToAdmin"
+                        BackgroundColor="Transparent"
+                        Command="{Binding EditCommand}"
+                        FontFamily="{StaticResource FontIcons-3}"
+                        FontSize="18"
+                        Margin="0,10,0,0"
+                        HorizontalOptions="Start"
+                        Text="&#xf022;"
+                        Grid.Column="0"
+                        TextColor="White"
+                        VerticalOptions="Center"
+                        WidthRequest="40"
+                        IsVisible="false"
+                    />
+                        <buttons:SfButton
+                            x:Name="bossButton"
+                            Padding="0"
+                            Clicked="GoToBoss"
+                            BackgroundColor="Transparent"
+                            Command="{Binding EditCommand}"
+                            FontFamily="{StaticResource FontIcons-2}"
+                            FontSize="18"
+                            Margin="0,10,0,0"
+                            Grid.Column="1"
+                            HorizontalOptions="Start"
+                            Text="&#xf43f;"
+                            TextColor="White"
+                            VerticalOptions="Center"
+                            WidthRequest="40"
+                            IsVisible="false"
+                        />
+                    </Grid>
+                </Grid>
+                
+                <StackLayout Grid.Row="1">
+                    <Image Source="LaReservaFUTBOL_2.png"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   Margin="10,0,10,0"/>
+                    <Label x:Name="labelWelcome" Text="¡Bienvenido Gaston Hernandez!" TextColor="White" HorizontalTextAlignment="Center" FontSize="20"/>
+                    <Frame BackgroundColor="White" Margin="30,5,30,0" Padding="0,10,0,0" CornerRadius="5" HasShadow="True" BorderColor="{StaticResource Gray-700}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="1" Grid.RowSpan="2" Source="HandPhone.png" WidthRequest="50" HorizontalOptions="End" VerticalOptions="End" Margin="15,0,0,3"/>
+                            <Label Grid.Column="2" Grid.Row="1" FontSize="14" Text="¡Aprendé a reservar tus turnos!" HorizontalTextAlignment="Center" TextColor="{StaticResource Gray-700}"/>
+                            <Label Grid.Column="2" Grid.Row="0" Text="INSTRUCCIONES DE USO" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="{StaticResource Gray-700}" VerticalOptions="Start"/>
+                        </Grid>
+
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToInstructions"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                    
+                    <Frame BackgroundColor="White" CornerRadius="20" Margin="60,10,60,0" Padding="15,7,15,7" BorderColor="{StaticResource Gray-700}" HasShadow="True">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="City_Tapped" />
+                        </Frame.GestureRecognizers>
+                        
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="Seleccione una Ciudad" 
+                                   x:Name="LabelPickerCity"
+                                   BackgroundColor="White"
+                                   TextColor="{StaticResource Gray-900}"
+                                   Grid.Column="0"
+                                   FontSize="13"
+                                   HorizontalTextAlignment="Start"
+                                   />
+                            <Label Text="&#xf0d7;"
+                                   TextColor="{StaticResource Gray-900}"
+                                   Grid.Column="1"
+                                   FontSize="16"
+                                   FontFamily="{StaticResource FontIcons-2}"
+                                   />
+                            <Picker x:Name="CityPicker" IsVisible="False" SelectedIndexChanged="City_Selected" ItemsSource="{Binding CitysItem,Mode=TwoWay}">
+                                <Picker.Items>
+                                    <x:String>Junín</x:String>
+                                    <x:String>La Plata</x:String>
+                                    <x:String>Rufino</x:String>
+                                    <x:String>Vedia</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+
+                <Grid Grid.Row="2" Padding="12,0,12,0" Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+
+                    <cards:SfCardView CornerRadius="4" Grid.ColumnSpan="3"
+                                          HeightRequest="245"
+                                          Margin="0,-40,0,5"
+                                          BackgroundColor="{DynamicResource ItemsBackground}"
+                                          Style="{StaticResource CardsClub}"
+                                          >
+                        <listView:SfListView x:Name="SfListView" 
+                                                     VerticalOptions="FillAndExpand"
+                                                     HorizontalOptions="Center"
+                                                     Margin="0" HeightRequest="24"
+                                                     IsScrollBarVisible="False"
+                                                     SelectionMode="None" 
+                                                     AutoFitMode="None"          
+                                                     ItemSpacing="0" 
+                                                     ItemSize="120" 
+                                                     ItemsSource="{Binding ListViewSports}"
+                                                     ItemTapped="GoToTurnos">
+
+                            <listView:SfListView.ItemTemplate>
+                                <DataTemplate>
+                                    <border:SfBorder BorderWidth="1" 
+                                                     BorderColor="{DynamicResource HomeCardBorder}">
+
+                                        <StackLayout Spacing="8" 
+                                                         HorizontalOptions="Center" 
+                                                         VerticalOptions="Center">
+                                            <Label Margin="0" 
+                                                       FontSize="16" 
+                                                       TextColor="{DynamicResource TitleTextColor}" 
+                                                       Style="{StaticResource IconButton2}"  
+                                                       HorizontalOptions="Center"
+                                                       Text="{Binding Icon}"/>
+
+                                            <Label  FontSize="12" 
+                                                        TextColor="{DynamicResource ItemTextColor}" 
+                                                        HorizontalOptions="Center" 
+                                                        Text="{Binding Sport}" 
+                                                        Style="{StaticResource LabelStyleHome}"/>
+
+                                            <BoxView  HeightRequest="4" 
+                                                          WidthRequest="48" 
+                                                          BackgroundColor="{Binding BarColor}"/>
+
+                                        </StackLayout>
+
+                                    </border:SfBorder>
+                                </DataTemplate>
+                            </listView:SfListView.ItemTemplate>
+
+                            <listView:SfListView.Behaviors>
+                                <behaviors:SfListViewExtendHeightBehavior/>
+                            </listView:SfListView.Behaviors>
+
+                            <listView:SfListView.LayoutManager>
+                                <listView:GridLayout SpanCount="3" />
+                            </listView:SfListView.LayoutManager>
+
+                        </listView:SfListView>
+
+                    </cards:SfCardView>
+                </Grid>
+                <Image Style="{DynamicResource MainPageUrbanLogo}" Grid.Row="3" Aspect="AspectFit" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

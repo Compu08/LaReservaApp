@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TurnosFutbol.Views.ContactUs.ContactUsPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:converter="clr-namespace:TurnosFutbol.Converters"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:customControls="clr-namespace:TurnosFutbol.Controls"
+    xmlns:viewModel="clr-namespace:TurnosFutbol.ViewModels.ContactUs"
+    BackgroundColor="{DynamicResource BackgroundBase}"
+    NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <converter:BooleanToColorConverter x:Key="BooleanToColorConverter" />
+            <converter:StringToBooleanConverter x:Key="StringToBooleanConverter" />
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!--  Binding context for contact us page  -->
+    <ContentPage.BindingContext>
+        <viewModel:ContactUsViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout x:Name="MainStack" Spacing="0">
+
+                <Image 
+                    Margin="0,15,0,15"
+                    Style="{DynamicResource BigUrbanLogo}"
+                />
+
+                <!--  For getting the contact information  -->
+                <Frame
+                    x:Name="MainFrame"
+                    Padding="0"
+                    Margin="10,0,10,0"
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    HorizontalOptions="FillAndExpand">
+
+                    <StackLayout
+                        x:Name="MainFrameStack"
+                        Padding="15"
+                        HorizontalOptions="FillAndExpand"
+                        Spacing="16">
+
+                        <!--  Label to display title  -->
+                        <Label
+                            Margin="{core:OnPlatformOrientationThickness Phone='0,16,0,16',
+                                                                         TabletPortrait='0,32,0,16',
+                                                                         TabletLandscape='0,32,0,16',
+                                                                         Desktop='0,48,0,16'}"
+                            FontFamily="{StaticResource Montserrat-SemiBold}"
+                            FontSize="20"
+                            HorizontalOptions="FillAndExpand"
+                            HorizontalTextAlignment="Center"
+                            LineHeight="{OnPlatform Android=1.25,
+                                                    Default=-1}"
+                            Text="Contactate"
+                            TextColor="{DynamicResource TitleTextColor}"
+                            VerticalTextAlignment="Center" />
+
+                        <border:SfBorder Style="{StaticResource SfBorderStyle}">
+                            <!--  Entry to get name from user  -->
+                            <customControls:BorderlessEntry
+                                x:Name="ContactName"
+                                HeightRequest="40"
+                                Placeholder="Nombre y Apellido"
+                                Style="{StaticResource BorderlessEntryStyle}"
+                                VerticalOptions="Center" />
+                        </border:SfBorder>
+
+                        <border:SfBorder
+                            x:Name="EmailBorder"
+                            BorderColor="{Binding Path=IsVisible, Source={x:Reference WarningImage}, Converter={x:StaticResource BooleanToColorConverter}, ConverterParameter=2}"
+                            Style="{x:StaticResource SfBorderStyle}">
+                            <StackLayout Orientation="Horizontal" Spacing="0">
+
+                                <!--  Entry to get email id from user  -->
+                                <customControls:BorderlessEntry
+                                    x:Name="EmailEntry"
+                                    HeightRequest="40"
+                                    HorizontalOptions="FillAndExpand"
+                                    Placeholder="Email" Keyboard="Email"
+                                    Style="{StaticResource BorderlessEntryStyle}"
+                                    TextColor="{DynamicResource ItemTextColor}"
+                                    VerticalOptions="CenterAndExpand" />
+
+                                <Label
+                                    x:Name="WarningImage"
+                                    Margin="0,0,5,0"
+                                    FontFamily="{StaticResource FontIcons}"
+                                    FontSize="{OnIdiom Desktop=14,
+                                                       Tablet=14,
+                                                       Phone=12}"
+                                    HorizontalOptions="End"
+                                    IsVisible="{Binding Path=IsVisible, Source={x:Reference ValidationLabel}}"
+                                    Text="&#xe707;"
+                                    TextColor="{DynamicResource Red}"
+                                    VerticalOptions="CenterAndExpand" />
+                            </StackLayout>
+                        </border:SfBorder>
+
+                        <Label
+                            x:Name="ValidationLabel"
+                            Margin="0,-10,0,0"
+                            FontSize="12"
+                            HorizontalOptions="FillAndExpand"
+                            IsVisible="{Binding Path=IsFocused, Source={x:Reference EmailEntry}, Converter={StaticResource StringToBooleanConverter}, ConverterParameter={x:Reference EmailEntry}}"
+                            Text="Porfavor inserte un e-mail válido"
+                            TextColor="{DynamicResource Red}" />
+
+                        <border:SfBorder HeightRequest="120" Style="{StaticResource SfBorderStyle}">
+                            <!--  Editor to get message from user  -->
+                            <customControls:BorderlessEditor
+                                x:Name="ContactText"
+                                HeightRequest="120"
+                                Placeholder="Mensaje"
+                                PlaceholderColor="{DynamicResource Gray-700}"
+                                TextColor="{DynamicResource ItemTextColor}">
+                                <customControls:BorderlessEditor.Margin>
+                                    <OnPlatform
+                                        x:TypeArguments="Thickness"
+                                        Android="0,0,5,0"
+                                        Default="0,0,5,0"
+                                        iOS="-5,0,5,0" />
+                                </customControls:BorderlessEditor.Margin>
+                            </customControls:BorderlessEditor>
+
+                        </border:SfBorder>
+
+                        <!--  Send Button  -->
+                        <buttons:SfButton
+                            Command="{Binding SendCommand}"
+                            Style="{StaticResource SfGradientButtonStyle}"
+                            Clicked="SendClicked"
+                            Text="ENVIAR" />
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TurnosFutbol.Views.SplashScreen.SplashScreen"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+             xmlns:converter="clr-namespace:TurnosFutbol.Converters"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Resources>
+        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <converter:BooleanToColorConverter x:Key="BoolToColorConverter" />
+            <converter:StringToGlyphConverter x:Key="GlyphConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+            <Grid VerticalOptions="FillAndExpand" Padding="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+                
+                <Image Source="LaReservaFUTBOL.png"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       Grid.Row="0" />
+                
+                <StackLayout Grid.Row="1" Margin="0,0,0,40">
+                    <Label Text="Cargando..." HorizontalTextAlignment="Center" FontSize="16" TextColor="{StaticResource GreenBlacked}"></Label>
+                    <progressBar:SfLinearProgressBar IsIndeterminate="True" x:Name="progressBar" ProgressColor="{StaticResource GreenBlacked}" TrackColor="{StaticResource GreenClarity}"/>
+                </StackLayout>
+                
+                <Image Source="logo_urban.png" 
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       Grid.Row="2"/>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>

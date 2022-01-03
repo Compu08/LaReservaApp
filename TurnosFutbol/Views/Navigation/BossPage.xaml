@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:controls="clr-namespace:TurnosFutbol.Controls"
+             xmlns:behaviors="clr-namespace:TurnosFutbol.Behaviors;assembly=TurnosFutbol"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             BackgroundColor="{DynamicResource BackgroundBase}"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="TurnosFutbol.Views.Navigation.BossPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary Source="Styles.xaml" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ControlTemplate>
+        <ControlTemplate>
+            <StackLayout Spacing="0">
+                <!--  Title View  -->
+                <controls:TitleView Title="Administración" FontSize="13"  BackgroundColor="{DynamicResource TitleViewBackground}">
+                    <controls:TitleView.LeadingView>
+                        <buttons:SfButton
+                            x:Name="Mi "
+                            CornerRadius="4"
+                            Clicked="GoBack"
+                            Style="{StaticResource IconButtonStyle}"
+                            Text="{StaticResource Back}" 
+                            TextColor="{DynamicResource ItemTextColor}"
+                            />
+                    </controls:TitleView.LeadingView>
+                </controls:TitleView>
+                <ContentPresenter />
+            </StackLayout>
+        </ControlTemplate>
+    </ContentPage.ControlTemplate>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="{DynamicResource BackgroundBase}" Spacing="0">
+
+                <!--  Header label for account setting  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="LUGARES"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+
+
+                <!--  Grid for Edit profile label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushAddClubPage"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <!--  Edit profile icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf0fe;" />
+                    <!--  Edit profile label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Agregar Lugar" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="AddClub"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushHideLabel"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf146;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Ocultar Lugar" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="HideLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushDeleteLabel"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf2ed;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Eliminar Lugar" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="DeleteLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Change password label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="VipMembersClicked"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf521;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Lugares VIP" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="SetVip"
+                        Grid.Column="2"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+                
+                <!--  Header label for account setting  -->
+                <Label
+                    Margin="16,0,0,0"
+                    FontFamily="{StaticResource Montserrat-SemiBold}"
+                    FontSize="12"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand"
+                    LineHeight="{OnPlatform Default=-1,
+                                            Android=1.25}"
+                    Text="ADMINISTRACIÓN"
+                    TextColor="{DynamicResource TitleTextColor}"
+                    VerticalOptions="Center"
+                    VerticalTextAlignment="Center" />
+                
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PaymentsClicked"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf571;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Administrar Pagos" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="PagosLabel"
+                        Grid.Column="2"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="NewPasswordClicked"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf13e;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Generar Contraseña" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="PasswordLabel"
+                        Grid.Column="2"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+                <!--  Grid for Change password label and navigation bar icon  -->
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushAddCity"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf1ad;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Añadir Ciudad" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="CityLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+
+
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="PushAdminsDifusion"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+
+                    <!--  Change password icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,8,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        FontFamily="{StaticResource FontIcons-2}"
+                        Text="&#xf14d;" />
+                    <!--  Change password label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Enviar Difusión" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="DifusionLabel"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

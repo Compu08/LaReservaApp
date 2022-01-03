@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:converter="clr-namespace:TurnosFutbol.Converters" xmlns:textinputlayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+                 x:Class="TurnosFutbol.Views.Popups.SendMessage"
+             
+             >
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"
+        />
+    </pages:PopupPage.Animation>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <converter:BooleanToColorConverter x:Key="BoolToColorConverter" />
+            <converter:StringToGlyphConverter x:Key="GlyphConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+    <StackLayout>
+        <Frame Margin="30,10,30,30" Padding="0" CornerRadius="8" HasShadow="True" BackgroundColor="{DynamicResource ItemsBackground}">
+            <StackLayout>
+                <Grid BackgroundColor="{DynamicResource ButtonBackground}" ColumnDefinitions="Auto,*"  RowDefinitions="50,50" Padding="20,0,20,0">
+                    <Label Text="ENVIAR" TextColor="White" Opacity="0.5" FontFamily="{StaticResource BwModelicaMedium}" Grid.Row="0" Grid.Column="0" FontSize="18" VerticalOptions="Start" Padding="0,10,0,0"/>
+                    <Label x:Name="labelSpot" Text="DIFUSIÓN" CharacterSpacing="1.5" TextColor="White" FontAttributes="Bold" FontFamily="{StaticResource BwModelicaMedium}" Grid.Row="1" Grid.Column="0" FontSize="26" VerticalOptions="Start"/>
+                    <Label x:Name="CrossLabel" Grid.Column="1" Grid.RowSpan="2" Text="" FontSize="18" Style="{StaticResource IconButton}" TextColor="White" HorizontalOptions="End">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="CloseModal">
+                            </TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+                <StackLayout x:Name="adminDifusion" Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <textinputlayout:SfTextInputLayout Hint="Tipo" x:Name="TextTypeLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="TypePicker" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Lugar" x:Name="TextPlaceLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="PlacePicker" SelectedIndexChanged="PlacePickerChanged" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Titulo" x:Name="TextTitleLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="TitlePicker" SelectedIndex="0" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}">
+                            <Picker.Items>
+                                <x:String>Nueva Noticia</x:String>
+                                <x:String>OFERTA</x:String>
+                                <x:String>Difusión Turnos</x:String>
+                                <x:String>Información Torneo</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Texto" x:Name="TextTxtLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Editor x:Name="EntryNotification" FontSize="19" HeightRequest="150" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <Button x:Name="ButtonSend" Text="ENVIAR NOTIFICACIÓN" Clicked="SendDifusion" BackgroundColor="{DynamicResource ButtonBackground}" TextColor="White" />
+                </StackLayout>
+
+                <StackLayout x:Name="bossDifusion" IsVisible="false" Padding="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <textinputlayout:SfTextInputLayout Hint="Lugar" x:Name="TextPickerPublic" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Picker x:Name="PublicPicker" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}">
+                            <Picker.Items>
+                                <x:String>TODOS</x:String>
+                                <x:String>ADMINISTRADORES</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Titulo" x:Name="TextBossTitleLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Entry x:Name="BossEntryTitle" FontSize="19" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <textinputlayout:SfTextInputLayout Hint="Texto" x:Name="BossTextTxtLabel" FocusedColor="{DynamicResource ButtonBackground}">
+                        <Editor x:Name="BossEntryNotification" FontSize="19" HeightRequest="150" FontFamily="Montserrat-Medium" TextColor="{StaticResource Gray-Black}" />
+                    </textinputlayout:SfTextInputLayout>
+
+                    <Button x:Name="ButtonBossSend" Text="ENVIAR NOTIFICACIÓN" Clicked="SendBossDifusion" BackgroundColor="{DynamicResource ButtonBackground}" TextColor="White" />
+                </StackLayout>
+
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+    </ScrollView>
+</pages:PopupPage>
