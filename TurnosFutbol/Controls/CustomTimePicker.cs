@@ -29,7 +29,7 @@ namespace TurnosFutbol.Controls
         /// </summary>
 
         public ObservableCollection<string> Headers { get; set; }
-        public CustomTimePicker(string text)
+        public CustomTimePicker(string text, int totalPlaces)
         {
             Time = new ObservableCollection<object>();
             Hour = new ObservableCollection<object>();
@@ -62,14 +62,14 @@ namespace TurnosFutbol.Controls
             //SfPicker header text
             HeaderText = "SELECCIONAR HORA Y LUGAR";
 
-            PopulateTimeCollection();
+            PopulateTimeCollection(totalPlaces);
             this.ItemsSource = Time;
 
             // Column header text collection
             this.ColumnHeaderText = Headers;
         }
 
-        private void PopulateTimeCollection()
+        private void PopulateTimeCollection(int totalPlaces)
         {
             //Populate Hour
             for (int i = 0; i <= 23; i++)
@@ -90,9 +90,18 @@ namespace TurnosFutbol.Controls
                 }
             }
 
+            for (int i = 0; i <= totalPlaces; i++)
+            {
+                Places.Add((i + 1).ToString());
+            }
+
             Time.Add(Hour);
             Time.Add(Minute);
+            Time.Add(Places);
         }
+
+
+
 
     }
 }

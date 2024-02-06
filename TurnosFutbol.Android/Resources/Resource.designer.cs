@@ -14,7 +14,7 @@ namespace TurnosFutbol.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.2.120")]
 	public partial class Resource
 	{
 		
@@ -25,11 +25,17 @@ namespace TurnosFutbol.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.FirebasePushNotification.Resource.Animation.fragment_fast_out_extra_slow_in = global::TurnosFutbol.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Plugin.FirebasePushNotification.Resource.Animator.fragment_close_enter = global::TurnosFutbol.Droid.Resource.Animator.fragment_close_enter;
+			global::Plugin.FirebasePushNotification.Resource.Animator.fragment_close_exit = global::TurnosFutbol.Droid.Resource.Animator.fragment_close_exit;
+			global::Plugin.FirebasePushNotification.Resource.Animator.fragment_fade_enter = global::TurnosFutbol.Droid.Resource.Animator.fragment_fade_enter;
+			global::Plugin.FirebasePushNotification.Resource.Animator.fragment_fade_exit = global::TurnosFutbol.Droid.Resource.Animator.fragment_fade_exit;
+			global::Plugin.FirebasePushNotification.Resource.Animator.fragment_open_enter = global::TurnosFutbol.Droid.Resource.Animator.fragment_open_enter;
+			global::Plugin.FirebasePushNotification.Resource.Animator.fragment_open_exit = global::TurnosFutbol.Droid.Resource.Animator.fragment_open_exit;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.alpha = global::TurnosFutbol.Droid.Resource.Attribute.alpha;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.buttonSize = global::TurnosFutbol.Droid.Resource.Attribute.buttonSize;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.circleCrop = global::TurnosFutbol.Droid.Resource.Attribute.circleCrop;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.colorScheme = global::TurnosFutbol.Droid.Resource.Attribute.colorScheme;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.coordinatorLayoutStyle = global::TurnosFutbol.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.font = global::TurnosFutbol.Droid.Resource.Attribute.font;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderAuthority = global::TurnosFutbol.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderCerts = global::TurnosFutbol.Droid.Resource.Attribute.fontProviderCerts;
@@ -37,21 +43,19 @@ namespace TurnosFutbol.Droid
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderFetchTimeout = global::TurnosFutbol.Droid.Resource.Attribute.fontProviderFetchTimeout;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderPackage = global::TurnosFutbol.Droid.Resource.Attribute.fontProviderPackage;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderQuery = global::TurnosFutbol.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderSystemFontFamily = global::TurnosFutbol.Droid.Resource.Attribute.fontProviderSystemFontFamily;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontStyle = global::TurnosFutbol.Droid.Resource.Attribute.fontStyle;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontVariationSettings = global::TurnosFutbol.Droid.Resource.Attribute.fontVariationSettings;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.fontWeight = global::TurnosFutbol.Droid.Resource.Attribute.fontWeight;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.imageAspectRatio = global::TurnosFutbol.Droid.Resource.Attribute.imageAspectRatio;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.imageAspectRatioAdjust = global::TurnosFutbol.Droid.Resource.Attribute.imageAspectRatioAdjust;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.keylines = global::TurnosFutbol.Droid.Resource.Attribute.keylines;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_anchor = global::TurnosFutbol.Droid.Resource.Attribute.layout_anchor;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_anchorGravity = global::TurnosFutbol.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_behavior = global::TurnosFutbol.Droid.Resource.Attribute.layout_behavior;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_dodgeInsetEdges = global::TurnosFutbol.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_insetEdge = global::TurnosFutbol.Droid.Resource.Attribute.layout_insetEdge;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_keyline = global::TurnosFutbol.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.nestedScrollViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.nestedScrollViewStyle;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.queryPatterns = global::TurnosFutbol.Droid.Resource.Attribute.queryPatterns;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.scopeUris = global::TurnosFutbol.Droid.Resource.Attribute.scopeUris;
-			global::Plugin.FirebasePushNotification.Resource.Attribute.statusBarBackground = global::TurnosFutbol.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.shortcutMatchRequired = global::TurnosFutbol.Droid.Resource.Attribute.shortcutMatchRequired;
 			global::Plugin.FirebasePushNotification.Resource.Attribute.ttcIndex = global::TurnosFutbol.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.FirebasePushNotification.Resource.Color.androidx_core_ripple_material_light = global::TurnosFutbol.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Plugin.FirebasePushNotification.Resource.Color.androidx_core_secondary_text_default_material_light = global::TurnosFutbol.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark = global::TurnosFutbol.Droid.Resource.Color.common_google_signin_btn_text_dark;
 			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark_default = global::TurnosFutbol.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
 			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark_disabled = global::TurnosFutbol.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
@@ -65,11 +69,6 @@ namespace TurnosFutbol.Droid
 			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_tint = global::TurnosFutbol.Droid.Resource.Color.common_google_signin_btn_tint;
 			global::Plugin.FirebasePushNotification.Resource.Color.notification_action_color_filter = global::TurnosFutbol.Droid.Resource.Color.notification_action_color_filter;
 			global::Plugin.FirebasePushNotification.Resource.Color.notification_icon_bg_color = global::TurnosFutbol.Droid.Resource.Color.notification_icon_bg_color;
-			global::Plugin.FirebasePushNotification.Resource.Color.notification_material_background_media_default_color = global::TurnosFutbol.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Plugin.FirebasePushNotification.Resource.Color.primary_text_default_material_dark = global::TurnosFutbol.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Plugin.FirebasePushNotification.Resource.Color.ripple_material_light = global::TurnosFutbol.Droid.Resource.Color.ripple_material_light;
-			global::Plugin.FirebasePushNotification.Resource.Color.secondary_text_default_material_dark = global::TurnosFutbol.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Plugin.FirebasePushNotification.Resource.Color.secondary_text_default_material_light = global::TurnosFutbol.Droid.Resource.Color.secondary_text_default_material_light;
 			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_inset_horizontal_material = global::TurnosFutbol.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_inset_vertical_material = global::TurnosFutbol.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_padding_horizontal_material = global::TurnosFutbol.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
@@ -125,7 +124,39 @@ namespace TurnosFutbol.Droid
 			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_template_icon_low_bg = global::TurnosFutbol.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_tile_bg = global::TurnosFutbol.Droid.Resource.Drawable.notification_tile_bg;
 			global::Plugin.FirebasePushNotification.Resource.Drawable.notify_panel_notification_icon_bg = global::TurnosFutbol.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Plugin.FirebasePushNotification.Resource.Id.action0 = global::TurnosFutbol.Droid.Resource.Id.action0;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_action_clickable_span = global::TurnosFutbol.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_0 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_1 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_10 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_11 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_12 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_13 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_14 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_15 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_16 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_17 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_18 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_19 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_2 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_20 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_21 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_22 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_23 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_24 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_25 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_26 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_27 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_28 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_29 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_3 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_30 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_31 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_4 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_5 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_6 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_7 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_8 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.FirebasePushNotification.Resource.Id.accessibility_custom_action_9 = global::TurnosFutbol.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Plugin.FirebasePushNotification.Resource.Id.actions = global::TurnosFutbol.Droid.Resource.Id.actions;
 			global::Plugin.FirebasePushNotification.Resource.Id.action_container = global::TurnosFutbol.Droid.Resource.Id.action_container;
 			global::Plugin.FirebasePushNotification.Resource.Id.action_divider = global::TurnosFutbol.Droid.Resource.Id.action_divider;
@@ -133,71 +164,60 @@ namespace TurnosFutbol.Droid
 			global::Plugin.FirebasePushNotification.Resource.Id.action_text = global::TurnosFutbol.Droid.Resource.Id.action_text;
 			global::Plugin.FirebasePushNotification.Resource.Id.adjust_height = global::TurnosFutbol.Droid.Resource.Id.adjust_height;
 			global::Plugin.FirebasePushNotification.Resource.Id.adjust_width = global::TurnosFutbol.Droid.Resource.Id.adjust_width;
-			global::Plugin.FirebasePushNotification.Resource.Id.all = global::TurnosFutbol.Droid.Resource.Id.all;
 			global::Plugin.FirebasePushNotification.Resource.Id.async = global::TurnosFutbol.Droid.Resource.Id.async;
 			global::Plugin.FirebasePushNotification.Resource.Id.auto = global::TurnosFutbol.Droid.Resource.Id.auto;
 			global::Plugin.FirebasePushNotification.Resource.Id.blocking = global::TurnosFutbol.Droid.Resource.Id.blocking;
-			global::Plugin.FirebasePushNotification.Resource.Id.bottom = global::TurnosFutbol.Droid.Resource.Id.bottom;
-			global::Plugin.FirebasePushNotification.Resource.Id.cancel_action = global::TurnosFutbol.Droid.Resource.Id.cancel_action;
-			global::Plugin.FirebasePushNotification.Resource.Id.center = global::TurnosFutbol.Droid.Resource.Id.center;
-			global::Plugin.FirebasePushNotification.Resource.Id.center_horizontal = global::TurnosFutbol.Droid.Resource.Id.center_horizontal;
-			global::Plugin.FirebasePushNotification.Resource.Id.center_vertical = global::TurnosFutbol.Droid.Resource.Id.center_vertical;
 			global::Plugin.FirebasePushNotification.Resource.Id.chronometer = global::TurnosFutbol.Droid.Resource.Id.chronometer;
-			global::Plugin.FirebasePushNotification.Resource.Id.clip_horizontal = global::TurnosFutbol.Droid.Resource.Id.clip_horizontal;
-			global::Plugin.FirebasePushNotification.Resource.Id.clip_vertical = global::TurnosFutbol.Droid.Resource.Id.clip_vertical;
 			global::Plugin.FirebasePushNotification.Resource.Id.dark = global::TurnosFutbol.Droid.Resource.Id.dark;
-			global::Plugin.FirebasePushNotification.Resource.Id.end = global::TurnosFutbol.Droid.Resource.Id.end;
-			global::Plugin.FirebasePushNotification.Resource.Id.end_padder = global::TurnosFutbol.Droid.Resource.Id.end_padder;
-			global::Plugin.FirebasePushNotification.Resource.Id.fill = global::TurnosFutbol.Droid.Resource.Id.fill;
-			global::Plugin.FirebasePushNotification.Resource.Id.fill_horizontal = global::TurnosFutbol.Droid.Resource.Id.fill_horizontal;
-			global::Plugin.FirebasePushNotification.Resource.Id.fill_vertical = global::TurnosFutbol.Droid.Resource.Id.fill_vertical;
+			global::Plugin.FirebasePushNotification.Resource.Id.dialog_button = global::TurnosFutbol.Droid.Resource.Id.dialog_button;
 			global::Plugin.FirebasePushNotification.Resource.Id.forever = global::TurnosFutbol.Droid.Resource.Id.forever;
+			global::Plugin.FirebasePushNotification.Resource.Id.fragment_container_view_tag = global::TurnosFutbol.Droid.Resource.Id.fragment_container_view_tag;
 			global::Plugin.FirebasePushNotification.Resource.Id.icon = global::TurnosFutbol.Droid.Resource.Id.icon;
 			global::Plugin.FirebasePushNotification.Resource.Id.icon_group = global::TurnosFutbol.Droid.Resource.Id.icon_group;
 			global::Plugin.FirebasePushNotification.Resource.Id.icon_only = global::TurnosFutbol.Droid.Resource.Id.icon_only;
 			global::Plugin.FirebasePushNotification.Resource.Id.info = global::TurnosFutbol.Droid.Resource.Id.info;
 			global::Plugin.FirebasePushNotification.Resource.Id.italic = global::TurnosFutbol.Droid.Resource.Id.italic;
-			global::Plugin.FirebasePushNotification.Resource.Id.left = global::TurnosFutbol.Droid.Resource.Id.left;
 			global::Plugin.FirebasePushNotification.Resource.Id.light = global::TurnosFutbol.Droid.Resource.Id.light;
 			global::Plugin.FirebasePushNotification.Resource.Id.line1 = global::TurnosFutbol.Droid.Resource.Id.line1;
 			global::Plugin.FirebasePushNotification.Resource.Id.line3 = global::TurnosFutbol.Droid.Resource.Id.line3;
-			global::Plugin.FirebasePushNotification.Resource.Id.media_actions = global::TurnosFutbol.Droid.Resource.Id.media_actions;
 			global::Plugin.FirebasePushNotification.Resource.Id.none = global::TurnosFutbol.Droid.Resource.Id.none;
 			global::Plugin.FirebasePushNotification.Resource.Id.normal = global::TurnosFutbol.Droid.Resource.Id.normal;
 			global::Plugin.FirebasePushNotification.Resource.Id.notification_background = global::TurnosFutbol.Droid.Resource.Id.notification_background;
 			global::Plugin.FirebasePushNotification.Resource.Id.notification_main_column = global::TurnosFutbol.Droid.Resource.Id.notification_main_column;
 			global::Plugin.FirebasePushNotification.Resource.Id.notification_main_column_container = global::TurnosFutbol.Droid.Resource.Id.notification_main_column_container;
-			global::Plugin.FirebasePushNotification.Resource.Id.right = global::TurnosFutbol.Droid.Resource.Id.right;
 			global::Plugin.FirebasePushNotification.Resource.Id.right_icon = global::TurnosFutbol.Droid.Resource.Id.right_icon;
 			global::Plugin.FirebasePushNotification.Resource.Id.right_side = global::TurnosFutbol.Droid.Resource.Id.right_side;
+			global::Plugin.FirebasePushNotification.Resource.Id.special_effects_controller_view_tag = global::TurnosFutbol.Droid.Resource.Id.special_effects_controller_view_tag;
 			global::Plugin.FirebasePushNotification.Resource.Id.standard = global::TurnosFutbol.Droid.Resource.Id.standard;
-			global::Plugin.FirebasePushNotification.Resource.Id.start = global::TurnosFutbol.Droid.Resource.Id.start;
-			global::Plugin.FirebasePushNotification.Resource.Id.status_bar_latest_event_content = global::TurnosFutbol.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_accessibility_actions = global::TurnosFutbol.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_accessibility_clickable_spans = global::TurnosFutbol.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_accessibility_heading = global::TurnosFutbol.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_accessibility_pane_title = global::TurnosFutbol.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_on_apply_window_listener = global::TurnosFutbol.Droid.Resource.Id.tag_on_apply_window_listener;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_on_receive_content_listener = global::TurnosFutbol.Droid.Resource.Id.tag_on_receive_content_listener;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_on_receive_content_mime_types = global::TurnosFutbol.Droid.Resource.Id.tag_on_receive_content_mime_types;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_screen_reader_focusable = global::TurnosFutbol.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_state_description = global::TurnosFutbol.Droid.Resource.Id.tag_state_description;
 			global::Plugin.FirebasePushNotification.Resource.Id.tag_transition_group = global::TurnosFutbol.Droid.Resource.Id.tag_transition_group;
 			global::Plugin.FirebasePushNotification.Resource.Id.tag_unhandled_key_event_manager = global::TurnosFutbol.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Plugin.FirebasePushNotification.Resource.Id.tag_unhandled_key_listeners = global::TurnosFutbol.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_window_insets_animation_callback = global::TurnosFutbol.Droid.Resource.Id.tag_window_insets_animation_callback;
 			global::Plugin.FirebasePushNotification.Resource.Id.text = global::TurnosFutbol.Droid.Resource.Id.text;
 			global::Plugin.FirebasePushNotification.Resource.Id.text2 = global::TurnosFutbol.Droid.Resource.Id.text2;
 			global::Plugin.FirebasePushNotification.Resource.Id.time = global::TurnosFutbol.Droid.Resource.Id.time;
 			global::Plugin.FirebasePushNotification.Resource.Id.title = global::TurnosFutbol.Droid.Resource.Id.title;
-			global::Plugin.FirebasePushNotification.Resource.Id.top = global::TurnosFutbol.Droid.Resource.Id.top;
+			global::Plugin.FirebasePushNotification.Resource.Id.view_tree_lifecycle_owner = global::TurnosFutbol.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Plugin.FirebasePushNotification.Resource.Id.view_tree_saved_state_registry_owner = global::TurnosFutbol.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Plugin.FirebasePushNotification.Resource.Id.view_tree_view_model_store_owner = global::TurnosFutbol.Droid.Resource.Id.view_tree_view_model_store_owner;
+			global::Plugin.FirebasePushNotification.Resource.Id.visible_removing_fragment_view_tag = global::TurnosFutbol.Droid.Resource.Id.visible_removing_fragment_view_tag;
 			global::Plugin.FirebasePushNotification.Resource.Id.wide = global::TurnosFutbol.Droid.Resource.Id.wide;
-			global::Plugin.FirebasePushNotification.Resource.Integer.cancel_button_image_alpha = global::TurnosFutbol.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::Plugin.FirebasePushNotification.Resource.Integer.google_play_services_version = global::TurnosFutbol.Droid.Resource.Integer.google_play_services_version;
 			global::Plugin.FirebasePushNotification.Resource.Integer.status_bar_notification_info_maxnum = global::TurnosFutbol.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.FirebasePushNotification.Resource.Layout.custom_dialog = global::TurnosFutbol.Droid.Resource.Layout.custom_dialog;
 			global::Plugin.FirebasePushNotification.Resource.Layout.notification_action = global::TurnosFutbol.Droid.Resource.Layout.notification_action;
 			global::Plugin.FirebasePushNotification.Resource.Layout.notification_action_tombstone = global::TurnosFutbol.Droid.Resource.Layout.notification_action_tombstone;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_media_action = global::TurnosFutbol.Droid.Resource.Layout.notification_media_action;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_media_cancel_action = global::TurnosFutbol.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media = global::TurnosFutbol.Droid.Resource.Layout.notification_template_big_media;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media_custom = global::TurnosFutbol.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media_narrow = global::TurnosFutbol.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media_narrow_custom = global::TurnosFutbol.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
 			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_custom_big = global::TurnosFutbol.Droid.Resource.Layout.notification_template_custom_big;
 			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_icon_group = global::TurnosFutbol.Droid.Resource.Layout.notification_template_icon_group;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_lines_media = global::TurnosFutbol.Droid.Resource.Layout.notification_template_lines_media;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_media = global::TurnosFutbol.Droid.Resource.Layout.notification_template_media;
-			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_media_custom = global::TurnosFutbol.Droid.Resource.Layout.notification_template_media_custom;
 			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_part_chronometer = global::TurnosFutbol.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_part_time = global::TurnosFutbol.Droid.Resource.Layout.notification_template_part_time;
 			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_enable_button = global::TurnosFutbol.Droid.Resource.String.common_google_play_services_enable_button;
@@ -222,32 +242,18 @@ namespace TurnosFutbol.Droid
 			global::Plugin.FirebasePushNotification.Resource.String.status_bar_notification_info_overflow = global::TurnosFutbol.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification;
 			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Info = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
 			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Media = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
 			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Time = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
 			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Title = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
 			global::Plugin.FirebasePushNotification.Resource.Style.Widget_Compat_NotificationActionContainer = global::TurnosFutbol.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Plugin.FirebasePushNotification.Resource.Style.Widget_Compat_NotificationActionText = global::TurnosFutbol.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Plugin.FirebasePushNotification.Resource.Style.Widget_Support_CoordinatorLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Capability = global::TurnosFutbol.Droid.Resource.Styleable.Capability;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Capability_queryPatterns = global::TurnosFutbol.Droid.Resource.Styleable.Capability_queryPatterns;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Capability_shortcutMatchRequired = global::TurnosFutbol.Droid.Resource.Styleable.Capability_shortcutMatchRequired;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem = global::TurnosFutbol.Droid.Resource.Styleable.ColorStateListItem;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem_alpha = global::TurnosFutbol.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem_android_alpha = global::TurnosFutbol.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem_android_color = global::TurnosFutbol.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_keylines = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TurnosFutbol.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily = global::TurnosFutbol.Droid.Resource.Styleable.FontFamily;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont = global::TurnosFutbol.Droid.Resource.Styleable.FontFamilyFont;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_android_font = global::TurnosFutbol.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -266,6 +272,14 @@ namespace TurnosFutbol.Droid
 			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TurnosFutbol.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderPackage = global::TurnosFutbol.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderQuery = global::TurnosFutbol.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::TurnosFutbol.Droid.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Fragment = global::TurnosFutbol.Droid.Resource.Styleable.Fragment;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FragmentContainerView = global::TurnosFutbol.Droid.Resource.Styleable.FragmentContainerView;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FragmentContainerView_android_name = global::TurnosFutbol.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FragmentContainerView_android_tag = global::TurnosFutbol.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Fragment_android_id = global::TurnosFutbol.Droid.Resource.Styleable.Fragment_android_id;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Fragment_android_name = global::TurnosFutbol.Droid.Resource.Styleable.Fragment_android_name;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.Fragment_android_tag = global::TurnosFutbol.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor = global::TurnosFutbol.Droid.Resource.Styleable.GradientColor;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColorItem = global::TurnosFutbol.Droid.Resource.Styleable.GradientColorItem;
 			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColorItem_android_color = global::TurnosFutbol.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -322,13 +336,7 @@ namespace TurnosFutbol.Droid
 			global::Plugin.Segmented.Control.Droid.Resource.Animation.EnterFromRight = global::TurnosFutbol.Droid.Resource.Animation.EnterFromRight;
 			global::Plugin.Segmented.Control.Droid.Resource.Animation.ExitToLeft = global::TurnosFutbol.Droid.Resource.Animation.ExitToLeft;
 			global::Plugin.Segmented.Control.Droid.Resource.Animation.ExitToRight = global::TurnosFutbol.Droid.Resource.Animation.ExitToRight;
-			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_close_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_enter;
-			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_close_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_exit;
-			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_fade_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_enter;
-			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_fade_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_exit;
 			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_fast_out_extra_slow_in = global::TurnosFutbol.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_open_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_enter;
-			global::Plugin.Segmented.Control.Droid.Resource.Animation.fragment_open_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_exit;
 			global::Plugin.Segmented.Control.Droid.Resource.Animator.design_appbar_state_list_animator = global::TurnosFutbol.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Plugin.Segmented.Control.Droid.Resource.Animator.design_fab_hide_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Plugin.Segmented.Control.Droid.Resource.Animator.design_fab_show_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -3364,13 +3372,7 @@ namespace TurnosFutbol.Droid
 			global::Prism.Resource.Animation.EnterFromRight = global::TurnosFutbol.Droid.Resource.Animation.EnterFromRight;
 			global::Prism.Resource.Animation.ExitToLeft = global::TurnosFutbol.Droid.Resource.Animation.ExitToLeft;
 			global::Prism.Resource.Animation.ExitToRight = global::TurnosFutbol.Droid.Resource.Animation.ExitToRight;
-			global::Prism.Resource.Animation.fragment_close_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_enter;
-			global::Prism.Resource.Animation.fragment_close_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_exit;
-			global::Prism.Resource.Animation.fragment_fade_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_enter;
-			global::Prism.Resource.Animation.fragment_fade_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_exit;
 			global::Prism.Resource.Animation.fragment_fast_out_extra_slow_in = global::TurnosFutbol.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Prism.Resource.Animation.fragment_open_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_enter;
-			global::Prism.Resource.Animation.fragment_open_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_exit;
 			global::Prism.Resource.Animation.mtrl_bottom_sheet_slide_in = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Prism.Resource.Animation.mtrl_bottom_sheet_slide_out = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
 			global::Prism.Resource.Animation.mtrl_card_lowers_interpolator = global::TurnosFutbol.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
@@ -9608,43 +9610,43 @@ namespace TurnosFutbol.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingEnd = global::TurnosFutbol.Droid.Resource.Styleable.View_paddingEnd;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingStart = global::TurnosFutbol.Droid.Resource.Styleable.View_paddingStart;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_theme = global::TurnosFutbol.Droid.Resource.Styleable.View_theme;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_indeterminate_to_checked_box_inner_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_indeterminate_to_checked_icon_null_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_icon_null_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_checked_icon_null_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::TurnosFutbol.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_indeterminate_checked_inner = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_indeterminate_checked_inner;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_indeterminate_checked_null = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_indeterminate_checked_null;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_unchecked_inner = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_unchecked_inner;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_unchecked_outer = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_unchecked_outer;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_unchecked_null = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_unchecked_null;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_checked_inner = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_checked_inner;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_checked_null = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_checked_null;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_unchecked_indeterminate_inner = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_unchecked_indeterminate_inner;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_unchecked_indeterminate_outer = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_unchecked_indeterminate_outer;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_unchecked_indeterminate_null = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_unchecked_indeterminate_null;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_checked_unchecked_inner = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_checked_unchecked_inner;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_checked_unchecked_path = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_checked_unchecked_path;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_indeterminate_unchecked_inner = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_indeterminate_unchecked_inner;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_indeterminate_unchecked_path = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_indeterminate_unchecked_path;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_indeterminate_unchecked_null = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_indeterminate_unchecked_null;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Animation.sfcheckbox_checked_unchecked_null = global::TurnosFutbol.Droid.Resource.Animation.sfcheckbox_checked_unchecked_null;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Attribute.state_indeterminate = global::TurnosFutbol.Droid.Resource.Attribute.state_indeterminate;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Color.control_checkable_material = global::TurnosFutbol.Droid.Resource.Color.control_checkable_material;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Dimension.disabledAlpha = global::TurnosFutbol.Droid.Resource.Dimension.disabledAlpha;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_checked = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_checked;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_checked_to_indeterminate_animation = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_checked_to_indeterminate_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_animation = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_indeterminate = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_indeterminate;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_indeterminate_to_checked_animation = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_indeterminate_to_checked_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_indeterminate_to_unchecked_animation = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_indeterminate_to_unchecked_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_unchecked = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_unchecked;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_animation = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_animation;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.btn_checkbox_unchecked_to_indeterminate_animation = global::TurnosFutbol.Droid.Resource.Drawable.btn_checkbox_unchecked_to_indeterminate_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_animation = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_animation;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_checked = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_checked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_checked_indeterminate = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_checked_indeterminate;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_checked_unchecked = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_checked_unchecked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_indeterminate = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_indeterminate;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_indeterminate_checked = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_indeterminate_checked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_indeterminate_unchecked = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_indeterminate_unchecked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_unchecked = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_unchecked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_unchecked_checked = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_unchecked_checked;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Drawable.sfcheckbox_unchecked_indeterminate = global::TurnosFutbol.Droid.Resource.Drawable.sfcheckbox_unchecked_indeterminate;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Id.@checked = global::TurnosFutbol.Droid.Resource.Id.@checked;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Id.indeterminate = global::TurnosFutbol.Droid.Resource.Id.indeterminate;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Id.@unchecked = global::TurnosFutbol.Droid.Resource.Id.@unchecked;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_0 = global::TurnosFutbol.Droid.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_0;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_1 = global::TurnosFutbol.Droid.Resource.Interpolator.btn_checkbox_checked_animation_interpolator_1;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_indeterminate_animation_interpolator_1 = global::TurnosFutbol.Droid.Resource.Interpolator.btn_checkbox_indeterminate_animation_interpolator_1;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_0 = global::TurnosFutbol.Droid.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_0;
-			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_1 = global::TurnosFutbol.Droid.Resource.Interpolator.btn_checkbox_unchecked_animation_interpolator_1;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.sfcheckbox_checked_interpolator0 = global::TurnosFutbol.Droid.Resource.Interpolator.sfcheckbox_checked_interpolator0;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.sfcheckbox_checked_interpolator1 = global::TurnosFutbol.Droid.Resource.Interpolator.sfcheckbox_checked_interpolator1;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.sfcheckbox_indeterminate_interpolator1 = global::TurnosFutbol.Droid.Resource.Interpolator.sfcheckbox_indeterminate_interpolator1;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.sfcheckbox_unchecked_interpolator0 = global::TurnosFutbol.Droid.Resource.Interpolator.sfcheckbox_unchecked_interpolator0;
+			global::Syncfusion.Buttons.XForms.Android.Resource.Interpolator.sfcheckbox_unchecked_interpolator1 = global::TurnosFutbol.Droid.Resource.Interpolator.sfcheckbox_unchecked_interpolator1;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox = global::TurnosFutbol.Droid.Resource.Styleable.SfCheckBox;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox_checked = global::TurnosFutbol.Droid.Resource.Styleable.SfCheckBox_checked;
 			global::Syncfusion.Buttons.XForms.Android.Resource.Styleable.SfCheckBox_cornerradius = global::TurnosFutbol.Droid.Resource.Styleable.SfCheckBox_cornerradius;
@@ -9738,12 +9740,21 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromRight = global::TurnosFutbol.Droid.Resource.Animation.EnterFromRight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToLeft = global::TurnosFutbol.Droid.Resource.Animation.ExitToLeft;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToRight = global::TurnosFutbol.Droid.Resource.Animation.ExitToRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.fragment_fast_out_extra_slow_in = global::TurnosFutbol.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.mtrl_bottom_sheet_slide_in = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.mtrl_bottom_sheet_slide_out = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.mtrl_card_lowers_interpolator = global::TurnosFutbol.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_appbar_state_list_animator = global::TurnosFutbol.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_fab_hide_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_fab_show_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_btn_state_list_anim = global::TurnosFutbol.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::TurnosFutbol.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_card_state_list_anim = global::TurnosFutbol.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_chip_state_list_anim = global::TurnosFutbol.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_state_list_animator = global::TurnosFutbol.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_hide_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_show_motion_spec = global::TurnosFutbol.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::TurnosFutbol.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -9780,6 +9791,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowMenuStyle = global::TurnosFutbol.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionProviderClass = global::TurnosFutbol.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionTextColorAlpha = global::TurnosFutbol.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionViewClass = global::TurnosFutbol.Droid.Resource.Attribute.actionViewClass;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.activityChooserViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogButtonGroupStyle = global::TurnosFutbol.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -9789,6 +9801,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.allowStacking = global::TurnosFutbol.Droid.Resource.Attribute.allowStacking;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alpha = global::TurnosFutbol.Droid.Resource.Attribute.alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alphabeticModifiers = global::TurnosFutbol.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.animationMode = global::TurnosFutbol.Droid.Resource.Attribute.animationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.appBarLayoutStyle = global::TurnosFutbol.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowHeadLength = global::TurnosFutbol.Droid.Resource.Attribute.arrowHeadLength;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowShaftLength = global::TurnosFutbol.Droid.Resource.Attribute.arrowShaftLength;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoCompleteTextViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -9798,16 +9812,30 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeStepGranularity = global::TurnosFutbol.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeTextType = global::TurnosFutbol.Droid.Resource.Attribute.autoSizeTextType;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.background = global::TurnosFutbol.Droid.Resource.Attribute.background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundColor = global::TurnosFutbol.Droid.Resource.Attribute.backgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetBottom = global::TurnosFutbol.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetEnd = global::TurnosFutbol.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetStart = global::TurnosFutbol.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetTop = global::TurnosFutbol.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundOverlayColorAlpha = global::TurnosFutbol.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundSplit = global::TurnosFutbol.Droid.Resource.Attribute.backgroundSplit;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundStacked = global::TurnosFutbol.Droid.Resource.Attribute.backgroundStacked;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTint = global::TurnosFutbol.Droid.Resource.Attribute.backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTintMode = global::TurnosFutbol.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.badgeGravity = global::TurnosFutbol.Droid.Resource.Attribute.badgeGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.badgeStyle = global::TurnosFutbol.Droid.Resource.Attribute.badgeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.badgeTextColor = global::TurnosFutbol.Droid.Resource.Attribute.badgeTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.barLength = global::TurnosFutbol.Droid.Resource.Attribute.barLength;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoHide = global::TurnosFutbol.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoShrink = global::TurnosFutbol.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_draggable = global::TurnosFutbol.Droid.Resource.Attribute.behavior_draggable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_expandedOffset = global::TurnosFutbol.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_fitToContents = global::TurnosFutbol.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_halfExpandedRatio = global::TurnosFutbol.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_hideable = global::TurnosFutbol.Droid.Resource.Attribute.behavior_hideable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_overlapTop = global::TurnosFutbol.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_peekHeight = global::TurnosFutbol.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_saveFlags = global::TurnosFutbol.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_skipCollapsed = global::TurnosFutbol.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderlessButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::TurnosFutbol.Droid.Resource.Attribute.borderWidth;
@@ -9823,7 +9851,9 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusTopEnd = global::TurnosFutbol.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusTopStart = global::TurnosFutbol.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeColor = global::TurnosFutbol.Droid.Resource.Attribute.boxStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeErrorColor = global::TurnosFutbol.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeWidth = global::TurnosFutbol.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeWidthFocused = global::TurnosFutbol.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNegativeButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNeutralButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -9840,14 +9870,17 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardBackgroundColor = global::TurnosFutbol.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardCornerRadius = global::TurnosFutbol.Droid.Resource.Attribute.cardCornerRadius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardElevation = global::TurnosFutbol.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardForegroundColor = global::TurnosFutbol.Droid.Resource.Attribute.cardForegroundColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardMaxElevation = global::TurnosFutbol.Droid.Resource.Attribute.cardMaxElevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardPreventCornerOverlap = global::TurnosFutbol.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardUseCompatPadding = global::TurnosFutbol.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.cardViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkboxStyle = global::TurnosFutbol.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedButton = global::TurnosFutbol.Droid.Resource.Attribute.checkedButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedChip = global::TurnosFutbol.Droid.Resource.Attribute.checkedChip;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIcon = global::TurnosFutbol.Droid.Resource.Attribute.checkedIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconEnabled = global::TurnosFutbol.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconTint = global::TurnosFutbol.Droid.Resource.Attribute.checkedIconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconVisible = global::TurnosFutbol.Droid.Resource.Attribute.checkedIconVisible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedTextViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipBackgroundColor = global::TurnosFutbol.Droid.Resource.Attribute.chipBackgroundColor;
@@ -9860,6 +9893,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconTint = global::TurnosFutbol.Droid.Resource.Attribute.chipIconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconVisible = global::TurnosFutbol.Droid.Resource.Attribute.chipIconVisible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipMinHeight = global::TurnosFutbol.Droid.Resource.Attribute.chipMinHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipMinTouchTargetSize = global::TurnosFutbol.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacing = global::TurnosFutbol.Droid.Resource.Attribute.chipSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacingHorizontal = global::TurnosFutbol.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacingVertical = global::TurnosFutbol.Droid.Resource.Attribute.chipSpacingVertical;
@@ -9868,6 +9902,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStrokeColor = global::TurnosFutbol.Droid.Resource.Attribute.chipStrokeColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStrokeWidth = global::TurnosFutbol.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStyle = global::TurnosFutbol.Droid.Resource.Attribute.chipStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSurfaceColor = global::TurnosFutbol.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIcon = global::TurnosFutbol.Droid.Resource.Attribute.closeIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconEnabled = global::TurnosFutbol.Droid.Resource.Attribute.closeIconEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconEndPadding = global::TurnosFutbol.Droid.Resource.Attribute.closeIconEndPadding;
@@ -9880,6 +9915,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleGravity = global::TurnosFutbol.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::TurnosFutbol.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collectionViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.collectionViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.color = global::TurnosFutbol.Droid.Resource.Attribute.color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorAccent = global::TurnosFutbol.Droid.Resource.Attribute.colorAccent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorBackgroundFloating = global::TurnosFutbol.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -9888,9 +9924,19 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlHighlight = global::TurnosFutbol.Droid.Resource.Attribute.colorControlHighlight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlNormal = global::TurnosFutbol.Droid.Resource.Attribute.colorControlNormal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorError = global::TurnosFutbol.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnBackground = global::TurnosFutbol.Droid.Resource.Attribute.colorOnBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnError = global::TurnosFutbol.Droid.Resource.Attribute.colorOnError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnPrimary = global::TurnosFutbol.Droid.Resource.Attribute.colorOnPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnPrimarySurface = global::TurnosFutbol.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnSecondary = global::TurnosFutbol.Droid.Resource.Attribute.colorOnSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnSurface = global::TurnosFutbol.Droid.Resource.Attribute.colorOnSurface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimary = global::TurnosFutbol.Droid.Resource.Attribute.colorPrimary;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryDark = global::TurnosFutbol.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimarySurface = global::TurnosFutbol.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryVariant = global::TurnosFutbol.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSecondary = global::TurnosFutbol.Droid.Resource.Attribute.colorSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSecondaryVariant = global::TurnosFutbol.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSurface = global::TurnosFutbol.Droid.Resource.Attribute.colorSurface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSwitchThumbNormal = global::TurnosFutbol.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.commitIcon = global::TurnosFutbol.Droid.Resource.Attribute.commitIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentDescription = global::TurnosFutbol.Droid.Resource.Attribute.contentDescription;
@@ -9908,12 +9954,28 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentScrim = global::TurnosFutbol.Droid.Resource.Attribute.contentScrim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.controlBackground = global::TurnosFutbol.Droid.Resource.Attribute.controlBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.coordinatorLayoutStyle = global::TurnosFutbol.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamily = global::TurnosFutbol.Droid.Resource.Attribute.cornerFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyBottomLeft = global::TurnosFutbol.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyBottomRight = global::TurnosFutbol.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyTopLeft = global::TurnosFutbol.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyTopRight = global::TurnosFutbol.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerRadius = global::TurnosFutbol.Droid.Resource.Attribute.cornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSize = global::TurnosFutbol.Droid.Resource.Attribute.cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeBottomLeft = global::TurnosFutbol.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeBottomRight = global::TurnosFutbol.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeTopLeft = global::TurnosFutbol.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeTopRight = global::TurnosFutbol.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterEnabled = global::TurnosFutbol.Droid.Resource.Attribute.counterEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterMaxLength = global::TurnosFutbol.Droid.Resource.Attribute.counterMaxLength;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextColor = global::TurnosFutbol.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextColor = global::TurnosFutbol.Droid.Resource.Attribute.counterTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.customNavigationLayout = global::TurnosFutbol.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dayInvalidStyle = global::TurnosFutbol.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.daySelectedStyle = global::TurnosFutbol.Droid.Resource.Attribute.daySelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dayStyle = global::TurnosFutbol.Droid.Resource.Attribute.dayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dayTodayStyle = global::TurnosFutbol.Droid.Resource.Attribute.dayTodayStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.defaultQueryHint = global::TurnosFutbol.Droid.Resource.Attribute.defaultQueryHint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogCornerRadius = global::TurnosFutbol.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogPreferredPadding = global::TurnosFutbol.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -9933,16 +9995,31 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTintMode = global::TurnosFutbol.Droid.Resource.Attribute.drawableTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTopCompat = global::TurnosFutbol.Droid.Resource.Attribute.drawableTopCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerArrowStyle = global::TurnosFutbol.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerLayoutStyle = global::TurnosFutbol.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropdownListPreferredItemHeight = global::TurnosFutbol.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextBackground = global::TurnosFutbol.Droid.Resource.Attribute.editTextBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextColor = global::TurnosFutbol.Droid.Resource.Attribute.editTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextStyle = global::TurnosFutbol.Droid.Resource.Attribute.editTextStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevation = global::TurnosFutbol.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevationOverlayColor = global::TurnosFutbol.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevationOverlayEnabled = global::TurnosFutbol.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconCheckable = global::TurnosFutbol.Droid.Resource.Attribute.endIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconContentDescription = global::TurnosFutbol.Droid.Resource.Attribute.endIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconDrawable = global::TurnosFutbol.Droid.Resource.Attribute.endIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconMode = global::TurnosFutbol.Droid.Resource.Attribute.endIconMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconTint = global::TurnosFutbol.Droid.Resource.Attribute.endIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconTintMode = global::TurnosFutbol.Droid.Resource.Attribute.endIconTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.enforceMaterialTheme = global::TurnosFutbol.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.enforceTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ensureMinTouchTargetSize = global::TurnosFutbol.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorContentDescription = global::TurnosFutbol.Droid.Resource.Attribute.errorContentDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorEnabled = global::TurnosFutbol.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorIconDrawable = global::TurnosFutbol.Droid.Resource.Attribute.errorIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorIconTint = global::TurnosFutbol.Droid.Resource.Attribute.errorIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorIconTintMode = global::TurnosFutbol.Droid.Resource.Attribute.errorIconTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextColor = global::TurnosFutbol.Droid.Resource.Attribute.errorTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TurnosFutbol.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expanded = global::TurnosFutbol.Droid.Resource.Attribute.expanded;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleGravity = global::TurnosFutbol.Droid.Resource.Attribute.expandedTitleGravity;
@@ -9952,7 +10029,10 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginStart = global::TurnosFutbol.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginTop = global::TurnosFutbol.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.extendedFloatingActionButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.extendMotionSpec = global::TurnosFutbol.Droid.Resource.Attribute.extendMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabAlignmentMode = global::TurnosFutbol.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabAnimationMode = global::TurnosFutbol.Droid.Resource.Attribute.fabAnimationMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleMargin = global::TurnosFutbol.Droid.Resource.Attribute.fabCradleMargin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleRoundedCornerRadius = global::TurnosFutbol.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleVerticalOffset = global::TurnosFutbol.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -9978,20 +10058,26 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontWeight = global::TurnosFutbol.Droid.Resource.Attribute.fontWeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.foregroundInsidePadding = global::TurnosFutbol.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gapBetweenBars = global::TurnosFutbol.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gestureInsetBottomIgnored = global::TurnosFutbol.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.goIcon = global::TurnosFutbol.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.haloColor = global::TurnosFutbol.Droid.Resource.Attribute.haloColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.haloRadius = global::TurnosFutbol.Droid.Resource.Attribute.haloRadius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.headerLayout = global::TurnosFutbol.Droid.Resource.Attribute.headerLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.height = global::TurnosFutbol.Droid.Resource.Attribute.height;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperText = global::TurnosFutbol.Droid.Resource.Attribute.helperText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextEnabled = global::TurnosFutbol.Droid.Resource.Attribute.helperTextEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextTextColor = global::TurnosFutbol.Droid.Resource.Attribute.helperTextTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideMotionSpec = global::TurnosFutbol.Droid.Resource.Attribute.hideMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnContentScroll = global::TurnosFutbol.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnScroll = global::TurnosFutbol.Droid.Resource.Attribute.hideOnScroll;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintAnimationEnabled = global::TurnosFutbol.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintEnabled = global::TurnosFutbol.Droid.Resource.Attribute.hintEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextColor = global::TurnosFutbol.Droid.Resource.Attribute.hintTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeAsUpIndicator = global::TurnosFutbol.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeLayout = global::TurnosFutbol.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.horizontalOffset = global::TurnosFutbol.Droid.Resource.Attribute.horizontalOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hoveredFocusedTranslationZ = global::TurnosFutbol.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.icon = global::TurnosFutbol.Droid.Resource.Attribute.icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconEndPadding = global::TurnosFutbol.Droid.Resource.Attribute.iconEndPadding;
@@ -10007,19 +10093,34 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.initialActivityCount = global::TurnosFutbol.Droid.Resource.Attribute.initialActivityCount;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.insetForeground = global::TurnosFutbol.Droid.Resource.Attribute.insetForeground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isLightTheme = global::TurnosFutbol.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isMaterialTheme = global::TurnosFutbol.Droid.Resource.Attribute.isMaterialTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemBackground = global::TurnosFutbol.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemFillColor = global::TurnosFutbol.Droid.Resource.Attribute.itemFillColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemHorizontalPadding = global::TurnosFutbol.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemHorizontalTranslationEnabled = global::TurnosFutbol.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconPadding = global::TurnosFutbol.Droid.Resource.Attribute.itemIconPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconSize = global::TurnosFutbol.Droid.Resource.Attribute.itemIconSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconTint = global::TurnosFutbol.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemMaxLines = global::TurnosFutbol.Droid.Resource.Attribute.itemMaxLines;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemPadding = global::TurnosFutbol.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemRippleColor = global::TurnosFutbol.Droid.Resource.Attribute.itemRippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeAppearance = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeFillColor = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetBottom = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetEnd = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetStart = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetTop = global::TurnosFutbol.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemSpacing = global::TurnosFutbol.Droid.Resource.Attribute.itemSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemStrokeColor = global::TurnosFutbol.Droid.Resource.Attribute.itemStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemStrokeWidth = global::TurnosFutbol.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.itemTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearanceActive = global::TurnosFutbol.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearanceInactive = global::TurnosFutbol.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextColor = global::TurnosFutbol.Droid.Resource.Attribute.itemTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.keylines = global::TurnosFutbol.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelBehavior = global::TurnosFutbol.Droid.Resource.Attribute.labelBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelStyle = global::TurnosFutbol.Droid.Resource.Attribute.labelStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelVisibilityMode = global::TurnosFutbol.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lastBaselineToBottomHeight = global::TurnosFutbol.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout = global::TurnosFutbol.Droid.Resource.Attribute.layout;
@@ -10035,6 +10136,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollFlags = global::TurnosFutbol.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollInterpolator = global::TurnosFutbol.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.liftOnScroll = global::TurnosFutbol.Droid.Resource.Attribute.liftOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.liftOnScrollTargetViewId = global::TurnosFutbol.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineHeight = global::TurnosFutbol.Droid.Resource.Attribute.lineHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineSpacing = global::TurnosFutbol.Droid.Resource.Attribute.lineSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceBackgroundIndicator = global::TurnosFutbol.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -10054,22 +10156,47 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingStart = global::TurnosFutbol.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logo = global::TurnosFutbol.Droid.Resource.Attribute.logo;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logoDescription = global::TurnosFutbol.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogBodyTextStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTheme = global::TurnosFutbol.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTitleIconStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTitleTextStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonOutlinedStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonToggleGroupStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarDay = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarDay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarFullscreenTheme = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderConfirmButton = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderDivider = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderLayout = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderSelection = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderTitle = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderToggleButton = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarTheme = global::TurnosFutbol.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCardViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialThemeOverlay = global::TurnosFutbol.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxActionInlineWidth = global::TurnosFutbol.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxButtonHeight = global::TurnosFutbol.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxCharacterCount = global::TurnosFutbol.Droid.Resource.Attribute.maxCharacterCount;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxImageSize = global::TurnosFutbol.Droid.Resource.Attribute.maxImageSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxLines = global::TurnosFutbol.Droid.Resource.Attribute.maxLines;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.measureWithLargestChild = global::TurnosFutbol.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.menu = global::TurnosFutbol.Droid.Resource.Attribute.menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.minTouchTargetSize = global::TurnosFutbol.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.multiChoiceItemLayout = global::TurnosFutbol.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationContentDescription = global::TurnosFutbol.Droid.Resource.Attribute.navigationContentDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationIcon = global::TurnosFutbol.Droid.Resource.Attribute.navigationIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationMode = global::TurnosFutbol.Droid.Resource.Attribute.navigationMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.navigationViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.number = global::TurnosFutbol.Droid.Resource.Attribute.number;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.numericModifiers = global::TurnosFutbol.Droid.Resource.Attribute.numericModifiers;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.overlapAnchor = global::TurnosFutbol.Droid.Resource.Attribute.overlapAnchor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomNoButtons = global::TurnosFutbol.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingEnd = global::TurnosFutbol.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingLeftSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingRightSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingStart = global::TurnosFutbol.Droid.Resource.Attribute.paddingStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingTopNoTitle = global::TurnosFutbol.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelBackground = global::TurnosFutbol.Droid.Resource.Attribute.panelBackground;
@@ -10080,9 +10207,16 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleEnabled = global::TurnosFutbol.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTint = global::TurnosFutbol.Droid.Resource.Attribute.passwordToggleTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTintMode = global::TurnosFutbol.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.placeholderText = global::TurnosFutbol.Droid.Resource.Attribute.placeholderText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.placeholderTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.placeholderTextColor = global::TurnosFutbol.Droid.Resource.Attribute.placeholderTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuBackground = global::TurnosFutbol.Droid.Resource.Attribute.popupMenuBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuStyle = global::TurnosFutbol.Droid.Resource.Attribute.popupMenuStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupTheme = global::TurnosFutbol.Droid.Resource.Attribute.popupTheme;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupWindowStyle = global::TurnosFutbol.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.prefixText = global::TurnosFutbol.Droid.Resource.Attribute.prefixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.prefixTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.prefixTextColor = global::TurnosFutbol.Droid.Resource.Attribute.prefixTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.preserveIconSpacing = global::TurnosFutbol.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.pressedTranslationZ = global::TurnosFutbol.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarPadding = global::TurnosFutbol.Droid.Resource.Attribute.progressBarPadding;
@@ -10090,6 +10224,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryBackground = global::TurnosFutbol.Droid.Resource.Attribute.queryBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryHint = global::TurnosFutbol.Droid.Resource.Attribute.queryHint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.radioButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rangeFillColor = global::TurnosFutbol.Droid.Resource.Attribute.rangeFillColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyle = global::TurnosFutbol.Droid.Resource.Attribute.ratingBarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleIndicator = global::TurnosFutbol.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleSmall = global::TurnosFutbol.Droid.Resource.Attribute.ratingBarStyleSmall;
@@ -10099,22 +10234,32 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimAnimationDuration = global::TurnosFutbol.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimBackground = global::TurnosFutbol.Droid.Resource.Attribute.scrimBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimVisibleHeightTrigger = global::TurnosFutbol.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrollViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.scrollViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchHintIcon = global::TurnosFutbol.Droid.Resource.Attribute.searchHintIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchIcon = global::TurnosFutbol.Droid.Resource.Attribute.searchIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.searchViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.seekBarStyle = global::TurnosFutbol.Droid.Resource.Attribute.seekBarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackground = global::TurnosFutbol.Droid.Resource.Attribute.selectableItemBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackgroundBorderless = global::TurnosFutbol.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectionRequired = global::TurnosFutbol.Droid.Resource.Attribute.selectionRequired;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearance = global::TurnosFutbol.Droid.Resource.Attribute.shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceLargeComponent = global::TurnosFutbol.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceMediumComponent = global::TurnosFutbol.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceSmallComponent = global::TurnosFutbol.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showAsAction = global::TurnosFutbol.Droid.Resource.Attribute.showAsAction;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showDividers = global::TurnosFutbol.Droid.Resource.Attribute.showDividers;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showMotionSpec = global::TurnosFutbol.Droid.Resource.Attribute.showMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showText = global::TurnosFutbol.Droid.Resource.Attribute.showText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showTitle = global::TurnosFutbol.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shrinkMotionSpec = global::TurnosFutbol.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleChoiceItemLayout = global::TurnosFutbol.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleLine = global::TurnosFutbol.Droid.Resource.Attribute.singleLine;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleSelection = global::TurnosFutbol.Droid.Resource.Attribute.singleSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.sliderStyle = global::TurnosFutbol.Droid.Resource.Attribute.sliderStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarButtonStyle = global::TurnosFutbol.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarStyle = global::TurnosFutbol.Droid.Resource.Attribute.snackbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarTextViewStyle = global::TurnosFutbol.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spanCount = global::TurnosFutbol.Droid.Resource.Attribute.spanCount;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinBars = global::TurnosFutbol.Droid.Resource.Attribute.spinBars;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerDropDownItemStyle = global::TurnosFutbol.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -10122,12 +10267,19 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.splitTrack = global::TurnosFutbol.Droid.Resource.Attribute.splitTrack;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.srcCompat = global::TurnosFutbol.Droid.Resource.Attribute.srcCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.stackFromEnd = global::TurnosFutbol.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconCheckable = global::TurnosFutbol.Droid.Resource.Attribute.startIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconContentDescription = global::TurnosFutbol.Droid.Resource.Attribute.startIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconDrawable = global::TurnosFutbol.Droid.Resource.Attribute.startIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconTint = global::TurnosFutbol.Droid.Resource.Attribute.startIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconTintMode = global::TurnosFutbol.Droid.Resource.Attribute.startIconTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_above_anchor = global::TurnosFutbol.Droid.Resource.Attribute.state_above_anchor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsed = global::TurnosFutbol.Droid.Resource.Attribute.state_collapsed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsible = global::TurnosFutbol.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_dragged = global::TurnosFutbol.Droid.Resource.Attribute.state_dragged;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_liftable = global::TurnosFutbol.Droid.Resource.Attribute.state_liftable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_lifted = global::TurnosFutbol.Droid.Resource.Attribute.state_lifted;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarBackground = global::TurnosFutbol.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarForeground = global::TurnosFutbol.Droid.Resource.Attribute.statusBarForeground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarScrim = global::TurnosFutbol.Droid.Resource.Attribute.statusBarScrim;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.strokeColor = global::TurnosFutbol.Droid.Resource.Attribute.strokeColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.strokeWidth = global::TurnosFutbol.Droid.Resource.Attribute.strokeWidth;
@@ -10137,7 +10289,11 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextColor = global::TurnosFutbol.Droid.Resource.Attribute.subtitleTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextStyle = global::TurnosFutbol.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suffixText = global::TurnosFutbol.Droid.Resource.Attribute.suffixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suffixTextAppearance = global::TurnosFutbol.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suffixTextColor = global::TurnosFutbol.Droid.Resource.Attribute.suffixTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suggestionRowLayout = global::TurnosFutbol.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::TurnosFutbol.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchMinWidth = global::TurnosFutbol.Droid.Resource.Attribute.switchMinWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchPadding = global::TurnosFutbol.Droid.Resource.Attribute.switchPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchStyle = global::TurnosFutbol.Droid.Resource.Attribute.switchStyle;
@@ -10180,6 +10336,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline5 = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline6 = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLargePopupMenu = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLineHeightEnabled = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItem = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSecondary = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSmall = global::TurnosFutbol.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -10193,14 +10350,22 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorAlertDialogListItem = global::TurnosFutbol.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorSearchUrl = global::TurnosFutbol.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textEndPadding = global::TurnosFutbol.Droid.Resource.Attribute.textEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::TurnosFutbol.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textInputStyle = global::TurnosFutbol.Droid.Resource.Attribute.textInputStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textLocale = global::TurnosFutbol.Droid.Resource.Attribute.textLocale;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textStartPadding = global::TurnosFutbol.Droid.Resource.Attribute.textStartPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.theme = global::TurnosFutbol.Droid.Resource.Attribute.theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.themeLineHeight = global::TurnosFutbol.Droid.Resource.Attribute.themeLineHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thickness = global::TurnosFutbol.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbColor = global::TurnosFutbol.Droid.Resource.Attribute.thumbColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbElevation = global::TurnosFutbol.Droid.Resource.Attribute.thumbElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbRadius = global::TurnosFutbol.Droid.Resource.Attribute.thumbRadius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTextPadding = global::TurnosFutbol.Droid.Resource.Attribute.thumbTextPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTint = global::TurnosFutbol.Droid.Resource.Attribute.thumbTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTintMode = global::TurnosFutbol.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickColor = global::TurnosFutbol.Droid.Resource.Attribute.tickColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickColorActive = global::TurnosFutbol.Droid.Resource.Attribute.tickColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickColorInactive = global::TurnosFutbol.Droid.Resource.Attribute.tickColorInactive;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMark = global::TurnosFutbol.Droid.Resource.Attribute.tickMark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTint = global::TurnosFutbol.Droid.Resource.Attribute.tickMarkTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTintMode = global::TurnosFutbol.Droid.Resource.Attribute.tickMarkTintMode;
@@ -10222,12 +10387,21 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarStyle = global::TurnosFutbol.Droid.Resource.Attribute.toolbarStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipForegroundColor = global::TurnosFutbol.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipFrameBackground = global::TurnosFutbol.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipStyle = global::TurnosFutbol.Droid.Resource.Attribute.tooltipStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipText = global::TurnosFutbol.Droid.Resource.Attribute.tooltipText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.track = global::TurnosFutbol.Droid.Resource.Attribute.track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackColor = global::TurnosFutbol.Droid.Resource.Attribute.trackColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackColorActive = global::TurnosFutbol.Droid.Resource.Attribute.trackColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackColorInactive = global::TurnosFutbol.Droid.Resource.Attribute.trackColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackHeight = global::TurnosFutbol.Droid.Resource.Attribute.trackHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTint = global::TurnosFutbol.Droid.Resource.Attribute.trackTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTintMode = global::TurnosFutbol.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.transitionShapeAppearance = global::TurnosFutbol.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ttcIndex = global::TurnosFutbol.Droid.Resource.Attribute.ttcIndex;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useCompatPadding = global::TurnosFutbol.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useMaterialThemeColors = global::TurnosFutbol.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.values = global::TurnosFutbol.Droid.Resource.Attribute.values;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.verticalOffset = global::TurnosFutbol.Droid.Resource.Attribute.verticalOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.viewInflaterClass = global::TurnosFutbol.Droid.Resource.Attribute.viewInflaterClass;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.voiceIcon = global::TurnosFutbol.Droid.Resource.Attribute.voiceIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBar = global::TurnosFutbol.Droid.Resource.Attribute.windowActionBar;
@@ -10240,6 +10414,9 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMajor = global::TurnosFutbol.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMinor = global::TurnosFutbol.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowNoTitle = global::TurnosFutbol.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.yearSelectedStyle = global::TurnosFutbol.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.yearStyle = global::TurnosFutbol.Droid.Resource.Attribute.yearStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.yearTodayStyle = global::TurnosFutbol.Droid.Resource.Attribute.yearTodayStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_action_bar_embed_tabs = global::TurnosFutbol.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_allow_stacked_button_bar = global::TurnosFutbol.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TurnosFutbol.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
@@ -10249,6 +10426,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_borderless_text_material = global::TurnosFutbol.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_text_material = global::TurnosFutbol.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_color_highlight_material = global::TurnosFutbol.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_decor_view_status_guard = global::TurnosFutbol.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_decor_view_status_guard_light = global::TurnosFutbol.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_dark = global::TurnosFutbol.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_light = global::TurnosFutbol.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_dark = global::TurnosFutbol.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -10269,6 +10448,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_switch_track = global::TurnosFutbol.Droid.Resource.Color.abc_tint_switch_track;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_dark = global::TurnosFutbol.Droid.Resource.Color.accent_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_light = global::TurnosFutbol.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.androidx_core_ripple_material_light = global::TurnosFutbol.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.androidx_core_secondary_text_default_material_light = global::TurnosFutbol.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_dark = global::TurnosFutbol.Droid.Resource.Color.background_floating_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_light = global::TurnosFutbol.Droid.Resource.Color.background_floating_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_dark = global::TurnosFutbol.Droid.Resource.Color.background_material_dark;
@@ -10289,9 +10470,35 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_light_background = global::TurnosFutbol.Droid.Resource.Color.cardview_light_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_end_color = global::TurnosFutbol.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_start_color = global::TurnosFutbol.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.checkbox_themeable_attribute_color = global::TurnosFutbol.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_bottom_navigation_shadow_color = global::TurnosFutbol.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_box_stroke_color = global::TurnosFutbol.Droid.Resource.Color.design_box_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_background = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_error = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_background = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_error = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_primary = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_secondary = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_surface = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_primary = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_primary_dark = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_primary_variant = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_secondary = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_secondary_variant = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_surface = global::TurnosFutbol.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_background = global::TurnosFutbol.Droid.Resource.Color.design_default_color_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_error = global::TurnosFutbol.Droid.Resource.Color.design_default_color_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_background = global::TurnosFutbol.Droid.Resource.Color.design_default_color_on_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_error = global::TurnosFutbol.Droid.Resource.Color.design_default_color_on_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_primary = global::TurnosFutbol.Droid.Resource.Color.design_default_color_on_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_secondary = global::TurnosFutbol.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_surface = global::TurnosFutbol.Droid.Resource.Color.design_default_color_on_surface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary = global::TurnosFutbol.Droid.Resource.Color.design_default_color_primary;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary_dark = global::TurnosFutbol.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary_variant = global::TurnosFutbol.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_secondary = global::TurnosFutbol.Droid.Resource.Color.design_default_color_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_secondary_variant = global::TurnosFutbol.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_surface = global::TurnosFutbol.Droid.Resource.Color.design_default_color_surface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_error = global::TurnosFutbol.Droid.Resource.Color.design_error;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_end_color = global::TurnosFutbol.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_mid_color = global::TurnosFutbol.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -10300,6 +10507,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_outer_color = global::TurnosFutbol.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_inner_color = global::TurnosFutbol.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_outer_color = global::TurnosFutbol.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_icon_tint = global::TurnosFutbol.Droid.Resource.Color.design_icon_tint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_snackbar_background_color = global::TurnosFutbol.Droid.Resource.Color.design_snackbar_background_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_dark = global::TurnosFutbol.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_light = global::TurnosFutbol.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -10323,20 +10531,61 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_800 = global::TurnosFutbol.Droid.Resource.Color.material_grey_800;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_850 = global::TurnosFutbol.Droid.Resource.Color.material_grey_850;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_900 = global::TurnosFutbol.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_background_disabled = global::TurnosFutbol.Droid.Resource.Color.material_on_background_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_background_emphasis_high_type = global::TurnosFutbol.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_background_emphasis_medium = global::TurnosFutbol.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_primary_disabled = global::TurnosFutbol.Droid.Resource.Color.material_on_primary_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_primary_emphasis_high_type = global::TurnosFutbol.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_primary_emphasis_medium = global::TurnosFutbol.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_disabled = global::TurnosFutbol.Droid.Resource.Color.material_on_surface_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_emphasis_high_type = global::TurnosFutbol.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_emphasis_medium = global::TurnosFutbol.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_stroke = global::TurnosFutbol.Droid.Resource.Color.material_on_surface_stroke;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_active_tick_marks_color = global::TurnosFutbol.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_active_track_color = global::TurnosFutbol.Droid.Resource.Color.material_slider_active_track_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_halo_color = global::TurnosFutbol.Droid.Resource.Color.material_slider_halo_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_inactive_tick_marks_color = global::TurnosFutbol.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_inactive_track_color = global::TurnosFutbol.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_thumb_color = global::TurnosFutbol.Droid.Resource.Color.material_slider_thumb_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::TurnosFutbol.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_bottom_nav_item_tint = global::TurnosFutbol.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_bottom_nav_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_bg_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_stroke_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_btn_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_color_disabled = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_transparent_bg_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_calendar_item_stroke_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_calendar_selected_range = global::TurnosFutbol.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_card_view_foreground = global::TurnosFutbol.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_card_view_ripple = global::TurnosFutbol.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_background_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_close_icon_tint = global::TurnosFutbol.Droid.Resource.Color.mtrl_chip_close_icon_tint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_surface_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_text_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_choice_chip_background_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_choice_chip_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_choice_chip_text_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_error = global::TurnosFutbol.Droid.Resource.Color.mtrl_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_bg_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_icon_text_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_filled_background_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_filled_icon_tint = global::TurnosFutbol.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_filled_stroke_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_indicator_text_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_navigation_item_background_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_navigation_item_icon_tint = global::TurnosFutbol.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_navigation_item_text_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_outlined_icon_tint = global::TurnosFutbol.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_outlined_stroke_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_popupmenu_overlay_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_scrim_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_scrim_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_colored_ripple_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_icon_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -10346,6 +10595,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_default_box_stroke_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_disabled_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::TurnosFutbol.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_text_btn_text_color_selector = global::TurnosFutbol.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_action_color_filter = global::TurnosFutbol.Droid.Resource.Color.notification_action_color_filter;
@@ -10359,6 +10609,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_light = global::TurnosFutbol.Droid.Resource.Color.primary_text_default_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_dark = global::TurnosFutbol.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_light = global::TurnosFutbol.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.radiobutton_themeable_attribute_color = global::TurnosFutbol.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_dark = global::TurnosFutbol.Droid.Resource.Color.ripple_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_light = global::TurnosFutbol.Droid.Resource.Color.ripple_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_dark = global::TurnosFutbol.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -10371,6 +10622,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_light = global::TurnosFutbol.Droid.Resource.Color.switch_thumb_material_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_dark = global::TurnosFutbol.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_light = global::TurnosFutbol.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.test_mtrl_calendar_day = global::TurnosFutbol.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.test_mtrl_calendar_day_selected = global::TurnosFutbol.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_dark = global::TurnosFutbol.Droid.Resource.Color.tooltip_background_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_light = global::TurnosFutbol.Droid.Resource.Color.tooltip_background_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_material = global::TurnosFutbol.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -10451,6 +10704,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TurnosFutbol.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material = global::TurnosFutbol.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material_toolbar = global::TurnosFutbol.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.action_bar_size = global::TurnosFutbol.Droid.Resource.Dimension.action_bar_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.appcompat_dialog_background_inset = global::TurnosFutbol.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.browser_actions_context_menu_max_width = global::TurnosFutbol.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.browser_actions_context_menu_min_padding = global::TurnosFutbol.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_compat_inset_shadow = global::TurnosFutbol.Droid.Resource.Dimension.cardview_compat_inset_shadow;
@@ -10463,6 +10718,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_control_corner_material = global::TurnosFutbol.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_notification_large_icon_max_height = global::TurnosFutbol.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_notification_large_icon_max_width = global::TurnosFutbol.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.default_dimension = global::TurnosFutbol.Droid.Resource.Dimension.default_dimension;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.def_drawer_elevation = global::TurnosFutbol.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_appbar_elevation = global::TurnosFutbol.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -10475,6 +10732,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_margin = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_shadow_height = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_text_size = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_elevation = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_modal_elevation = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_peek_height_min = global::TurnosFutbol.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_border_width = global::TurnosFutbol.Droid.Resource.Dimension.design_fab_border_width;
@@ -10493,6 +10751,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_padding_bottom = global::TurnosFutbol.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_separator_vertical_padding = global::TurnosFutbol.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_inline_max_width = global::TurnosFutbol.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_text_color_alpha = global::TurnosFutbol.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_background_corner_radius = global::TurnosFutbol.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_elevation = global::TurnosFutbol.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::TurnosFutbol.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -10522,7 +10781,24 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TurnosFutbol.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::TurnosFutbol.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::TurnosFutbol.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_emphasis_disabled = global::TurnosFutbol.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_emphasis_high_type = global::TurnosFutbol.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_emphasis_medium = global::TurnosFutbol.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_text_view_test_line_height = global::TurnosFutbol.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_text_view_test_line_height_override = global::TurnosFutbol.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_text_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_with_text_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -10549,25 +10825,130 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_z = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_action_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_action_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_bottom_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_content_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_days_of_week_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_corner = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_today_stroke = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_width = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_content_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_text_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_landscape_header_width = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_navigation_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_corner = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_width = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_checked_icon_margin = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_checked_icon_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_corner_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_dragged_z = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_spacing = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_chip_pressed_translation_z = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_chip_text_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_corner_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_end_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_icon_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_min_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_min_width = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_start_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_top_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_min_touch_target = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_translation_z_pressed = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_default_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_large_touch_target = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_default_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_min_touch_target_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_icon_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_icon_size = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_shape_corner_size_large_component = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_shape_corner_size_small_component = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_halo_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_label_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_label_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_label_square_side = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_thumb_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_thumb_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_track_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_track_side_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_track_top = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_widget_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_margin = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_switch_thumb_elevation = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_counter_margin_start = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_toolbar_default_height = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_arrowSize = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_cornerSize = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_minHeight = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_minWidth = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_padding = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::TurnosFutbol.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_icon_size = global::TurnosFutbol.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_text_size = global::TurnosFutbol.Droid.Resource.Dimension.notification_action_text_size;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_big_circle_margin = global::TurnosFutbol.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -10583,6 +10964,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_subtext_size = global::TurnosFutbol.Droid.Resource.Dimension.notification_subtext_size;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad = global::TurnosFutbol.Droid.Resource.Dimension.notification_top_pad;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad_large_text = global::TurnosFutbol.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::TurnosFutbol.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_corner_radius = global::TurnosFutbol.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_horizontal_padding = global::TurnosFutbol.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_margin = global::TurnosFutbol.Droid.Resource.Dimension.tooltip_margin;
@@ -10725,12 +11107,28 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_password_eye = global::TurnosFutbol.Droid.Resource.Drawable.design_password_eye;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_snackbar_background = global::TurnosFutbol.Droid.Resource.Drawable.design_snackbar_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.dropdownbuttonimage = global::TurnosFutbol.Droid.Resource.Drawable.dropdownbuttonimage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_checked_circle = global::TurnosFutbol.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_black = global::TurnosFutbol.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_circle = global::TurnosFutbol.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_close_circle = global::TurnosFutbol.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::TurnosFutbol.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::TurnosFutbol.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::TurnosFutbol.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_calendar_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_clear_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_edit_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::TurnosFutbol.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_dialog_background = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_dropdown_arrow = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_arrow_drop_down = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_arrow_drop_up = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_cancel = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_error = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_popupmenu_background = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_popupmenu_background_dark = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_tabs_default_indicator = global::TurnosFutbol.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::TurnosFutbol.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_action_background = global::TurnosFutbol.Droid.Resource.Drawable.notification_action_background;
@@ -10745,6 +11143,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_low_bg = global::TurnosFutbol.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_tile_bg = global::TurnosFutbol.Droid.Resource.Drawable.notification_tile_bg;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notify_panel_notification_icon_bg = global::TurnosFutbol.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.test_custom_background = global::TurnosFutbol.Droid.Resource.Drawable.test_custom_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_dark = global::TurnosFutbol.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_light = global::TurnosFutbol.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_action_clickable_span = global::TurnosFutbol.Droid.Resource.Id.accessibility_action_clickable_span;
@@ -10812,6 +11211,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottom = global::TurnosFutbol.Droid.Resource.Id.bottom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_navarea = global::TurnosFutbol.Droid.Resource.Id.bottomtab_navarea;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_tabbar = global::TurnosFutbol.Droid.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.BOTTOM_END = global::TurnosFutbol.Droid.Resource.Id.BOTTOM_END;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.BOTTOM_START = global::TurnosFutbol.Droid.Resource.Id.BOTTOM_START;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_header_text = global::TurnosFutbol.Droid.Resource.Id.browser_actions_header_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_items = global::TurnosFutbol.Droid.Resource.Id.browser_actions_menu_items;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_icon = global::TurnosFutbol.Droid.Resource.Id.browser_actions_menu_item_icon;
@@ -10819,15 +11220,23 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_view = global::TurnosFutbol.Droid.Resource.Id.browser_actions_menu_view;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.buttonPanel = global::TurnosFutbol.Droid.Resource.Id.buttonPanel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cancel_action = global::TurnosFutbol.Droid.Resource.Id.cancel_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cancel_button = global::TurnosFutbol.Droid.Resource.Id.cancel_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center = global::TurnosFutbol.Droid.Resource.Id.center;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_horizontal = global::TurnosFutbol.Droid.Resource.Id.center_horizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_vertical = global::TurnosFutbol.Droid.Resource.Id.center_vertical;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.checkbox = global::TurnosFutbol.Droid.Resource.Id.checkbox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@checked = global::TurnosFutbol.Droid.Resource.Id.@checked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip = global::TurnosFutbol.Droid.Resource.Id.chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip1 = global::TurnosFutbol.Droid.Resource.Id.chip1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip2 = global::TurnosFutbol.Droid.Resource.Id.chip2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip3 = global::TurnosFutbol.Droid.Resource.Id.chip3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip_group = global::TurnosFutbol.Droid.Resource.Id.chip_group;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chronometer = global::TurnosFutbol.Droid.Resource.Id.chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clear_text = global::TurnosFutbol.Droid.Resource.Id.clear_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_horizontal = global::TurnosFutbol.Droid.Resource.Id.clip_horizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_vertical = global::TurnosFutbol.Droid.Resource.Id.clip_vertical;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.collapseActionView = global::TurnosFutbol.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.confirm_button = global::TurnosFutbol.Droid.Resource.Id.confirm_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.container = global::TurnosFutbol.Droid.Resource.Id.container;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.content = global::TurnosFutbol.Droid.Resource.Id.content;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.contentPanel = global::TurnosFutbol.Droid.Resource.Id.contentPanel;
@@ -10835,6 +11244,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.CTRL = global::TurnosFutbol.Droid.Resource.Id.CTRL;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.custom = global::TurnosFutbol.Droid.Resource.Id.custom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.customPanel = global::TurnosFutbol.Droid.Resource.Id.customPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cut = global::TurnosFutbol.Droid.Resource.Id.cut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.date_picker_actions = global::TurnosFutbol.Droid.Resource.Id.date_picker_actions;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.decor_content_parent = global::TurnosFutbol.Droid.Resource.Id.decor_content_parent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.default_activity_button = global::TurnosFutbol.Droid.Resource.Id.default_activity_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_bottom_sheet = global::TurnosFutbol.Droid.Resource.Id.design_bottom_sheet;
@@ -10844,6 +11255,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_navigation_view = global::TurnosFutbol.Droid.Resource.Id.design_navigation_view;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.dialog_button = global::TurnosFutbol.Droid.Resource.Id.dialog_button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.disableHome = global::TurnosFutbol.Droid.Resource.Id.disableHome;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.dropdown_menu = global::TurnosFutbol.Droid.Resource.Id.dropdown_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.edit_query = global::TurnosFutbol.Droid.Resource.Id.edit_query;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end = global::TurnosFutbol.Droid.Resource.Id.end;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end_padder = global::TurnosFutbol.Droid.Resource.Id.end_padder;
@@ -10852,17 +11264,23 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.exitUntilCollapsed = global::TurnosFutbol.Droid.Resource.Id.exitUntilCollapsed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expanded_menu = global::TurnosFutbol.Droid.Resource.Id.expanded_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::TurnosFutbol.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fade = global::TurnosFutbol.Droid.Resource.Id.fade;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill = global::TurnosFutbol.Droid.Resource.Id.fill;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.filled = global::TurnosFutbol.Droid.Resource.Id.filled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_horizontal = global::TurnosFutbol.Droid.Resource.Id.fill_horizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_vertical = global::TurnosFutbol.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fitToContents = global::TurnosFutbol.Droid.Resource.Id.fitToContents;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@fixed = global::TurnosFutbol.Droid.Resource.Id.@fixed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.floating = global::TurnosFutbol.Droid.Resource.Id.floating;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_appbar = global::TurnosFutbol.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.forever = global::TurnosFutbol.Droid.Resource.Id.forever;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fragment_container_view_tag = global::TurnosFutbol.Droid.Resource.Id.fragment_container_view_tag;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.FUNCTION = global::TurnosFutbol.Droid.Resource.Id.FUNCTION;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view = global::TurnosFutbol.Droid.Resource.Id.ghost_view;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view_holder = global::TurnosFutbol.Droid.Resource.Id.ghost_view_holder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.gone = global::TurnosFutbol.Droid.Resource.Id.gone;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.group_divider = global::TurnosFutbol.Droid.Resource.Id.group_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.hideable = global::TurnosFutbol.Droid.Resource.Id.hideable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.home = global::TurnosFutbol.Droid.Resource.Id.home;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.homeAsUp = global::TurnosFutbol.Droid.Resource.Id.homeAsUp;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon = global::TurnosFutbol.Droid.Resource.Id.icon;
@@ -10886,17 +11304,44 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_viewpager = global::TurnosFutbol.Droid.Resource.Id.main_viewpager;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.masked = global::TurnosFutbol.Droid.Resource.Id.masked;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.media_actions = global::TurnosFutbol.Droid.Resource.Id.media_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.media_controller_compat_view_tag = global::TurnosFutbol.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.message = global::TurnosFutbol.Droid.Resource.Id.message;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.META = global::TurnosFutbol.Droid.Resource.Id.META;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.middle = global::TurnosFutbol.Droid.Resource.Id.middle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mini = global::TurnosFutbol.Droid.Resource.Id.mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_grid = global::TurnosFutbol.Droid.Resource.Id.month_grid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_bar = global::TurnosFutbol.Droid.Resource.Id.month_navigation_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_fragment_toggle = global::TurnosFutbol.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_next = global::TurnosFutbol.Droid.Resource.Id.month_navigation_next;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_previous = global::TurnosFutbol.Droid.Resource.Id.month_navigation_previous;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_title = global::TurnosFutbol.Droid.Resource.Id.month_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_days_of_week = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_day_selector_frame = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_frame = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_main_pane = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_months = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_months;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_selection_frame = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_text_input_frame = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_year_selector_frame = global::TurnosFutbol.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_card_checked_layer_id = global::TurnosFutbol.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_child_content_container = global::TurnosFutbol.Droid.Resource.Id.mtrl_child_content_container;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_internal_children_alpha_tag = global::TurnosFutbol.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_motion_snapshot_view = global::TurnosFutbol.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_fullscreen = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header_selection_text = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header_title_and_selection = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header_toggle = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_text_input_date = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_text_input_range_end = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_text_input_range_start = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_title_text = global::TurnosFutbol.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.multiply = global::TurnosFutbol.Droid.Resource.Id.multiply;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.navigation_header_container = global::TurnosFutbol.Droid.Resource.Id.navigation_header_container;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.never = global::TurnosFutbol.Droid.Resource.Id.never;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.none = global::TurnosFutbol.Droid.Resource.Id.none;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.normal = global::TurnosFutbol.Droid.Resource.Id.normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.noScroll = global::TurnosFutbol.Droid.Resource.Id.noScroll;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_background = global::TurnosFutbol.Droid.Resource.Id.notification_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column = global::TurnosFutbol.Droid.Resource.Id.notification_main_column;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column_container = global::TurnosFutbol.Droid.Resource.Id.notification_main_column_container;
@@ -10906,6 +11351,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parallax = global::TurnosFutbol.Droid.Resource.Id.parallax;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parentPanel = global::TurnosFutbol.Droid.Resource.Id.parentPanel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parent_matrix = global::TurnosFutbol.Droid.Resource.Id.parent_matrix;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.password_toggle = global::TurnosFutbol.Droid.Resource.Id.password_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.peekHeight = global::TurnosFutbol.Droid.Resource.Id.peekHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.pin = global::TurnosFutbol.Droid.Resource.Id.pin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_circular = global::TurnosFutbol.Droid.Resource.Id.progress_circular;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_horizontal = global::TurnosFutbol.Droid.Resource.Id.progress_horizontal;
@@ -10913,8 +11360,11 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right = global::TurnosFutbol.Droid.Resource.Id.right;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_icon = global::TurnosFutbol.Droid.Resource.Id.right_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_side = global::TurnosFutbol.Droid.Resource.Id.right_side;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.rounded = global::TurnosFutbol.Droid.Resource.Id.rounded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.row_index_key = global::TurnosFutbol.Droid.Resource.Id.row_index_key;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_non_transition_alpha = global::TurnosFutbol.Droid.Resource.Id.save_non_transition_alpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_overlay_view = global::TurnosFutbol.Droid.Resource.Id.save_overlay_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scale = global::TurnosFutbol.Droid.Resource.Id.scale;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.screen = global::TurnosFutbol.Droid.Resource.Id.screen;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scroll = global::TurnosFutbol.Droid.Resource.Id.scroll;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::TurnosFutbol.Droid.Resource.Id.scrollable;
@@ -10940,6 +11390,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showCustom = global::TurnosFutbol.Droid.Resource.Id.showCustom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showHome = global::TurnosFutbol.Droid.Resource.Id.showHome;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showTitle = global::TurnosFutbol.Droid.Resource.Id.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.skipCollapsed = global::TurnosFutbol.Droid.Resource.Id.skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.slide = global::TurnosFutbol.Droid.Resource.Id.slide;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.sliding_tabs = global::TurnosFutbol.Droid.Resource.Id.sliding_tabs;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.smallLabel = global::TurnosFutbol.Droid.Resource.Id.smallLabel;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_action = global::TurnosFutbol.Droid.Resource.Id.snackbar_action;
@@ -10966,14 +11418,24 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_transition_group = global::TurnosFutbol.Droid.Resource.Id.tag_transition_group;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_event_manager = global::TurnosFutbol.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_listeners = global::TurnosFutbol.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_checkbox_android_button_tint = global::TurnosFutbol.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_checkbox_app_button_tint = global::TurnosFutbol.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_radiobutton_android_button_tint = global::TurnosFutbol.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_radiobutton_app_button_tint = global::TurnosFutbol.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text = global::TurnosFutbol.Droid.Resource.Id.text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text2 = global::TurnosFutbol.Droid.Resource.Id.text2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textEnd = global::TurnosFutbol.Droid.Resource.Id.textEnd;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::TurnosFutbol.Droid.Resource.Id.textinput_counter;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::TurnosFutbol.Droid.Resource.Id.textinput_error;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_helper_text = global::TurnosFutbol.Droid.Resource.Id.textinput_helper_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_placeholder = global::TurnosFutbol.Droid.Resource.Id.textinput_placeholder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_prefix_text = global::TurnosFutbol.Droid.Resource.Id.textinput_prefix_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_suffix_text = global::TurnosFutbol.Droid.Resource.Id.textinput_suffix_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoButtons = global::TurnosFutbol.Droid.Resource.Id.textSpacerNoButtons;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoTitle = global::TurnosFutbol.Droid.Resource.Id.textSpacerNoTitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textStart = global::TurnosFutbol.Droid.Resource.Id.textStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_end_icon = global::TurnosFutbol.Droid.Resource.Id.text_input_end_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_start_icon = global::TurnosFutbol.Droid.Resource.Id.text_input_start_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.time = global::TurnosFutbol.Droid.Resource.Id.time;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title = global::TurnosFutbol.Droid.Resource.Id.title;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.titleDividerNoCustom = global::TurnosFutbol.Droid.Resource.Id.titleDividerNoCustom;
@@ -10981,6 +11443,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.toolbar = global::TurnosFutbol.Droid.Resource.Id.toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.top = global::TurnosFutbol.Droid.Resource.Id.top;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.topPanel = global::TurnosFutbol.Droid.Resource.Id.topPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.TOP_END = global::TurnosFutbol.Droid.Resource.Id.TOP_END;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.TOP_START = global::TurnosFutbol.Droid.Resource.Id.TOP_START;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.touch_outside = global::TurnosFutbol.Droid.Resource.Id.touch_outside;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_current_scene = global::TurnosFutbol.Droid.Resource.Id.transition_current_scene;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_layout_save = global::TurnosFutbol.Droid.Resource.Id.transition_layout_save;
@@ -10993,9 +11457,14 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.up = global::TurnosFutbol.Droid.Resource.Id.up;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.useLogo = global::TurnosFutbol.Droid.Resource.Id.useLogo;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_offset_helper = global::TurnosFutbol.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_tree_lifecycle_owner = global::TurnosFutbol.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_tree_saved_state_registry_owner = global::TurnosFutbol.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible = global::TurnosFutbol.Droid.Resource.Id.visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible_removing_fragment_view_tag = global::TurnosFutbol.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.withinBounds = global::TurnosFutbol.Droid.Resource.Id.withinBounds;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.withText = global::TurnosFutbol.Droid.Resource.Id.withText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.wrap_content = global::TurnosFutbol.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.zero_corner_chip = global::TurnosFutbol.Droid.Resource.Id.zero_corner_chip;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityDefaultDur = global::TurnosFutbol.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityShortDur = global::TurnosFutbol.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.app_bar_elevation_anim_duration = global::TurnosFutbol.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -11005,8 +11474,14 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_snackbar_text_max_lines = global::TurnosFutbol.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_tab_indicator_anim_duration_ms = global::TurnosFutbol.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.hide_password_duration = global::TurnosFutbol.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_badge_max_character_count = global::TurnosFutbol.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_btn_anim_delay_ms = global::TurnosFutbol.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_btn_anim_duration_ms = global::TurnosFutbol.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_calendar_header_orientation = global::TurnosFutbol.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_calendar_selection_text_lines = global::TurnosFutbol.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_calendar_year_selector_span = global::TurnosFutbol.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_card_anim_delay_ms = global::TurnosFutbol.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_card_anim_duration_ms = global::TurnosFutbol.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_chip_anim_duration = global::TurnosFutbol.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::TurnosFutbol.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.show_password_duration = global::TurnosFutbol.Droid.Resource.Integer.show_password_duration;
@@ -11069,11 +11544,39 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_subheader = global::TurnosFutbol.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu = global::TurnosFutbol.Droid.Resource.Layout.design_navigation_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu_item = global::TurnosFutbol.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_end_icon = global::TurnosFutbol.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_start_icon = global::TurnosFutbol.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackTabbarDoNotUse = global::TurnosFutbol.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackToolbarDoNotUse = global::TurnosFutbol.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FlyoutContent = global::TurnosFutbol.Droid.Resource.Layout.FlyoutContent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_dialog = global::TurnosFutbol.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_dialog_actions = global::TurnosFutbol.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_dialog_title = global::TurnosFutbol.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_select_dialog_item = global::TurnosFutbol.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::TurnosFutbol.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::TurnosFutbol.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_day = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_days_of_week = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_day_of_week = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_horizontal = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_month = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_months = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_month_labeled = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_month_navigation = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_vertical = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_year = global::TurnosFutbol.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar = global::TurnosFutbol.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar_include = global::TurnosFutbol.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_actions = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_dialog = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_fullscreen = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_dialog = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_fullscreen = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_selection_text = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_title_text = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_toggle = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_text_input_date = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_text_input_date_range = global::TurnosFutbol.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action = global::TurnosFutbol.Droid.Resource.Layout.notification_action;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action_tombstone = global::TurnosFutbol.Droid.Resource.Layout.notification_action_tombstone;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_media_action = global::TurnosFutbol.Droid.Resource.Layout.notification_media_action;
@@ -11097,7 +11600,22 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.ShellContent = global::TurnosFutbol.Droid.Resource.Layout.ShellContent;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.support_simple_spinner_dropdown_item = global::TurnosFutbol.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Tabbar = global::TurnosFutbol.Droid.Resource.Layout.Tabbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_action_chip = global::TurnosFutbol.Droid.Resource.Layout.test_action_chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_chip_zero_corner_radius = global::TurnosFutbol.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_design_checkbox = global::TurnosFutbol.Droid.Resource.Layout.test_design_checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_design_radiobutton = global::TurnosFutbol.Droid.Resource.Layout.test_design_radiobutton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_reflow_chipgroup = global::TurnosFutbol.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar = global::TurnosFutbol.Droid.Resource.Layout.test_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar_custom_background = global::TurnosFutbol.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar_elevation = global::TurnosFutbol.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar_surface = global::TurnosFutbol.Droid.Resource.Layout.test_toolbar_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_without_line_height = global::TurnosFutbol.Droid.Resource.Layout.text_view_without_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_line_height_from_appearance = global::TurnosFutbol.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_line_height_from_layout = global::TurnosFutbol.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_line_height_from_style = global::TurnosFutbol.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_theme_line_height = global::TurnosFutbol.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Toolbar = global::TurnosFutbol.Droid.Resource.Layout.Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Plurals.mtrl_badge_content_description = global::TurnosFutbol.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_home_description = global::TurnosFutbol.Droid.Resource.String.abc_action_bar_home_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_up_description = global::TurnosFutbol.Droid.Resource.String.abc_action_bar_up_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_menu_overflow_description = global::TurnosFutbol.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -11128,11 +11646,59 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.appbar_scrolling_view_behavior = global::TurnosFutbol.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.bottom_sheet_behavior = global::TurnosFutbol.Droid.Resource.String.bottom_sheet_behavior;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_content_description = global::TurnosFutbol.Droid.Resource.String.character_counter_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_overflowed_content_description = global::TurnosFutbol.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_pattern = global::TurnosFutbol.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.chip_text = global::TurnosFutbol.Droid.Resource.String.chip_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.clear_text_end_icon_content_description = global::TurnosFutbol.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.copy_toast_msg = global::TurnosFutbol.Droid.Resource.String.copy_toast_msg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.error_icon_content_description = global::TurnosFutbol.Droid.Resource.String.error_icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.exposed_dropdown_menu_content_description = global::TurnosFutbol.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fab_transformation_scrim_behavior = global::TurnosFutbol.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fab_transformation_sheet_behavior = global::TurnosFutbol.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fallback_menu_item_copy_link = global::TurnosFutbol.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fallback_menu_item_open_in_browser = global::TurnosFutbol.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fallback_menu_item_share_link = global::TurnosFutbol.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.hide_bottom_view_on_scroll_behavior = global::TurnosFutbol.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.icon_content_description = global::TurnosFutbol.Droid.Resource.String.icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.item_view_role_description = global::TurnosFutbol.Droid.Resource.String.item_view_role_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.material_slider_range_end = global::TurnosFutbol.Droid.Resource.String.material_slider_range_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.material_slider_range_start = global::TurnosFutbol.Droid.Resource.String.material_slider_range_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_badge_numberless_content_description = global::TurnosFutbol.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_chip_close_icon_content_description = global::TurnosFutbol.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_exceed_max_badge_number_content_description = global::TurnosFutbol.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_exceed_max_badge_number_suffix = global::TurnosFutbol.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_a11y_next_month = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_a11y_prev_month = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_announce_current_selection = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_cancel = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_cancel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_confirm = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_confirm;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_date_header_selected = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_date_header_title = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_date_header_unselected = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_day_of_week_column_header = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_format = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_format_example = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_format_use = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_range = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_navigate_to_year_description = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_out_of_range = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_only_end_selected = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_only_start_selected = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_selected = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_title = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_unselected = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_save = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_save;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_date_hint = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_day_abbr = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_month_abbr = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_year_abbr = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_day_selection = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_year_selection = global::TurnosFutbol.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.overflow_tab_title = global::TurnosFutbol.Droid.Resource.String.overflow_tab_title;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.password_toggle_content_description = global::TurnosFutbol.Droid.Resource.String.password_toggle_content_description;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye = global::TurnosFutbol.Droid.Resource.String.path_password_eye;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_strike_through = global::TurnosFutbol.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -11142,10 +11708,13 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.String.status_bar_notification_info_overflow = global::TurnosFutbol.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat = global::TurnosFutbol.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AndroidThemeColorAccentYellow = global::TurnosFutbol.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Dialog = global::TurnosFutbol.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_DropDownUp = global::TurnosFutbol.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Tooltip = global::TurnosFutbol.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_Design_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AppCompatDialogStyle = global::TurnosFutbol.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -11154,6 +11723,9 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_CardView = global::TurnosFutbol.Droid.Resource.Style.Base_CardView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::TurnosFutbol.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::TurnosFutbol.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::TurnosFutbol.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -11199,6 +11771,10 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TurnosFutbol.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -11211,6 +11787,9 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::TurnosFutbol.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::TurnosFutbol.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::TurnosFutbol.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -11231,6 +11810,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -11240,22 +11820,30 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::TurnosFutbol.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::TurnosFutbol.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::TurnosFutbol.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -11332,12 +11920,34 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_Design_TabLayout = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_Chip = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_Slider = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextView = global::TurnosFutbol.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView = global::TurnosFutbol.Droid.Resource.Style.CardView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Dark = global::TurnosFutbol.Droid.Resource.Style.CardView_Dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Light = global::TurnosFutbol.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.collectionViewTheme = global::TurnosFutbol.Droid.Resource.Style.collectionViewTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.EmptyTheme = global::TurnosFutbol.Droid.Resource.Style.EmptyTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MainTheme = global::TurnosFutbol.Droid.Resource.Style.MainTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MainTheme_Base = global::TurnosFutbol.Droid.Resource.Style.MainTheme_Base;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::TurnosFutbol.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Platform_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents = global::TurnosFutbol.Droid.Resource.Style.Platform_MaterialComponents;
@@ -11369,6 +11979,40 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TurnosFutbol.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::TurnosFutbol.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::TurnosFutbol.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.scrollViewScrollBars = global::TurnosFutbol.Droid.Resource.Style.scrollViewScrollBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.scrollViewTheme = global::TurnosFutbol.Droid.Resource.Style.scrollViewTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_Cut = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::TurnosFutbol.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithLineHeight = global::TurnosFutbol.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithLineHeightAppearance = global::TurnosFutbol.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithoutLineHeight = global::TurnosFutbol.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::TurnosFutbol.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestThemeWithLineHeight = global::TurnosFutbol.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestThemeWithLineHeightDisabled = global::TurnosFutbol.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::TurnosFutbol.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::TurnosFutbol.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::TurnosFutbol.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::TurnosFutbol.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::TurnosFutbol.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body1 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body2 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -11433,8 +12077,12 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Error = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_HelperText = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Hint = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Placeholder = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Prefix = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Snackbar_Message = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Suffix = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Tab = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Badge = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Button = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -11449,9 +12097,11 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Overline = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TurnosFutbol.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlayColorAccentRed = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -11461,18 +12111,44 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::TurnosFutbol.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -11486,6 +12162,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Empty = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::TurnosFutbol.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -11504,11 +12181,33 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_CompactMenu = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -11516,7 +12215,13 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar = global::TurnosFutbol.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -11605,11 +12310,27 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_Snackbar = global::TurnosFutbol.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TabLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputEditText = global::TurnosFutbol.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Badge = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomSheet = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_Icon = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -11617,31 +12338,76 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CardView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ChipGroup = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Action = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_NavigationView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Slider = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextView = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Tooltip = global::TurnosFutbol.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Support_CoordinatorLayout = global::TurnosFutbol.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar = global::TurnosFutbol.Droid.Resource.Styleable.ActionBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::TurnosFutbol.Droid.Resource.Styleable.ActionBarLayout;
@@ -11727,6 +12493,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::TurnosFutbol.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::TurnosFutbol.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScroll = global::TurnosFutbol.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::TurnosFutbol.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_statusBarForeground = global::TurnosFutbol.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView = global::TurnosFutbol.Droid.Resource.Styleable.AppCompatImageView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_android_src = global::TurnosFutbol.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_srcCompat = global::TurnosFutbol.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -11893,29 +12661,53 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::TurnosFutbol.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::TurnosFutbol.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowNoTitle = global::TurnosFutbol.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge = global::TurnosFutbol.Droid.Resource.Styleable.Badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_backgroundColor = global::TurnosFutbol.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_badgeGravity = global::TurnosFutbol.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_badgeTextColor = global::TurnosFutbol.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_horizontalOffset = global::TurnosFutbol.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_maxCharacterCount = global::TurnosFutbol.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_number = global::TurnosFutbol.Droid.Resource.Styleable.Badge_number;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_verticalOffset = global::TurnosFutbol.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_elevation = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabAnimationMode = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleMargin = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_hideOnScroll = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_elevation = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemBackground = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemIconSize = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemIconTint = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemRippleColor = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemTextColor = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_menu = global::TurnosFutbol.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout = global::TurnosFutbol.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout_allowStacking = global::TurnosFutbol.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView = global::TurnosFutbol.Droid.Resource.Styleable.CardView;
@@ -11938,6 +12730,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacing = global::TurnosFutbol.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::TurnosFutbol.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingVertical = global::TurnosFutbol.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_selectionRequired = global::TurnosFutbol.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleLine = global::TurnosFutbol.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleSelection = global::TurnosFutbol.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_checkable = global::TurnosFutbol.Droid.Resource.Styleable.Chip_android_checkable;
@@ -11945,8 +12738,10 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_maxWidth = global::TurnosFutbol.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_text = global::TurnosFutbol.Droid.Resource.Styleable.Chip_android_text;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_textAppearance = global::TurnosFutbol.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_textColor = global::TurnosFutbol.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIcon = global::TurnosFutbol.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconEnabled = global::TurnosFutbol.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconTint = global::TurnosFutbol.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconVisible = global::TurnosFutbol.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipBackgroundColor = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipCornerRadius = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -11957,9 +12752,11 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconTint = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconVisible = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipMinHeight = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipMinTouchTargetSize = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStartPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStrokeColor = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStrokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipSurfaceColor = global::TurnosFutbol.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIcon = global::TurnosFutbol.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconEnabled = global::TurnosFutbol.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconEndPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -11967,10 +12764,13 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconStartPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconTint = global::TurnosFutbol.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconVisible = global::TurnosFutbol.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::TurnosFutbol.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_hideMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_iconEndPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_iconStartPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_rippleColor = global::TurnosFutbol.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_showMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textEndPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textStartPadding = global::TurnosFutbol.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -11988,6 +12788,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::TurnosFutbol.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -12023,13 +12824,26 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TurnosFutbol.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_spinBars = global::TurnosFutbol.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_thickness = global::TurnosFutbol.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerLayout = global::TurnosFutbol.Droid.Resource.Styleable.DrawerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerLayout_elevation = global::TurnosFutbol.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_android_enabled = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_borderWidth = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_elevation = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabCustomSize = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabSize = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -12037,6 +12851,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_maxImageSize = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_rippleColor = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_showMotionSpec = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_useCompatPadding = global::TurnosFutbol.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout = global::TurnosFutbol.Droid.Resource.Styleable.FlowLayout;
@@ -12064,6 +12880,13 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::TurnosFutbol.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::TurnosFutbol.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::TurnosFutbol.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment = global::TurnosFutbol.Droid.Resource.Styleable.Fragment;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FragmentContainerView = global::TurnosFutbol.Droid.Resource.Styleable.FragmentContainerView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FragmentContainerView_android_name = global::TurnosFutbol.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FragmentContainerView_android_tag = global::TurnosFutbol.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment_android_id = global::TurnosFutbol.Droid.Resource.Styleable.Fragment_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment_android_name = global::TurnosFutbol.Droid.Resource.Styleable.Fragment_android_name;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment_android_tag = global::TurnosFutbol.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor = global::TurnosFutbol.Droid.Resource.Styleable.GradientColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem = global::TurnosFutbol.Droid.Resource.Styleable.GradientColorItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_color = global::TurnosFutbol.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -12080,6 +12903,12 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startY = global::TurnosFutbol.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_tileMode = global::TurnosFutbol.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_type = global::TurnosFutbol.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets = global::TurnosFutbol.Droid.Resource.Styleable.Insets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::TurnosFutbol.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ItemsViewRendererTheme = global::TurnosFutbol.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::TurnosFutbol.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat = global::TurnosFutbol.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TurnosFutbol.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TurnosFutbol.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -12098,7 +12927,26 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow = global::TurnosFutbol.Droid.Resource.Styleable.ListPopupWindow;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TurnosFutbol.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TurnosFutbol.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAutoCompleteTextView = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::TurnosFutbol.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_background = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_checkable = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetBottom = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetLeft = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetRight = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -12106,6 +12954,7 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_backgroundTintMode = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_cornerRadius = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_elevation = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_icon = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconGravity = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconPadding = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -12113,11 +12962,58 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconTint = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconTintMode = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_rippleColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_strokeColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_strokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_dayStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_rangeFillColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_yearStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_android_checkable = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_cardForegroundColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_checkedIcon = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_checkedIconTint = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_rippleColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_state_dragged = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_strokeColor = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_strokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCheckBox = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCheckBox_buttonTint = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::TurnosFutbol.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialRadioButton = global::TurnosFutbol.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialRadioButton_buttonTint = global::TurnosFutbol.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::TurnosFutbol.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialShape = global::TurnosFutbol.Droid.Resource.Styleable.MaterialShape;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialShape_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextAppearance_lineHeight = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView_android_lineHeight = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView_android_textAppearance = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView_lineHeight = global::TurnosFutbol.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup = global::TurnosFutbol.Droid.Resource.Styleable.MenuGroup;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TurnosFutbol.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_enabled = global::TurnosFutbol.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -12168,7 +13064,16 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemBackground = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemHorizontalPadding = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconPadding = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconSize = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconTint = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemMaxLines = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeFillColor = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetStart = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetTop = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextColor = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_menu = global::TurnosFutbol.Droid.Resource.Styleable.NavigationView_menu;
@@ -12178,6 +13083,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::TurnosFutbol.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupBackground = global::TurnosFutbol.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_overlapAnchor = global::TurnosFutbol.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RangeSlider = global::TurnosFutbol.Droid.Resource.Styleable.RangeSlider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RangeSlider_values = global::TurnosFutbol.Droid.Resource.Styleable.RangeSlider_values;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView = global::TurnosFutbol.Droid.Resource.Styleable.RecycleListView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::TurnosFutbol.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::TurnosFutbol.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -12198,6 +13105,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::TurnosFutbol.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout = global::TurnosFutbol.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::TurnosFutbol.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollViewRendererTheme = global::TurnosFutbol.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::TurnosFutbol.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView = global::TurnosFutbol.Droid.Resource.Styleable.SearchView;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_focusable = global::TurnosFutbol.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_imeOptions = global::TurnosFutbol.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -12216,13 +13125,55 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_submitBackground = global::TurnosFutbol.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_suggestionRowLayout = global::TurnosFutbol.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_voiceIcon = global::TurnosFutbol.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView = global::TurnosFutbol.Droid.Resource.Styleable.ShapeableImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_strokeColor = global::TurnosFutbol.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_strokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamily = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSize = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::TurnosFutbol.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider = global::TurnosFutbol.Droid.Resource.Styleable.Slider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_enabled = global::TurnosFutbol.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_stepSize = global::TurnosFutbol.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_value = global::TurnosFutbol.Droid.Resource.Styleable.Slider_android_value;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_valueFrom = global::TurnosFutbol.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_valueTo = global::TurnosFutbol.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_haloColor = global::TurnosFutbol.Droid.Resource.Styleable.Slider_haloColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_haloRadius = global::TurnosFutbol.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_labelBehavior = global::TurnosFutbol.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_labelStyle = global::TurnosFutbol.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_thumbColor = global::TurnosFutbol.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_thumbElevation = global::TurnosFutbol.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_thumbRadius = global::TurnosFutbol.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_tickColor = global::TurnosFutbol.Droid.Resource.Styleable.Slider_tickColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_tickColorActive = global::TurnosFutbol.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_tickColorInactive = global::TurnosFutbol.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackColor = global::TurnosFutbol.Droid.Resource.Styleable.Slider_trackColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackColorActive = global::TurnosFutbol.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackColorInactive = global::TurnosFutbol.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackHeight = global::TurnosFutbol.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar = global::TurnosFutbol.Droid.Resource.Styleable.Snackbar;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_android_maxWidth = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_animationMode = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_elevation = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::TurnosFutbol.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarButtonStyle = global::TurnosFutbol.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarStyle = global::TurnosFutbol.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::TurnosFutbol.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner = global::TurnosFutbol.Droid.Resource.Styleable.Spinner;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_dropDownWidth = global::TurnosFutbol.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_entries = global::TurnosFutbol.Droid.Resource.Styleable.Spinner_android_entries;
@@ -12238,6 +13189,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::TurnosFutbol.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_variablePadding = global::TurnosFutbol.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_visible = global::TurnosFutbol.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwipeRefreshLayout = global::TurnosFutbol.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::TurnosFutbol.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat = global::TurnosFutbol.Droid.Resource.Styleable.SwitchCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOff = global::TurnosFutbol.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOn = global::TurnosFutbol.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -12253,6 +13206,8 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_track = global::TurnosFutbol.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTint = global::TurnosFutbol.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTintMode = global::TurnosFutbol.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchMaterial = global::TurnosFutbol.Droid.Resource.Styleable.SwitchMaterial;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::TurnosFutbol.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem = global::TurnosFutbol.Droid.Resource.Styleable.TabItem;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_icon = global::TurnosFutbol.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_layout = global::TurnosFutbol.Droid.Resource.Styleable.TabItem_android_layout;
@@ -12300,7 +13255,10 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontVariationSettings = global::TurnosFutbol.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textAllCaps = global::TurnosFutbol.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textLocale = global::TurnosFutbol.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputEditText = global::TurnosFutbol.Droid.Resource.Styleable.TextInputEditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_enabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_hint = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_textColorHint = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -12311,24 +13269,57 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterMaxLength = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconCheckable = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconContentDescription = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconDrawable = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconMode = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconTint = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconTintMode = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorContentDescription = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorIconDrawable = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorIconTint = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorIconTintMode = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperText = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTint = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_placeholderText = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_placeholderTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_prefixText = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_prefixTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_shapeAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconCheckable = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconContentDescription = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconDrawable = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconTint = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconTintMode = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_suffixText = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_suffixTextColor = global::TurnosFutbol.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement = global::TurnosFutbol.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::TurnosFutbol.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::TurnosFutbol.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -12364,11 +13355,21 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginTop = global::TurnosFutbol.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextAppearance = global::TurnosFutbol.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextColor = global::TurnosFutbol.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_layout_margin = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_minHeight = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_minWidth = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_padding = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_text = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_textAppearance = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View = global::TurnosFutbol.Droid.Resource.Styleable.View;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper = global::TurnosFutbol.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_android_background = global::TurnosFutbol.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::TurnosFutbol.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::TurnosFutbol.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewPager2 = global::TurnosFutbol.Droid.Resource.Styleable.ViewPager2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewPager2_android_orientation = global::TurnosFutbol.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat = global::TurnosFutbol.Droid.Resource.Styleable.ViewStubCompat;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::TurnosFutbol.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TurnosFutbol.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -12378,6 +13379,12 @@ namespace TurnosFutbol.Droid
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::TurnosFutbol.Droid.Resource.Styleable.View_paddingEnd;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::TurnosFutbol.Droid.Resource.Styleable.View_paddingStart;
 			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::TurnosFutbol.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.image_share_filepaths = global::TurnosFutbol.Droid.Resource.Xml.image_share_filepaths;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge = global::TurnosFutbol.Droid.Resource.Xml.standalone_badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_gravity_bottom_end = global::TurnosFutbol.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_gravity_bottom_start = global::TurnosFutbol.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_gravity_top_start = global::TurnosFutbol.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_offset = global::TurnosFutbol.Droid.Resource.Xml.standalone_badge_offset;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerColor = global::TurnosFutbol.Droid.Resource.Attribute.barPointerColor;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadius = global::TurnosFutbol.Droid.Resource.Attribute.barPointerCornerRadius;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerCornerRadiusType = global::TurnosFutbol.Droid.Resource.Attribute.barPointerCornerRadiusType;
@@ -12487,10 +13494,10 @@ namespace TurnosFutbol.Droid
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickLength = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTickLength;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickOffset = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTickOffset;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickSize = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTickSize;
+			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTicksPerInterval = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTicksPerInterval;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStartOffset = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTickStartOffset;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickStrokeWidth = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTickStrokeWidth;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTickWidth = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTickWidth;
-			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleMinorTicksPerInterval = global::TurnosFutbol.Droid.Resource.Attribute.scaleMinorTicksPerInterval;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleNumberofDecimalDigits = global::TurnosFutbol.Droid.Resource.Attribute.scaleNumberofDecimalDigits;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOffset = global::TurnosFutbol.Droid.Resource.Attribute.scaleOffset;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.scaleOpposedPosition = global::TurnosFutbol.Droid.Resource.Attribute.scaleOpposedPosition;
@@ -12687,8 +13694,8 @@ namespace TurnosFutbol.Droid
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickColor = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickColor;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickLength = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickLength;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickOffset;
-			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTicksPerInterval;
+			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleMinorTickStrokeWidth;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOffset = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleOffset;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOpposedPosition = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleOpposedPosition;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_scaleOrientation = global::TurnosFutbol.Droid.Resource.Styleable.SfLinearGauge_scaleOrientation;
@@ -12793,8 +13800,8 @@ namespace TurnosFutbol.Droid
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerIsOpen = global::TurnosFutbol.Droid.Resource.Attribute.pickerIsOpen;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerItemHeight = global::TurnosFutbol.Droid.Resource.Attribute.pickerItemHeight;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerMode = global::TurnosFutbol.Droid.Resource.Attribute.pickerMode;
-			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerSelectedItemTextSize = global::TurnosFutbol.Droid.Resource.Attribute.pickerSelectedItemTextSize;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerSelectedItemTextcolor = global::TurnosFutbol.Droid.Resource.Attribute.pickerSelectedItemTextcolor;
+			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerSelectedItemTextSize = global::TurnosFutbol.Droid.Resource.Attribute.pickerSelectedItemTextSize;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerSelectionBorderColor = global::TurnosFutbol.Droid.Resource.Attribute.pickerSelectionBorderColor;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerShowColumnHeader = global::TurnosFutbol.Droid.Resource.Attribute.pickerShowColumnHeader;
 			global::Com.Syncfusion.SfPicker.Resource.Attribute.pickerShowFooter = global::TurnosFutbol.Droid.Resource.Attribute.pickerShowFooter;
@@ -12822,8 +13829,8 @@ namespace TurnosFutbol.Droid
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerIsOpen = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerIsOpen;
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerItemHeight = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerItemHeight;
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerMode = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerMode;
-			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerSelectedItemTextSize = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerSelectedItemTextSize;
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerSelectedItemTextcolor = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerSelectedItemTextcolor;
+			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerSelectedItemTextSize = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerSelectedItemTextSize;
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerSelectionBorderColor = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerSelectionBorderColor;
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerShowColumnHeader = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerShowColumnHeader;
 			global::Com.Syncfusion.SfPicker.Resource.Styleable.SfPicker_pickerShowFooter = global::TurnosFutbol.Droid.Resource.Styleable.SfPicker_pickerShowFooter;
@@ -13137,13 +14144,7 @@ namespace TurnosFutbol.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::TurnosFutbol.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::TurnosFutbol.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::TurnosFutbol.Droid.Resource.Animation.ExitToRight;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_close_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fade_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::TurnosFutbol.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_open_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_enter;
-			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_open_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_card_lowers_interpolator = global::TurnosFutbol.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
@@ -16762,13 +17763,7 @@ namespace TurnosFutbol.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::TurnosFutbol.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::TurnosFutbol.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::TurnosFutbol.Droid.Resource.Animation.ExitToRight;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_enter;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_close_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_close_exit;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_enter;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fade_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fast_out_extra_slow_in = global::TurnosFutbol.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_open_enter = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_enter;
-			global::Xamarin.Forms.Platform.Resource.Animation.fragment_open_exit = global::TurnosFutbol.Droid.Resource.Animation.fragment_open_exit;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_in = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_out = global::TurnosFutbol.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_card_lowers_interpolator = global::TurnosFutbol.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
@@ -20397,133 +21392,133 @@ namespace TurnosFutbol.Droid
 			public const int abc_tooltip_exit = 2130771979;
 			
 			// aapt resource value: 0x7F01000C
-			public const int btn_checkbox_indeterminate_to_checked_box_inner_merged_animation = 2130771980;
+			public const int btn_checkbox_to_checked_box_inner_merged_animation = 2130771980;
 			
 			// aapt resource value: 0x7F01000D
-			public const int btn_checkbox_indeterminate_to_checked_box_outer_merged_animation = 2130771981;
+			public const int btn_checkbox_to_checked_box_outer_merged_animation = 2130771981;
 			
 			// aapt resource value: 0x7F01000E
-			public const int btn_checkbox_indeterminate_to_checked_icon_null_animation = 2130771982;
+			public const int btn_checkbox_to_checked_icon_null_animation = 2130771982;
 			
 			// aapt resource value: 0x7F01000F
-			public const int btn_checkbox_to_checked_box_inner_merged_animation = 2130771983;
+			public const int btn_checkbox_to_unchecked_box_inner_merged_animation = 2130771983;
 			
 			// aapt resource value: 0x7F010010
-			public const int btn_checkbox_to_checked_box_outer_merged_animation = 2130771984;
+			public const int btn_checkbox_to_unchecked_check_path_merged_animation = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int btn_checkbox_to_checked_icon_null_animation = 2130771985;
+			public const int btn_checkbox_to_unchecked_icon_null_animation = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int btn_checkbox_to_indeterminate_from_checked_box_inner_merged_animation = 2130771986;
+			public const int btn_radio_to_off_mtrl_dot_group_animation = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int btn_checkbox_to_indeterminate_from_checked_icon_null_animation = 2130771987;
+			public const int btn_radio_to_off_mtrl_ring_outer_animation = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int btn_checkbox_to_indeterminate_from_unchecked_box_inner_merged_animation = 2130771988;
+			public const int btn_radio_to_off_mtrl_ring_outer_path_animation = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int btn_checkbox_to_indeterminate_from_unchecked_box_outer_merged_animation = 2130771989;
+			public const int btn_radio_to_on_mtrl_dot_group_animation = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int btn_checkbox_to_indeterminate_from_unchecked_icon_null_animation = 2130771990;
+			public const int btn_radio_to_on_mtrl_ring_outer_animation = 2130771990;
 			
 			// aapt resource value: 0x7F010017
-			public const int btn_checkbox_to_unchecked_box_inner_merged_animation = 2130771991;
+			public const int btn_radio_to_on_mtrl_ring_outer_path_animation = 2130771991;
 			
 			// aapt resource value: 0x7F010018
-			public const int btn_checkbox_to_unchecked_check_path_merged_animation = 2130771992;
+			public const int design_bottom_sheet_slide_in = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int btn_checkbox_to_unchecked_from_indeterminate_box_inner_merged_animation = 2130771993;
+			public const int design_bottom_sheet_slide_out = 2130771993;
 			
 			// aapt resource value: 0x7F01001A
-			public const int btn_checkbox_to_unchecked_from_indeterminate_check_path_merged_animation = 2130771994;
+			public const int design_snackbar_in = 2130771994;
 			
 			// aapt resource value: 0x7F01001B
-			public const int btn_checkbox_to_unchecked_from_indeterminate_icon_null_animation = 2130771995;
+			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-			public const int btn_checkbox_to_unchecked_icon_null_animation = 2130771996;
+			public const int EnterFromLeft = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int btn_radio_to_off_mtrl_dot_group_animation = 2130771997;
+			public const int EnterFromRight = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int btn_radio_to_off_mtrl_ring_outer_animation = 2130771998;
+			public const int ExitToLeft = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int btn_radio_to_off_mtrl_ring_outer_path_animation = 2130771999;
+			public const int ExitToRight = 2130771999;
 			
 			// aapt resource value: 0x7F010020
-			public const int btn_radio_to_on_mtrl_dot_group_animation = 2130772000;
+			public const int fragment_fast_out_extra_slow_in = 2130772000;
 			
 			// aapt resource value: 0x7F010021
-			public const int btn_radio_to_on_mtrl_ring_outer_animation = 2130772001;
+			public const int mtrl_bottom_sheet_slide_in = 2130772001;
 			
 			// aapt resource value: 0x7F010022
-			public const int btn_radio_to_on_mtrl_ring_outer_path_animation = 2130772002;
+			public const int mtrl_bottom_sheet_slide_out = 2130772002;
 			
 			// aapt resource value: 0x7F010023
-			public const int design_bottom_sheet_slide_in = 2130772003;
+			public const int mtrl_card_lowers_interpolator = 2130772003;
 			
 			// aapt resource value: 0x7F010024
-			public const int design_bottom_sheet_slide_out = 2130772004;
+			public const int Scale_in = 2130772004;
 			
 			// aapt resource value: 0x7F010025
-			public const int design_snackbar_in = 2130772005;
+			public const int Scale_out = 2130772005;
 			
 			// aapt resource value: 0x7F010026
-			public const int design_snackbar_out = 2130772006;
+			public const int sfcheckbox_checked_inner = 2130772006;
 			
 			// aapt resource value: 0x7F010027
-			public const int EnterFromLeft = 2130772007;
+			public const int sfcheckbox_checked_null = 2130772007;
 			
 			// aapt resource value: 0x7F010028
-			public const int EnterFromRight = 2130772008;
+			public const int sfcheckbox_checked_unchecked_inner = 2130772008;
 			
 			// aapt resource value: 0x7F010029
-			public const int ExitToLeft = 2130772009;
+			public const int sfcheckbox_checked_unchecked_null = 2130772009;
 			
 			// aapt resource value: 0x7F01002A
-			public const int ExitToRight = 2130772010;
+			public const int sfcheckbox_checked_unchecked_path = 2130772010;
 			
 			// aapt resource value: 0x7F01002B
-			public const int fragment_close_enter = 2130772011;
+			public const int sfcheckbox_indeterminate_checked_inner = 2130772011;
 			
 			// aapt resource value: 0x7F01002C
-			public const int fragment_close_exit = 2130772012;
+			public const int sfcheckbox_indeterminate_checked_null = 2130772012;
 			
 			// aapt resource value: 0x7F01002D
-			public const int fragment_fade_enter = 2130772013;
+			public const int sfcheckbox_indeterminate_checked_outer = 2130772013;
 			
 			// aapt resource value: 0x7F01002E
-			public const int fragment_fade_exit = 2130772014;
+			public const int sfcheckbox_indeterminate_unchecked_inner = 2130772014;
 			
 			// aapt resource value: 0x7F01002F
-			public const int fragment_fast_out_extra_slow_in = 2130772015;
+			public const int sfcheckbox_indeterminate_unchecked_null = 2130772015;
 			
 			// aapt resource value: 0x7F010030
-			public const int fragment_open_enter = 2130772016;
+			public const int sfcheckbox_indeterminate_unchecked_path = 2130772016;
 			
 			// aapt resource value: 0x7F010031
-			public const int fragment_open_exit = 2130772017;
+			public const int sfcheckbox_unchecked_indeterminate_inner = 2130772017;
 			
 			// aapt resource value: 0x7F010032
-			public const int mtrl_bottom_sheet_slide_in = 2130772018;
+			public const int sfcheckbox_unchecked_indeterminate_null = 2130772018;
 			
 			// aapt resource value: 0x7F010033
-			public const int mtrl_bottom_sheet_slide_out = 2130772019;
+			public const int sfcheckbox_unchecked_indeterminate_outer = 2130772019;
 			
 			// aapt resource value: 0x7F010034
-			public const int mtrl_card_lowers_interpolator = 2130772020;
+			public const int sfcheckbox_unchecked_inner = 2130772020;
 			
 			// aapt resource value: 0x7F010035
-			public const int Scale_in = 2130772021;
+			public const int sfcheckbox_unchecked_null = 2130772021;
 			
 			// aapt resource value: 0x7F010036
-			public const int Scale_out = 2130772022;
+			public const int sfcheckbox_unchecked_outer = 2130772022;
 			
 			static Animation()
 			{
@@ -20548,40 +21543,58 @@ namespace TurnosFutbol.Droid
 			public const int design_fab_show_motion_spec = 2130837506;
 			
 			// aapt resource value: 0x7F020003
-			public const int mtrl_btn_state_list_anim = 2130837507;
+			public const int fragment_close_enter = 2130837507;
 			
 			// aapt resource value: 0x7F020004
-			public const int mtrl_btn_unelevated_state_list_anim = 2130837508;
+			public const int fragment_close_exit = 2130837508;
 			
 			// aapt resource value: 0x7F020005
-			public const int mtrl_card_state_list_anim = 2130837509;
+			public const int fragment_fade_enter = 2130837509;
 			
 			// aapt resource value: 0x7F020006
-			public const int mtrl_chip_state_list_anim = 2130837510;
+			public const int fragment_fade_exit = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int mtrl_extended_fab_change_size_motion_spec = 2130837511;
+			public const int fragment_open_enter = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int mtrl_extended_fab_hide_motion_spec = 2130837512;
+			public const int fragment_open_exit = 2130837512;
 			
 			// aapt resource value: 0x7F020009
-			public const int mtrl_extended_fab_show_motion_spec = 2130837513;
+			public const int mtrl_btn_state_list_anim = 2130837513;
 			
 			// aapt resource value: 0x7F02000A
-			public const int mtrl_extended_fab_state_list_animator = 2130837514;
+			public const int mtrl_btn_unelevated_state_list_anim = 2130837514;
 			
 			// aapt resource value: 0x7F02000B
-			public const int mtrl_fab_hide_motion_spec = 2130837515;
+			public const int mtrl_card_state_list_anim = 2130837515;
 			
 			// aapt resource value: 0x7F02000C
-			public const int mtrl_fab_show_motion_spec = 2130837516;
+			public const int mtrl_chip_state_list_anim = 2130837516;
 			
 			// aapt resource value: 0x7F02000D
-			public const int mtrl_fab_transformation_sheet_collapse_spec = 2130837517;
+			public const int mtrl_extended_fab_change_size_motion_spec = 2130837517;
 			
 			// aapt resource value: 0x7F02000E
-			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837518;
+			public const int mtrl_extended_fab_hide_motion_spec = 2130837518;
+			
+			// aapt resource value: 0x7F02000F
+			public const int mtrl_extended_fab_show_motion_spec = 2130837519;
+			
+			// aapt resource value: 0x7F020010
+			public const int mtrl_extended_fab_state_list_animator = 2130837520;
+			
+			// aapt resource value: 0x7F020011
+			public const int mtrl_fab_hide_motion_spec = 2130837521;
+			
+			// aapt resource value: 0x7F020012
+			public const int mtrl_fab_show_motion_spec = 2130837522;
+			
+			// aapt resource value: 0x7F020013
+			public const int mtrl_fab_transformation_sheet_collapse_spec = 2130837523;
+			
+			// aapt resource value: 0x7F020014
+			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837524;
 			
 			static Animator()
 			{
@@ -21847,1493 +22860,1505 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0x7F0301A0
 			public const int keylines = 2130903456;
 			
-			// aapt resource value: 0x7F0301A1
-			public const int labelBehavior = 2130903457;
-			
 			// aapt resource value: 0x7F0301A2
-			public const int labelStyle = 2130903458;
+			public const int labelBehavior = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int labelVisibilityMode = 2130903459;
+			public const int labelStyle = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int lastBaselineToBottomHeight = 2130903460;
+			public const int labelVisibilityMode = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int layout = 2130903461;
+			public const int lastBaselineToBottomHeight = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int layoutManager = 2130903462;
+			public const int layout = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int layout_anchor = 2130903463;
+			public const int layoutManager = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int layout_anchorGravity = 2130903464;
+			public const int layout_anchor = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int layout_behavior = 2130903465;
+			public const int layout_anchorGravity = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int layout_collapseMode = 2130903466;
+			public const int layout_behavior = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int layout_collapseParallaxMultiplier = 2130903467;
+			public const int layout_collapseMode = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int layout_dodgeInsetEdges = 2130903468;
+			public const int layout_collapseParallaxMultiplier = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int layout_insetEdge = 2130903469;
+			public const int layout_dodgeInsetEdges = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int layout_keyline = 2130903470;
+			public const int layout_insetEdge = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int layout_scrollFlags = 2130903471;
+			public const int layout_keyline = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int layout_scrollInterpolator = 2130903472;
+			public const int layout_scrollFlags = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int liftOnScroll = 2130903473;
+			public const int layout_scrollInterpolator = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int liftOnScrollTargetViewId = 2130903474;
+			public const int liftOnScroll = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int lineHeight = 2130903475;
+			public const int liftOnScrollTargetViewId = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int lineSpacing = 2130903476;
+			public const int lineHeight = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int listChoiceBackgroundIndicator = 2130903477;
+			public const int lineSpacing = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int listChoiceIndicatorMultipleAnimated = 2130903478;
+			public const int listChoiceBackgroundIndicator = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int listChoiceIndicatorSingleAnimated = 2130903479;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int listDividerAlertDialog = 2130903480;
+			public const int listChoiceIndicatorSingleAnimated = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int listItemLayout = 2130903481;
+			public const int listDividerAlertDialog = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int listLayout = 2130903482;
+			public const int listItemLayout = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int listMenuViewStyle = 2130903483;
+			public const int listLayout = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int listPopupWindowStyle = 2130903484;
+			public const int listMenuViewStyle = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int listPreferredItemHeight = 2130903485;
+			public const int listPopupWindowStyle = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int listPreferredItemHeightLarge = 2130903486;
+			public const int listPreferredItemHeight = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int listPreferredItemHeightSmall = 2130903487;
+			public const int listPreferredItemHeightLarge = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int listPreferredItemPaddingEnd = 2130903488;
+			public const int listPreferredItemHeightSmall = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int listPreferredItemPaddingLeft = 2130903489;
+			public const int listPreferredItemPaddingEnd = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int listPreferredItemPaddingRight = 2130903490;
+			public const int listPreferredItemPaddingLeft = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int listPreferredItemPaddingStart = 2130903491;
+			public const int listPreferredItemPaddingRight = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int logo = 2130903492;
+			public const int listPreferredItemPaddingStart = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int logoDescription = 2130903493;
+			public const int logo = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int mapLegendIcon = 2130903494;
+			public const int logoDescription = 2130903494;
+			
+			// aapt resource value: 0x7F0301A1
+			public const int lStar = 2130903457;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int mapLegendIconHeight = 2130903495;
+			public const int mapLegendIcon = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int mapLegendIconWidth = 2130903496;
+			public const int mapLegendIconHeight = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int mapLegendType = 2130903497;
+			public const int mapLegendIconWidth = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int mapLegendVisibility = 2130903498;
+			public const int mapLegendType = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int mapMarkerIcon = 2130903499;
+			public const int mapLegendVisibility = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int markerIconColor = 2130903500;
+			public const int mapMarkerIcon = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int markerIconSize = 2130903501;
+			public const int markerIconColor = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int markerLabel = 2130903502;
+			public const int markerIconSize = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int markerLabelColor = 2130903503;
+			public const int markerLabel = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int markerLabelSize = 2130903504;
+			public const int markerLabelColor = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int markerLatitude = 2130903505;
+			public const int markerLabelSize = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int markerLongitude = 2130903506;
+			public const int markerLatitude = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int markerPointerColor = 2130903507;
+			public const int markerLongitude = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int markerPointerHeight = 2130903508;
+			public const int markerPointerColor = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int markerPointerOffset = 2130903509;
+			public const int markerPointerHeight = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int markerPointerValue = 2130903510;
+			public const int markerPointerOffset = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int markerPointerWidth = 2130903511;
+			public const int markerPointerValue = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int markerShape = 2130903512;
+			public const int markerPointerWidth = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int materialAlertDialogBodyTextStyle = 2130903513;
+			public const int markerShape = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int materialAlertDialogTheme = 2130903514;
+			public const int materialAlertDialogBodyTextStyle = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int materialAlertDialogTitleIconStyle = 2130903515;
+			public const int materialAlertDialogTheme = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int materialAlertDialogTitlePanelStyle = 2130903516;
+			public const int materialAlertDialogTitleIconStyle = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int materialAlertDialogTitleTextStyle = 2130903517;
+			public const int materialAlertDialogTitlePanelStyle = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int materialButtonOutlinedStyle = 2130903518;
+			public const int materialAlertDialogTitleTextStyle = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int materialButtonStyle = 2130903519;
+			public const int materialButtonOutlinedStyle = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int materialButtonToggleGroupStyle = 2130903520;
+			public const int materialButtonStyle = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int materialCalendarDay = 2130903521;
+			public const int materialButtonToggleGroupStyle = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int materialCalendarFullscreenTheme = 2130903522;
+			public const int materialCalendarDay = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int materialCalendarHeaderConfirmButton = 2130903523;
+			public const int materialCalendarFullscreenTheme = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int materialCalendarHeaderDivider = 2130903524;
+			public const int materialCalendarHeaderConfirmButton = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int materialCalendarHeaderLayout = 2130903525;
+			public const int materialCalendarHeaderDivider = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int materialCalendarHeaderSelection = 2130903526;
+			public const int materialCalendarHeaderLayout = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int materialCalendarHeaderTitle = 2130903527;
+			public const int materialCalendarHeaderSelection = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int materialCalendarHeaderToggleButton = 2130903528;
+			public const int materialCalendarHeaderTitle = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int materialCalendarStyle = 2130903529;
+			public const int materialCalendarHeaderToggleButton = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int materialCalendarTheme = 2130903530;
+			public const int materialCalendarStyle = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int materialCardViewStyle = 2130903531;
+			public const int materialCalendarTheme = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int materialThemeOverlay = 2130903532;
+			public const int materialCardViewStyle = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int maxActionInlineWidth = 2130903533;
+			public const int materialThemeOverlay = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int maxButtonHeight = 2130903534;
+			public const int maxActionInlineWidth = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int maxCharacterCount = 2130903535;
+			public const int maxButtonHeight = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int maxImageSize = 2130903536;
-			
-			// aapt resource value: 0x7F0301F2
-			public const int maximumLabels = 2130903538;
+			public const int maxCharacterCount = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int maxLines = 2130903537;
+			public const int maxImageSize = 2130903537;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int measureWithLargestChild = 2130903539;
+			public const int maximumLabels = 2130903539;
+			
+			// aapt resource value: 0x7F0301F2
+			public const int maxLines = 2130903538;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int mediaRouteAudioTrackDrawable = 2130903540;
+			public const int measureWithLargestChild = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int mediaRouteBodyTextAppearance = 2130903541;
+			public const int mediaRouteAudioTrackDrawable = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int mediaRouteButtonStyle = 2130903542;
+			public const int mediaRouteBodyTextAppearance = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int mediaRouteButtonTint = 2130903543;
+			public const int mediaRouteButtonStyle = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int mediaRouteCloseDrawable = 2130903544;
+			public const int mediaRouteButtonTint = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int mediaRouteControlPanelThemeOverlay = 2130903545;
+			public const int mediaRouteCloseDrawable = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int mediaRouteDefaultIconDrawable = 2130903546;
+			public const int mediaRouteControlPanelThemeOverlay = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int mediaRouteDividerColor = 2130903547;
+			public const int mediaRouteDefaultIconDrawable = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int mediaRouteHeaderTextAppearance = 2130903548;
+			public const int mediaRouteDividerColor = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int mediaRoutePauseDrawable = 2130903549;
+			public const int mediaRouteHeaderTextAppearance = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int mediaRoutePlayDrawable = 2130903550;
+			public const int mediaRoutePauseDrawable = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130903551;
+			public const int mediaRoutePlayDrawable = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int mediaRouteSpeakerIconDrawable = 2130903552;
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int mediaRouteStopDrawable = 2130903553;
+			public const int mediaRouteSpeakerIconDrawable = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int mediaRouteTheme = 2130903554;
+			public const int mediaRouteStopDrawable = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int mediaRouteTvIconDrawable = 2130903555;
+			public const int mediaRouteTheme = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int menu = 2130903556;
+			public const int mediaRouteTvIconDrawable = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int minTouchTargetSize = 2130903557;
+			public const int menu = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int multiChoiceItemLayout = 2130903558;
+			public const int minTouchTargetSize = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int navigationContentDescription = 2130903559;
+			public const int multiChoiceItemLayout = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int navigationIcon = 2130903560;
+			public const int navigationContentDescription = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int navigationMode = 2130903561;
+			public const int navigationIcon = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int navigationViewStyle = 2130903562;
+			public const int navigationMode = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int needlePointerColor = 2130903563;
+			public const int navigationViewStyle = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int needlePointerKnobColor = 2130903564;
+			public const int needlePointerColor = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int needlePointerKnobRadius = 2130903565;
+			public const int needlePointerKnobColor = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int needlePointerKnobStrokeColor = 2130903566;
+			public const int needlePointerKnobRadius = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int needlePointerKnobStrokeWidth = 2130903567;
+			public const int needlePointerKnobStrokeColor = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int needlePointerLengthFactor = 2130903568;
+			public const int needlePointerKnobStrokeWidth = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int needlePointerTailColor = 2130903569;
+			public const int needlePointerLengthFactor = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int needlePointerTailLengthFactor = 2130903570;
+			public const int needlePointerTailColor = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int needlePointerTailStrokeColor = 2130903571;
+			public const int needlePointerTailLengthFactor = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int needlePointerTailStrokeWidth = 2130903572;
+			public const int needlePointerTailStrokeColor = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int needlePointerType = 2130903573;
+			public const int needlePointerTailStrokeWidth = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int needlePointerValue = 2130903574;
+			public const int needlePointerType = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int needlePointerWidth = 2130903575;
+			public const int needlePointerValue = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int number = 2130903576;
+			public const int needlePointerWidth = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int numericModifiers = 2130903577;
+			public const int nestedScrollViewStyle = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int overlapAnchor = 2130903578;
+			public const int number = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int paddingBottomNoButtons = 2130903579;
+			public const int numericModifiers = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int paddingBottomSystemWindowInsets = 2130903580;
+			public const int overlapAnchor = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int paddingEnd = 2130903581;
+			public const int paddingBottomNoButtons = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int paddingLeftSystemWindowInsets = 2130903582;
+			public const int paddingBottomSystemWindowInsets = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int paddingRightSystemWindowInsets = 2130903583;
+			public const int paddingEnd = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int paddingStart = 2130903584;
+			public const int paddingLeftSystemWindowInsets = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int paddingTopNoTitle = 2130903585;
+			public const int paddingRightSystemWindowInsets = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int panelBackground = 2130903586;
+			public const int paddingStart = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int panelMenuListTheme = 2130903587;
+			public const int paddingTopNoTitle = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int panelMenuListWidth = 2130903588;
+			public const int panelBackground = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int passwordToggleContentDescription = 2130903589;
+			public const int panelMenuListTheme = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int passwordToggleDrawable = 2130903590;
+			public const int panelMenuListWidth = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int passwordToggleEnabled = 2130903591;
+			public const int passwordToggleContentDescription = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int passwordToggleTint = 2130903592;
+			public const int passwordToggleDrawable = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int passwordToggleTintMode = 2130903593;
+			public const int passwordToggleEnabled = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int pickerBackgroundColor = 2130903594;
+			public const int passwordToggleTint = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int pickerBorderColor = 2130903595;
+			public const int passwordToggleTintMode = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int pickerColumnHeaderBackgroundColor = 2130903596;
+			public const int pickerBackgroundColor = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int pickerColumnHeaderHeight = 2130903597;
+			public const int pickerBorderColor = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int pickerColumnHeaderTextColor = 2130903598;
+			public const int pickerColumnHeaderBackgroundColor = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int pickerColumnHeaderTextSize = 2130903599;
+			public const int pickerColumnHeaderHeight = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int pickerEnableLooping = 2130903600;
+			public const int pickerColumnHeaderTextColor = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int pickerFooterHeight = 2130903601;
+			public const int pickerColumnHeaderTextSize = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int pickerHeaderBackgroundColor = 2130903602;
+			public const int pickerEnableLooping = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int pickerHeaderHeight = 2130903603;
+			public const int pickerFooterHeight = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int pickerHeaderText = 2130903604;
+			public const int pickerHeaderBackgroundColor = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int pickerHeaderTextColor = 2130903605;
+			public const int pickerHeaderHeight = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int pickerHeaderTextSize = 2130903606;
+			public const int pickerHeaderText = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int pickerHeight = 2130903607;
+			public const int pickerHeaderTextColor = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int pickerIsOpen = 2130903608;
+			public const int pickerHeaderTextSize = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int pickerItemHeight = 2130903609;
+			public const int pickerHeight = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int pickerMode = 2130903610;
-			
-			// aapt resource value: 0x7F03023C
-			public const int pickerSelectedItemTextcolor = 2130903612;
+			public const int pickerIsOpen = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int pickerSelectedItemTextSize = 2130903611;
+			public const int pickerItemHeight = 2130903611;
 			
-			// aapt resource value: 0x7F03023D
-			public const int pickerSelectionBorderColor = 2130903613;
+			// aapt resource value: 0x7F03023C
+			public const int pickerMode = 2130903612;
 			
 			// aapt resource value: 0x7F03023E
-			public const int pickerShowColumnHeader = 2130903614;
+			public const int pickerSelectedItemTextcolor = 2130903614;
+			
+			// aapt resource value: 0x7F03023D
+			public const int pickerSelectedItemTextSize = 2130903613;
 			
 			// aapt resource value: 0x7F03023F
-			public const int pickerShowFooter = 2130903615;
+			public const int pickerSelectionBorderColor = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int pickerShowHeader = 2130903616;
+			public const int pickerShowColumnHeader = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int pickerUnselectedItemTextColor = 2130903617;
+			public const int pickerShowFooter = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int pickerUnselectedItemTextSize = 2130903618;
+			public const int pickerShowHeader = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int pickerWidth = 2130903619;
+			public const int pickerUnselectedItemTextColor = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int placeholderText = 2130903620;
+			public const int pickerUnselectedItemTextSize = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int placeholderTextAppearance = 2130903621;
+			public const int pickerWidth = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int placeholderTextColor = 2130903622;
+			public const int placeholderText = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int popupMenuBackground = 2130903623;
+			public const int placeholderTextAppearance = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int popupMenuStyle = 2130903624;
+			public const int placeholderTextColor = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int popupTheme = 2130903625;
+			public const int popupMenuBackground = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int popupWindowStyle = 2130903626;
+			public const int popupMenuStyle = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int prefixText = 2130903627;
+			public const int popupTheme = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int prefixTextAppearance = 2130903628;
+			public const int popupWindowStyle = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int prefixTextColor = 2130903629;
+			public const int prefixText = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int preserveIconSpacing = 2130903630;
+			public const int prefixTextAppearance = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int pressedTranslationZ = 2130903631;
+			public const int prefixTextColor = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int progressBarPadding = 2130903632;
+			public const int preserveIconSpacing = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int progressBarStyle = 2130903633;
+			public const int pressedTranslationZ = 2130903633;
 			
 			// aapt resource value: 0x7F030252
-			public const int queryBackground = 2130903634;
+			public const int progressBarPadding = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int queryHint = 2130903635;
+			public const int progressBarStyle = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int radioButtonStyle = 2130903636;
+			public const int queryBackground = 2130903636;
 			
 			// aapt resource value: 0x7F030255
-			public const int rangeColor = 2130903637;
+			public const int queryHint = 2130903637;
 			
 			// aapt resource value: 0x7F030256
-			public const int rangeEndValue = 2130903638;
+			public const int queryPatterns = 2130903638;
 			
 			// aapt resource value: 0x7F030257
-			public const int rangeEndWidth = 2130903639;
+			public const int radioButtonStyle = 2130903639;
 			
 			// aapt resource value: 0x7F030258
-			public const int rangeFillColor = 2130903640;
+			public const int rangeColor = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int rangeInnerEndOffset = 2130903641;
+			public const int rangeEndValue = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int rangeInnerStartOffset = 2130903642;
+			public const int rangeEndWidth = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int rangeOffset = 2130903643;
+			public const int rangeFillColor = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int rangeOuterEndOffset = 2130903644;
+			public const int rangeInnerEndOffset = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int rangeOuterStartOffset = 2130903645;
+			public const int rangeInnerStartOffset = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int rangePointerCap = 2130903646;
+			public const int rangeOffset = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int rangePointerColor = 2130903647;
+			public const int rangeOuterEndOffset = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int rangePointerEndOffset = 2130903648;
+			public const int rangeOuterStartOffset = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int rangePointerOffset = 2130903649;
+			public const int rangePointerCap = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int rangePointerStartOffset = 2130903650;
+			public const int rangePointerColor = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int rangePointerStartValue = 2130903651;
+			public const int rangePointerEndOffset = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int rangePointerValue = 2130903652;
+			public const int rangePointerOffset = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int rangePointerWidth = 2130903653;
+			public const int rangePointerStartOffset = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int rangeStartValue = 2130903654;
+			public const int rangePointerStartValue = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int rangeStartWidth = 2130903655;
+			public const int rangePointerValue = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int rangeWidth = 2130903656;
+			public const int rangePointerWidth = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int ratingBarStyle = 2130903657;
+			public const int rangeStartValue = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int ratingBarStyleIndicator = 2130903658;
+			public const int rangeStartWidth = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int ratingBarStyleSmall = 2130903659;
+			public const int rangeWidth = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int ratingControlValue = 2130903660;
+			public const int ratingBarStyle = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int ratingEnableAutoSize = 2130903661;
+			public const int ratingBarStyleIndicator = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int ratingItemCount = 2130903662;
+			public const int ratingBarStyleSmall = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int ratingItemSize = 2130903663;
+			public const int ratingControlValue = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int ratingItemSpacing = 2130903664;
+			public const int ratingEnableAutoSize = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int ratingPrecision = 2130903665;
+			public const int ratingItemCount = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int ratingRatedFill = 2130903666;
+			public const int ratingItemSize = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int ratingRatedStroke = 2130903667;
+			public const int ratingItemSpacing = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int ratingRatedStrokeWidth = 2130903668;
+			public const int ratingPrecision = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int ratingUnratedFill = 2130903669;
+			public const int ratingRatedFill = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int ratingUnratedStroke = 2130903670;
+			public const int ratingRatedStroke = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int ratingUnratedStrokeWidth = 2130903671;
+			public const int ratingRatedStrokeWidth = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int recyclerViewStyle = 2130903672;
+			public const int ratingUnratedFill = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int reverseLayout = 2130903673;
+			public const int ratingUnratedStroke = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int rippleColor = 2130903674;
+			public const int ratingUnratedStrokeWidth = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int rotatorDotsBorderColor = 2130903675;
+			public const int recyclerViewStyle = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int rotatorDotsPlacement = 2130903676;
+			public const int reverseLayout = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int rotatorEnableAutoPlay = 2130903677;
+			public const int rippleColor = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int rotatorEnableLooping = 2130903678;
+			public const int rotatorDotsBorderColor = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int rotatorEnableSwiping = 2130903679;
+			public const int rotatorDotsPlacement = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int rotatorNavigationDelay = 2130903680;
+			public const int rotatorEnableAutoPlay = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int rotatorNavigationDirection = 2130903681;
+			public const int rotatorEnableLooping = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int rotatorNavigationStripMode = 2130903682;
+			public const int rotatorEnableSwiping = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int rotatorNavigationStripPosition = 2130903683;
+			public const int rotatorNavigationDelay = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int rotatorPlayDirection = 2130903684;
+			public const int rotatorNavigationDirection = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int rotatorSelectedDotsColor = 2130903685;
+			public const int rotatorNavigationStripMode = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int rotatorSelectedIndex = 2130903686;
+			public const int rotatorNavigationStripPosition = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int rotatorTextVisible = 2130903687;
+			public const int rotatorPlayDirection = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int rotatorUnselectedDotsColor = 2130903688;
+			public const int rotatorSelectedDotsColor = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int scaleAutoAngle = 2130903689;
+			public const int rotatorSelectedIndex = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int scaleAutoInterval = 2130903690;
+			public const int rotatorTextVisible = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int scaleBarColor = 2130903691;
+			public const int rotatorUnselectedDotsColor = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int scaleBarLength = 2130903692;
+			public const int scaleAutoAngle = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int scaleBarSize = 2130903693;
+			public const int scaleAutoInterval = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int scaleCornerRadius = 2130903694;
+			public const int scaleBarColor = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int scaleCornerRadiusType = 2130903695;
+			public const int scaleBarLength = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int scaleDirection = 2130903696;
+			public const int scaleBarSize = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int scaleEndAngle = 2130903697;
+			public const int scaleCornerRadius = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int scaleEndOffset = 2130903698;
+			public const int scaleCornerRadiusType = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int scaleEndValue = 2130903699;
+			public const int scaleDirection = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int scaleInterval = 2130903700;
+			public const int scaleEndAngle = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int scaleLabelColor = 2130903701;
+			public const int scaleEndOffset = 2130903701;
 			
 			// aapt resource value: 0x7F030296
-			public const int scaleLabelFontSize = 2130903702;
+			public const int scaleEndValue = 2130903702;
 			
 			// aapt resource value: 0x7F030297
-			public const int scaleLabelOffset = 2130903703;
+			public const int scaleInterval = 2130903703;
 			
 			// aapt resource value: 0x7F030298
-			public const int scaleLabelPostfix = 2130903704;
+			public const int scaleLabelColor = 2130903704;
 			
 			// aapt resource value: 0x7F030299
-			public const int scaleLabelPrefix = 2130903705;
+			public const int scaleLabelFontSize = 2130903705;
 			
 			// aapt resource value: 0x7F03029A
-			public const int scaleMajorTickColor = 2130903706;
+			public const int scaleLabelOffset = 2130903706;
 			
 			// aapt resource value: 0x7F03029B
-			public const int scaleMajorTickEndOffset = 2130903707;
+			public const int scaleLabelPostfix = 2130903707;
 			
 			// aapt resource value: 0x7F03029C
-			public const int scaleMajorTickLength = 2130903708;
+			public const int scaleLabelPrefix = 2130903708;
 			
 			// aapt resource value: 0x7F03029D
-			public const int scaleMajorTickOffset = 2130903709;
+			public const int scaleMajorTickColor = 2130903709;
 			
 			// aapt resource value: 0x7F03029E
-			public const int scaleMajorTickSize = 2130903710;
+			public const int scaleMajorTickEndOffset = 2130903710;
 			
 			// aapt resource value: 0x7F03029F
-			public const int scaleMajorTickStartOffset = 2130903711;
+			public const int scaleMajorTickLength = 2130903711;
 			
 			// aapt resource value: 0x7F0302A0
-			public const int scaleMajorTickStrokeWidth = 2130903712;
+			public const int scaleMajorTickOffset = 2130903712;
 			
 			// aapt resource value: 0x7F0302A1
-			public const int scaleMajorTickWidth = 2130903713;
+			public const int scaleMajorTickSize = 2130903713;
 			
 			// aapt resource value: 0x7F0302A2
-			public const int scaleMaximum = 2130903714;
+			public const int scaleMajorTickStartOffset = 2130903714;
 			
 			// aapt resource value: 0x7F0302A3
-			public const int scaleMinimum = 2130903715;
+			public const int scaleMajorTickStrokeWidth = 2130903715;
 			
 			// aapt resource value: 0x7F0302A4
-			public const int scaleMinorTickColor = 2130903716;
+			public const int scaleMajorTickWidth = 2130903716;
 			
 			// aapt resource value: 0x7F0302A5
-			public const int scaleMinorTickEndOffset = 2130903717;
+			public const int scaleMaximum = 2130903717;
 			
 			// aapt resource value: 0x7F0302A6
-			public const int scaleMinorTickLength = 2130903718;
+			public const int scaleMinimum = 2130903718;
 			
 			// aapt resource value: 0x7F0302A7
-			public const int scaleMinorTickOffset = 2130903719;
+			public const int scaleMinorTickColor = 2130903719;
 			
 			// aapt resource value: 0x7F0302A8
-			public const int scaleMinorTickSize = 2130903720;
-			
-			// aapt resource value: 0x7F0302AC
-			public const int scaleMinorTicksPerInterval = 2130903724;
+			public const int scaleMinorTickEndOffset = 2130903720;
 			
 			// aapt resource value: 0x7F0302A9
-			public const int scaleMinorTickStartOffset = 2130903721;
+			public const int scaleMinorTickLength = 2130903721;
 			
 			// aapt resource value: 0x7F0302AA
-			public const int scaleMinorTickStrokeWidth = 2130903722;
+			public const int scaleMinorTickOffset = 2130903722;
 			
 			// aapt resource value: 0x7F0302AB
-			public const int scaleMinorTickWidth = 2130903723;
-			
-			// aapt resource value: 0x7F0302AD
-			public const int scaleNumberofDecimalDigits = 2130903725;
-			
-			// aapt resource value: 0x7F0302AE
-			public const int scaleOffset = 2130903726;
+			public const int scaleMinorTickSize = 2130903723;
 			
 			// aapt resource value: 0x7F0302AF
-			public const int scaleOpposedPosition = 2130903727;
+			public const int scaleMinorTicksPerInterval = 2130903727;
+			
+			// aapt resource value: 0x7F0302AC
+			public const int scaleMinorTickStartOffset = 2130903724;
+			
+			// aapt resource value: 0x7F0302AD
+			public const int scaleMinorTickStrokeWidth = 2130903725;
+			
+			// aapt resource value: 0x7F0302AE
+			public const int scaleMinorTickWidth = 2130903726;
 			
 			// aapt resource value: 0x7F0302B0
-			public const int scaleOrientation = 2130903728;
+			public const int scaleNumberofDecimalDigits = 2130903728;
 			
 			// aapt resource value: 0x7F0302B1
-			public const int scaleRadiusFactor = 2130903729;
+			public const int scaleOffset = 2130903729;
 			
 			// aapt resource value: 0x7F0302B2
-			public const int scaleRimColor = 2130903730;
+			public const int scaleOpposedPosition = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int scaleRimWidth = 2130903731;
+			public const int scaleOrientation = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int scaleShowFirstLabel = 2130903732;
+			public const int scaleRadiusFactor = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int scaleShowLabels = 2130903733;
+			public const int scaleRimColor = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int scaleShowLastLabel = 2130903734;
+			public const int scaleRimWidth = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int scaleShowRim = 2130903735;
+			public const int scaleShowFirstLabel = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int scaleShowTicks = 2130903736;
+			public const int scaleShowLabels = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int scaleStartAngle = 2130903737;
+			public const int scaleShowLastLabel = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int scaleStartOffset = 2130903738;
+			public const int scaleShowRim = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int scaleStartValue = 2130903739;
+			public const int scaleShowTicks = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int scopeUris = 2130903740;
+			public const int scaleStartAngle = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int scrimAnimationDuration = 2130903741;
+			public const int scaleStartOffset = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int scrimBackground = 2130903742;
+			public const int scaleStartValue = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int scrimVisibleHeightTrigger = 2130903743;
+			public const int scopeUris = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int scrollViewStyle = 2130903744;
+			public const int scrimAnimationDuration = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int searchHintIcon = 2130903745;
+			public const int scrimBackground = 2130903745;
 			
 			// aapt resource value: 0x7F0302C2
-			public const int searchIcon = 2130903746;
+			public const int scrimVisibleHeightTrigger = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int searchViewStyle = 2130903747;
+			public const int scrollViewStyle = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int seekBarStyle = 2130903748;
+			public const int searchHintIcon = 2130903748;
 			
 			// aapt resource value: 0x7F0302C5
-			public const int segmentBackColor = 2130903749;
+			public const int searchIcon = 2130903749;
 			
 			// aapt resource value: 0x7F0302C6
-			public const int segmentBorderColor = 2130903750;
+			public const int searchViewStyle = 2130903750;
 			
 			// aapt resource value: 0x7F0302C7
-			public const int segmentBorderThickness = 2130903751;
+			public const int seekBarStyle = 2130903751;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int segmentColor = 2130903752;
+			public const int segmentBackColor = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int segmentCornerRadius = 2130903753;
+			public const int segmentBorderColor = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int segmentDisplayMode = 2130903754;
-			
-			// aapt resource value: 0x7F0302CF
-			public const int segmentedHeight = 2130903759;
-			
-			// aapt resource value: 0x7F0302D0
-			public const int segmentedPadding = 2130903760;
-			
-			// aapt resource value: 0x7F0302D1
-			public const int segmentedWidth = 2130903761;
+			public const int segmentBorderThickness = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int segmentPosition = 2130903755;
+			public const int segmentColor = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int segmentSelectedIndex = 2130903756;
+			public const int segmentCornerRadius = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int segmentStrokeThickness = 2130903757;
-			
-			// aapt resource value: 0x7F0302CE
-			public const int segmentStrokeWidth = 2130903758;
+			public const int segmentDisplayMode = 2130903757;
 			
 			// aapt resource value: 0x7F0302D2
-			public const int selectableItemBackground = 2130903762;
+			public const int segmentedHeight = 2130903762;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int selectableItemBackgroundBorderless = 2130903763;
+			public const int segmentedPadding = 2130903763;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int selectedShapeColor = 2130903764;
+			public const int segmentedWidth = 2130903764;
+			
+			// aapt resource value: 0x7F0302CE
+			public const int segmentPosition = 2130903758;
+			
+			// aapt resource value: 0x7F0302CF
+			public const int segmentSelectedIndex = 2130903759;
+			
+			// aapt resource value: 0x7F0302D0
+			public const int segmentStrokeThickness = 2130903760;
+			
+			// aapt resource value: 0x7F0302D1
+			public const int segmentStrokeWidth = 2130903761;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int selectedShapeStroke = 2130903765;
+			public const int selectableItemBackground = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int selectedShapeStrokeThickness = 2130903766;
+			public const int selectableItemBackgroundBorderless = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int selectionRequired = 2130903767;
+			public const int selectedShapeColor = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int shapeAppearance = 2130903768;
+			public const int selectedShapeStroke = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int shapeAppearanceLargeComponent = 2130903769;
+			public const int selectedShapeStrokeThickness = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int shapeAppearanceMediumComponent = 2130903770;
+			public const int selectionRequired = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int shapeAppearanceOverlay = 2130903771;
+			public const int shapeAppearance = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int shapeAppearanceSmallComponent = 2130903772;
+			public const int shapeAppearanceLargeComponent = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int shapeFill = 2130903773;
+			public const int shapeAppearanceMediumComponent = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int shapeStroke = 2130903774;
+			public const int shapeAppearanceOverlay = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int shapeStrokeThickness = 2130903775;
+			public const int shapeAppearanceSmallComponent = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int showAsAction = 2130903776;
+			public const int shapeFill = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int showDividers = 2130903777;
+			public const int shapeStroke = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int showMotionSpec = 2130903778;
+			public const int shapeStrokeThickness = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int showText = 2130903779;
+			public const int shortcutMatchRequired = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int showTitle = 2130903780;
+			public const int showAsAction = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int shrinkMotionSpec = 2130903781;
+			public const int showDividers = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int singleChoiceItemLayout = 2130903782;
+			public const int showMotionSpec = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int singleLine = 2130903783;
+			public const int showText = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int singleSelection = 2130903784;
+			public const int showTitle = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int sliderStyle = 2130903785;
+			public const int shrinkMotionSpec = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int snackbarButtonStyle = 2130903786;
+			public const int singleChoiceItemLayout = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int snackbarStyle = 2130903787;
+			public const int singleLine = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int snackbarTextViewStyle = 2130903788;
+			public const int singleSelection = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int spanCount = 2130903789;
+			public const int sliderStyle = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int spinBars = 2130903790;
+			public const int snackbarButtonStyle = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int spinnerDropDownItemStyle = 2130903791;
+			public const int snackbarStyle = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int spinnerStyle = 2130903792;
+			public const int snackbarTextViewStyle = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int splitTrack = 2130903793;
+			public const int spanCount = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int srcCompat = 2130903794;
+			public const int spinBars = 2130903794;
 			
 			// aapt resource value: 0x7F0302F3
-			public const int stackFromEnd = 2130903795;
+			public const int spinnerDropDownItemStyle = 2130903795;
 			
 			// aapt resource value: 0x7F0302F4
-			public const int startIconCheckable = 2130903796;
+			public const int spinnerStyle = 2130903796;
 			
 			// aapt resource value: 0x7F0302F5
-			public const int startIconContentDescription = 2130903797;
+			public const int splitTrack = 2130903797;
 			
 			// aapt resource value: 0x7F0302F6
-			public const int startIconDrawable = 2130903798;
+			public const int srcCompat = 2130903798;
 			
 			// aapt resource value: 0x7F0302F7
-			public const int startIconTint = 2130903799;
+			public const int stackFromEnd = 2130903799;
 			
 			// aapt resource value: 0x7F0302F8
-			public const int startIconTintMode = 2130903800;
+			public const int startIconCheckable = 2130903800;
 			
 			// aapt resource value: 0x7F0302F9
-			public const int state_above_anchor = 2130903801;
+			public const int startIconContentDescription = 2130903801;
 			
 			// aapt resource value: 0x7F0302FA
-			public const int state_collapsed = 2130903802;
+			public const int startIconDrawable = 2130903802;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int state_collapsible = 2130903803;
+			public const int startIconTint = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int state_dragged = 2130903804;
+			public const int startIconTintMode = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int state_indeterminate = 2130903805;
+			public const int state_above_anchor = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int state_liftable = 2130903806;
+			public const int state_collapsed = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int state_lifted = 2130903807;
+			public const int state_collapsible = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int statusBarBackground = 2130903808;
+			public const int state_dragged = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int statusBarForeground = 2130903809;
+			public const int state_indeterminate = 2130903809;
 			
 			// aapt resource value: 0x7F030302
-			public const int statusBarScrim = 2130903810;
+			public const int state_liftable = 2130903810;
 			
 			// aapt resource value: 0x7F030303
-			public const int strokeColor = 2130903811;
+			public const int state_lifted = 2130903811;
 			
 			// aapt resource value: 0x7F030304
-			public const int strokeWidth = 2130903812;
+			public const int statusBarBackground = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int subMenuArrow = 2130903813;
+			public const int statusBarForeground = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int submitBackground = 2130903814;
+			public const int statusBarScrim = 2130903814;
 			
 			// aapt resource value: 0x7F030307
-			public const int subtitle = 2130903815;
+			public const int strokeColor = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int subtitleTextAppearance = 2130903816;
+			public const int strokeWidth = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int subtitleTextColor = 2130903817;
+			public const int subMenuArrow = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int subtitleTextStyle = 2130903818;
+			public const int submitBackground = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int suffixText = 2130903819;
+			public const int subtitle = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int suffixTextAppearance = 2130903820;
+			public const int subtitleTextAppearance = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int suffixTextColor = 2130903821;
+			public const int subtitleTextColor = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int suggestionRowLayout = 2130903822;
+			public const int subtitleTextStyle = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903823;
+			public const int suffixText = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int switchMinWidth = 2130903824;
+			public const int suffixTextAppearance = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int switchPadding = 2130903825;
+			public const int suffixTextColor = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int switchStyle = 2130903826;
+			public const int suggestionRowLayout = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int switchTextAppearance = 2130903827;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int symbolPointerColor = 2130903828;
+			public const int switchMinWidth = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int symbolPointerOffset = 2130903829;
+			public const int switchPadding = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int symbolPointerStrokeWidth = 2130903830;
+			public const int switchStyle = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int symbolPointerValue = 2130903831;
+			public const int switchTextAppearance = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int symbolPosition = 2130903832;
+			public const int symbolPointerColor = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int tabBackground = 2130903833;
+			public const int symbolPointerOffset = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int tabContentStart = 2130903834;
+			public const int symbolPointerStrokeWidth = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int tabGravity = 2130903835;
+			public const int symbolPointerValue = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int tabIconTint = 2130903836;
+			public const int symbolPosition = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int tabIconTintMode = 2130903837;
+			public const int tabBackground = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int tabIndicator = 2130903838;
+			public const int tabContentStart = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int tabIndicatorAnimationDuration = 2130903839;
+			public const int tabGravity = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int tabIndicatorColor = 2130903840;
+			public const int tabIconTint = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int tabIndicatorFullWidth = 2130903841;
+			public const int tabIconTintMode = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int tabIndicatorGravity = 2130903842;
+			public const int tabIndicator = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int tabIndicatorHeight = 2130903843;
+			public const int tabIndicatorAnimationDuration = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int tabInlineLabel = 2130903844;
+			public const int tabIndicatorColor = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int tabMaxWidth = 2130903845;
+			public const int tabIndicatorFullWidth = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int tabMinWidth = 2130903846;
+			public const int tabIndicatorGravity = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int tabMode = 2130903847;
+			public const int tabIndicatorHeight = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int tabPadding = 2130903848;
+			public const int tabInlineLabel = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int tabPaddingBottom = 2130903849;
+			public const int tabMaxWidth = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int tabPaddingEnd = 2130903850;
+			public const int tabMinWidth = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int tabPaddingStart = 2130903851;
+			public const int tabMode = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int tabPaddingTop = 2130903852;
+			public const int tabPadding = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int tabRippleColor = 2130903853;
+			public const int tabPaddingBottom = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int tabSelectedTextColor = 2130903854;
+			public const int tabPaddingEnd = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int tabStyle = 2130903855;
+			public const int tabPaddingStart = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int tabTextAppearance = 2130903856;
+			public const int tabPaddingTop = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int tabTextColor = 2130903857;
+			public const int tabRippleColor = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int tabUnboundedRipple = 2130903858;
+			public const int tabSelectedTextColor = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int textAllCaps = 2130903859;
+			public const int tabStyle = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int textAppearanceBody1 = 2130903860;
+			public const int tabTextAppearance = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int textAppearanceBody2 = 2130903861;
+			public const int tabTextColor = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int textAppearanceButton = 2130903862;
+			public const int tabUnboundedRipple = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int textAppearanceCaption = 2130903863;
+			public const int textAllCaps = 2130903863;
 			
 			// aapt resource value: 0x7F030338
-			public const int textAppearanceHeadline1 = 2130903864;
+			public const int textAppearanceBody1 = 2130903864;
 			
 			// aapt resource value: 0x7F030339
-			public const int textAppearanceHeadline2 = 2130903865;
+			public const int textAppearanceBody2 = 2130903865;
 			
 			// aapt resource value: 0x7F03033A
-			public const int textAppearanceHeadline3 = 2130903866;
+			public const int textAppearanceButton = 2130903866;
 			
 			// aapt resource value: 0x7F03033B
-			public const int textAppearanceHeadline4 = 2130903867;
+			public const int textAppearanceCaption = 2130903867;
 			
 			// aapt resource value: 0x7F03033C
-			public const int textAppearanceHeadline5 = 2130903868;
+			public const int textAppearanceHeadline1 = 2130903868;
 			
 			// aapt resource value: 0x7F03033D
-			public const int textAppearanceHeadline6 = 2130903869;
+			public const int textAppearanceHeadline2 = 2130903869;
 			
 			// aapt resource value: 0x7F03033E
-			public const int textAppearanceLargePopupMenu = 2130903870;
+			public const int textAppearanceHeadline3 = 2130903870;
 			
 			// aapt resource value: 0x7F03033F
-			public const int textAppearanceLineHeightEnabled = 2130903871;
+			public const int textAppearanceHeadline4 = 2130903871;
 			
 			// aapt resource value: 0x7F030340
-			public const int textAppearanceListItem = 2130903872;
+			public const int textAppearanceHeadline5 = 2130903872;
 			
 			// aapt resource value: 0x7F030341
-			public const int textAppearanceListItemSecondary = 2130903873;
+			public const int textAppearanceHeadline6 = 2130903873;
 			
 			// aapt resource value: 0x7F030342
-			public const int textAppearanceListItemSmall = 2130903874;
+			public const int textAppearanceLargePopupMenu = 2130903874;
 			
 			// aapt resource value: 0x7F030343
-			public const int textAppearanceOverline = 2130903875;
+			public const int textAppearanceLineHeightEnabled = 2130903875;
 			
 			// aapt resource value: 0x7F030344
-			public const int textAppearancePopupMenuHeader = 2130903876;
+			public const int textAppearanceListItem = 2130903876;
 			
 			// aapt resource value: 0x7F030345
-			public const int textAppearanceSearchResultSubtitle = 2130903877;
+			public const int textAppearanceListItemSecondary = 2130903877;
 			
 			// aapt resource value: 0x7F030346
-			public const int textAppearanceSearchResultTitle = 2130903878;
+			public const int textAppearanceListItemSmall = 2130903878;
 			
 			// aapt resource value: 0x7F030347
-			public const int textAppearanceSmallPopupMenu = 2130903879;
+			public const int textAppearanceOverline = 2130903879;
 			
 			// aapt resource value: 0x7F030348
-			public const int textAppearanceSubtitle1 = 2130903880;
+			public const int textAppearancePopupMenuHeader = 2130903880;
 			
 			// aapt resource value: 0x7F030349
-			public const int textAppearanceSubtitle2 = 2130903881;
+			public const int textAppearanceSearchResultSubtitle = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int textColorAlertDialogListItem = 2130903882;
+			public const int textAppearanceSearchResultTitle = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int textColorSearchUrl = 2130903883;
+			public const int textAppearanceSmallPopupMenu = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int textEndPadding = 2130903884;
+			public const int textAppearanceSubtitle1 = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int textInputLayoutFocusedRectEnabled = 2130903885;
+			public const int textAppearanceSubtitle2 = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int textInputStyle = 2130903886;
+			public const int textColorAlertDialogListItem = 2130903886;
 			
 			// aapt resource value: 0x7F03034F
-			public const int textLocale = 2130903887;
+			public const int textColorSearchUrl = 2130903887;
 			
 			// aapt resource value: 0x7F030350
-			public const int textStartPadding = 2130903888;
+			public const int textEndPadding = 2130903888;
 			
 			// aapt resource value: 0x7F030351
-			public const int theme = 2130903889;
+			public const int textInputLayoutFocusedRectEnabled = 2130903889;
 			
 			// aapt resource value: 0x7F030352
-			public const int themeLineHeight = 2130903890;
+			public const int textInputStyle = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int thickness = 2130903891;
+			public const int textLocale = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int thumbColor = 2130903892;
+			public const int textStartPadding = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int thumbElevation = 2130903893;
+			public const int theme = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int thumbRadius = 2130903894;
+			public const int themeLineHeight = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int thumbTextPadding = 2130903895;
+			public const int thickness = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int thumbTint = 2130903896;
+			public const int thumbColor = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int thumbTintMode = 2130903897;
+			public const int thumbElevation = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int tickColor = 2130903898;
+			public const int thumbRadius = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int tickColorActive = 2130903899;
+			public const int thumbTextPadding = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int tickColorInactive = 2130903900;
+			public const int thumbTint = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int tickMark = 2130903901;
+			public const int thumbTintMode = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int tickMarkTint = 2130903902;
+			public const int tickColor = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int tickMarkTintMode = 2130903903;
+			public const int tickColorActive = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int tint = 2130903904;
+			public const int tickColorInactive = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int tintMode = 2130903905;
+			public const int tickMark = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int title = 2130903906;
+			public const int tickMarkTint = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int titleEnabled = 2130903907;
+			public const int tickMarkTintMode = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int titleMargin = 2130903908;
+			public const int tint = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int titleMarginBottom = 2130903909;
+			public const int tintMode = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int titleMarginEnd = 2130903910;
-			
-			// aapt resource value: 0x7F030369
-			public const int titleMargins = 2130903913;
+			public const int title = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int titleMarginStart = 2130903911;
+			public const int titleEnabled = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int titleMarginTop = 2130903912;
+			public const int titleMargin = 2130903912;
+			
+			// aapt resource value: 0x7F030369
+			public const int titleMarginBottom = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int titleTextAppearance = 2130903914;
-			
-			// aapt resource value: 0x7F03036B
-			public const int titleTextColor = 2130903915;
-			
-			// aapt resource value: 0x7F03036C
-			public const int titleTextStyle = 2130903916;
+			public const int titleMarginEnd = 2130903914;
 			
 			// aapt resource value: 0x7F03036D
-			public const int toolbarId = 2130903917;
+			public const int titleMargins = 2130903917;
+			
+			// aapt resource value: 0x7F03036B
+			public const int titleMarginStart = 2130903915;
+			
+			// aapt resource value: 0x7F03036C
+			public const int titleMarginTop = 2130903916;
 			
 			// aapt resource value: 0x7F03036E
-			public const int toolbarNavigationButtonStyle = 2130903918;
+			public const int titleTextAppearance = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int toolbarStyle = 2130903919;
+			public const int titleTextColor = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int tooltipForegroundColor = 2130903920;
+			public const int titleTextStyle = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int tooltipFrameBackground = 2130903921;
+			public const int toolbarId = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int tooltipStyle = 2130903922;
+			public const int toolbarNavigationButtonStyle = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int tooltipText = 2130903923;
+			public const int toolbarStyle = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int track = 2130903924;
+			public const int tooltipForegroundColor = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int trackColor = 2130903925;
+			public const int tooltipFrameBackground = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int trackColorActive = 2130903926;
+			public const int tooltipStyle = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int trackColorInactive = 2130903927;
+			public const int tooltipText = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int trackHeight = 2130903928;
+			public const int track = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int trackTint = 2130903929;
+			public const int trackColor = 2130903929;
 			
 			// aapt resource value: 0x7F03037A
-			public const int trackTintMode = 2130903930;
+			public const int trackColorActive = 2130903930;
 			
 			// aapt resource value: 0x7F03037B
-			public const int transitionShapeAppearance = 2130903931;
+			public const int trackColorInactive = 2130903931;
 			
 			// aapt resource value: 0x7F03037C
-			public const int ttcIndex = 2130903932;
+			public const int trackHeight = 2130903932;
 			
 			// aapt resource value: 0x7F03037D
-			public const int uri = 2130903933;
+			public const int trackTint = 2130903933;
 			
 			// aapt resource value: 0x7F03037E
-			public const int useCompatPadding = 2130903934;
+			public const int trackTintMode = 2130903934;
 			
 			// aapt resource value: 0x7F03037F
-			public const int useMaterialThemeColors = 2130903935;
+			public const int transitionShapeAppearance = 2130903935;
 			
 			// aapt resource value: 0x7F030380
-			public const int values = 2130903936;
+			public const int ttcIndex = 2130903936;
 			
 			// aapt resource value: 0x7F030381
-			public const int verticalOffset = 2130903937;
+			public const int uri = 2130903937;
 			
 			// aapt resource value: 0x7F030382
-			public const int viewInflaterClass = 2130903938;
+			public const int useCompatPadding = 2130903938;
 			
 			// aapt resource value: 0x7F030383
-			public const int voiceIcon = 2130903939;
+			public const int useMaterialThemeColors = 2130903939;
 			
 			// aapt resource value: 0x7F030384
-			public const int windowActionBar = 2130903940;
+			public const int values = 2130903940;
 			
 			// aapt resource value: 0x7F030385
-			public const int windowActionBarOverlay = 2130903941;
+			public const int verticalOffset = 2130903941;
 			
 			// aapt resource value: 0x7F030386
-			public const int windowActionModeOverlay = 2130903942;
+			public const int viewInflaterClass = 2130903942;
 			
 			// aapt resource value: 0x7F030387
-			public const int windowFixedHeightMajor = 2130903943;
+			public const int voiceIcon = 2130903943;
 			
 			// aapt resource value: 0x7F030388
-			public const int windowFixedHeightMinor = 2130903944;
+			public const int windowActionBar = 2130903944;
 			
 			// aapt resource value: 0x7F030389
-			public const int windowFixedWidthMajor = 2130903945;
+			public const int windowActionBarOverlay = 2130903945;
 			
 			// aapt resource value: 0x7F03038A
-			public const int windowFixedWidthMinor = 2130903946;
+			public const int windowActionModeOverlay = 2130903946;
 			
 			// aapt resource value: 0x7F03038B
-			public const int windowMinWidthMajor = 2130903947;
+			public const int windowFixedHeightMajor = 2130903947;
 			
 			// aapt resource value: 0x7F03038C
-			public const int windowMinWidthMinor = 2130903948;
+			public const int windowFixedHeightMinor = 2130903948;
 			
 			// aapt resource value: 0x7F03038D
-			public const int windowNoTitle = 2130903949;
+			public const int windowFixedWidthMajor = 2130903949;
 			
 			// aapt resource value: 0x7F03038E
-			public const int yearSelectedStyle = 2130903950;
+			public const int windowFixedWidthMinor = 2130903950;
 			
 			// aapt resource value: 0x7F03038F
-			public const int yearStyle = 2130903951;
+			public const int windowMinWidthMajor = 2130903951;
 			
 			// aapt resource value: 0x7F030390
-			public const int yearTodayStyle = 2130903952;
+			public const int windowMinWidthMinor = 2130903952;
+			
+			// aapt resource value: 0x7F030391
+			public const int windowNoTitle = 2130903953;
+			
+			// aapt resource value: 0x7F030392
+			public const int yearSelectedStyle = 2130903954;
+			
+			// aapt resource value: 0x7F030393
+			public const int yearStyle = 2130903955;
+			
+			// aapt resource value: 0x7F030394
+			public const int yearTodayStyle = 2130903956;
 			
 			static Attribute()
 			{
@@ -23512,598 +24537,604 @@ namespace TurnosFutbol.Droid
 			public const int button_material_light = 2131034157;
 			
 			// aapt resource value: 0x7F05002E
-			public const int cardview_dark_background = 2131034158;
+			public const int call_notification_answer_color = 2131034158;
 			
 			// aapt resource value: 0x7F05002F
-			public const int cardview_light_background = 2131034159;
+			public const int call_notification_decline_color = 2131034159;
 			
 			// aapt resource value: 0x7F050030
-			public const int cardview_shadow_end_color = 2131034160;
+			public const int cardview_dark_background = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int cardview_shadow_start_color = 2131034161;
+			public const int cardview_light_background = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int checkbox_themeable_attribute_color = 2131034162;
+			public const int cardview_shadow_end_color = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int colorAccent = 2131034163;
+			public const int cardview_shadow_start_color = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int colorPrimary = 2131034164;
+			public const int checkbox_themeable_attribute_color = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int colorPrimaryDark = 2131034165;
+			public const int colorAccent = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int colorSplashBack = 2131034166;
+			public const int colorPrimary = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int common_google_signin_btn_text_dark = 2131034167;
+			public const int colorPrimaryDark = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int common_google_signin_btn_text_dark_default = 2131034168;
+			public const int colorSplashBack = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int common_google_signin_btn_text_dark_disabled = 2131034169;
+			public const int common_google_signin_btn_text_dark = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int common_google_signin_btn_text_dark_focused = 2131034170;
+			public const int common_google_signin_btn_text_dark_default = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int common_google_signin_btn_text_dark_pressed = 2131034171;
+			public const int common_google_signin_btn_text_dark_disabled = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int common_google_signin_btn_text_light = 2131034172;
+			public const int common_google_signin_btn_text_dark_focused = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int common_google_signin_btn_text_light_default = 2131034173;
+			public const int common_google_signin_btn_text_dark_pressed = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int common_google_signin_btn_text_light_disabled = 2131034174;
+			public const int common_google_signin_btn_text_light = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int common_google_signin_btn_text_light_focused = 2131034175;
+			public const int common_google_signin_btn_text_light_default = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int common_google_signin_btn_text_light_pressed = 2131034176;
+			public const int common_google_signin_btn_text_light_disabled = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int common_google_signin_btn_tint = 2131034177;
+			public const int common_google_signin_btn_text_light_focused = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int control_checkable_material = 2131034178;
+			public const int common_google_signin_btn_text_light_pressed = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int design_bottom_navigation_shadow_color = 2131034179;
+			public const int common_google_signin_btn_tint = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int design_box_stroke_color = 2131034180;
+			public const int control_checkable_material = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int design_dark_default_color_background = 2131034181;
+			public const int design_bottom_navigation_shadow_color = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int design_dark_default_color_error = 2131034182;
+			public const int design_box_stroke_color = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int design_dark_default_color_on_background = 2131034183;
+			public const int design_dark_default_color_background = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int design_dark_default_color_on_error = 2131034184;
+			public const int design_dark_default_color_error = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int design_dark_default_color_on_primary = 2131034185;
+			public const int design_dark_default_color_on_background = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int design_dark_default_color_on_secondary = 2131034186;
+			public const int design_dark_default_color_on_error = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int design_dark_default_color_on_surface = 2131034187;
+			public const int design_dark_default_color_on_primary = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int design_dark_default_color_primary = 2131034188;
+			public const int design_dark_default_color_on_secondary = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int design_dark_default_color_primary_dark = 2131034189;
+			public const int design_dark_default_color_on_surface = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int design_dark_default_color_primary_variant = 2131034190;
+			public const int design_dark_default_color_primary = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int design_dark_default_color_secondary = 2131034191;
+			public const int design_dark_default_color_primary_dark = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int design_dark_default_color_secondary_variant = 2131034192;
+			public const int design_dark_default_color_primary_variant = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int design_dark_default_color_surface = 2131034193;
+			public const int design_dark_default_color_secondary = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int design_default_color_background = 2131034194;
+			public const int design_dark_default_color_secondary_variant = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int design_default_color_error = 2131034195;
+			public const int design_dark_default_color_surface = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int design_default_color_on_background = 2131034196;
+			public const int design_default_color_background = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int design_default_color_on_error = 2131034197;
+			public const int design_default_color_error = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int design_default_color_on_primary = 2131034198;
+			public const int design_default_color_on_background = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int design_default_color_on_secondary = 2131034199;
+			public const int design_default_color_on_error = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int design_default_color_on_surface = 2131034200;
+			public const int design_default_color_on_primary = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int design_default_color_primary = 2131034201;
+			public const int design_default_color_on_secondary = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int design_default_color_primary_dark = 2131034202;
+			public const int design_default_color_on_surface = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int design_default_color_primary_variant = 2131034203;
+			public const int design_default_color_primary = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int design_default_color_secondary = 2131034204;
+			public const int design_default_color_primary_dark = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int design_default_color_secondary_variant = 2131034205;
+			public const int design_default_color_primary_variant = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int design_default_color_surface = 2131034206;
+			public const int design_default_color_secondary = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int design_error = 2131034207;
+			public const int design_default_color_secondary_variant = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int design_fab_shadow_end_color = 2131034208;
+			public const int design_default_color_surface = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int design_fab_shadow_mid_color = 2131034209;
+			public const int design_error = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int design_fab_shadow_start_color = 2131034210;
+			public const int design_fab_shadow_end_color = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int design_fab_stroke_end_inner_color = 2131034211;
+			public const int design_fab_shadow_mid_color = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int design_fab_stroke_end_outer_color = 2131034212;
+			public const int design_fab_shadow_start_color = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int design_fab_stroke_top_inner_color = 2131034213;
+			public const int design_fab_stroke_end_inner_color = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int design_fab_stroke_top_outer_color = 2131034214;
+			public const int design_fab_stroke_end_outer_color = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int design_icon_tint = 2131034215;
+			public const int design_fab_stroke_top_inner_color = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int design_snackbar_background_color = 2131034216;
+			public const int design_fab_stroke_top_outer_color = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int dim_foreground_disabled_material_dark = 2131034217;
+			public const int design_icon_tint = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int dim_foreground_disabled_material_light = 2131034218;
+			public const int design_snackbar_background_color = 2131034218;
 			
 			// aapt resource value: 0x7F05006B
-			public const int dim_foreground_material_dark = 2131034219;
+			public const int dim_foreground_disabled_material_dark = 2131034219;
 			
 			// aapt resource value: 0x7F05006C
-			public const int dim_foreground_material_light = 2131034220;
+			public const int dim_foreground_disabled_material_light = 2131034220;
 			
 			// aapt resource value: 0x7F05006D
-			public const int error_color_material_dark = 2131034221;
+			public const int dim_foreground_material_dark = 2131034221;
 			
 			// aapt resource value: 0x7F05006E
-			public const int error_color_material_light = 2131034222;
+			public const int dim_foreground_material_light = 2131034222;
 			
 			// aapt resource value: 0x7F05006F
-			public const int foreground_material_dark = 2131034223;
+			public const int error_color_material_dark = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int foreground_material_light = 2131034224;
+			public const int error_color_material_light = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int highlighted_text_material_dark = 2131034225;
+			public const int foreground_material_dark = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int highlighted_text_material_light = 2131034226;
+			public const int foreground_material_light = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int launcher_background = 2131034227;
+			public const int highlighted_text_material_dark = 2131034227;
+			
+			// aapt resource value: 0x7F050074
+			public const int highlighted_text_material_light = 2131034228;
+			
+			// aapt resource value: 0x7F050075
+			public const int launcher_background = 2131034229;
 			
 			// aapt resource value: 0x7F050000
 			public const int ListViewSelected = 2131034112;
 			
-			// aapt resource value: 0x7F050074
-			public const int material_blue_grey_800 = 2131034228;
-			
-			// aapt resource value: 0x7F050075
-			public const int material_blue_grey_900 = 2131034229;
-			
 			// aapt resource value: 0x7F050076
-			public const int material_blue_grey_950 = 2131034230;
+			public const int material_blue_grey_800 = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int material_deep_teal_200 = 2131034231;
+			public const int material_blue_grey_900 = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int material_deep_teal_500 = 2131034232;
+			public const int material_blue_grey_950 = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int material_grey_100 = 2131034233;
+			public const int material_deep_teal_200 = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int material_grey_300 = 2131034234;
+			public const int material_deep_teal_500 = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int material_grey_50 = 2131034235;
+			public const int material_grey_100 = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int material_grey_600 = 2131034236;
+			public const int material_grey_300 = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int material_grey_800 = 2131034237;
+			public const int material_grey_50 = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int material_grey_850 = 2131034238;
+			public const int material_grey_600 = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int material_grey_900 = 2131034239;
+			public const int material_grey_800 = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int material_on_background_disabled = 2131034240;
+			public const int material_grey_850 = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int material_on_background_emphasis_high_type = 2131034241;
+			public const int material_grey_900 = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int material_on_background_emphasis_medium = 2131034242;
+			public const int material_on_background_disabled = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int material_on_primary_disabled = 2131034243;
+			public const int material_on_background_emphasis_high_type = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int material_on_primary_emphasis_high_type = 2131034244;
+			public const int material_on_background_emphasis_medium = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int material_on_primary_emphasis_medium = 2131034245;
+			public const int material_on_primary_disabled = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int material_on_surface_disabled = 2131034246;
+			public const int material_on_primary_emphasis_high_type = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int material_on_surface_emphasis_high_type = 2131034247;
+			public const int material_on_primary_emphasis_medium = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int material_on_surface_emphasis_medium = 2131034248;
+			public const int material_on_surface_disabled = 2131034248;
 			
 			// aapt resource value: 0x7F050089
-			public const int material_on_surface_stroke = 2131034249;
+			public const int material_on_surface_emphasis_high_type = 2131034249;
 			
 			// aapt resource value: 0x7F05008A
-			public const int material_slider_active_tick_marks_color = 2131034250;
+			public const int material_on_surface_emphasis_medium = 2131034250;
 			
 			// aapt resource value: 0x7F05008B
-			public const int material_slider_active_track_color = 2131034251;
+			public const int material_on_surface_stroke = 2131034251;
 			
 			// aapt resource value: 0x7F05008C
-			public const int material_slider_halo_color = 2131034252;
+			public const int material_slider_active_tick_marks_color = 2131034252;
 			
 			// aapt resource value: 0x7F05008D
-			public const int material_slider_inactive_tick_marks_color = 2131034253;
+			public const int material_slider_active_track_color = 2131034253;
 			
 			// aapt resource value: 0x7F05008E
-			public const int material_slider_inactive_track_color = 2131034254;
+			public const int material_slider_halo_color = 2131034254;
 			
 			// aapt resource value: 0x7F05008F
-			public const int material_slider_thumb_color = 2131034255;
+			public const int material_slider_inactive_tick_marks_color = 2131034255;
 			
 			// aapt resource value: 0x7F050090
-			public const int mr_cast_meta_black_scrim = 2131034256;
+			public const int material_slider_inactive_track_color = 2131034256;
 			
 			// aapt resource value: 0x7F050091
-			public const int mr_cast_meta_default_background = 2131034257;
+			public const int material_slider_thumb_color = 2131034257;
 			
 			// aapt resource value: 0x7F050092
-			public const int mr_cast_meta_default_text_color = 2131034258;
+			public const int mr_cast_meta_black_scrim = 2131034258;
 			
 			// aapt resource value: 0x7F050093
-			public const int mr_cast_progressbar_background_dark = 2131034259;
+			public const int mr_cast_meta_default_background = 2131034259;
 			
 			// aapt resource value: 0x7F050094
-			public const int mr_cast_progressbar_background_light = 2131034260;
+			public const int mr_cast_meta_default_text_color = 2131034260;
 			
 			// aapt resource value: 0x7F050095
-			public const int mr_cast_progressbar_progress_and_thumb_dark = 2131034261;
+			public const int mr_cast_progressbar_background_dark = 2131034261;
 			
 			// aapt resource value: 0x7F050096
-			public const int mr_cast_progressbar_progress_and_thumb_light = 2131034262;
+			public const int mr_cast_progressbar_background_light = 2131034262;
 			
 			// aapt resource value: 0x7F050097
-			public const int mr_cast_route_divider_dark = 2131034263;
+			public const int mr_cast_progressbar_progress_and_thumb_dark = 2131034263;
 			
 			// aapt resource value: 0x7F050098
-			public const int mr_cast_route_divider_light = 2131034264;
+			public const int mr_cast_progressbar_progress_and_thumb_light = 2131034264;
 			
 			// aapt resource value: 0x7F050099
-			public const int mr_dynamic_dialog_background_dark = 2131034265;
+			public const int mr_cast_route_divider_dark = 2131034265;
 			
 			// aapt resource value: 0x7F05009A
-			public const int mr_dynamic_dialog_background_light = 2131034266;
+			public const int mr_cast_route_divider_light = 2131034266;
 			
 			// aapt resource value: 0x7F05009B
-			public const int mr_dynamic_dialog_header_text_color_dark = 2131034267;
+			public const int mr_dynamic_dialog_background_dark = 2131034267;
 			
 			// aapt resource value: 0x7F05009C
-			public const int mr_dynamic_dialog_header_text_color_light = 2131034268;
+			public const int mr_dynamic_dialog_background_light = 2131034268;
 			
 			// aapt resource value: 0x7F05009D
-			public const int mr_dynamic_dialog_icon_dark = 2131034269;
+			public const int mr_dynamic_dialog_header_text_color_dark = 2131034269;
 			
 			// aapt resource value: 0x7F05009E
-			public const int mr_dynamic_dialog_icon_light = 2131034270;
+			public const int mr_dynamic_dialog_header_text_color_light = 2131034270;
 			
 			// aapt resource value: 0x7F05009F
-			public const int mr_dynamic_dialog_route_text_color_dark = 2131034271;
+			public const int mr_dynamic_dialog_icon_dark = 2131034271;
 			
 			// aapt resource value: 0x7F0500A0
-			public const int mr_dynamic_dialog_route_text_color_light = 2131034272;
+			public const int mr_dynamic_dialog_icon_light = 2131034272;
 			
 			// aapt resource value: 0x7F0500A1
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034273;
+			public const int mr_dynamic_dialog_route_text_color_dark = 2131034273;
 			
 			// aapt resource value: 0x7F0500A2
-			public const int mtrl_bottom_nav_colored_ripple_color = 2131034274;
+			public const int mr_dynamic_dialog_route_text_color_light = 2131034274;
 			
 			// aapt resource value: 0x7F0500A3
-			public const int mtrl_bottom_nav_item_tint = 2131034275;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034275;
 			
 			// aapt resource value: 0x7F0500A4
-			public const int mtrl_bottom_nav_ripple_color = 2131034276;
+			public const int mtrl_bottom_nav_colored_ripple_color = 2131034276;
 			
 			// aapt resource value: 0x7F0500A5
-			public const int mtrl_btn_bg_color_selector = 2131034277;
+			public const int mtrl_bottom_nav_item_tint = 2131034277;
 			
 			// aapt resource value: 0x7F0500A6
-			public const int mtrl_btn_ripple_color = 2131034278;
+			public const int mtrl_bottom_nav_ripple_color = 2131034278;
 			
 			// aapt resource value: 0x7F0500A7
-			public const int mtrl_btn_stroke_color_selector = 2131034279;
+			public const int mtrl_btn_bg_color_selector = 2131034279;
 			
 			// aapt resource value: 0x7F0500A8
-			public const int mtrl_btn_text_btn_bg_color_selector = 2131034280;
+			public const int mtrl_btn_ripple_color = 2131034280;
 			
 			// aapt resource value: 0x7F0500A9
-			public const int mtrl_btn_text_btn_ripple_color = 2131034281;
+			public const int mtrl_btn_stroke_color_selector = 2131034281;
 			
 			// aapt resource value: 0x7F0500AA
-			public const int mtrl_btn_text_color_disabled = 2131034282;
+			public const int mtrl_btn_text_btn_bg_color_selector = 2131034282;
 			
 			// aapt resource value: 0x7F0500AB
-			public const int mtrl_btn_text_color_selector = 2131034283;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034283;
 			
 			// aapt resource value: 0x7F0500AC
-			public const int mtrl_btn_transparent_bg_color = 2131034284;
+			public const int mtrl_btn_text_color_disabled = 2131034284;
 			
 			// aapt resource value: 0x7F0500AD
-			public const int mtrl_calendar_item_stroke_color = 2131034285;
+			public const int mtrl_btn_text_color_selector = 2131034285;
 			
 			// aapt resource value: 0x7F0500AE
-			public const int mtrl_calendar_selected_range = 2131034286;
+			public const int mtrl_btn_transparent_bg_color = 2131034286;
 			
 			// aapt resource value: 0x7F0500AF
-			public const int mtrl_card_view_foreground = 2131034287;
+			public const int mtrl_calendar_item_stroke_color = 2131034287;
 			
 			// aapt resource value: 0x7F0500B0
-			public const int mtrl_card_view_ripple = 2131034288;
+			public const int mtrl_calendar_selected_range = 2131034288;
 			
 			// aapt resource value: 0x7F0500B1
-			public const int mtrl_chip_background_color = 2131034289;
+			public const int mtrl_card_view_foreground = 2131034289;
 			
 			// aapt resource value: 0x7F0500B2
-			public const int mtrl_chip_close_icon_tint = 2131034290;
+			public const int mtrl_card_view_ripple = 2131034290;
 			
 			// aapt resource value: 0x7F0500B3
-			public const int mtrl_chip_ripple_color = 2131034291;
+			public const int mtrl_chip_background_color = 2131034291;
 			
 			// aapt resource value: 0x7F0500B4
-			public const int mtrl_chip_surface_color = 2131034292;
+			public const int mtrl_chip_close_icon_tint = 2131034292;
 			
 			// aapt resource value: 0x7F0500B5
-			public const int mtrl_chip_text_color = 2131034293;
+			public const int mtrl_chip_ripple_color = 2131034293;
 			
 			// aapt resource value: 0x7F0500B6
-			public const int mtrl_choice_chip_background_color = 2131034294;
+			public const int mtrl_chip_surface_color = 2131034294;
 			
 			// aapt resource value: 0x7F0500B7
-			public const int mtrl_choice_chip_ripple_color = 2131034295;
+			public const int mtrl_chip_text_color = 2131034295;
 			
 			// aapt resource value: 0x7F0500B8
-			public const int mtrl_choice_chip_text_color = 2131034296;
+			public const int mtrl_choice_chip_background_color = 2131034296;
 			
 			// aapt resource value: 0x7F0500B9
-			public const int mtrl_error = 2131034297;
+			public const int mtrl_choice_chip_ripple_color = 2131034297;
 			
 			// aapt resource value: 0x7F0500BA
-			public const int mtrl_fab_bg_color_selector = 2131034298;
+			public const int mtrl_choice_chip_text_color = 2131034298;
 			
 			// aapt resource value: 0x7F0500BB
-			public const int mtrl_fab_icon_text_color_selector = 2131034299;
+			public const int mtrl_error = 2131034299;
 			
 			// aapt resource value: 0x7F0500BC
-			public const int mtrl_fab_ripple_color = 2131034300;
+			public const int mtrl_fab_bg_color_selector = 2131034300;
 			
 			// aapt resource value: 0x7F0500BD
-			public const int mtrl_filled_background_color = 2131034301;
+			public const int mtrl_fab_icon_text_color_selector = 2131034301;
 			
 			// aapt resource value: 0x7F0500BE
-			public const int mtrl_filled_icon_tint = 2131034302;
+			public const int mtrl_fab_ripple_color = 2131034302;
 			
 			// aapt resource value: 0x7F0500BF
-			public const int mtrl_filled_stroke_color = 2131034303;
+			public const int mtrl_filled_background_color = 2131034303;
 			
 			// aapt resource value: 0x7F0500C0
-			public const int mtrl_indicator_text_color = 2131034304;
+			public const int mtrl_filled_icon_tint = 2131034304;
 			
 			// aapt resource value: 0x7F0500C1
-			public const int mtrl_navigation_item_background_color = 2131034305;
+			public const int mtrl_filled_stroke_color = 2131034305;
 			
 			// aapt resource value: 0x7F0500C2
-			public const int mtrl_navigation_item_icon_tint = 2131034306;
+			public const int mtrl_indicator_text_color = 2131034306;
 			
 			// aapt resource value: 0x7F0500C3
-			public const int mtrl_navigation_item_text_color = 2131034307;
+			public const int mtrl_navigation_item_background_color = 2131034307;
 			
 			// aapt resource value: 0x7F0500C4
-			public const int mtrl_on_primary_text_btn_text_color_selector = 2131034308;
+			public const int mtrl_navigation_item_icon_tint = 2131034308;
 			
 			// aapt resource value: 0x7F0500C5
-			public const int mtrl_outlined_icon_tint = 2131034309;
+			public const int mtrl_navigation_item_text_color = 2131034309;
 			
 			// aapt resource value: 0x7F0500C6
-			public const int mtrl_outlined_stroke_color = 2131034310;
+			public const int mtrl_on_primary_text_btn_text_color_selector = 2131034310;
 			
 			// aapt resource value: 0x7F0500C7
-			public const int mtrl_popupmenu_overlay_color = 2131034311;
+			public const int mtrl_outlined_icon_tint = 2131034311;
 			
 			// aapt resource value: 0x7F0500C8
-			public const int mtrl_scrim_color = 2131034312;
+			public const int mtrl_outlined_stroke_color = 2131034312;
 			
 			// aapt resource value: 0x7F0500C9
-			public const int mtrl_tabs_colored_ripple_color = 2131034313;
+			public const int mtrl_popupmenu_overlay_color = 2131034313;
 			
 			// aapt resource value: 0x7F0500CA
-			public const int mtrl_tabs_icon_color_selector = 2131034314;
+			public const int mtrl_scrim_color = 2131034314;
 			
 			// aapt resource value: 0x7F0500CB
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034315;
+			public const int mtrl_tabs_colored_ripple_color = 2131034315;
 			
 			// aapt resource value: 0x7F0500CC
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034316;
+			public const int mtrl_tabs_icon_color_selector = 2131034316;
 			
 			// aapt resource value: 0x7F0500CD
-			public const int mtrl_tabs_ripple_color = 2131034317;
-			
-			// aapt resource value: 0x7F0500CF
-			public const int mtrl_textinput_default_box_stroke_color = 2131034319;
-			
-			// aapt resource value: 0x7F0500D0
-			public const int mtrl_textinput_disabled_color = 2131034320;
-			
-			// aapt resource value: 0x7F0500D1
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034321;
-			
-			// aapt resource value: 0x7F0500D2
-			public const int mtrl_textinput_focused_box_stroke_color = 2131034322;
-			
-			// aapt resource value: 0x7F0500D3
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034323;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034317;
 			
 			// aapt resource value: 0x7F0500CE
-			public const int mtrl_text_btn_text_color_selector = 2131034318;
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034318;
+			
+			// aapt resource value: 0x7F0500CF
+			public const int mtrl_tabs_ripple_color = 2131034319;
+			
+			// aapt resource value: 0x7F0500D1
+			public const int mtrl_textinput_default_box_stroke_color = 2131034321;
+			
+			// aapt resource value: 0x7F0500D2
+			public const int mtrl_textinput_disabled_color = 2131034322;
+			
+			// aapt resource value: 0x7F0500D3
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034323;
 			
 			// aapt resource value: 0x7F0500D4
-			public const int normal = 2131034324;
+			public const int mtrl_textinput_focused_box_stroke_color = 2131034324;
 			
 			// aapt resource value: 0x7F0500D5
-			public const int notification_action_color_filter = 2131034325;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034325;
+			
+			// aapt resource value: 0x7F0500D0
+			public const int mtrl_text_btn_text_color_selector = 2131034320;
 			
 			// aapt resource value: 0x7F0500D6
-			public const int notification_icon_bg_color = 2131034326;
+			public const int normal = 2131034326;
 			
 			// aapt resource value: 0x7F0500D7
-			public const int notification_material_background_media_default_color = 2131034327;
+			public const int notification_action_color_filter = 2131034327;
 			
 			// aapt resource value: 0x7F0500D8
-			public const int primary_dark_material_dark = 2131034328;
+			public const int notification_icon_bg_color = 2131034328;
 			
 			// aapt resource value: 0x7F0500D9
-			public const int primary_dark_material_light = 2131034329;
+			public const int notification_material_background_media_default_color = 2131034329;
 			
 			// aapt resource value: 0x7F0500DA
-			public const int primary_material_dark = 2131034330;
+			public const int primary_dark_material_dark = 2131034330;
 			
 			// aapt resource value: 0x7F0500DB
-			public const int primary_material_light = 2131034331;
+			public const int primary_dark_material_light = 2131034331;
 			
 			// aapt resource value: 0x7F0500DC
-			public const int primary_text_default_material_dark = 2131034332;
+			public const int primary_material_dark = 2131034332;
 			
 			// aapt resource value: 0x7F0500DD
-			public const int primary_text_default_material_light = 2131034333;
+			public const int primary_material_light = 2131034333;
 			
 			// aapt resource value: 0x7F0500DE
-			public const int primary_text_disabled_material_dark = 2131034334;
+			public const int primary_text_default_material_dark = 2131034334;
 			
 			// aapt resource value: 0x7F0500DF
-			public const int primary_text_disabled_material_light = 2131034335;
+			public const int primary_text_default_material_light = 2131034335;
 			
 			// aapt resource value: 0x7F0500E0
-			public const int radiobutton_themeable_attribute_color = 2131034336;
+			public const int primary_text_disabled_material_dark = 2131034336;
 			
 			// aapt resource value: 0x7F0500E1
-			public const int ripple_material_dark = 2131034337;
+			public const int primary_text_disabled_material_light = 2131034337;
 			
 			// aapt resource value: 0x7F0500E2
-			public const int ripple_material_light = 2131034338;
+			public const int radiobutton_themeable_attribute_color = 2131034338;
 			
 			// aapt resource value: 0x7F0500E3
-			public const int secondary_text_default_material_dark = 2131034339;
+			public const int ripple_material_dark = 2131034339;
 			
 			// aapt resource value: 0x7F0500E4
-			public const int secondary_text_default_material_light = 2131034340;
+			public const int ripple_material_light = 2131034340;
 			
 			// aapt resource value: 0x7F0500E5
-			public const int secondary_text_disabled_material_dark = 2131034341;
+			public const int secondary_text_default_material_dark = 2131034341;
 			
 			// aapt resource value: 0x7F0500E6
-			public const int secondary_text_disabled_material_light = 2131034342;
+			public const int secondary_text_default_material_light = 2131034342;
 			
 			// aapt resource value: 0x7F0500E7
-			public const int segmented_control_text = 2131034343;
+			public const int secondary_text_disabled_material_dark = 2131034343;
 			
 			// aapt resource value: 0x7F0500E8
-			public const int selected = 2131034344;
+			public const int secondary_text_disabled_material_light = 2131034344;
 			
 			// aapt resource value: 0x7F0500E9
-			public const int switch_thumb_disabled_material_dark = 2131034345;
+			public const int segmented_control_text = 2131034345;
 			
 			// aapt resource value: 0x7F0500EA
-			public const int switch_thumb_disabled_material_light = 2131034346;
+			public const int selected = 2131034346;
 			
 			// aapt resource value: 0x7F0500EB
-			public const int switch_thumb_material_dark = 2131034347;
+			public const int switch_thumb_disabled_material_dark = 2131034347;
 			
 			// aapt resource value: 0x7F0500EC
-			public const int switch_thumb_material_light = 2131034348;
+			public const int switch_thumb_disabled_material_light = 2131034348;
 			
 			// aapt resource value: 0x7F0500ED
-			public const int switch_thumb_normal_material_dark = 2131034349;
+			public const int switch_thumb_material_dark = 2131034349;
 			
 			// aapt resource value: 0x7F0500EE
-			public const int switch_thumb_normal_material_light = 2131034350;
+			public const int switch_thumb_material_light = 2131034350;
 			
 			// aapt resource value: 0x7F0500EF
-			public const int test_mtrl_calendar_day = 2131034351;
+			public const int switch_thumb_normal_material_dark = 2131034351;
 			
 			// aapt resource value: 0x7F0500F0
-			public const int test_mtrl_calendar_day_selected = 2131034352;
+			public const int switch_thumb_normal_material_light = 2131034352;
 			
 			// aapt resource value: 0x7F0500F1
-			public const int tooltip_background_dark = 2131034353;
+			public const int test_mtrl_calendar_day = 2131034353;
 			
 			// aapt resource value: 0x7F0500F2
-			public const int tooltip_background_light = 2131034354;
+			public const int test_mtrl_calendar_day_selected = 2131034354;
+			
+			// aapt resource value: 0x7F0500F3
+			public const int tooltip_background_dark = 2131034355;
+			
+			// aapt resource value: 0x7F0500F4
+			public const int tooltip_background_light = 2131034356;
 			
 			static Color()
 			{
@@ -25623,991 +26654,1012 @@ namespace TurnosFutbol.Droid
 			public const int avd_show_password = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int btn_checkbox = 2131165308;
+			public const int btn_checkbox_checked_mtrl = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int btn_checkbox_checked = 2131165309;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int btn_checkbox_checked_mtrl = 2131165310;
+			public const int btn_checkbox_unchecked_mtrl = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int btn_checkbox_checked_to_indeterminate_animation = 2131165311;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int btn_checkbox_checked_to_unchecked_animation = 2131165312;
+			public const int btn_radio_off_mtrl = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165313;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int btn_checkbox_indeterminate = 2131165314;
+			public const int btn_radio_on_mtrl = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int btn_checkbox_indeterminate_to_checked_animation = 2131165315;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int btn_checkbox_indeterminate_to_unchecked_animation = 2131165316;
+			public const int Card = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int btn_checkbox_unchecked = 2131165317;
+			public const int clear_button_icon = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int btn_checkbox_unchecked_mtrl = 2131165318;
+			public const int common_full_open_on_phone = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int btn_checkbox_unchecked_to_checked_animation = 2131165319;
+			public const int common_google_signin_btn_icon_dark = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165320;
+			public const int common_google_signin_btn_icon_dark_focused = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int btn_checkbox_unchecked_to_indeterminate_animation = 2131165321;
+			public const int common_google_signin_btn_icon_dark_normal = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int btn_radio_off_mtrl = 2131165322;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165323;
+			public const int common_google_signin_btn_icon_disabled = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int btn_radio_on_mtrl = 2131165324;
+			public const int common_google_signin_btn_icon_light = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165325;
+			public const int common_google_signin_btn_icon_light_focused = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int Card = 2131165326;
+			public const int common_google_signin_btn_icon_light_normal = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int clear_button_icon = 2131165327;
+			public const int common_google_signin_btn_icon_light_normal_background = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int common_full_open_on_phone = 2131165328;
+			public const int common_google_signin_btn_text_dark = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int common_google_signin_btn_icon_dark = 2131165329;
+			public const int common_google_signin_btn_text_dark_focused = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int common_google_signin_btn_icon_dark_focused = 2131165330;
+			public const int common_google_signin_btn_text_dark_normal = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int common_google_signin_btn_icon_dark_normal = 2131165331;
+			public const int common_google_signin_btn_text_dark_normal_background = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131165332;
+			public const int common_google_signin_btn_text_disabled = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int common_google_signin_btn_icon_disabled = 2131165333;
+			public const int common_google_signin_btn_text_light = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int common_google_signin_btn_icon_light = 2131165334;
+			public const int common_google_signin_btn_text_light_focused = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int common_google_signin_btn_icon_light_focused = 2131165335;
+			public const int common_google_signin_btn_text_light_normal = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int common_google_signin_btn_icon_light_normal = 2131165336;
+			public const int common_google_signin_btn_text_light_normal_background = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int common_google_signin_btn_icon_light_normal_background = 2131165337;
+			public const int crown = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int common_google_signin_btn_text_dark = 2131165338;
+			public const int design_bottom_navigation_item_background = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int common_google_signin_btn_text_dark_focused = 2131165339;
+			public const int design_fab_background = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int common_google_signin_btn_text_dark_normal = 2131165340;
+			public const int design_ic_visibility = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int common_google_signin_btn_text_dark_normal_background = 2131165341;
+			public const int design_ic_visibility_off = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int common_google_signin_btn_text_disabled = 2131165342;
+			public const int design_password_eye = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int common_google_signin_btn_text_light = 2131165343;
+			public const int design_snackbar_background = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int common_google_signin_btn_text_light_focused = 2131165344;
+			public const int dropdownbuttonimage = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int common_google_signin_btn_text_light_normal = 2131165345;
+			public const int FixedPin = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int common_google_signin_btn_text_light_normal_background = 2131165346;
+			public const int googleg_disabled_color_18 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int crown = 2131165347;
+			public const int googleg_standard_color_18 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int design_bottom_navigation_item_background = 2131165348;
-			
-			// aapt resource value: 0x7F0700A5
-			public const int design_fab_background = 2131165349;
-			
-			// aapt resource value: 0x7F0700A6
-			public const int design_ic_visibility = 2131165350;
-			
-			// aapt resource value: 0x7F0700A7
-			public const int design_ic_visibility_off = 2131165351;
-			
-			// aapt resource value: 0x7F0700A8
-			public const int design_password_eye = 2131165352;
-			
-			// aapt resource value: 0x7F0700A9
-			public const int design_snackbar_background = 2131165353;
-			
-			// aapt resource value: 0x7F0700AA
-			public const int dropdownbuttonimage = 2131165354;
-			
-			// aapt resource value: 0x7F0700AB
-			public const int FixedPin = 2131165355;
-			
-			// aapt resource value: 0x7F0700AC
-			public const int googleg_disabled_color_18 = 2131165356;
-			
-			// aapt resource value: 0x7F0700AD
-			public const int googleg_standard_color_18 = 2131165357;
-			
-			// aapt resource value: 0x7F0700AE
-			public const int HandPhone = 2131165358;
-			
-			// aapt resource value: 0x7F070168
-			public const int Icon = 2131165544;
-			
-			// aapt resource value: 0x7F070169
-			public const int iconCall = 2131165545;
-			
-			// aapt resource value: 0x7F0700AF
-			public const int ic_audiotrack_dark = 2131165359;
-			
-			// aapt resource value: 0x7F0700B0
-			public const int ic_audiotrack_light = 2131165360;
-			
-			// aapt resource value: 0x7F0700B1
-			public const int ic_checked_checkbox = 2131165361;
-			
-			// aapt resource value: 0x7F0700B2
-			public const int ic_dialog_close_dark = 2131165362;
-			
-			// aapt resource value: 0x7F0700B3
-			public const int ic_dialog_close_light = 2131165363;
-			
-			// aapt resource value: 0x7F0700B4
-			public const int ic_group_collapse_00 = 2131165364;
-			
-			// aapt resource value: 0x7F0700B5
-			public const int ic_group_collapse_01 = 2131165365;
-			
-			// aapt resource value: 0x7F0700B6
-			public const int ic_group_collapse_02 = 2131165366;
-			
-			// aapt resource value: 0x7F0700B7
-			public const int ic_group_collapse_03 = 2131165367;
-			
-			// aapt resource value: 0x7F0700B8
-			public const int ic_group_collapse_04 = 2131165368;
-			
-			// aapt resource value: 0x7F0700B9
-			public const int ic_group_collapse_05 = 2131165369;
-			
-			// aapt resource value: 0x7F0700BA
-			public const int ic_group_collapse_06 = 2131165370;
-			
-			// aapt resource value: 0x7F0700BB
-			public const int ic_group_collapse_07 = 2131165371;
-			
-			// aapt resource value: 0x7F0700BC
-			public const int ic_group_collapse_08 = 2131165372;
-			
-			// aapt resource value: 0x7F0700BD
-			public const int ic_group_collapse_09 = 2131165373;
-			
-			// aapt resource value: 0x7F0700BE
-			public const int ic_group_collapse_10 = 2131165374;
-			
-			// aapt resource value: 0x7F0700BF
-			public const int ic_group_collapse_11 = 2131165375;
-			
-			// aapt resource value: 0x7F0700C0
-			public const int ic_group_collapse_12 = 2131165376;
-			
-			// aapt resource value: 0x7F0700C1
-			public const int ic_group_collapse_13 = 2131165377;
-			
-			// aapt resource value: 0x7F0700C2
-			public const int ic_group_collapse_14 = 2131165378;
-			
-			// aapt resource value: 0x7F0700C3
-			public const int ic_group_collapse_15 = 2131165379;
-			
-			// aapt resource value: 0x7F0700C4
-			public const int ic_group_expand_00 = 2131165380;
-			
-			// aapt resource value: 0x7F0700C5
-			public const int ic_group_expand_01 = 2131165381;
-			
-			// aapt resource value: 0x7F0700C6
-			public const int ic_group_expand_02 = 2131165382;
-			
-			// aapt resource value: 0x7F0700C7
-			public const int ic_group_expand_03 = 2131165383;
-			
-			// aapt resource value: 0x7F0700C8
-			public const int ic_group_expand_04 = 2131165384;
-			
-			// aapt resource value: 0x7F0700C9
-			public const int ic_group_expand_05 = 2131165385;
-			
-			// aapt resource value: 0x7F0700CA
-			public const int ic_group_expand_06 = 2131165386;
-			
-			// aapt resource value: 0x7F0700CB
-			public const int ic_group_expand_07 = 2131165387;
-			
-			// aapt resource value: 0x7F0700CC
-			public const int ic_group_expand_08 = 2131165388;
-			
-			// aapt resource value: 0x7F0700CD
-			public const int ic_group_expand_09 = 2131165389;
-			
-			// aapt resource value: 0x7F0700CE
-			public const int ic_group_expand_10 = 2131165390;
-			
-			// aapt resource value: 0x7F0700CF
-			public const int ic_group_expand_11 = 2131165391;
-			
-			// aapt resource value: 0x7F0700D0
-			public const int ic_group_expand_12 = 2131165392;
-			
-			// aapt resource value: 0x7F0700D1
-			public const int ic_group_expand_13 = 2131165393;
-			
-			// aapt resource value: 0x7F0700D2
-			public const int ic_group_expand_14 = 2131165394;
-			
-			// aapt resource value: 0x7F0700D3
-			public const int ic_group_expand_15 = 2131165395;
-			
-			// aapt resource value: 0x7F0700D4
-			public const int ic_media_pause_dark = 2131165396;
-			
-			// aapt resource value: 0x7F0700D5
-			public const int ic_media_pause_light = 2131165397;
-			
-			// aapt resource value: 0x7F0700D6
-			public const int ic_media_play_dark = 2131165398;
-			
-			// aapt resource value: 0x7F0700D7
-			public const int ic_media_play_light = 2131165399;
-			
-			// aapt resource value: 0x7F0700D8
-			public const int ic_media_stop_dark = 2131165400;
-			
-			// aapt resource value: 0x7F0700D9
-			public const int ic_media_stop_light = 2131165401;
-			
-			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_00_dark = 2131165402;
-			
-			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_00_light = 2131165403;
-			
-			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_01_dark = 2131165404;
-			
-			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_01_light = 2131165405;
-			
-			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_02_dark = 2131165406;
-			
-			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_02_light = 2131165407;
-			
-			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_03_dark = 2131165408;
-			
-			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_03_light = 2131165409;
-			
-			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_04_dark = 2131165410;
-			
-			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_04_light = 2131165411;
-			
-			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_05_dark = 2131165412;
-			
-			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_05_light = 2131165413;
-			
-			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_06_dark = 2131165414;
-			
-			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_06_light = 2131165415;
-			
-			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_07_dark = 2131165416;
-			
-			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connected_07_light = 2131165417;
-			
-			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connected_08_dark = 2131165418;
-			
-			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connected_08_light = 2131165419;
-			
-			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connected_09_dark = 2131165420;
-			
-			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connected_09_light = 2131165421;
-			
-			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connected_10_dark = 2131165422;
-			
-			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connected_10_light = 2131165423;
-			
-			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connected_11_dark = 2131165424;
-			
-			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connected_11_light = 2131165425;
-			
-			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connected_12_dark = 2131165426;
-			
-			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connected_12_light = 2131165427;
-			
-			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connected_13_dark = 2131165428;
-			
-			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connected_13_light = 2131165429;
-			
-			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connected_14_dark = 2131165430;
-			
-			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connected_14_light = 2131165431;
-			
-			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connected_15_dark = 2131165432;
-			
-			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connected_15_light = 2131165433;
-			
-			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connected_16_dark = 2131165434;
-			
-			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connected_16_light = 2131165435;
-			
-			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connected_17_dark = 2131165436;
-			
-			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connected_17_light = 2131165437;
-			
-			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connected_18_dark = 2131165438;
-			
-			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connected_18_light = 2131165439;
-			
-			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connected_19_dark = 2131165440;
-			
-			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connected_19_light = 2131165441;
-			
-			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connected_20_dark = 2131165442;
-			
-			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connected_20_light = 2131165443;
-			
-			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connected_21_dark = 2131165444;
-			
-			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connected_21_light = 2131165445;
-			
-			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connected_22_dark = 2131165446;
-			
-			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connected_22_light = 2131165447;
-			
-			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connected_23_dark = 2131165448;
-			
-			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connected_23_light = 2131165449;
-			
-			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connected_24_dark = 2131165450;
-			
-			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connected_24_light = 2131165451;
-			
-			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connected_25_dark = 2131165452;
-			
-			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connected_25_light = 2131165453;
-			
-			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connected_26_dark = 2131165454;
-			
-			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connected_26_light = 2131165455;
-			
-			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connected_27_dark = 2131165456;
-			
-			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connected_27_light = 2131165457;
-			
-			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connected_28_dark = 2131165458;
-			
-			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connected_28_light = 2131165459;
-			
-			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connected_29_dark = 2131165460;
-			
-			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connected_29_light = 2131165461;
-			
-			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connected_30_dark = 2131165462;
-			
-			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connected_30_light = 2131165463;
-			
-			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_00_dark = 2131165464;
-			
-			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_00_light = 2131165465;
-			
-			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_01_dark = 2131165466;
-			
-			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_01_light = 2131165467;
-			
-			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_02_dark = 2131165468;
-			
-			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_02_light = 2131165469;
-			
-			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_03_dark = 2131165470;
-			
-			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_03_light = 2131165471;
-			
-			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_04_dark = 2131165472;
-			
-			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_04_light = 2131165473;
-			
-			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_05_dark = 2131165474;
-			
-			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_05_light = 2131165475;
-			
-			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_06_dark = 2131165476;
-			
-			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_06_light = 2131165477;
-			
-			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_07_dark = 2131165478;
-			
-			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_connecting_07_light = 2131165479;
-			
-			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_connecting_08_dark = 2131165480;
-			
-			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_connecting_08_light = 2131165481;
-			
-			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_connecting_09_dark = 2131165482;
-			
-			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_connecting_09_light = 2131165483;
-			
-			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_connecting_10_dark = 2131165484;
-			
-			// aapt resource value: 0x7F07012D
-			public const int ic_mr_button_connecting_10_light = 2131165485;
-			
-			// aapt resource value: 0x7F07012E
-			public const int ic_mr_button_connecting_11_dark = 2131165486;
-			
-			// aapt resource value: 0x7F07012F
-			public const int ic_mr_button_connecting_11_light = 2131165487;
-			
-			// aapt resource value: 0x7F070130
-			public const int ic_mr_button_connecting_12_dark = 2131165488;
-			
-			// aapt resource value: 0x7F070131
-			public const int ic_mr_button_connecting_12_light = 2131165489;
-			
-			// aapt resource value: 0x7F070132
-			public const int ic_mr_button_connecting_13_dark = 2131165490;
-			
-			// aapt resource value: 0x7F070133
-			public const int ic_mr_button_connecting_13_light = 2131165491;
-			
-			// aapt resource value: 0x7F070134
-			public const int ic_mr_button_connecting_14_dark = 2131165492;
-			
-			// aapt resource value: 0x7F070135
-			public const int ic_mr_button_connecting_14_light = 2131165493;
-			
-			// aapt resource value: 0x7F070136
-			public const int ic_mr_button_connecting_15_dark = 2131165494;
-			
-			// aapt resource value: 0x7F070137
-			public const int ic_mr_button_connecting_15_light = 2131165495;
-			
-			// aapt resource value: 0x7F070138
-			public const int ic_mr_button_connecting_16_dark = 2131165496;
-			
-			// aapt resource value: 0x7F070139
-			public const int ic_mr_button_connecting_16_light = 2131165497;
-			
-			// aapt resource value: 0x7F07013A
-			public const int ic_mr_button_connecting_17_dark = 2131165498;
-			
-			// aapt resource value: 0x7F07013B
-			public const int ic_mr_button_connecting_17_light = 2131165499;
-			
-			// aapt resource value: 0x7F07013C
-			public const int ic_mr_button_connecting_18_dark = 2131165500;
-			
-			// aapt resource value: 0x7F07013D
-			public const int ic_mr_button_connecting_18_light = 2131165501;
-			
-			// aapt resource value: 0x7F07013E
-			public const int ic_mr_button_connecting_19_dark = 2131165502;
-			
-			// aapt resource value: 0x7F07013F
-			public const int ic_mr_button_connecting_19_light = 2131165503;
-			
-			// aapt resource value: 0x7F070140
-			public const int ic_mr_button_connecting_20_dark = 2131165504;
-			
-			// aapt resource value: 0x7F070141
-			public const int ic_mr_button_connecting_20_light = 2131165505;
-			
-			// aapt resource value: 0x7F070142
-			public const int ic_mr_button_connecting_21_dark = 2131165506;
-			
-			// aapt resource value: 0x7F070143
-			public const int ic_mr_button_connecting_21_light = 2131165507;
-			
-			// aapt resource value: 0x7F070144
-			public const int ic_mr_button_connecting_22_dark = 2131165508;
-			
-			// aapt resource value: 0x7F070145
-			public const int ic_mr_button_connecting_22_light = 2131165509;
-			
-			// aapt resource value: 0x7F070146
-			public const int ic_mr_button_connecting_23_dark = 2131165510;
-			
-			// aapt resource value: 0x7F070147
-			public const int ic_mr_button_connecting_23_light = 2131165511;
-			
-			// aapt resource value: 0x7F070148
-			public const int ic_mr_button_connecting_24_dark = 2131165512;
-			
-			// aapt resource value: 0x7F070149
-			public const int ic_mr_button_connecting_24_light = 2131165513;
-			
-			// aapt resource value: 0x7F07014A
-			public const int ic_mr_button_connecting_25_dark = 2131165514;
-			
-			// aapt resource value: 0x7F07014B
-			public const int ic_mr_button_connecting_25_light = 2131165515;
-			
-			// aapt resource value: 0x7F07014C
-			public const int ic_mr_button_connecting_26_dark = 2131165516;
-			
-			// aapt resource value: 0x7F07014D
-			public const int ic_mr_button_connecting_26_light = 2131165517;
-			
-			// aapt resource value: 0x7F07014E
-			public const int ic_mr_button_connecting_27_dark = 2131165518;
-			
-			// aapt resource value: 0x7F07014F
-			public const int ic_mr_button_connecting_27_light = 2131165519;
-			
-			// aapt resource value: 0x7F070150
-			public const int ic_mr_button_connecting_28_dark = 2131165520;
-			
-			// aapt resource value: 0x7F070151
-			public const int ic_mr_button_connecting_28_light = 2131165521;
-			
-			// aapt resource value: 0x7F070152
-			public const int ic_mr_button_connecting_29_dark = 2131165522;
-			
-			// aapt resource value: 0x7F070153
-			public const int ic_mr_button_connecting_29_light = 2131165523;
-			
-			// aapt resource value: 0x7F070154
-			public const int ic_mr_button_connecting_30_dark = 2131165524;
-			
-			// aapt resource value: 0x7F070155
-			public const int ic_mr_button_connecting_30_light = 2131165525;
-			
-			// aapt resource value: 0x7F070156
-			public const int ic_mr_button_disabled_dark = 2131165526;
-			
-			// aapt resource value: 0x7F070157
-			public const int ic_mr_button_disabled_light = 2131165527;
-			
-			// aapt resource value: 0x7F070158
-			public const int ic_mr_button_disconnected_dark = 2131165528;
-			
-			// aapt resource value: 0x7F070159
-			public const int ic_mr_button_disconnected_light = 2131165529;
-			
-			// aapt resource value: 0x7F07015A
-			public const int ic_mr_button_grey = 2131165530;
-			
-			// aapt resource value: 0x7F07015B
-			public const int ic_mtrl_checked_circle = 2131165531;
-			
-			// aapt resource value: 0x7F07015C
-			public const int ic_mtrl_chip_checked_black = 2131165532;
-			
-			// aapt resource value: 0x7F07015D
-			public const int ic_mtrl_chip_checked_circle = 2131165533;
-			
-			// aapt resource value: 0x7F07015E
-			public const int ic_mtrl_chip_close_circle = 2131165534;
-			
-			// aapt resource value: 0x7F07015F
-			public const int ic_unchecked_checkbox = 2131165535;
-			
-			// aapt resource value: 0x7F070160
-			public const int ic_vol_mute = 2131165536;
-			
-			// aapt resource value: 0x7F070161
-			public const int ic_vol_type_speaker_dark = 2131165537;
-			
-			// aapt resource value: 0x7F070162
-			public const int ic_vol_type_speaker_group_dark = 2131165538;
-			
-			// aapt resource value: 0x7F070163
-			public const int ic_vol_type_speaker_group_light = 2131165539;
+			public const int HandPhone = 2131165348;
 			
 			// aapt resource value: 0x7F070164
-			public const int ic_vol_type_speaker_light = 2131165540;
+			public const int Icon = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int ic_vol_type_tv_dark = 2131165541;
+			public const int iconCall = 2131165541;
 			
-			// aapt resource value: 0x7F070166
-			public const int ic_vol_type_tv_light = 2131165542;
+			// aapt resource value: 0x7F0700A5
+			public const int ic_audiotrack_dark = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ic_audiotrack_light = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ic_call_answer = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int ic_call_answer_low = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int ic_call_answer_video = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int ic_call_answer_video_low = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ic_call_decline = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ic_call_decline_low = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int ic_checked_checkbox = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int ic_dialog_close_dark = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int ic_dialog_close_light = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int ic_group_collapse_00 = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int ic_group_collapse_01 = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int ic_group_collapse_02 = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int ic_group_collapse_03 = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int ic_group_collapse_04 = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int ic_group_collapse_05 = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int ic_group_collapse_06 = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int ic_group_collapse_07 = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int ic_group_collapse_08 = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int ic_group_collapse_09 = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int ic_group_collapse_10 = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int ic_group_collapse_11 = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int ic_group_collapse_12 = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int ic_group_collapse_13 = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int ic_group_collapse_14 = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int ic_group_collapse_15 = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int ic_group_expand_00 = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int ic_group_expand_01 = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int ic_group_expand_02 = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int ic_group_expand_03 = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int ic_group_expand_04 = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int ic_group_expand_05 = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int ic_group_expand_06 = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int ic_group_expand_07 = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int ic_group_expand_08 = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int ic_group_expand_09 = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int ic_group_expand_10 = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int ic_group_expand_11 = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int ic_group_expand_12 = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int ic_group_expand_13 = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int ic_group_expand_14 = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int ic_group_expand_15 = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int ic_media_pause_dark = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+			public const int ic_media_pause_light = 2131165393;
+			
+			// aapt resource value: 0x7F0700D2
+			public const int ic_media_play_dark = 2131165394;
+			
+			// aapt resource value: 0x7F0700D3
+			public const int ic_media_play_light = 2131165395;
+			
+			// aapt resource value: 0x7F0700D4
+			public const int ic_media_stop_dark = 2131165396;
+			
+			// aapt resource value: 0x7F0700D5
+			public const int ic_media_stop_light = 2131165397;
+			
+			// aapt resource value: 0x7F0700D6
+			public const int ic_mr_button_connected_00_dark = 2131165398;
+			
+			// aapt resource value: 0x7F0700D7
+			public const int ic_mr_button_connected_00_light = 2131165399;
+			
+			// aapt resource value: 0x7F0700D8
+			public const int ic_mr_button_connected_01_dark = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int ic_mr_button_connected_01_light = 2131165401;
+			
+			// aapt resource value: 0x7F0700DA
+			public const int ic_mr_button_connected_02_dark = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int ic_mr_button_connected_02_light = 2131165403;
+			
+			// aapt resource value: 0x7F0700DC
+			public const int ic_mr_button_connected_03_dark = 2131165404;
+			
+			// aapt resource value: 0x7F0700DD
+			public const int ic_mr_button_connected_03_light = 2131165405;
+			
+			// aapt resource value: 0x7F0700DE
+			public const int ic_mr_button_connected_04_dark = 2131165406;
+			
+			// aapt resource value: 0x7F0700DF
+			public const int ic_mr_button_connected_04_light = 2131165407;
+			
+			// aapt resource value: 0x7F0700E0
+			public const int ic_mr_button_connected_05_dark = 2131165408;
+			
+			// aapt resource value: 0x7F0700E1
+			public const int ic_mr_button_connected_05_light = 2131165409;
+			
+			// aapt resource value: 0x7F0700E2
+			public const int ic_mr_button_connected_06_dark = 2131165410;
+			
+			// aapt resource value: 0x7F0700E3
+			public const int ic_mr_button_connected_06_light = 2131165411;
+			
+			// aapt resource value: 0x7F0700E4
+			public const int ic_mr_button_connected_07_dark = 2131165412;
+			
+			// aapt resource value: 0x7F0700E5
+			public const int ic_mr_button_connected_07_light = 2131165413;
+			
+			// aapt resource value: 0x7F0700E6
+			public const int ic_mr_button_connected_08_dark = 2131165414;
+			
+			// aapt resource value: 0x7F0700E7
+			public const int ic_mr_button_connected_08_light = 2131165415;
+			
+			// aapt resource value: 0x7F0700E8
+			public const int ic_mr_button_connected_09_dark = 2131165416;
+			
+			// aapt resource value: 0x7F0700E9
+			public const int ic_mr_button_connected_09_light = 2131165417;
+			
+			// aapt resource value: 0x7F0700EA
+			public const int ic_mr_button_connected_10_dark = 2131165418;
+			
+			// aapt resource value: 0x7F0700EB
+			public const int ic_mr_button_connected_10_light = 2131165419;
+			
+			// aapt resource value: 0x7F0700EC
+			public const int ic_mr_button_connected_11_dark = 2131165420;
+			
+			// aapt resource value: 0x7F0700ED
+			public const int ic_mr_button_connected_11_light = 2131165421;
+			
+			// aapt resource value: 0x7F0700EE
+			public const int ic_mr_button_connected_12_dark = 2131165422;
+			
+			// aapt resource value: 0x7F0700EF
+			public const int ic_mr_button_connected_12_light = 2131165423;
+			
+			// aapt resource value: 0x7F0700F0
+			public const int ic_mr_button_connected_13_dark = 2131165424;
+			
+			// aapt resource value: 0x7F0700F1
+			public const int ic_mr_button_connected_13_light = 2131165425;
+			
+			// aapt resource value: 0x7F0700F2
+			public const int ic_mr_button_connected_14_dark = 2131165426;
+			
+			// aapt resource value: 0x7F0700F3
+			public const int ic_mr_button_connected_14_light = 2131165427;
+			
+			// aapt resource value: 0x7F0700F4
+			public const int ic_mr_button_connected_15_dark = 2131165428;
+			
+			// aapt resource value: 0x7F0700F5
+			public const int ic_mr_button_connected_15_light = 2131165429;
+			
+			// aapt resource value: 0x7F0700F6
+			public const int ic_mr_button_connected_16_dark = 2131165430;
+			
+			// aapt resource value: 0x7F0700F7
+			public const int ic_mr_button_connected_16_light = 2131165431;
+			
+			// aapt resource value: 0x7F0700F8
+			public const int ic_mr_button_connected_17_dark = 2131165432;
+			
+			// aapt resource value: 0x7F0700F9
+			public const int ic_mr_button_connected_17_light = 2131165433;
+			
+			// aapt resource value: 0x7F0700FA
+			public const int ic_mr_button_connected_18_dark = 2131165434;
+			
+			// aapt resource value: 0x7F0700FB
+			public const int ic_mr_button_connected_18_light = 2131165435;
+			
+			// aapt resource value: 0x7F0700FC
+			public const int ic_mr_button_connected_19_dark = 2131165436;
+			
+			// aapt resource value: 0x7F0700FD
+			public const int ic_mr_button_connected_19_light = 2131165437;
+			
+			// aapt resource value: 0x7F0700FE
+			public const int ic_mr_button_connected_20_dark = 2131165438;
+			
+			// aapt resource value: 0x7F0700FF
+			public const int ic_mr_button_connected_20_light = 2131165439;
+			
+			// aapt resource value: 0x7F070100
+			public const int ic_mr_button_connected_21_dark = 2131165440;
+			
+			// aapt resource value: 0x7F070101
+			public const int ic_mr_button_connected_21_light = 2131165441;
+			
+			// aapt resource value: 0x7F070102
+			public const int ic_mr_button_connected_22_dark = 2131165442;
+			
+			// aapt resource value: 0x7F070103
+			public const int ic_mr_button_connected_22_light = 2131165443;
+			
+			// aapt resource value: 0x7F070104
+			public const int ic_mr_button_connected_23_dark = 2131165444;
+			
+			// aapt resource value: 0x7F070105
+			public const int ic_mr_button_connected_23_light = 2131165445;
+			
+			// aapt resource value: 0x7F070106
+			public const int ic_mr_button_connected_24_dark = 2131165446;
+			
+			// aapt resource value: 0x7F070107
+			public const int ic_mr_button_connected_24_light = 2131165447;
+			
+			// aapt resource value: 0x7F070108
+			public const int ic_mr_button_connected_25_dark = 2131165448;
+			
+			// aapt resource value: 0x7F070109
+			public const int ic_mr_button_connected_25_light = 2131165449;
+			
+			// aapt resource value: 0x7F07010A
+			public const int ic_mr_button_connected_26_dark = 2131165450;
+			
+			// aapt resource value: 0x7F07010B
+			public const int ic_mr_button_connected_26_light = 2131165451;
+			
+			// aapt resource value: 0x7F07010C
+			public const int ic_mr_button_connected_27_dark = 2131165452;
+			
+			// aapt resource value: 0x7F07010D
+			public const int ic_mr_button_connected_27_light = 2131165453;
+			
+			// aapt resource value: 0x7F07010E
+			public const int ic_mr_button_connected_28_dark = 2131165454;
+			
+			// aapt resource value: 0x7F07010F
+			public const int ic_mr_button_connected_28_light = 2131165455;
+			
+			// aapt resource value: 0x7F070110
+			public const int ic_mr_button_connected_29_dark = 2131165456;
+			
+			// aapt resource value: 0x7F070111
+			public const int ic_mr_button_connected_29_light = 2131165457;
+			
+			// aapt resource value: 0x7F070112
+			public const int ic_mr_button_connected_30_dark = 2131165458;
+			
+			// aapt resource value: 0x7F070113
+			public const int ic_mr_button_connected_30_light = 2131165459;
+			
+			// aapt resource value: 0x7F070114
+			public const int ic_mr_button_connecting_00_dark = 2131165460;
+			
+			// aapt resource value: 0x7F070115
+			public const int ic_mr_button_connecting_00_light = 2131165461;
+			
+			// aapt resource value: 0x7F070116
+			public const int ic_mr_button_connecting_01_dark = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public const int ic_mr_button_connecting_01_light = 2131165463;
+			
+			// aapt resource value: 0x7F070118
+			public const int ic_mr_button_connecting_02_dark = 2131165464;
+			
+			// aapt resource value: 0x7F070119
+			public const int ic_mr_button_connecting_02_light = 2131165465;
+			
+			// aapt resource value: 0x7F07011A
+			public const int ic_mr_button_connecting_03_dark = 2131165466;
+			
+			// aapt resource value: 0x7F07011B
+			public const int ic_mr_button_connecting_03_light = 2131165467;
+			
+			// aapt resource value: 0x7F07011C
+			public const int ic_mr_button_connecting_04_dark = 2131165468;
+			
+			// aapt resource value: 0x7F07011D
+			public const int ic_mr_button_connecting_04_light = 2131165469;
+			
+			// aapt resource value: 0x7F07011E
+			public const int ic_mr_button_connecting_05_dark = 2131165470;
+			
+			// aapt resource value: 0x7F07011F
+			public const int ic_mr_button_connecting_05_light = 2131165471;
+			
+			// aapt resource value: 0x7F070120
+			public const int ic_mr_button_connecting_06_dark = 2131165472;
+			
+			// aapt resource value: 0x7F070121
+			public const int ic_mr_button_connecting_06_light = 2131165473;
+			
+			// aapt resource value: 0x7F070122
+			public const int ic_mr_button_connecting_07_dark = 2131165474;
+			
+			// aapt resource value: 0x7F070123
+			public const int ic_mr_button_connecting_07_light = 2131165475;
+			
+			// aapt resource value: 0x7F070124
+			public const int ic_mr_button_connecting_08_dark = 2131165476;
+			
+			// aapt resource value: 0x7F070125
+			public const int ic_mr_button_connecting_08_light = 2131165477;
+			
+			// aapt resource value: 0x7F070126
+			public const int ic_mr_button_connecting_09_dark = 2131165478;
+			
+			// aapt resource value: 0x7F070127
+			public const int ic_mr_button_connecting_09_light = 2131165479;
+			
+			// aapt resource value: 0x7F070128
+			public const int ic_mr_button_connecting_10_dark = 2131165480;
+			
+			// aapt resource value: 0x7F070129
+			public const int ic_mr_button_connecting_10_light = 2131165481;
+			
+			// aapt resource value: 0x7F07012A
+			public const int ic_mr_button_connecting_11_dark = 2131165482;
+			
+			// aapt resource value: 0x7F07012B
+			public const int ic_mr_button_connecting_11_light = 2131165483;
+			
+			// aapt resource value: 0x7F07012C
+			public const int ic_mr_button_connecting_12_dark = 2131165484;
+			
+			// aapt resource value: 0x7F07012D
+			public const int ic_mr_button_connecting_12_light = 2131165485;
+			
+			// aapt resource value: 0x7F07012E
+			public const int ic_mr_button_connecting_13_dark = 2131165486;
+			
+			// aapt resource value: 0x7F07012F
+			public const int ic_mr_button_connecting_13_light = 2131165487;
+			
+			// aapt resource value: 0x7F070130
+			public const int ic_mr_button_connecting_14_dark = 2131165488;
+			
+			// aapt resource value: 0x7F070131
+			public const int ic_mr_button_connecting_14_light = 2131165489;
+			
+			// aapt resource value: 0x7F070132
+			public const int ic_mr_button_connecting_15_dark = 2131165490;
+			
+			// aapt resource value: 0x7F070133
+			public const int ic_mr_button_connecting_15_light = 2131165491;
+			
+			// aapt resource value: 0x7F070134
+			public const int ic_mr_button_connecting_16_dark = 2131165492;
+			
+			// aapt resource value: 0x7F070135
+			public const int ic_mr_button_connecting_16_light = 2131165493;
+			
+			// aapt resource value: 0x7F070136
+			public const int ic_mr_button_connecting_17_dark = 2131165494;
+			
+			// aapt resource value: 0x7F070137
+			public const int ic_mr_button_connecting_17_light = 2131165495;
+			
+			// aapt resource value: 0x7F070138
+			public const int ic_mr_button_connecting_18_dark = 2131165496;
+			
+			// aapt resource value: 0x7F070139
+			public const int ic_mr_button_connecting_18_light = 2131165497;
+			
+			// aapt resource value: 0x7F07013A
+			public const int ic_mr_button_connecting_19_dark = 2131165498;
+			
+			// aapt resource value: 0x7F07013B
+			public const int ic_mr_button_connecting_19_light = 2131165499;
+			
+			// aapt resource value: 0x7F07013C
+			public const int ic_mr_button_connecting_20_dark = 2131165500;
+			
+			// aapt resource value: 0x7F07013D
+			public const int ic_mr_button_connecting_20_light = 2131165501;
+			
+			// aapt resource value: 0x7F07013E
+			public const int ic_mr_button_connecting_21_dark = 2131165502;
+			
+			// aapt resource value: 0x7F07013F
+			public const int ic_mr_button_connecting_21_light = 2131165503;
+			
+			// aapt resource value: 0x7F070140
+			public const int ic_mr_button_connecting_22_dark = 2131165504;
+			
+			// aapt resource value: 0x7F070141
+			public const int ic_mr_button_connecting_22_light = 2131165505;
+			
+			// aapt resource value: 0x7F070142
+			public const int ic_mr_button_connecting_23_dark = 2131165506;
+			
+			// aapt resource value: 0x7F070143
+			public const int ic_mr_button_connecting_23_light = 2131165507;
+			
+			// aapt resource value: 0x7F070144
+			public const int ic_mr_button_connecting_24_dark = 2131165508;
+			
+			// aapt resource value: 0x7F070145
+			public const int ic_mr_button_connecting_24_light = 2131165509;
+			
+			// aapt resource value: 0x7F070146
+			public const int ic_mr_button_connecting_25_dark = 2131165510;
+			
+			// aapt resource value: 0x7F070147
+			public const int ic_mr_button_connecting_25_light = 2131165511;
+			
+			// aapt resource value: 0x7F070148
+			public const int ic_mr_button_connecting_26_dark = 2131165512;
+			
+			// aapt resource value: 0x7F070149
+			public const int ic_mr_button_connecting_26_light = 2131165513;
+			
+			// aapt resource value: 0x7F07014A
+			public const int ic_mr_button_connecting_27_dark = 2131165514;
+			
+			// aapt resource value: 0x7F07014B
+			public const int ic_mr_button_connecting_27_light = 2131165515;
+			
+			// aapt resource value: 0x7F07014C
+			public const int ic_mr_button_connecting_28_dark = 2131165516;
+			
+			// aapt resource value: 0x7F07014D
+			public const int ic_mr_button_connecting_28_light = 2131165517;
+			
+			// aapt resource value: 0x7F07014E
+			public const int ic_mr_button_connecting_29_dark = 2131165518;
+			
+			// aapt resource value: 0x7F07014F
+			public const int ic_mr_button_connecting_29_light = 2131165519;
+			
+			// aapt resource value: 0x7F070150
+			public const int ic_mr_button_connecting_30_dark = 2131165520;
+			
+			// aapt resource value: 0x7F070151
+			public const int ic_mr_button_connecting_30_light = 2131165521;
+			
+			// aapt resource value: 0x7F070152
+			public const int ic_mr_button_disabled_dark = 2131165522;
+			
+			// aapt resource value: 0x7F070153
+			public const int ic_mr_button_disabled_light = 2131165523;
+			
+			// aapt resource value: 0x7F070154
+			public const int ic_mr_button_disconnected_dark = 2131165524;
+			
+			// aapt resource value: 0x7F070155
+			public const int ic_mr_button_disconnected_light = 2131165525;
+			
+			// aapt resource value: 0x7F070156
+			public const int ic_mr_button_grey = 2131165526;
+			
+			// aapt resource value: 0x7F070157
+			public const int ic_mtrl_checked_circle = 2131165527;
+			
+			// aapt resource value: 0x7F070158
+			public const int ic_mtrl_chip_checked_black = 2131165528;
+			
+			// aapt resource value: 0x7F070159
+			public const int ic_mtrl_chip_checked_circle = 2131165529;
+			
+			// aapt resource value: 0x7F07015A
+			public const int ic_mtrl_chip_close_circle = 2131165530;
+			
+			// aapt resource value: 0x7F07015B
+			public const int ic_unchecked_checkbox = 2131165531;
+			
+			// aapt resource value: 0x7F07015C
+			public const int ic_vol_mute = 2131165532;
+			
+			// aapt resource value: 0x7F07015D
+			public const int ic_vol_type_speaker_dark = 2131165533;
+			
+			// aapt resource value: 0x7F07015E
+			public const int ic_vol_type_speaker_group_dark = 2131165534;
+			
+			// aapt resource value: 0x7F07015F
+			public const int ic_vol_type_speaker_group_light = 2131165535;
+			
+			// aapt resource value: 0x7F070160
+			public const int ic_vol_type_speaker_light = 2131165536;
+			
+			// aapt resource value: 0x7F070161
+			public const int ic_vol_type_tv_dark = 2131165537;
+			
+			// aapt resource value: 0x7F070162
+			public const int ic_vol_type_tv_light = 2131165538;
+			
+			// aapt resource value: 0x7F070163
+			public const int ic_vol_unmute = 2131165539;
 			
 			// aapt resource value: 0x7F070167
-			public const int ic_vol_unmute = 2131165543;
+			public const int inputlayout_togglecollapseicon = 2131165543;
 			
-			// aapt resource value: 0x7F07016B
-			public const int inputlayout_togglecollapseicon = 2131165547;
+			// aapt resource value: 0x7F070168
+			public const int inputlayout_togglevisibleicon = 2131165544;
 			
-			// aapt resource value: 0x7F07016C
-			public const int inputlayout_togglevisibleicon = 2131165548;
+			// aapt resource value: 0x7F070166
+			public const int input_layout_drop_down_icon = 2131165542;
+			
+			// aapt resource value: 0x7F070169
+			public const int LaReservaFUTBOL_2 = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int input_layout_drop_down_icon = 2131165546;
+			public const int LaReservaFUTBOL_splash = 2131165546;
+			
+			// aapt resource value: 0x7F07016B
+			public const int lines = 2131165547;
+			
+			// aapt resource value: 0x7F07016C
+			public const int locked = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int LaReservaFUTBOL_2 = 2131165549;
-			
-			// aapt resource value: 0x7F07016E
-			public const int LaReservaFUTBOL_splash = 2131165550;
-			
-			// aapt resource value: 0x7F07016F
-			public const int lines = 2131165551;
-			
-			// aapt resource value: 0x7F070170
-			public const int locked = 2131165552;
-			
-			// aapt resource value: 0x7F070171
-			public const int LoginBackground = 2131165553;
-			
-			// aapt resource value: 0x7F070177
-			public const int Logotipo = 2131165559;
-			
-			// aapt resource value: 0x7F070178
-			public const int LogotipoLowOpacity = 2131165560;
-			
-			// aapt resource value: 0x7F070172
-			public const int logo_notif = 2131165554;
+			public const int LoginBackground = 2131165549;
 			
 			// aapt resource value: 0x7F070173
-			public const int logo_notif_bn = 2131165555;
+			public const int Logotipo = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int logo_urban = 2131165556;
+			public const int LogotipoLowOpacity = 2131165556;
+			
+			// aapt resource value: 0x7F07016E
+			public const int logo_notif = 2131165550;
+			
+			// aapt resource value: 0x7F07016F
+			public const int logo_notif_bn = 2131165551;
+			
+			// aapt resource value: 0x7F070170
+			public const int logo_urban = 2131165552;
+			
+			// aapt resource value: 0x7F070171
+			public const int logo_urban_cw = 2131165553;
+			
+			// aapt resource value: 0x7F070172
+			public const int logo_urban_w = 2131165554;
 			
 			// aapt resource value: 0x7F070175
-			public const int logo_urban_cw = 2131165557;
+			public const int material_ic_calendar_black_24dp = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int logo_urban_w = 2131165558;
+			public const int material_ic_clear_black_24dp = 2131165558;
+			
+			// aapt resource value: 0x7F070177
+			public const int material_ic_edit_black_24dp = 2131165559;
+			
+			// aapt resource value: 0x7F070178
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int material_ic_calendar_black_24dp = 2131165561;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int material_ic_clear_black_24dp = 2131165562;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int material_ic_edit_black_24dp = 2131165563;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165564;
+			public const int mr_button_connected_dark = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165565;
+			public const int mr_button_connected_light = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165566;
+			public const int mr_button_connecting_dark = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165567;
+			public const int mr_button_connecting_light = 2131165567;
 			
 			// aapt resource value: 0x7F070180
-			public const int mr_button_connected_dark = 2131165568;
+			public const int mr_button_dark = 2131165568;
 			
 			// aapt resource value: 0x7F070181
-			public const int mr_button_connected_light = 2131165569;
+			public const int mr_button_dark_static = 2131165569;
 			
 			// aapt resource value: 0x7F070182
-			public const int mr_button_connecting_dark = 2131165570;
+			public const int mr_button_light = 2131165570;
 			
 			// aapt resource value: 0x7F070183
-			public const int mr_button_connecting_light = 2131165571;
+			public const int mr_button_light_static = 2131165571;
 			
 			// aapt resource value: 0x7F070184
-			public const int mr_button_dark = 2131165572;
+			public const int mr_cast_checkbox = 2131165572;
 			
 			// aapt resource value: 0x7F070185
-			public const int mr_button_dark_static = 2131165573;
+			public const int mr_cast_group_seekbar_track = 2131165573;
 			
 			// aapt resource value: 0x7F070186
-			public const int mr_button_light = 2131165574;
+			public const int mr_cast_mute_button = 2131165574;
 			
 			// aapt resource value: 0x7F070187
-			public const int mr_button_light_static = 2131165575;
+			public const int mr_cast_route_seekbar_track = 2131165575;
 			
 			// aapt resource value: 0x7F070188
-			public const int mr_cast_checkbox = 2131165576;
+			public const int mr_cast_stop = 2131165576;
 			
 			// aapt resource value: 0x7F070189
-			public const int mr_cast_group_seekbar_track = 2131165577;
+			public const int mr_cast_thumb = 2131165577;
 			
 			// aapt resource value: 0x7F07018A
-			public const int mr_cast_mute_button = 2131165578;
+			public const int mr_dialog_close_dark = 2131165578;
 			
 			// aapt resource value: 0x7F07018B
-			public const int mr_cast_route_seekbar_track = 2131165579;
+			public const int mr_dialog_close_light = 2131165579;
 			
 			// aapt resource value: 0x7F07018C
-			public const int mr_cast_stop = 2131165580;
+			public const int mr_dialog_material_background_dark = 2131165580;
 			
 			// aapt resource value: 0x7F07018D
-			public const int mr_cast_thumb = 2131165581;
+			public const int mr_dialog_material_background_light = 2131165581;
 			
 			// aapt resource value: 0x7F07018E
-			public const int mr_dialog_close_dark = 2131165582;
+			public const int mr_group_collapse = 2131165582;
 			
 			// aapt resource value: 0x7F07018F
-			public const int mr_dialog_close_light = 2131165583;
+			public const int mr_group_expand = 2131165583;
 			
 			// aapt resource value: 0x7F070190
-			public const int mr_dialog_material_background_dark = 2131165584;
+			public const int mr_media_pause_dark = 2131165584;
 			
 			// aapt resource value: 0x7F070191
-			public const int mr_dialog_material_background_light = 2131165585;
+			public const int mr_media_pause_light = 2131165585;
 			
 			// aapt resource value: 0x7F070192
-			public const int mr_group_collapse = 2131165586;
+			public const int mr_media_play_dark = 2131165586;
 			
 			// aapt resource value: 0x7F070193
-			public const int mr_group_expand = 2131165587;
+			public const int mr_media_play_light = 2131165587;
 			
 			// aapt resource value: 0x7F070194
-			public const int mr_media_pause_dark = 2131165588;
+			public const int mr_media_stop_dark = 2131165588;
 			
 			// aapt resource value: 0x7F070195
-			public const int mr_media_pause_light = 2131165589;
+			public const int mr_media_stop_light = 2131165589;
 			
 			// aapt resource value: 0x7F070196
-			public const int mr_media_play_dark = 2131165590;
+			public const int mr_vol_type_audiotrack_dark = 2131165590;
 			
 			// aapt resource value: 0x7F070197
-			public const int mr_media_play_light = 2131165591;
+			public const int mr_vol_type_audiotrack_light = 2131165591;
 			
 			// aapt resource value: 0x7F070198
-			public const int mr_media_stop_dark = 2131165592;
+			public const int mtrl_dialog_background = 2131165592;
 			
 			// aapt resource value: 0x7F070199
-			public const int mr_media_stop_light = 2131165593;
+			public const int mtrl_dropdown_arrow = 2131165593;
 			
 			// aapt resource value: 0x7F07019A
-			public const int mr_vol_type_audiotrack_dark = 2131165594;
+			public const int mtrl_ic_arrow_drop_down = 2131165594;
 			
 			// aapt resource value: 0x7F07019B
-			public const int mr_vol_type_audiotrack_light = 2131165595;
+			public const int mtrl_ic_arrow_drop_up = 2131165595;
 			
 			// aapt resource value: 0x7F07019C
-			public const int mtrl_dialog_background = 2131165596;
+			public const int mtrl_ic_cancel = 2131165596;
 			
 			// aapt resource value: 0x7F07019D
-			public const int mtrl_dropdown_arrow = 2131165597;
+			public const int mtrl_ic_error = 2131165597;
 			
 			// aapt resource value: 0x7F07019E
-			public const int mtrl_ic_arrow_drop_down = 2131165598;
+			public const int mtrl_popupmenu_background = 2131165598;
 			
 			// aapt resource value: 0x7F07019F
-			public const int mtrl_ic_arrow_drop_up = 2131165599;
+			public const int mtrl_popupmenu_background_dark = 2131165599;
 			
 			// aapt resource value: 0x7F0701A0
-			public const int mtrl_ic_cancel = 2131165600;
+			public const int mtrl_tabs_default_indicator = 2131165600;
 			
 			// aapt resource value: 0x7F0701A1
-			public const int mtrl_ic_error = 2131165601;
+			public const int navigation_empty_icon = 2131165601;
 			
 			// aapt resource value: 0x7F0701A2
-			public const int mtrl_popupmenu_background = 2131165602;
+			public const int notification_action_background = 2131165602;
 			
 			// aapt resource value: 0x7F0701A3
-			public const int mtrl_popupmenu_background_dark = 2131165603;
+			public const int notification_bg = 2131165603;
 			
 			// aapt resource value: 0x7F0701A4
-			public const int mtrl_tabs_default_indicator = 2131165604;
+			public const int notification_bg_low = 2131165604;
 			
 			// aapt resource value: 0x7F0701A5
-			public const int navigation_empty_icon = 2131165605;
+			public const int notification_bg_low_normal = 2131165605;
 			
 			// aapt resource value: 0x7F0701A6
-			public const int notification_action_background = 2131165606;
+			public const int notification_bg_low_pressed = 2131165606;
 			
 			// aapt resource value: 0x7F0701A7
-			public const int notification_bg = 2131165607;
+			public const int notification_bg_normal = 2131165607;
 			
 			// aapt resource value: 0x7F0701A8
-			public const int notification_bg_low = 2131165608;
+			public const int notification_bg_normal_pressed = 2131165608;
 			
 			// aapt resource value: 0x7F0701A9
-			public const int notification_bg_low_normal = 2131165609;
+			public const int notification_icon_background = 2131165609;
 			
 			// aapt resource value: 0x7F0701AA
-			public const int notification_bg_low_pressed = 2131165610;
+			public const int notification_oversize_large_icon_bg = 2131165610;
 			
 			// aapt resource value: 0x7F0701AB
-			public const int notification_bg_normal = 2131165611;
+			public const int notification_template_icon_bg = 2131165611;
 			
 			// aapt resource value: 0x7F0701AC
-			public const int notification_bg_normal_pressed = 2131165612;
+			public const int notification_template_icon_low_bg = 2131165612;
 			
 			// aapt resource value: 0x7F0701AD
-			public const int notification_icon_background = 2131165613;
+			public const int notification_tile_bg = 2131165613;
 			
 			// aapt resource value: 0x7F0701AE
-			public const int notification_template_icon_bg = 2131165614;
+			public const int notify_panel_notification_icon_bg = 2131165614;
 			
 			// aapt resource value: 0x7F0701AF
-			public const int notification_template_icon_low_bg = 2131165615;
+			public const int Pin = 2131165615;
 			
 			// aapt resource value: 0x7F0701B0
-			public const int notification_tile_bg = 2131165616;
+			public const int ReSchedule = 2131165616;
 			
 			// aapt resource value: 0x7F0701B1
-			public const int notify_panel_notification_icon_bg = 2131165617;
+			public const int segmented_control_background = 2131165617;
 			
 			// aapt resource value: 0x7F0701B2
-			public const int Pin = 2131165618;
+			public const int segmented_control_first_background = 2131165618;
 			
 			// aapt resource value: 0x7F0701B3
-			public const int ReSchedule = 2131165619;
+			public const int segmented_control_last_background = 2131165619;
 			
 			// aapt resource value: 0x7F0701B4
-			public const int segmented_control_background = 2131165620;
+			public const int sfcheckbox_animation = 2131165620;
 			
 			// aapt resource value: 0x7F0701B5
-			public const int segmented_control_first_background = 2131165621;
+			public const int sfcheckbox_checked = 2131165621;
 			
 			// aapt resource value: 0x7F0701B6
-			public const int segmented_control_last_background = 2131165622;
+			public const int sfcheckbox_checked_indeterminate = 2131165622;
 			
 			// aapt resource value: 0x7F0701B7
-			public const int sfprogressbar_determinate_linear = 2131165623;
+			public const int sfcheckbox_checked_unchecked = 2131165623;
 			
 			// aapt resource value: 0x7F0701B8
-			public const int sfprogressbar_indeterminate_circular = 2131165624;
+			public const int sfcheckbox_indeterminate = 2131165624;
 			
 			// aapt resource value: 0x7F0701B9
-			public const int sfprogressbar_indeterminate_linear = 2131165625;
-			
-			// aapt resource value: 0x7F0701BB
-			public const int SplashScreenBackground = 2131165627;
+			public const int sfcheckbox_indeterminate_checked = 2131165625;
 			
 			// aapt resource value: 0x7F0701BA
-			public const int splash_screen = 2131165626;
+			public const int sfcheckbox_indeterminate_unchecked = 2131165626;
+			
+			// aapt resource value: 0x7F0701BB
+			public const int sfcheckbox_unchecked = 2131165627;
 			
 			// aapt resource value: 0x7F0701BC
-			public const int test_custom_background = 2131165628;
+			public const int sfcheckbox_unchecked_checked = 2131165628;
 			
 			// aapt resource value: 0x7F0701BD
-			public const int TimeZone = 2131165629;
+			public const int sfcheckbox_unchecked_indeterminate = 2131165629;
 			
 			// aapt resource value: 0x7F0701BE
-			public const int tooltip_frame_dark = 2131165630;
+			public const int sfprogressbar_determinate_linear = 2131165630;
 			
 			// aapt resource value: 0x7F0701BF
-			public const int tooltip_frame_light = 2131165631;
+			public const int sfprogressbar_indeterminate_circular = 2131165631;
 			
 			// aapt resource value: 0x7F0701C0
-			public const int UrbanBIGLogo = 2131165632;
-			
-			// aapt resource value: 0x7F0701C1
-			public const int UrbanBIGLogo_cw = 2131165633;
+			public const int sfprogressbar_indeterminate_linear = 2131165632;
 			
 			// aapt resource value: 0x7F0701C2
-			public const int UrbanBIGLogo_w = 2131165634;
+			public const int SplashScreenBackground = 2131165634;
+			
+			// aapt resource value: 0x7F0701C1
+			public const int splash_screen = 2131165633;
 			
 			// aapt resource value: 0x7F0701C3
-			public const int ViewMode = 2131165635;
+			public const int test_custom_background = 2131165635;
 			
 			// aapt resource value: 0x7F0701C4
-			public const int wspLogo = 2131165636;
+			public const int TimeZone = 2131165636;
+			
+			// aapt resource value: 0x7F0701C5
+			public const int tooltip_frame_dark = 2131165637;
+			
+			// aapt resource value: 0x7F0701C6
+			public const int tooltip_frame_light = 2131165638;
+			
+			// aapt resource value: 0x7F0701C7
+			public const int UrbanBIGLogo = 2131165639;
+			
+			// aapt resource value: 0x7F0701C8
+			public const int UrbanBIGLogo_cw = 2131165640;
+			
+			// aapt resource value: 0x7F0701C9
+			public const int UrbanBIGLogo_w = 2131165641;
+			
+			// aapt resource value: 0x7F0701CA
+			public const int ViewMode = 2131165642;
+			
+			// aapt resource value: 0x7F0701CB
+			public const int wspLogo = 2131165643;
 			
 			static Drawable()
 			{
@@ -26835,11 +27887,11 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0x7F08005F
 			public const int both = 2131230815;
 			
-			// aapt resource value: 0x7F080003
-			public const int Bottom = 2131230723;
-			
 			// aapt resource value: 0x7F080060
 			public const int bottom = 2131230816;
+			
+			// aapt resource value: 0x7F080003
+			public const int Bottom = 2131230723;
 			
 			// aapt resource value: 0x7F080061
 			public const int bottomtab_navarea = 2131230817;
@@ -27010,274 +28062,280 @@ namespace TurnosFutbol.Droid
 			public const int edit_query = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int eightCrossEightDotMatrix = 2131230867;
+			public const int edit_text_id = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int eightsegment = 2131230868;
+			public const int eightCrossEightDotMatrix = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int end = 2131230869;
+			public const int eightsegment = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int end_padder = 2131230870;
+			public const int end = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int enterAlways = 2131230871;
+			public const int end_padder = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int enterAlwaysCollapsed = 2131230872;
+			public const int enterAlways = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int exact = 2131230873;
+			public const int enterAlwaysCollapsed = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int exitUntilCollapsed = 2131230874;
-			
-			// aapt resource value: 0x7F08009C
-			public const int expanded_menu = 2131230876;
+			public const int exact = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int expand_activities_button = 2131230875;
+			public const int exitUntilCollapsed = 2131230875;
 			
 			// aapt resource value: 0x7F08009D
-			public const int fade = 2131230877;
+			public const int expanded_menu = 2131230877;
+			
+			// aapt resource value: 0x7F08009C
+			public const int expand_activities_button = 2131230876;
 			
 			// aapt resource value: 0x7F08009E
-			public const int far = 2131230878;
+			public const int fade = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int fill = 2131230879;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int filled = 2131230882;
+			public const int far = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int fill_horizontal = 2131230880;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int fill_vertical = 2131230881;
+			public const int fill = 2131230880;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int fitToContents = 2131230883;
+			public const int filled = 2131230883;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int fill_horizontal = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int fill_vertical = 2131230882;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int @fixed = 2131230884;
+			public const int fitToContents = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int floating = 2131230885;
+			public const int @fixed = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int flyoutcontent_appbar = 2131230886;
+			public const int floating = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int forever = 2131230887;
+			public const int flyoutcontent_appbar = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int forward = 2131230888;
+			public const int forever = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int fourteensegment = 2131230889;
+			public const int forward = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int fragment_container_view_tag = 2131230890;
+			public const int fourteensegment = 2131230890;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int fragment_container_view_tag = 2131230891;
 			
 			// aapt resource value: 0x7F080008
 			public const int FUNCTION = 2131230728;
 			
-			// aapt resource value: 0x7F0800AB
-			public const int gaugeBottom = 2131230891;
-			
 			// aapt resource value: 0x7F0800AC
-			public const int gaugeBottomLeft = 2131230892;
+			public const int gaugeBottom = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int gaugeBottomRight = 2131230893;
+			public const int gaugeBottomLeft = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int gaugeCenter = 2131230894;
+			public const int gaugeBottomRight = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int gaugeCustom = 2131230895;
+			public const int gaugeCenter = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int gaugeHorizontalHeaderCenter = 2131230896;
+			public const int gaugeCustom = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int gaugeHorizontalHeaderEnd = 2131230897;
+			public const int gaugeHorizontalHeaderCenter = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int gaugeHorizontalHeaderStart = 2131230898;
+			public const int gaugeHorizontalHeaderEnd = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int gaugeLeft = 2131230899;
+			public const int gaugeHorizontalHeaderStart = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int gaugeRight = 2131230900;
+			public const int gaugeLeft = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int gaugeTop = 2131230901;
+			public const int gaugeRight = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int gaugeTopLeft = 2131230902;
+			public const int gaugeTop = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int gaugeTopRight = 2131230903;
+			public const int gaugeTopLeft = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int gaugeVerticalHeaderCenter = 2131230904;
+			public const int gaugeTopRight = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int gaugeVerticalHeaderEnd = 2131230905;
+			public const int gaugeVerticalHeaderCenter = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int gaugeVerticalHeaderStart = 2131230906;
+			public const int gaugeVerticalHeaderEnd = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int ghost_view = 2131230907;
+			public const int gaugeVerticalHeaderStart = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int ghost_view_holder = 2131230908;
+			public const int ghost_view = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int gone = 2131230909;
+			public const int ghost_view_holder = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int group_divider = 2131230910;
+			public const int gone = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int half = 2131230911;
+			public const int group_divider = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int hideable = 2131230912;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int home = 2131230913;
+			public const int half = 2131230912;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int homeAsUp = 2131230914;
+			public const int hideable = 2131230914;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int hide_ime_id = 2131230913;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int horizontal = 2131230915;
+			public const int home = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int homeAsUp = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int horizontal = 2131230917;
 			
 			// aapt resource value: 0x7F080009
 			public const int Horizontal = 2131230729;
 			
-			// aapt resource value: 0x7F0800C4
-			public const int icon = 2131230916;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int icon_group = 2131230917;
-			
 			// aapt resource value: 0x7F0800C6
-			public const int icon_only = 2131230918;
+			public const int icon = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int ifRoom = 2131230919;
+			public const int icon_group = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int image = 2131230920;
+			public const int icon_only = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int imagewithtext = 2131230921;
+			public const int ifRoom = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int indeterminate = 2131230922;
+			public const int image = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int info = 2131230923;
+			public const int imagewithtext = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int invertedTriangle = 2131230924;
+			public const int indeterminate = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int italic = 2131230925;
+			public const int info = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int invertedTriangle = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int italic = 2131230927;
 			
 			// aapt resource value: 0x7F08000A
 			public const int Itemname = 2131230730;
 			
-			// aapt resource value: 0x7F0800CE
-			public const int item_touch_helper_previous_elevation = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int labeled = 2131230927;
-			
 			// aapt resource value: 0x7F0800D0
-			public const int largeLabel = 2131230928;
+			public const int item_touch_helper_previous_elevation = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int layers = 2131230929;
+			public const int labeled = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int largeLabel = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int layers = 2131230931;
 			
 			// aapt resource value: 0x7F08000B
 			public const int Left = 2131230731;
 			
-			// aapt resource value: 0x7F0800D2
-			public const int left = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int light = 2131230931;
-			
 			// aapt resource value: 0x7F0800D4
-			public const int line1 = 2131230932;
+			public const int left = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int line3 = 2131230933;
+			public const int light = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int listMode = 2131230934;
+			public const int line1 = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int list_item = 2131230935;
+			public const int line3 = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int main_appbar = 2131230936;
+			public const int listMode = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int main_tablayout = 2131230937;
+			public const int list_item = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int main_toolbar = 2131230938;
+			public const int main_appbar = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int main_viewpager = 2131230939;
+			public const int main_tablayout = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int masked = 2131230940;
+			public const int main_toolbar = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int media_actions = 2131230941;
+			public const int main_viewpager = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int media_controller_compat_view_tag = 2131230942;
+			public const int masked = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int message = 2131230943;
+			public const int media_actions = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int media_controller_compat_view_tag = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int message = 2131230945;
 			
 			// aapt resource value: 0x7F08000C
 			public const int META = 2131230732;
 			
-			// aapt resource value: 0x7F0800E0
-			public const int middle = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int mini = 2131230945;
-			
 			// aapt resource value: 0x7F0800E2
-			public const int month_grid = 2131230946;
+			public const int middle = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int month_navigation_bar = 2131230947;
+			public const int mini = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int month_navigation_fragment_toggle = 2131230948;
+			public const int month_grid = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int month_navigation_next = 2131230949;
+			public const int month_navigation_bar = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int month_navigation_previous = 2131230950;
+			public const int month_navigation_fragment_toggle = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int month_title = 2131230951;
+			public const int month_navigation_next = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int month_navigation_previous = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int month_title = 2131230953;
 			
 			// aapt resource value: 0x7F08000D
 			public const int MoveBackward = 2131230733;
@@ -27285,620 +28343,626 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0x7F08000E
 			public const int MoveForward = 2131230734;
 			
-			// aapt resource value: 0x7F0800E8
-			public const int mr_art = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int mr_cast_checkbox = 2131230953;
-			
 			// aapt resource value: 0x7F0800EA
-			public const int mr_cast_close_button = 2131230954;
+			public const int mr_art = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int mr_cast_divider = 2131230955;
+			public const int mr_cast_checkbox = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int mr_cast_group_icon = 2131230956;
+			public const int mr_cast_close_button = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int mr_cast_group_name = 2131230957;
+			public const int mr_cast_divider = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int mr_cast_group_progress_bar = 2131230958;
+			public const int mr_cast_group_icon = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int mr_cast_header_name = 2131230959;
+			public const int mr_cast_group_name = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int mr_cast_list = 2131230960;
+			public const int mr_cast_group_progress_bar = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int mr_cast_meta_art = 2131230961;
+			public const int mr_cast_header_name = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int mr_cast_meta_background = 2131230962;
+			public const int mr_cast_list = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int mr_cast_meta_black_scrim = 2131230963;
+			public const int mr_cast_meta_art = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int mr_cast_meta_subtitle = 2131230964;
+			public const int mr_cast_meta_background = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int mr_cast_meta_title = 2131230965;
+			public const int mr_cast_meta_black_scrim = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int mr_cast_mute_button = 2131230966;
+			public const int mr_cast_meta_subtitle = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int mr_cast_route_icon = 2131230967;
+			public const int mr_cast_meta_title = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int mr_cast_route_name = 2131230968;
+			public const int mr_cast_mute_button = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int mr_cast_route_progress_bar = 2131230969;
+			public const int mr_cast_route_icon = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int mr_cast_stop_button = 2131230970;
+			public const int mr_cast_route_name = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int mr_cast_volume_layout = 2131230971;
+			public const int mr_cast_route_progress_bar = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int mr_cast_volume_slider = 2131230972;
+			public const int mr_cast_stop_button = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int mr_chooser_list = 2131230973;
+			public const int mr_cast_volume_layout = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int mr_chooser_route_desc = 2131230974;
+			public const int mr_cast_volume_slider = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int mr_chooser_route_icon = 2131230975;
+			public const int mr_chooser_list = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int mr_chooser_route_name = 2131230976;
+			public const int mr_chooser_route_desc = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int mr_chooser_route_progress_bar = 2131230977;
+			public const int mr_chooser_route_icon = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int mr_chooser_title = 2131230978;
+			public const int mr_chooser_route_name = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int mr_close = 2131230979;
+			public const int mr_chooser_route_progress_bar = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int mr_control_divider = 2131230980;
+			public const int mr_chooser_title = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int mr_control_playback_ctrl = 2131230981;
+			public const int mr_close = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int mr_control_subtitle = 2131230982;
+			public const int mr_control_divider = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int mr_control_title = 2131230983;
+			public const int mr_control_playback_ctrl = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int mr_control_title_container = 2131230984;
+			public const int mr_control_subtitle = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int mr_custom_control = 2131230985;
+			public const int mr_control_title = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int mr_default_control = 2131230986;
+			public const int mr_control_title_container = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int mr_dialog_area = 2131230987;
+			public const int mr_custom_control = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int mr_expandable_area = 2131230988;
+			public const int mr_default_control = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int mr_group_expand_collapse = 2131230989;
+			public const int mr_dialog_area = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int mr_group_volume_route_name = 2131230990;
+			public const int mr_expandable_area = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int mr_media_main_control = 2131230991;
+			public const int mr_group_expand_collapse = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int mr_name = 2131230992;
+			public const int mr_group_volume_route_name = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int mr_picker_close_button = 2131230993;
+			public const int mr_media_main_control = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int mr_picker_header_name = 2131230994;
+			public const int mr_name = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int mr_picker_list = 2131230995;
+			public const int mr_picker_close_button = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int mr_picker_route_icon = 2131230996;
+			public const int mr_picker_header_name = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int mr_picker_route_name = 2131230997;
+			public const int mr_picker_list = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int mr_picker_route_progress_bar = 2131230998;
+			public const int mr_picker_route_icon = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int mr_playback_control = 2131230999;
+			public const int mr_picker_route_name = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int mr_title_bar = 2131231000;
+			public const int mr_picker_route_progress_bar = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int mr_volume_control = 2131231001;
+			public const int mr_playback_control = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int mr_volume_group_list = 2131231002;
+			public const int mr_title_bar = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int mr_volume_item_icon = 2131231003;
+			public const int mr_volume_control = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int mr_volume_slider = 2131231004;
-			
-			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_days_of_week = 2131231006;
+			public const int mr_volume_group_list = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_day_selector_frame = 2131231005;
+			public const int mr_volume_item_icon = 2131231005;
 			
-			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_frame = 2131231007;
+			// aapt resource value: 0x7F08011E
+			public const int mr_volume_slider = 2131231006;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_main_pane = 2131231008;
+			public const int mtrl_calendar_days_of_week = 2131231008;
+			
+			// aapt resource value: 0x7F08011F
+			public const int mtrl_calendar_day_selector_frame = 2131231007;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_calendar_months = 2131231009;
+			public const int mtrl_calendar_frame = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_calendar_selection_frame = 2131231010;
+			public const int mtrl_calendar_main_pane = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_calendar_text_input_frame = 2131231011;
+			public const int mtrl_calendar_months = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_calendar_year_selector_frame = 2131231012;
+			public const int mtrl_calendar_selection_frame = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_card_checked_layer_id = 2131231013;
+			public const int mtrl_calendar_text_input_frame = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_child_content_container = 2131231014;
+			public const int mtrl_calendar_year_selector_frame = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_internal_children_alpha_tag = 2131231015;
+			public const int mtrl_card_checked_layer_id = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int mtrl_motion_snapshot_view = 2131231016;
+			public const int mtrl_child_content_container = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_fullscreen = 2131231017;
+			public const int mtrl_internal_children_alpha_tag = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_header = 2131231018;
+			public const int mtrl_motion_snapshot_view = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_header_selection_text = 2131231019;
+			public const int mtrl_picker_fullscreen = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_header_title_and_selection = 2131231020;
+			public const int mtrl_picker_header = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_header_toggle = 2131231021;
+			public const int mtrl_picker_header_selection_text = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_picker_text_input_date = 2131231022;
+			public const int mtrl_picker_header_title_and_selection = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int mtrl_picker_text_input_range_end = 2131231023;
+			public const int mtrl_picker_header_toggle = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int mtrl_picker_text_input_range_start = 2131231024;
+			public const int mtrl_picker_text_input_date = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int mtrl_picker_title_text = 2131231025;
+			public const int mtrl_picker_text_input_range_end = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int multiply = 2131231026;
+			public const int mtrl_picker_text_input_range_start = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int navigation_header_container = 2131231027;
+			public const int mtrl_picker_title_text = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int never = 2131231028;
+			public const int multiply = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_header_container = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int none = 2131231030;
+			public const int never = 2131231030;
 			
 			// aapt resource value: 0x7F08000F
 			public const int None = 2131230735;
 			
-			// aapt resource value: 0x7F080137
-			public const int normal = 2131231031;
-			
-			// aapt resource value: 0x7F080135
-			public const int noScroll = 2131231029;
-			
 			// aapt resource value: 0x7F080138
-			public const int notification_background = 2131231032;
+			public const int none = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int notification_main_column = 2131231033;
+			public const int normal = 2131231033;
+			
+			// aapt resource value: 0x7F080137
+			public const int noScroll = 2131231031;
 			
 			// aapt resource value: 0x7F08013A
-			public const int notification_main_column_container = 2131231034;
+			public const int notification_background = 2131231034;
 			
 			// aapt resource value: 0x7F08013B
-			public const int off = 2131231035;
+			public const int notification_main_column = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int on = 2131231036;
+			public const int notification_main_column_container = 2131231036;
 			
 			// aapt resource value: 0x7F08013D
-			public const int outline = 2131231037;
+			public const int off = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int on = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int outline = 2131231039;
 			
 			// aapt resource value: 0x7F080010
 			public const int OutSide = 2131230736;
 			
-			// aapt resource value: 0x7F08013E
-			public const int parallax = 2131231038;
-			
-			// aapt resource value: 0x7F08013F
-			public const int parentPanel = 2131231039;
-			
 			// aapt resource value: 0x7F080140
-			public const int parent_matrix = 2131231040;
+			public const int parallax = 2131231040;
 			
 			// aapt resource value: 0x7F080141
-			public const int password_toggle = 2131231041;
+			public const int parentPanel = 2131231041;
 			
 			// aapt resource value: 0x7F080142
-			public const int peekHeight = 2131231042;
+			public const int parent_matrix = 2131231042;
 			
 			// aapt resource value: 0x7F080143
-			public const int pin = 2131231043;
+			public const int password_toggle = 2131231043;
 			
 			// aapt resource value: 0x7F080144
-			public const int progress_circular = 2131231044;
+			public const int peekHeight = 2131231044;
 			
 			// aapt resource value: 0x7F080145
-			public const int progress_horizontal = 2131231045;
+			public const int pin = 2131231045;
 			
 			// aapt resource value: 0x7F080146
-			public const int radio = 2131231046;
+			public const int progress_circular = 2131231046;
 			
 			// aapt resource value: 0x7F080147
-			public const int rectangle = 2131231047;
+			public const int progress_horizontal = 2131231047;
+			
+			// aapt resource value: 0x7F080148
+			public const int radio = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int rectangle = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int report_drawn = 2131231050;
 			
 			// aapt resource value: 0x7F080011
 			public const int Right = 2131230737;
 			
-			// aapt resource value: 0x7F080148
-			public const int right = 2131231048;
-			
-			// aapt resource value: 0x7F080149
-			public const int right_icon = 2131231049;
-			
-			// aapt resource value: 0x7F08014A
-			public const int right_side = 2131231050;
-			
 			// aapt resource value: 0x7F08014B
-			public const int rootLayout = 2131231051;
+			public const int right = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int rounded = 2131231052;
+			public const int right_icon = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int row_index_key = 2131231053;
+			public const int right_side = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int save_non_transition_alpha = 2131231054;
+			public const int rootLayout = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int save_overlay_view = 2131231055;
+			public const int rounded = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int scale = 2131231056;
+			public const int row_index_key = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int screen = 2131231057;
+			public const int save_non_transition_alpha = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int scroll = 2131231058;
-			
-			// aapt resource value: 0x7F080156
-			public const int scrollable = 2131231062;
+			public const int save_overlay_view = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int scrollIndicatorDown = 2131231059;
+			public const int scale = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int scrollIndicatorUp = 2131231060;
+			public const int screen = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int scrollView = 2131231061;
-			
-			// aapt resource value: 0x7F080157
-			public const int search_badge = 2131231063;
-			
-			// aapt resource value: 0x7F080158
-			public const int search_bar = 2131231064;
+			public const int scroll = 2131231061;
 			
 			// aapt resource value: 0x7F080159
-			public const int search_button = 2131231065;
+			public const int scrollable = 2131231065;
+			
+			// aapt resource value: 0x7F080156
+			public const int scrollIndicatorDown = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int scrollIndicatorUp = 2131231063;
+			
+			// aapt resource value: 0x7F080158
+			public const int scrollView = 2131231064;
 			
 			// aapt resource value: 0x7F08015A
-			public const int search_close_btn = 2131231066;
+			public const int search_badge = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int search_edit_frame = 2131231067;
+			public const int search_bar = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int search_go_btn = 2131231068;
+			public const int search_button = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int search_mag_icon = 2131231069;
+			public const int search_close_btn = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int search_plate = 2131231070;
+			public const int search_edit_frame = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int search_src_text = 2131231071;
+			public const int search_go_btn = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int search_voice_btn = 2131231072;
+			public const int search_mag_icon = 2131231072;
+			
+			// aapt resource value: 0x7F080161
+			public const int search_plate = 2131231073;
+			
+			// aapt resource value: 0x7F080162
+			public const int search_src_text = 2131231074;
+			
+			// aapt resource value: 0x7F080163
+			public const int search_voice_btn = 2131231075;
 			
 			// aapt resource value: 0x7F080014
 			public const int SegControl = 2131230740;
 			
-			// aapt resource value: 0x7F080161
-			public const int segmentFourteen = 2131231073;
-			
-			// aapt resource value: 0x7F080162
-			public const int segmentSeven = 2131231074;
-			
-			// aapt resource value: 0x7F080163
-			public const int segmentSixteen = 2131231075;
+			// aapt resource value: 0x7F080164
+			public const int segmentFourteen = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int selected = 2131231077;
-			
-			// aapt resource value: 0x7F080164
-			public const int select_dialog_listview = 2131231076;
+			public const int segmentSeven = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int sevensegment = 2131231078;
-			
-			// aapt resource value: 0x7F080167
-			public const int sfprogressbar_progress = 2131231079;
+			public const int segmentSixteen = 2131231078;
 			
 			// aapt resource value: 0x7F080168
-			public const int sfprogressbar_secondary_progress = 2131231080;
+			public const int selected = 2131231080;
+			
+			// aapt resource value: 0x7F080167
+			public const int select_dialog_listview = 2131231079;
 			
 			// aapt resource value: 0x7F080169
-			public const int sfprogressbar_track = 2131231081;
+			public const int sevensegment = 2131231081;
 			
 			// aapt resource value: 0x7F08016A
-			public const int shape_id = 2131231082;
+			public const int sfprogressbar_progress = 2131231082;
 			
 			// aapt resource value: 0x7F08016B
-			public const int shellcontent_appbar = 2131231083;
+			public const int sfprogressbar_secondary_progress = 2131231083;
 			
 			// aapt resource value: 0x7F08016C
-			public const int shellcontent_toolbar = 2131231084;
+			public const int sfprogressbar_track = 2131231084;
+			
+			// aapt resource value: 0x7F08016D
+			public const int shape_id = 2131231085;
+			
+			// aapt resource value: 0x7F08016E
+			public const int shellcontent_appbar = 2131231086;
+			
+			// aapt resource value: 0x7F08016F
+			public const int shellcontent_toolbar = 2131231087;
 			
 			// aapt resource value: 0x7F080012
 			public const int SHIFT = 2131230738;
 			
-			// aapt resource value: 0x7F08016D
-			public const int shortcut = 2131231085;
-			
-			// aapt resource value: 0x7F08016E
-			public const int showCustom = 2131231086;
-			
-			// aapt resource value: 0x7F08016F
-			public const int showHome = 2131231087;
-			
 			// aapt resource value: 0x7F080170
-			public const int showTitle = 2131231088;
+			public const int shortcut = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int sixteensegment = 2131231089;
+			public const int showCustom = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int skipCollapsed = 2131231090;
+			public const int showHome = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int slide = 2131231091;
+			public const int showTitle = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int sliding_tabs = 2131231092;
+			public const int sixteensegment = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int smallLabel = 2131231093;
+			public const int skipCollapsed = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int snackbar_action = 2131231094;
+			public const int slide = 2131231094;
 			
 			// aapt resource value: 0x7F080177
-			public const int snackbar_text = 2131231095;
+			public const int sliding_tabs = 2131231095;
 			
 			// aapt resource value: 0x7F080178
-			public const int snap = 2131231096;
+			public const int smallLabel = 2131231096;
 			
 			// aapt resource value: 0x7F080179
-			public const int snapMargins = 2131231097;
+			public const int snackbar_action = 2131231097;
 			
 			// aapt resource value: 0x7F08017A
-			public const int spacer = 2131231098;
+			public const int snackbar_text = 2131231098;
 			
 			// aapt resource value: 0x7F08017B
-			public const int split_action_bar = 2131231099;
+			public const int snap = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int square = 2131231100;
+			public const int snapMargins = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int src_atop = 2131231101;
+			public const int spacer = 2131231101;
 			
 			// aapt resource value: 0x7F08017E
-			public const int src_in = 2131231102;
+			public const int special_effects_controller_view_tag = 2131231102;
 			
 			// aapt resource value: 0x7F08017F
-			public const int src_over = 2131231103;
+			public const int split_action_bar = 2131231103;
 			
 			// aapt resource value: 0x7F080180
-			public const int standard = 2131231104;
+			public const int square = 2131231104;
 			
 			// aapt resource value: 0x7F080181
-			public const int start = 2131231105;
+			public const int src_atop = 2131231105;
 			
 			// aapt resource value: 0x7F080182
-			public const int status_bar_latest_event_content = 2131231106;
+			public const int src_in = 2131231106;
 			
 			// aapt resource value: 0x7F080183
-			public const int stretch = 2131231107;
+			public const int src_over = 2131231107;
 			
 			// aapt resource value: 0x7F080184
-			public const int submenuarrow = 2131231108;
+			public const int standard = 2131231108;
 			
 			// aapt resource value: 0x7F080185
-			public const int submit_area = 2131231109;
+			public const int start = 2131231109;
+			
+			// aapt resource value: 0x7F080186
+			public const int status_bar_latest_event_content = 2131231110;
+			
+			// aapt resource value: 0x7F080187
+			public const int stretch = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int submenuarrow = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int submit_area = 2131231113;
 			
 			// aapt resource value: 0x7F080013
 			public const int SYM = 2131230739;
 			
-			// aapt resource value: 0x7F080186
-			public const int tabMode = 2131231110;
-			
-			// aapt resource value: 0x7F080187
-			public const int tag_accessibility_actions = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int tag_accessibility_clickable_spans = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int tag_accessibility_heading = 2131231113;
-			
 			// aapt resource value: 0x7F08018A
-			public const int tag_accessibility_pane_title = 2131231114;
+			public const int tabMode = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int tag_on_apply_window_listener = 2131231115;
+			public const int tag_accessibility_actions = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int tag_on_receive_content_listener = 2131231116;
+			public const int tag_accessibility_clickable_spans = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int tag_on_receive_content_mime_types = 2131231117;
+			public const int tag_accessibility_heading = 2131231117;
 			
 			// aapt resource value: 0x7F08018E
-			public const int tag_screen_reader_focusable = 2131231118;
+			public const int tag_accessibility_pane_title = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int tag_state_description = 2131231119;
+			public const int tag_on_apply_window_listener = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int tag_transition_group = 2131231120;
+			public const int tag_on_receive_content_listener = 2131231120;
 			
 			// aapt resource value: 0x7F080191
-			public const int tag_unhandled_key_event_manager = 2131231121;
+			public const int tag_on_receive_content_mime_types = 2131231121;
 			
 			// aapt resource value: 0x7F080192
-			public const int tag_unhandled_key_listeners = 2131231122;
+			public const int tag_screen_reader_focusable = 2131231122;
 			
 			// aapt resource value: 0x7F080193
-			public const int tag_window_insets_animation_callback = 2131231123;
+			public const int tag_state_description = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int test_checkbox_android_button_tint = 2131231124;
+			public const int tag_transition_group = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int test_checkbox_app_button_tint = 2131231125;
+			public const int tag_unhandled_key_event_manager = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int test_radiobutton_android_button_tint = 2131231126;
+			public const int tag_unhandled_key_listeners = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int test_radiobutton_app_button_tint = 2131231127;
+			public const int tag_window_insets_animation_callback = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int text = 2131231128;
+			public const int test_checkbox_android_button_tint = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int text2 = 2131231129;
+			public const int test_checkbox_app_button_tint = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int textEnd = 2131231130;
-			
-			// aapt resource value: 0x7F0801A0
-			public const int textinput_counter = 2131231136;
-			
-			// aapt resource value: 0x7F0801A1
-			public const int textinput_error = 2131231137;
-			
-			// aapt resource value: 0x7F0801A2
-			public const int textinput_helper_text = 2131231138;
-			
-			// aapt resource value: 0x7F0801A3
-			public const int textinput_placeholder = 2131231139;
-			
-			// aapt resource value: 0x7F0801A4
-			public const int textinput_prefix_text = 2131231140;
-			
-			// aapt resource value: 0x7F0801A5
-			public const int textinput_suffix_text = 2131231141;
+			public const int test_radiobutton_android_button_tint = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int textSpacerNoButtons = 2131231131;
+			public const int test_radiobutton_app_button_tint = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int textSpacerNoTitle = 2131231132;
+			public const int text = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int textStart = 2131231133;
+			public const int text2 = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int text_input_end_icon = 2131231134;
+			public const int textEnd = 2131231134;
+			
+			// aapt resource value: 0x7F0801A4
+			public const int textinput_counter = 2131231140;
+			
+			// aapt resource value: 0x7F0801A5
+			public const int textinput_error = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int textinput_helper_text = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int textinput_placeholder = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int textinput_prefix_text = 2131231144;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int textinput_suffix_text = 2131231145;
 			
 			// aapt resource value: 0x7F08019F
-			public const int text_input_start_icon = 2131231135;
+			public const int textSpacerNoButtons = 2131231135;
+			
+			// aapt resource value: 0x7F0801A0
+			public const int textSpacerNoTitle = 2131231136;
+			
+			// aapt resource value: 0x7F0801A1
+			public const int textStart = 2131231137;
+			
+			// aapt resource value: 0x7F0801A2
+			public const int text_input_end_icon = 2131231138;
+			
+			// aapt resource value: 0x7F0801A3
+			public const int text_input_start_icon = 2131231139;
 			
 			// aapt resource value: 0x7F080017
 			public const int Thumbnail = 2131230743;
 			
-			// aapt resource value: 0x7F0801A6
-			public const int time = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int title = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int titleDividerNoCustom = 2131231144;
-			
-			// aapt resource value: 0x7F0801A9
-			public const int title_template = 2131231145;
-			
 			// aapt resource value: 0x7F0801AA
-			public const int toolbar = 2131231146;
+			public const int time = 2131231146;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int top = 2131231147;
+			public const int title = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int titleDividerNoCustom = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int title_template = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int toolbar = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int top = 2131231151;
 			
 			// aapt resource value: 0x7F080018
 			public const int Top = 2131230744;
 			
-			// aapt resource value: 0x7F0801AC
-			public const int topPanel = 2131231148;
+			// aapt resource value: 0x7F0801B0
+			public const int topPanel = 2131231152;
 			
 			// aapt resource value: 0x7F080015
 			public const int TOP_END = 2131230741;
@@ -27906,83 +28970,86 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0x7F080016
 			public const int TOP_START = 2131230742;
 			
-			// aapt resource value: 0x7F0801AD
-			public const int touch_outside = 2131231149;
-			
-			// aapt resource value: 0x7F0801AE
-			public const int transition_current_scene = 2131231150;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int transition_layout_save = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int transition_position = 2131231152;
-			
 			// aapt resource value: 0x7F0801B1
-			public const int transition_scene_layoutid_cache = 2131231153;
+			public const int touch_outside = 2131231153;
 			
 			// aapt resource value: 0x7F0801B2
-			public const int transition_transform = 2131231154;
+			public const int transition_current_scene = 2131231154;
 			
 			// aapt resource value: 0x7F0801B3
-			public const int triangle = 2131231155;
+			public const int transition_layout_save = 2131231155;
 			
 			// aapt resource value: 0x7F0801B4
-			public const int @unchecked = 2131231156;
+			public const int transition_position = 2131231156;
 			
 			// aapt resource value: 0x7F0801B5
-			public const int uniform = 2131231157;
+			public const int transition_scene_layoutid_cache = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int unlabeled = 2131231158;
+			public const int transition_transform = 2131231158;
 			
 			// aapt resource value: 0x7F0801B7
-			public const int up = 2131231159;
+			public const int triangle = 2131231159;
 			
 			// aapt resource value: 0x7F0801B8
-			public const int useLogo = 2131231160;
+			public const int @unchecked = 2131231160;
+			
+			// aapt resource value: 0x7F0801B9
+			public const int uniform = 2131231161;
+			
+			// aapt resource value: 0x7F0801BA
+			public const int unlabeled = 2131231162;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int up = 2131231163;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int useLogo = 2131231164;
 			
 			// aapt resource value: 0x7F080019
 			public const int Vertical = 2131230745;
 			
-			// aapt resource value: 0x7F0801B9
-			public const int vertical = 2131231161;
-			
-			// aapt resource value: 0x7F0801BA
-			public const int view_offset_helper = 2131231162;
-			
-			// aapt resource value: 0x7F0801BB
-			public const int view_tree_lifecycle_owner = 2131231163;
-			
-			// aapt resource value: 0x7F0801BC
-			public const int view_tree_saved_state_registry_owner = 2131231164;
-			
 			// aapt resource value: 0x7F0801BD
-			public const int view_tree_view_model_store_owner = 2131231165;
+			public const int vertical = 2131231165;
 			
 			// aapt resource value: 0x7F0801BE
-			public const int visible = 2131231166;
+			public const int view_offset_helper = 2131231166;
 			
 			// aapt resource value: 0x7F0801BF
-			public const int visible_removing_fragment_view_tag = 2131231167;
+			public const int view_tree_lifecycle_owner = 2131231167;
 			
 			// aapt resource value: 0x7F0801C0
-			public const int volume_item_container = 2131231168;
+			public const int view_tree_on_back_pressed_dispatcher_owner = 2131231168;
 			
 			// aapt resource value: 0x7F0801C1
-			public const int wide = 2131231169;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int withinBounds = 2131231171;
+			public const int view_tree_saved_state_registry_owner = 2131231169;
 			
 			// aapt resource value: 0x7F0801C2
-			public const int withText = 2131231170;
+			public const int view_tree_view_model_store_owner = 2131231170;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int visible = 2131231171;
 			
 			// aapt resource value: 0x7F0801C4
-			public const int wrap_content = 2131231172;
+			public const int visible_removing_fragment_view_tag = 2131231172;
 			
 			// aapt resource value: 0x7F0801C5
-			public const int zero_corner_chip = 2131231173;
+			public const int volume_item_container = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int wide = 2131231174;
+			
+			// aapt resource value: 0x7F0801C8
+			public const int withinBounds = 2131231176;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int withText = 2131231175;
+			
+			// aapt resource value: 0x7F0801C9
+			public const int wrap_content = 2131231177;
+			
+			// aapt resource value: 0x7F0801CA
+			public const int zero_corner_chip = 2131231178;
 			
 			static Id()
 			{
@@ -28092,58 +29159,58 @@ namespace TurnosFutbol.Droid
 		{
 			
 			// aapt resource value: 0x7F0A0000
-			public const int btn_checkbox_checked_animation_interpolator_0 = 2131361792;
+			public const int btn_checkbox_checked_mtrl_animation_interpolator_0 = 2131361792;
 			
 			// aapt resource value: 0x7F0A0001
-			public const int btn_checkbox_checked_animation_interpolator_1 = 2131361793;
+			public const int btn_checkbox_checked_mtrl_animation_interpolator_1 = 2131361793;
 			
 			// aapt resource value: 0x7F0A0002
-			public const int btn_checkbox_checked_mtrl_animation_interpolator_0 = 2131361794;
+			public const int btn_checkbox_unchecked_mtrl_animation_interpolator_0 = 2131361794;
 			
 			// aapt resource value: 0x7F0A0003
-			public const int btn_checkbox_checked_mtrl_animation_interpolator_1 = 2131361795;
+			public const int btn_checkbox_unchecked_mtrl_animation_interpolator_1 = 2131361795;
 			
 			// aapt resource value: 0x7F0A0004
-			public const int btn_checkbox_indeterminate_animation_interpolator_1 = 2131361796;
+			public const int btn_radio_to_off_mtrl_animation_interpolator_0 = 2131361796;
 			
 			// aapt resource value: 0x7F0A0005
-			public const int btn_checkbox_unchecked_animation_interpolator_0 = 2131361797;
+			public const int btn_radio_to_on_mtrl_animation_interpolator_0 = 2131361797;
 			
 			// aapt resource value: 0x7F0A0006
-			public const int btn_checkbox_unchecked_animation_interpolator_1 = 2131361798;
+			public const int fast_out_slow_in = 2131361798;
 			
 			// aapt resource value: 0x7F0A0007
-			public const int btn_checkbox_unchecked_mtrl_animation_interpolator_0 = 2131361799;
+			public const int mr_fast_out_slow_in = 2131361799;
 			
 			// aapt resource value: 0x7F0A0008
-			public const int btn_checkbox_unchecked_mtrl_animation_interpolator_1 = 2131361800;
+			public const int mr_linear_out_slow_in = 2131361800;
 			
 			// aapt resource value: 0x7F0A0009
-			public const int btn_radio_to_off_mtrl_animation_interpolator_0 = 2131361801;
+			public const int mtrl_fast_out_linear_in = 2131361801;
 			
 			// aapt resource value: 0x7F0A000A
-			public const int btn_radio_to_on_mtrl_animation_interpolator_0 = 2131361802;
+			public const int mtrl_fast_out_slow_in = 2131361802;
 			
 			// aapt resource value: 0x7F0A000B
-			public const int fast_out_slow_in = 2131361803;
+			public const int mtrl_linear = 2131361803;
 			
 			// aapt resource value: 0x7F0A000C
-			public const int mr_fast_out_slow_in = 2131361804;
+			public const int mtrl_linear_out_slow_in = 2131361804;
 			
 			// aapt resource value: 0x7F0A000D
-			public const int mr_linear_out_slow_in = 2131361805;
+			public const int sfcheckbox_checked_interpolator0 = 2131361805;
 			
 			// aapt resource value: 0x7F0A000E
-			public const int mtrl_fast_out_linear_in = 2131361806;
+			public const int sfcheckbox_checked_interpolator1 = 2131361806;
 			
 			// aapt resource value: 0x7F0A000F
-			public const int mtrl_fast_out_slow_in = 2131361807;
+			public const int sfcheckbox_indeterminate_interpolator1 = 2131361807;
 			
 			// aapt resource value: 0x7F0A0010
-			public const int mtrl_linear = 2131361808;
+			public const int sfcheckbox_unchecked_interpolator0 = 2131361808;
 			
 			// aapt resource value: 0x7F0A0011
-			public const int mtrl_linear_out_slow_in = 2131361809;
+			public const int sfcheckbox_unchecked_interpolator1 = 2131361809;
 			
 			static Interpolator()
 			{
@@ -28321,256 +29388,262 @@ namespace TurnosFutbol.Droid
 			public const int FlyoutContent = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int layout_maps = 2131427382;
+			public const int ime_base_split_test_activity = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_cast_dialog = 2131427383;
+			public const int ime_secondary_split_test_activity = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_cast_group_item = 2131427384;
+			public const int layout_maps = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_cast_group_volume_item = 2131427385;
+			public const int mr_cast_dialog = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_cast_header_item = 2131427386;
+			public const int mr_cast_group_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_cast_media_metadata = 2131427387;
+			public const int mr_cast_group_volume_item = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mr_cast_route_item = 2131427388;
+			public const int mr_cast_header_item = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mr_chooser_dialog = 2131427389;
+			public const int mr_cast_media_metadata = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mr_chooser_list_item = 2131427390;
+			public const int mr_cast_route_item = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int mr_controller_material_dialog_b = 2131427391;
+			public const int mr_chooser_dialog = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mr_controller_volume_item = 2131427392;
+			public const int mr_chooser_list_item = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mr_picker_dialog = 2131427393;
+			public const int mr_controller_material_dialog_b = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mr_picker_header_item = 2131427394;
+			public const int mr_controller_volume_item = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mr_picker_route_item = 2131427395;
+			public const int mr_picker_dialog = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mr_playback_control = 2131427396;
+			public const int mr_picker_header_item = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mr_volume_control = 2131427397;
+			public const int mr_picker_route_item = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_dialog = 2131427398;
+			public const int mr_playback_control = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_dialog_actions = 2131427399;
+			public const int mr_volume_control = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_alert_dialog_title = 2131427400;
+			public const int mtrl_alert_dialog = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_alert_select_dialog_item = 2131427401;
+			public const int mtrl_alert_dialog_actions = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int mtrl_alert_select_dialog_multichoice = 2131427402;
+			public const int mtrl_alert_dialog_title = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427403;
+			public const int mtrl_alert_select_dialog_item = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_day = 2131427404;
-			
-			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_days_of_week = 2131427406;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_day_of_week = 2131427405;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427405;
 			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_horizontal = 2131427407;
+			// aapt resource value: 0x7F0B004E
+			public const int mtrl_calendar_day = 2131427406;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_month = 2131427408;
+			public const int mtrl_calendar_days_of_week = 2131427408;
 			
-			// aapt resource value: 0x7F0B0053
-			public const int mtrl_calendar_months = 2131427411;
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_day_of_week = 2131427407;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_month_labeled = 2131427409;
+			public const int mtrl_calendar_horizontal = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_calendar_month_navigation = 2131427410;
-			
-			// aapt resource value: 0x7F0B0054
-			public const int mtrl_calendar_vertical = 2131427412;
+			public const int mtrl_calendar_month = 2131427410;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_calendar_year = 2131427413;
+			public const int mtrl_calendar_months = 2131427413;
+			
+			// aapt resource value: 0x7F0B0053
+			public const int mtrl_calendar_month_labeled = 2131427411;
+			
+			// aapt resource value: 0x7F0B0054
+			public const int mtrl_calendar_month_navigation = 2131427412;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_layout_snackbar = 2131427414;
+			public const int mtrl_calendar_vertical = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_layout_snackbar_include = 2131427415;
+			public const int mtrl_calendar_year = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_actions = 2131427416;
+			public const int mtrl_layout_snackbar = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_dialog = 2131427417;
+			public const int mtrl_layout_snackbar_include = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_fullscreen = 2131427418;
+			public const int mtrl_picker_actions = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_dialog = 2131427419;
+			public const int mtrl_picker_dialog = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_fullscreen = 2131427420;
+			public const int mtrl_picker_fullscreen = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_header_selection_text = 2131427421;
+			public const int mtrl_picker_header_dialog = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_header_title_text = 2131427422;
+			public const int mtrl_picker_header_fullscreen = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int mtrl_picker_header_toggle = 2131427423;
+			public const int mtrl_picker_header_selection_text = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int mtrl_picker_text_input_date = 2131427424;
+			public const int mtrl_picker_header_title_text = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int mtrl_picker_text_input_date_range = 2131427425;
+			public const int mtrl_picker_header_toggle = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_action = 2131427426;
+			public const int mtrl_picker_text_input_date = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_action_tombstone = 2131427427;
+			public const int mtrl_picker_text_input_date_range = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_media_action = 2131427428;
+			public const int notification_action = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_media_cancel_action = 2131427429;
+			public const int notification_action_tombstone = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media = 2131427430;
+			public const int notification_media_action = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_big_media_custom = 2131427431;
+			public const int notification_media_cancel_action = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_big_media_narrow = 2131427432;
+			public const int notification_template_big_media = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_big_media_narrow_custom = 2131427433;
+			public const int notification_template_big_media_custom = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_custom_big = 2131427434;
+			public const int notification_template_big_media_narrow = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_icon_group = 2131427435;
+			public const int notification_template_big_media_narrow_custom = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_lines_media = 2131427436;
+			public const int notification_template_custom_big = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_media = 2131427437;
+			public const int notification_template_icon_group = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int notification_template_media_custom = 2131427438;
+			public const int notification_template_lines_media = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int notification_template_part_chronometer = 2131427439;
+			public const int notification_template_media = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int notification_template_part_time = 2131427440;
+			public const int notification_template_media_custom = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int RadioButton = 2131427441;
+			public const int notification_template_part_chronometer = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int RadioGroup = 2131427442;
+			public const int notification_template_part_time = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int RootLayout = 2131427443;
+			public const int RadioButton = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int select_dialog_item_material = 2131427444;
+			public const int RadioGroup = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int select_dialog_multichoice_material = 2131427445;
+			public const int RootLayout = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int select_dialog_singlechoice_material = 2131427446;
+			public const int select_dialog_item_material = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int sfcomboBox_layout = 2131427447;
+			public const int select_dialog_multichoice_material = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int ShellContent = 2131427448;
+			public const int select_dialog_singlechoice_material = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int support_simple_spinner_dropdown_item = 2131427449;
+			public const int sfcomboBox_layout = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int Tabbar = 2131427450;
+			public const int ShellContent = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int test_action_chip = 2131427451;
+			public const int support_simple_spinner_dropdown_item = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int test_chip_zero_corner_radius = 2131427452;
+			public const int Tabbar = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int test_design_checkbox = 2131427453;
+			public const int test_action_chip = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int test_design_radiobutton = 2131427454;
+			public const int test_chip_zero_corner_radius = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int test_reflow_chipgroup = 2131427455;
+			public const int test_design_checkbox = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int test_toolbar = 2131427456;
+			public const int test_design_radiobutton = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int test_toolbar_custom_background = 2131427457;
+			public const int test_reflow_chipgroup = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int test_toolbar_elevation = 2131427458;
+			public const int test_toolbar = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int test_toolbar_surface = 2131427459;
-			
-			// aapt resource value: 0x7F0B0088
-			public const int text_view_without_line_height = 2131427464;
+			public const int test_toolbar_custom_background = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int text_view_with_line_height_from_appearance = 2131427460;
+			public const int test_toolbar_elevation = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int text_view_with_line_height_from_layout = 2131427461;
+			public const int test_toolbar_surface = 2131427461;
+			
+			// aapt resource value: 0x7F0B008A
+			public const int text_view_without_line_height = 2131427466;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int text_view_with_line_height_from_style = 2131427462;
+			public const int text_view_with_line_height_from_appearance = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int text_view_with_theme_line_height = 2131427463;
+			public const int text_view_with_line_height_from_layout = 2131427463;
+			
+			// aapt resource value: 0x7F0B0088
+			public const int text_view_with_line_height_from_style = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int Toolbar = 2131427465;
+			public const int text_view_with_theme_line_height = 2131427465;
+			
+			// aapt resource value: 0x7F0B008B
+			public const int Toolbar = 2131427467;
 			
 			static Layout()
 			{
@@ -28723,374 +29796,398 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0x7F0F001E
 			public const int action_settings = 2131689502;
 			
-			// aapt resource value: 0x7F0F0020
-			public const int appbar_scrolling_view_behavior = 2131689504;
+			// aapt resource value: 0x7F0F001F
+			public const int androidx_startup = 2131689503;
+			
+			// aapt resource value: 0x7F0F0021
+			public const int appbar_scrolling_view_behavior = 2131689505;
 			
 			// aapt resource value: 0x7F0F0000
 			public const int ApplicationName = 2131689472;
 			
-			// aapt resource value: 0x7F0F001F
-			public const int app_name = 2131689503;
-			
-			// aapt resource value: 0x7F0F0021
-			public const int bottom_sheet_behavior = 2131689505;
+			// aapt resource value: 0x7F0F0020
+			public const int app_name = 2131689504;
 			
 			// aapt resource value: 0x7F0F0022
-			public const int character_counter_content_description = 2131689506;
+			public const int bottom_sheet_behavior = 2131689506;
 			
 			// aapt resource value: 0x7F0F0023
-			public const int character_counter_overflowed_content_description = 2131689507;
+			public const int call_notification_answer_action = 2131689507;
 			
 			// aapt resource value: 0x7F0F0024
-			public const int character_counter_pattern = 2131689508;
+			public const int call_notification_answer_video_action = 2131689508;
 			
 			// aapt resource value: 0x7F0F0025
-			public const int chip_text = 2131689509;
+			public const int call_notification_decline_action = 2131689509;
 			
 			// aapt resource value: 0x7F0F0026
-			public const int clear_text_end_icon_content_description = 2131689510;
+			public const int call_notification_hang_up_action = 2131689510;
 			
 			// aapt resource value: 0x7F0F0027
-			public const int common_google_play_services_enable_button = 2131689511;
+			public const int call_notification_incoming_text = 2131689511;
 			
 			// aapt resource value: 0x7F0F0028
-			public const int common_google_play_services_enable_text = 2131689512;
+			public const int call_notification_ongoing_text = 2131689512;
 			
 			// aapt resource value: 0x7F0F0029
-			public const int common_google_play_services_enable_title = 2131689513;
+			public const int call_notification_screening_text = 2131689513;
 			
 			// aapt resource value: 0x7F0F002A
-			public const int common_google_play_services_install_button = 2131689514;
+			public const int character_counter_content_description = 2131689514;
 			
 			// aapt resource value: 0x7F0F002B
-			public const int common_google_play_services_install_text = 2131689515;
+			public const int character_counter_overflowed_content_description = 2131689515;
 			
 			// aapt resource value: 0x7F0F002C
-			public const int common_google_play_services_install_title = 2131689516;
+			public const int character_counter_pattern = 2131689516;
 			
 			// aapt resource value: 0x7F0F002D
-			public const int common_google_play_services_notification_channel_name = 2131689517;
+			public const int chip_text = 2131689517;
 			
 			// aapt resource value: 0x7F0F002E
-			public const int common_google_play_services_notification_ticker = 2131689518;
+			public const int clear_text_end_icon_content_description = 2131689518;
 			
 			// aapt resource value: 0x7F0F002F
-			public const int common_google_play_services_unknown_issue = 2131689519;
+			public const int common_google_play_services_enable_button = 2131689519;
 			
 			// aapt resource value: 0x7F0F0030
-			public const int common_google_play_services_unsupported_text = 2131689520;
+			public const int common_google_play_services_enable_text = 2131689520;
 			
 			// aapt resource value: 0x7F0F0031
-			public const int common_google_play_services_update_button = 2131689521;
+			public const int common_google_play_services_enable_title = 2131689521;
 			
 			// aapt resource value: 0x7F0F0032
-			public const int common_google_play_services_update_text = 2131689522;
+			public const int common_google_play_services_install_button = 2131689522;
 			
 			// aapt resource value: 0x7F0F0033
-			public const int common_google_play_services_update_title = 2131689523;
+			public const int common_google_play_services_install_text = 2131689523;
 			
 			// aapt resource value: 0x7F0F0034
-			public const int common_google_play_services_updating_text = 2131689524;
+			public const int common_google_play_services_install_title = 2131689524;
 			
 			// aapt resource value: 0x7F0F0035
-			public const int common_google_play_services_wear_update_text = 2131689525;
+			public const int common_google_play_services_notification_channel_name = 2131689525;
 			
 			// aapt resource value: 0x7F0F0036
-			public const int common_open_on_phone = 2131689526;
+			public const int common_google_play_services_notification_ticker = 2131689526;
 			
 			// aapt resource value: 0x7F0F0037
-			public const int common_signin_button_text = 2131689527;
+			public const int common_google_play_services_unknown_issue = 2131689527;
 			
 			// aapt resource value: 0x7F0F0038
-			public const int common_signin_button_text_long = 2131689528;
+			public const int common_google_play_services_unsupported_text = 2131689528;
 			
 			// aapt resource value: 0x7F0F0039
-			public const int copy_toast_msg = 2131689529;
+			public const int common_google_play_services_update_button = 2131689529;
 			
 			// aapt resource value: 0x7F0F003A
-			public const int default_web_client_id = 2131689530;
+			public const int common_google_play_services_update_text = 2131689530;
 			
 			// aapt resource value: 0x7F0F003B
-			public const int error_icon_content_description = 2131689531;
+			public const int common_google_play_services_update_title = 2131689531;
 			
 			// aapt resource value: 0x7F0F003C
-			public const int exposed_dropdown_menu_content_description = 2131689532;
+			public const int common_google_play_services_updating_text = 2131689532;
 			
 			// aapt resource value: 0x7F0F003D
-			public const int fab_transformation_scrim_behavior = 2131689533;
+			public const int common_google_play_services_wear_update_text = 2131689533;
 			
 			// aapt resource value: 0x7F0F003E
-			public const int fab_transformation_sheet_behavior = 2131689534;
+			public const int common_open_on_phone = 2131689534;
 			
 			// aapt resource value: 0x7F0F003F
-			public const int fallback_menu_item_copy_link = 2131689535;
+			public const int common_signin_button_text = 2131689535;
 			
 			// aapt resource value: 0x7F0F0040
-			public const int fallback_menu_item_open_in_browser = 2131689536;
+			public const int common_signin_button_text_long = 2131689536;
 			
 			// aapt resource value: 0x7F0F0041
-			public const int fallback_menu_item_share_link = 2131689537;
+			public const int copy_toast_msg = 2131689537;
 			
 			// aapt resource value: 0x7F0F0042
-			public const int fcm_fallback_notification_channel_label = 2131689538;
+			public const int default_web_client_id = 2131689538;
 			
 			// aapt resource value: 0x7F0F0043
-			public const int firebase_database_url = 2131689539;
+			public const int error_icon_content_description = 2131689539;
 			
 			// aapt resource value: 0x7F0F0044
-			public const int gcm_defaultSenderId = 2131689540;
+			public const int exposed_dropdown_menu_content_description = 2131689540;
 			
 			// aapt resource value: 0x7F0F0045
-			public const int google_api_key = 2131689541;
+			public const int fab_transformation_scrim_behavior = 2131689541;
 			
 			// aapt resource value: 0x7F0F0046
-			public const int google_app_id = 2131689542;
+			public const int fab_transformation_sheet_behavior = 2131689542;
 			
 			// aapt resource value: 0x7F0F0047
-			public const int google_crash_reporting_api_key = 2131689543;
+			public const int fallback_menu_item_copy_link = 2131689543;
 			
 			// aapt resource value: 0x7F0F0048
-			public const int google_storage_bucket = 2131689544;
+			public const int fallback_menu_item_open_in_browser = 2131689544;
+			
+			// aapt resource value: 0x7F0F0049
+			public const int fallback_menu_item_share_link = 2131689545;
+			
+			// aapt resource value: 0x7F0F004A
+			public const int fcm_fallback_notification_channel_label = 2131689546;
+			
+			// aapt resource value: 0x7F0F004B
+			public const int firebase_database_url = 2131689547;
+			
+			// aapt resource value: 0x7F0F004C
+			public const int gcm_defaultSenderId = 2131689548;
+			
+			// aapt resource value: 0x7F0F004D
+			public const int google_api_key = 2131689549;
+			
+			// aapt resource value: 0x7F0F004E
+			public const int google_app_id = 2131689550;
+			
+			// aapt resource value: 0x7F0F004F
+			public const int google_crash_reporting_api_key = 2131689551;
+			
+			// aapt resource value: 0x7F0F0050
+			public const int google_storage_bucket = 2131689552;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int Hello = 2131689473;
 			
-			// aapt resource value: 0x7F0F0049
-			public const int hello_world = 2131689545;
+			// aapt resource value: 0x7F0F0051
+			public const int hello_world = 2131689553;
 			
-			// aapt resource value: 0x7F0F004A
-			public const int hide_bottom_view_on_scroll_behavior = 2131689546;
+			// aapt resource value: 0x7F0F0052
+			public const int hide_bottom_view_on_scroll_behavior = 2131689554;
 			
-			// aapt resource value: 0x7F0F004B
-			public const int icon_content_description = 2131689547;
+			// aapt resource value: 0x7F0F0053
+			public const int icon_content_description = 2131689555;
 			
-			// aapt resource value: 0x7F0F004C
-			public const int item_view_role_description = 2131689548;
+			// aapt resource value: 0x7F0F0054
+			public const int item_view_role_description = 2131689556;
 			
-			// aapt resource value: 0x7F0F004D
-			public const int library_name = 2131689549;
+			// aapt resource value: 0x7F0F0055
+			public const int library_name = 2131689557;
 			
 			// aapt resource value: 0x7F0F0002
 			public const int Load_More = 2131689474;
 			
-			// aapt resource value: 0x7F0F004E
-			public const int material_slider_range_end = 2131689550;
-			
-			// aapt resource value: 0x7F0F004F
-			public const int material_slider_range_start = 2131689551;
-			
-			// aapt resource value: 0x7F0F0050
-			public const int mr_button_content_description = 2131689552;
-			
-			// aapt resource value: 0x7F0F0051
-			public const int mr_cast_button_connected = 2131689553;
-			
-			// aapt resource value: 0x7F0F0052
-			public const int mr_cast_button_connecting = 2131689554;
-			
-			// aapt resource value: 0x7F0F0053
-			public const int mr_cast_button_disconnected = 2131689555;
-			
-			// aapt resource value: 0x7F0F0054
-			public const int mr_cast_dialog_title_view_placeholder = 2131689556;
-			
-			// aapt resource value: 0x7F0F0055
-			public const int mr_chooser_searching = 2131689557;
-			
 			// aapt resource value: 0x7F0F0056
-			public const int mr_chooser_title = 2131689558;
+			public const int material_slider_range_end = 2131689558;
 			
 			// aapt resource value: 0x7F0F0057
-			public const int mr_controller_album_art = 2131689559;
+			public const int material_slider_range_start = 2131689559;
 			
 			// aapt resource value: 0x7F0F0058
-			public const int mr_controller_casting_screen = 2131689560;
+			public const int mr_button_content_description = 2131689560;
 			
 			// aapt resource value: 0x7F0F0059
-			public const int mr_controller_close_description = 2131689561;
+			public const int mr_cast_button_connected = 2131689561;
 			
 			// aapt resource value: 0x7F0F005A
-			public const int mr_controller_collapse_group = 2131689562;
+			public const int mr_cast_button_connecting = 2131689562;
 			
 			// aapt resource value: 0x7F0F005B
-			public const int mr_controller_disconnect = 2131689563;
+			public const int mr_cast_button_disconnected = 2131689563;
 			
 			// aapt resource value: 0x7F0F005C
-			public const int mr_controller_expand_group = 2131689564;
+			public const int mr_cast_dialog_title_view_placeholder = 2131689564;
 			
 			// aapt resource value: 0x7F0F005D
-			public const int mr_controller_no_info_available = 2131689565;
+			public const int mr_chooser_searching = 2131689565;
 			
 			// aapt resource value: 0x7F0F005E
-			public const int mr_controller_no_media_selected = 2131689566;
+			public const int mr_chooser_title = 2131689566;
 			
 			// aapt resource value: 0x7F0F005F
-			public const int mr_controller_pause = 2131689567;
+			public const int mr_controller_album_art = 2131689567;
 			
 			// aapt resource value: 0x7F0F0060
-			public const int mr_controller_play = 2131689568;
+			public const int mr_controller_casting_screen = 2131689568;
 			
 			// aapt resource value: 0x7F0F0061
-			public const int mr_controller_stop = 2131689569;
+			public const int mr_controller_close_description = 2131689569;
 			
 			// aapt resource value: 0x7F0F0062
-			public const int mr_controller_stop_casting = 2131689570;
+			public const int mr_controller_collapse_group = 2131689570;
 			
 			// aapt resource value: 0x7F0F0063
-			public const int mr_controller_volume_slider = 2131689571;
+			public const int mr_controller_disconnect = 2131689571;
 			
 			// aapt resource value: 0x7F0F0064
-			public const int mr_dialog_default_group_name = 2131689572;
+			public const int mr_controller_expand_group = 2131689572;
 			
 			// aapt resource value: 0x7F0F0065
-			public const int mr_dialog_groupable_header = 2131689573;
+			public const int mr_controller_no_info_available = 2131689573;
 			
 			// aapt resource value: 0x7F0F0066
-			public const int mr_dialog_transferable_header = 2131689574;
+			public const int mr_controller_no_media_selected = 2131689574;
 			
 			// aapt resource value: 0x7F0F0067
-			public const int mr_system_route_name = 2131689575;
+			public const int mr_controller_pause = 2131689575;
 			
 			// aapt resource value: 0x7F0F0068
-			public const int mr_user_route_category_name = 2131689576;
+			public const int mr_controller_play = 2131689576;
 			
 			// aapt resource value: 0x7F0F0069
-			public const int mtrl_badge_numberless_content_description = 2131689577;
+			public const int mr_controller_stop = 2131689577;
 			
 			// aapt resource value: 0x7F0F006A
-			public const int mtrl_chip_close_icon_content_description = 2131689578;
+			public const int mr_controller_stop_casting = 2131689578;
 			
 			// aapt resource value: 0x7F0F006B
-			public const int mtrl_exceed_max_badge_number_content_description = 2131689579;
+			public const int mr_controller_volume_slider = 2131689579;
 			
 			// aapt resource value: 0x7F0F006C
-			public const int mtrl_exceed_max_badge_number_suffix = 2131689580;
+			public const int mr_dialog_default_group_name = 2131689580;
 			
 			// aapt resource value: 0x7F0F006D
-			public const int mtrl_picker_a11y_next_month = 2131689581;
+			public const int mr_dialog_groupable_header = 2131689581;
 			
 			// aapt resource value: 0x7F0F006E
-			public const int mtrl_picker_a11y_prev_month = 2131689582;
+			public const int mr_dialog_transferable_header = 2131689582;
 			
 			// aapt resource value: 0x7F0F006F
-			public const int mtrl_picker_announce_current_selection = 2131689583;
+			public const int mr_system_route_name = 2131689583;
 			
 			// aapt resource value: 0x7F0F0070
-			public const int mtrl_picker_cancel = 2131689584;
+			public const int mr_user_route_category_name = 2131689584;
 			
 			// aapt resource value: 0x7F0F0071
-			public const int mtrl_picker_confirm = 2131689585;
+			public const int mtrl_badge_numberless_content_description = 2131689585;
 			
 			// aapt resource value: 0x7F0F0072
-			public const int mtrl_picker_date_header_selected = 2131689586;
+			public const int mtrl_chip_close_icon_content_description = 2131689586;
 			
 			// aapt resource value: 0x7F0F0073
-			public const int mtrl_picker_date_header_title = 2131689587;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131689587;
 			
 			// aapt resource value: 0x7F0F0074
-			public const int mtrl_picker_date_header_unselected = 2131689588;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131689588;
 			
 			// aapt resource value: 0x7F0F0075
-			public const int mtrl_picker_day_of_week_column_header = 2131689589;
+			public const int mtrl_picker_a11y_next_month = 2131689589;
 			
 			// aapt resource value: 0x7F0F0076
-			public const int mtrl_picker_invalid_format = 2131689590;
+			public const int mtrl_picker_a11y_prev_month = 2131689590;
 			
 			// aapt resource value: 0x7F0F0077
-			public const int mtrl_picker_invalid_format_example = 2131689591;
+			public const int mtrl_picker_announce_current_selection = 2131689591;
 			
 			// aapt resource value: 0x7F0F0078
-			public const int mtrl_picker_invalid_format_use = 2131689592;
+			public const int mtrl_picker_cancel = 2131689592;
 			
 			// aapt resource value: 0x7F0F0079
-			public const int mtrl_picker_invalid_range = 2131689593;
+			public const int mtrl_picker_confirm = 2131689593;
 			
 			// aapt resource value: 0x7F0F007A
-			public const int mtrl_picker_navigate_to_year_description = 2131689594;
+			public const int mtrl_picker_date_header_selected = 2131689594;
 			
 			// aapt resource value: 0x7F0F007B
-			public const int mtrl_picker_out_of_range = 2131689595;
+			public const int mtrl_picker_date_header_title = 2131689595;
 			
 			// aapt resource value: 0x7F0F007C
-			public const int mtrl_picker_range_header_only_end_selected = 2131689596;
+			public const int mtrl_picker_date_header_unselected = 2131689596;
 			
 			// aapt resource value: 0x7F0F007D
-			public const int mtrl_picker_range_header_only_start_selected = 2131689597;
+			public const int mtrl_picker_day_of_week_column_header = 2131689597;
 			
 			// aapt resource value: 0x7F0F007E
-			public const int mtrl_picker_range_header_selected = 2131689598;
+			public const int mtrl_picker_invalid_format = 2131689598;
 			
 			// aapt resource value: 0x7F0F007F
-			public const int mtrl_picker_range_header_title = 2131689599;
+			public const int mtrl_picker_invalid_format_example = 2131689599;
 			
 			// aapt resource value: 0x7F0F0080
-			public const int mtrl_picker_range_header_unselected = 2131689600;
+			public const int mtrl_picker_invalid_format_use = 2131689600;
 			
 			// aapt resource value: 0x7F0F0081
-			public const int mtrl_picker_save = 2131689601;
+			public const int mtrl_picker_invalid_range = 2131689601;
 			
 			// aapt resource value: 0x7F0F0082
-			public const int mtrl_picker_text_input_date_hint = 2131689602;
+			public const int mtrl_picker_navigate_to_year_description = 2131689602;
 			
 			// aapt resource value: 0x7F0F0083
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131689603;
+			public const int mtrl_picker_out_of_range = 2131689603;
 			
 			// aapt resource value: 0x7F0F0084
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131689604;
+			public const int mtrl_picker_range_header_only_end_selected = 2131689604;
 			
 			// aapt resource value: 0x7F0F0085
-			public const int mtrl_picker_text_input_day_abbr = 2131689605;
+			public const int mtrl_picker_range_header_only_start_selected = 2131689605;
 			
 			// aapt resource value: 0x7F0F0086
-			public const int mtrl_picker_text_input_month_abbr = 2131689606;
+			public const int mtrl_picker_range_header_selected = 2131689606;
 			
 			// aapt resource value: 0x7F0F0087
-			public const int mtrl_picker_text_input_year_abbr = 2131689607;
+			public const int mtrl_picker_range_header_title = 2131689607;
 			
 			// aapt resource value: 0x7F0F0088
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131689608;
+			public const int mtrl_picker_range_header_unselected = 2131689608;
 			
 			// aapt resource value: 0x7F0F0089
-			public const int mtrl_picker_toggle_to_day_selection = 2131689609;
+			public const int mtrl_picker_save = 2131689609;
 			
 			// aapt resource value: 0x7F0F008A
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131689610;
+			public const int mtrl_picker_text_input_date_hint = 2131689610;
 			
 			// aapt resource value: 0x7F0F008B
-			public const int mtrl_picker_toggle_to_year_selection = 2131689611;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131689611;
 			
 			// aapt resource value: 0x7F0F008C
-			public const int overflow_tab_title = 2131689612;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131689612;
 			
 			// aapt resource value: 0x7F0F008D
-			public const int password_toggle_content_description = 2131689613;
+			public const int mtrl_picker_text_input_day_abbr = 2131689613;
 			
 			// aapt resource value: 0x7F0F008E
-			public const int path_password_eye = 2131689614;
+			public const int mtrl_picker_text_input_month_abbr = 2131689614;
 			
 			// aapt resource value: 0x7F0F008F
-			public const int path_password_eye_mask_strike_through = 2131689615;
+			public const int mtrl_picker_text_input_year_abbr = 2131689615;
 			
 			// aapt resource value: 0x7F0F0090
-			public const int path_password_eye_mask_visible = 2131689616;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131689616;
 			
 			// aapt resource value: 0x7F0F0091
-			public const int path_password_strike_through = 2131689617;
+			public const int mtrl_picker_toggle_to_day_selection = 2131689617;
 			
 			// aapt resource value: 0x7F0F0092
-			public const int project_id = 2131689618;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131689618;
 			
 			// aapt resource value: 0x7F0F0093
-			public const int search_menu_title = 2131689619;
+			public const int mtrl_picker_toggle_to_year_selection = 2131689619;
 			
 			// aapt resource value: 0x7F0F0094
-			public const int sfcalendar_inlineviewalldaytext = 2131689620;
+			public const int overflow_tab_title = 2131689620;
 			
 			// aapt resource value: 0x7F0F0095
-			public const int sfcalendar_inlineviewnoappointmenttext = 2131689621;
+			public const int password_toggle_content_description = 2131689621;
 			
 			// aapt resource value: 0x7F0F0096
-			public const int status_bar_notification_info_overflow = 2131689622;
+			public const int path_password_eye = 2131689622;
+			
+			// aapt resource value: 0x7F0F0097
+			public const int path_password_eye_mask_strike_through = 2131689623;
+			
+			// aapt resource value: 0x7F0F0098
+			public const int path_password_eye_mask_visible = 2131689624;
+			
+			// aapt resource value: 0x7F0F0099
+			public const int path_password_strike_through = 2131689625;
+			
+			// aapt resource value: 0x7F0F009A
+			public const int project_id = 2131689626;
+			
+			// aapt resource value: 0x7F0F009B
+			public const int search_menu_title = 2131689627;
+			
+			// aapt resource value: 0x7F0F009C
+			public const int sfcalendar_inlineviewalldaytext = 2131689628;
+			
+			// aapt resource value: 0x7F0F009D
+			public const int sfcalendar_inlineviewnoappointmenttext = 2131689629;
+			
+			// aapt resource value: 0x7F0F009E
+			public const int status_bar_notification_info_overflow = 2131689630;
 			
 			static String()
 			{
@@ -31290,7 +32387,7 @@ namespace TurnosFutbol.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300FC,0x7F030107,0x7F030108,0x7F03011C,0x7F030166,0x7F03016C,0x7F030172,0x7F030173,0x7F030176,0x7F030182,0x7F030190,0x7F0301C4,0x7F030209,0x7F030249,0x7F030250,0x7F030251,0x7F030307,0x7F03030A,0x7F030362,0x7F03036C }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300FC,0x7F030107,0x7F030108,0x7F03011C,0x7F030166,0x7F03016C,0x7F030172,0x7F030173,0x7F030176,0x7F030182,0x7F030190,0x7F0301C5,0x7F03020A,0x7F03024B,0x7F030252,0x7F030253,0x7F03030B,0x7F03030E,0x7F030366,0x7F030370 }
 			public static int[] ActionBar = new int[] {
 					2130903092,
 					2130903099,
@@ -31312,15 +32409,15 @@ namespace TurnosFutbol.Droid
 					2130903414,
 					2130903426,
 					2130903440,
-					2130903492,
-					2130903561,
-					2130903625,
-					2130903632,
-					2130903633,
-					2130903815,
-					2130903818,
-					2130903906,
-					2130903916};
+					2130903493,
+					2130903562,
+					2130903627,
+					2130903634,
+					2130903635,
+					2130903819,
+					2130903822,
+					2130903910,
+					2130903920};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -31427,14 +32524,14 @@ namespace TurnosFutbol.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F0300BD,0x7F030166,0x7F03030A,0x7F03036C }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F0300BD,0x7F030166,0x7F03030E,0x7F030370 }
 			public static int[] ActionMode = new int[] {
 					2130903092,
 					2130903099,
 					2130903229,
 					2130903398,
-					2130903818,
-					2130903916};
+					2130903822,
+					2130903920};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -31465,16 +32562,16 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030071,0x7F030072,0x7F0301B9,0x7F0301BA,0x7F030206,0x7F0302E4,0x7F0302E6 }
+			// aapt resource value: { 0x10100F2,0x7F030071,0x7F030072,0x7F0301BA,0x7F0301BB,0x7F030207,0x7F0302E8,0x7F0302EA }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903153,
 					2130903154,
-					2130903481,
 					2130903482,
-					2130903558,
-					2130903780,
-					2130903782};
+					2130903483,
+					2130903559,
+					2130903784,
+					2130903786};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -31557,23 +32654,23 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03011C,0x7F030132,0x7F0301B1,0x7F0301B2,0x7F030301 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03011C,0x7F030132,0x7F0301B2,0x7F0301B3,0x7F030305 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
 					2130903324,
 					2130903346,
-					2130903473,
 					2130903474,
-					2130903809};
+					2130903475,
+					2130903813};
 			
-			// aapt resource value: { 0x7F0302FA,0x7F0302FB,0x7F0302FE,0x7F0302FF }
+			// aapt resource value: { 0x7F0302FE,0x7F0302FF,0x7F030302,0x7F030303 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903802,
-					2130903803,
 					2130903806,
-					2130903807};
+					2130903807,
+					2130903810,
+					2130903811};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -31602,10 +32699,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F0301AF,0x7F0301B0 }
+			// aapt resource value: { 0x7F0301B0,0x7F0301B1 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903471,
-					2130903472};
+					2130903472,
+					2130903473};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -31622,12 +32719,12 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F0302F2,0x7F030360,0x7F030361 }
+			// aapt resource value: { 0x1010119,0x7F0302F6,0x7F030364,0x7F030365 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903794,
-					2130903904,
-					2130903905};
+					2130903798,
+					2130903908,
+					2130903909};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -31641,12 +32738,12 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F03035D,0x7F03035E,0x7F03035F }
+			// aapt resource value: { 0x1010142,0x7F030361,0x7F030362,0x7F030363 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903901,
-					2130903902,
-					2130903903};
+					2130903905,
+					2130903906,
+					2130903907};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -31691,7 +32788,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F03010C,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03014A,0x7F03014D,0x7F030156,0x7F0301A4,0x7F0301B3,0x7F030333,0x7F03034F }
+			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F03010C,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03014A,0x7F03014D,0x7F030156,0x7F0301A5,0x7F0301B4,0x7F030337,0x7F030353 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903087,
@@ -31710,10 +32807,10 @@ namespace TurnosFutbol.Droid
 					2130903370,
 					2130903373,
 					2130903382,
-					2130903460,
-					2130903475,
-					2130903859,
-					2130903887};
+					2130903461,
+					2130903476,
+					2130903863,
+					2130903891};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -31778,7 +32875,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F030054,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030074,0x7F030075,0x7F030085,0x7F03008D,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300D1,0x7F0300D2,0x7F0300D9,0x7F0300E8,0x7F030102,0x7F030103,0x7F030104,0x7F030109,0x7F03010B,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F030172,0x7F030181,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F030222,0x7F030223,0x7F030224,0x7F030248,0x7F03024A,0x7F030254,0x7F030269,0x7F03026A,0x7F03026B,0x7F0302C3,0x7F0302C4,0x7F0302D2,0x7F0302D3,0x7F0302EF,0x7F0302F0,0x7F030312,0x7F03033E,0x7F030340,0x7F030341,0x7F030342,0x7F030344,0x7F030345,0x7F030346,0x7F030347,0x7F03034A,0x7F03034B,0x7F03036E,0x7F03036F,0x7F030370,0x7F030371,0x7F030382,0x7F030384,0x7F030385,0x7F030386,0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F030054,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030074,0x7F030075,0x7F030085,0x7F03008D,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300D1,0x7F0300D2,0x7F0300D9,0x7F0300E8,0x7F030102,0x7F030103,0x7F030104,0x7F030109,0x7F03010B,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F030172,0x7F030181,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F030224,0x7F030225,0x7F030226,0x7F03024A,0x7F03024C,0x7F030257,0x7F03026C,0x7F03026D,0x7F03026E,0x7F0302C6,0x7F0302C7,0x7F0302D5,0x7F0302D6,0x7F0302F3,0x7F0302F4,0x7F030316,0x7F030342,0x7F030344,0x7F030345,0x7F030346,0x7F030348,0x7F030349,0x7F03034A,0x7F03034B,0x7F03034E,0x7F03034F,0x7F030372,0x7F030373,0x7F030374,0x7F030375,0x7F030386,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -31851,11 +32948,10 @@ namespace TurnosFutbol.Droid
 					2130903323,
 					2130903410,
 					2130903425,
-					2130903477,
 					2130903478,
 					2130903479,
 					2130903480,
-					2130903483,
+					2130903481,
 					2130903484,
 					2130903485,
 					2130903486,
@@ -31864,47 +32960,48 @@ namespace TurnosFutbol.Droid
 					2130903489,
 					2130903490,
 					2130903491,
-					2130903586,
-					2130903587,
+					2130903492,
 					2130903588,
-					2130903624,
+					2130903589,
+					2130903590,
 					2130903626,
-					2130903636,
-					2130903657,
-					2130903658,
-					2130903659,
-					2130903747,
-					2130903748,
-					2130903762,
-					2130903763,
-					2130903791,
-					2130903792,
-					2130903826,
-					2130903870,
-					2130903872,
-					2130903873,
+					2130903628,
+					2130903639,
+					2130903660,
+					2130903661,
+					2130903662,
+					2130903750,
+					2130903751,
+					2130903765,
+					2130903766,
+					2130903795,
+					2130903796,
+					2130903830,
 					2130903874,
 					2130903876,
 					2130903877,
 					2130903878,
-					2130903879,
+					2130903880,
+					2130903881,
 					2130903882,
 					2130903883,
-					2130903918,
-					2130903919,
-					2130903920,
-					2130903921,
-					2130903938,
-					2130903940,
-					2130903941,
+					2130903886,
+					2130903887,
+					2130903922,
+					2130903923,
+					2130903924,
+					2130903925,
 					2130903942,
-					2130903943,
 					2130903944,
 					2130903945,
 					2130903946,
 					2130903947,
 					2130903948,
-					2130903949};
+					2130903949,
+					2130903950,
+					2130903951,
+					2130903952,
+					2130903953};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -32281,15 +33378,15 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F030174,0x7F0301EF,0x7F030218,0x7F030381 }
+			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F030174,0x7F0301F0,0x7F03021A,0x7F030385 }
 			public static int[] Badge = new int[] {
 					2130903093,
 					2130903103,
 					2130903105,
 					2130903412,
-					2130903535,
-					2130903576,
-					2130903937};
+					2130903536,
+					2130903578,
+					2130903941};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -32312,7 +33409,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x7F03003D,0x7F03011C,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F03016D,0x7F03021C,0x7F03021E,0x7F03021F }
+			// aapt resource value: { 0x7F03003D,0x7F03011C,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F03016D,0x7F03021E,0x7F030220,0x7F030221 }
 			public static int[] BottomAppBar = new int[] {
 					2130903101,
 					2130903324,
@@ -32322,9 +33419,9 @@ namespace TurnosFutbol.Droid
 					2130903361,
 					2130903362,
 					2130903405,
-					2130903580,
 					2130903582,
-					2130903583};
+					2130903584,
+					2130903585};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -32359,7 +33456,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F03003D,0x7F03011C,0x7F030188,0x7F03018B,0x7F03018D,0x7F03018E,0x7F030191,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A3,0x7F030204 }
+			// aapt resource value: { 0x7F03003D,0x7F03011C,0x7F030188,0x7F03018B,0x7F03018D,0x7F03018E,0x7F030191,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A4,0x7F030205 }
 			public static int[] BottomNavigationView = new int[] {
 					2130903101,
 					2130903324,
@@ -32371,8 +33468,8 @@ namespace TurnosFutbol.Droid
 					2130903453,
 					2130903454,
 					2130903455,
-					2130903459,
-					2130903556};
+					2130903460,
+					2130903557};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_backgroundTint = 0;
@@ -32410,7 +33507,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F03003D,0x7F03004A,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F030050,0x7F030051,0x7F030052,0x7F030161,0x7F0302D8,0x7F0302DB }
+			// aapt resource value: { 0x1010440,0x7F03003D,0x7F03004A,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F030050,0x7F030051,0x7F030052,0x7F030161,0x7F0302DB,0x7F0302DE }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
 					2130903101,
@@ -32423,8 +33520,8 @@ namespace TurnosFutbol.Droid
 					2130903121,
 					2130903122,
 					2130903393,
-					2130903768,
-					2130903771};
+					2130903771,
+					2130903774};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -32471,6 +33568,17 @@ namespace TurnosFutbol.Droid
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
+			
+			// aapt resource value: { 0x7F030256,0x7F0302E3 }
+			public static int[] Capability = new int[] {
+					2130903638,
+					2130903779};
+			
+			// aapt resource value: 0
+			public const int Capability_queryPatterns = 0;
+			
+			// aapt resource value: 1
+			public const int Capability_shortcutMatchRequired = 1;
 			
 			// aapt resource value: { 0x101013F,0x1010140,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E6 }
 			public static int[] CardView = new int[] {
@@ -32527,7 +33635,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03008F,0x7F030090,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A1,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F030129,0x7F03016B,0x7F030177,0x7F03017B,0x7F03027A,0x7F0302D8,0x7F0302DB,0x7F0302E2,0x7F03034C,0x7F030350 }
+			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03008F,0x7F030090,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A1,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F030129,0x7F03016B,0x7F030177,0x7F03017B,0x7F03027D,0x7F0302DB,0x7F0302DE,0x7F0302E6,0x7F030350,0x7F030354 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842904,
@@ -32564,22 +33672,22 @@ namespace TurnosFutbol.Droid
 					2130903403,
 					2130903415,
 					2130903419,
-					2130903674,
-					2130903768,
+					2130903677,
 					2130903771,
-					2130903778,
-					2130903884,
-					2130903888};
+					2130903774,
+					2130903782,
+					2130903888,
+					2130903892};
 			
-			// aapt resource value: { 0x7F030088,0x7F030099,0x7F03009A,0x7F03009B,0x7F0302D7,0x7F0302E7,0x7F0302E8 }
+			// aapt resource value: { 0x7F030088,0x7F030099,0x7F03009A,0x7F03009B,0x7F0302DA,0x7F0302EB,0x7F0302EC }
 			public static int[] ChipGroup = new int[] {
 					2130903176,
 					2130903193,
 					2130903194,
 					2130903195,
-					2130903767,
-					2130903783,
-					2130903784};
+					2130903770,
+					2130903787,
+					2130903788};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -32725,7 +33833,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 40
 			public const int Chip_textStartPadding = 40;
 			
-			// aapt resource value: { 0x7F0300C0,0x7F0300C1,0x7F0300E7,0x7F030133,0x7F030134,0x7F030135,0x7F030136,0x7F030137,0x7F030138,0x7F030139,0x7F0301F1,0x7F0302BD,0x7F0302BF,0x7F030302,0x7F030362,0x7F030363,0x7F03036D }
+			// aapt resource value: { 0x7F0300C0,0x7F0300C1,0x7F0300E7,0x7F030133,0x7F030134,0x7F030135,0x7F030136,0x7F030137,0x7F030138,0x7F030139,0x7F0301F2,0x7F0302C0,0x7F0302C2,0x7F030306,0x7F030366,0x7F030367,0x7F030371 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903232,
 					2130903233,
@@ -32737,13 +33845,13 @@ namespace TurnosFutbol.Droid
 					2130903351,
 					2130903352,
 					2130903353,
-					2130903537,
-					2130903741,
-					2130903743,
-					2130903810,
-					2130903906,
-					2130903907,
-					2130903917};
+					2130903538,
+					2130903744,
+					2130903746,
+					2130903814,
+					2130903910,
+					2130903911,
+					2130903921};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -32775,10 +33883,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F0301AA,0x7F0301AB }
+			// aapt resource value: { 0x7F0301AB,0x7F0301AC }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903466,
-					2130903467};
+					2130903467,
+					2130903468};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -32807,20 +33915,28 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 16
 			public const int CollapsingToolbarLayout_toolbarId = 16;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030028 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x1010647,0x7F030028,0x7F0301A1 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903080};
+					16844359,
+					2130903080,
+					2130903457};
 			
-			// aapt resource value: 2
-			public const int ColorStateListItem_alpha = 2;
+			// aapt resource value: 3
+			public const int ColorStateListItem_alpha = 3;
 			
 			// aapt resource value: 1
 			public const int ColorStateListItem_android_alpha = 1;
 			
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
+			
+			// aapt resource value: 2
+			public const int ColorStateListItem_android_lStar = 2;
+			
+			// aapt resource value: 4
+			public const int ColorStateListItem_lStar = 4;
 			
 			// aapt resource value: { 0x1010107,0x7F03006F,0x7F030076,0x7F030077 }
 			public static int[] CompoundButton = new int[] {
@@ -32841,23 +33957,23 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F0301A0,0x7F030300 }
+			// aapt resource value: { 0x7F0301A0,0x7F030304 }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903456,
-					2130903808};
+					2130903812};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AC,0x7F0301AD,0x7F0301AE }
+			// aapt resource value: { 0x10100B3,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AD,0x7F0301AE,0x7F0301AF }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903463,
 					2130903464,
 					2130903465,
-					2130903468,
+					2130903466,
 					2130903469,
-					2130903470};
+					2130903470,
+					2130903471};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -32883,14 +33999,14 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F0302FD }
+			// aapt resource value: { 0x7F030301 }
 			public static int[] DrawableStates = new int[] {
-					2130903805};
+					2130903809};
 			
 			// aapt resource value: 0
 			public const int DrawableStates_state_indeterminate = 0;
 			
-			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F0300C3,0x7F030110,0x7F030159,0x7F0302EE,0x7F030353 }
+			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F0300C3,0x7F030110,0x7F030159,0x7F0302F2,0x7F030357 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903084,
 					2130903085,
@@ -32898,8 +34014,8 @@ namespace TurnosFutbol.Droid
 					2130903235,
 					2130903312,
 					2130903385,
-					2130903790,
-					2130903891};
+					2130903794,
+					2130903895};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -32932,13 +34048,13 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F03011C,0x7F03013A,0x7F03016B,0x7F0302E2,0x7F0302E5 }
+			// aapt resource value: { 0x7F03011C,0x7F03013A,0x7F03016B,0x7F0302E6,0x7F0302E9 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
 					2130903324,
 					2130903354,
 					2130903403,
-					2130903778,
-					2130903781};
+					2130903782,
+					2130903785};
 			
 			// aapt resource value: { 0x7F030048,0x7F030049 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -32966,7 +34082,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 4
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 4;
 			
-			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F030053,0x7F03011C,0x7F030129,0x7F030143,0x7F030144,0x7F03016B,0x7F030175,0x7F0301F0,0x7F03024F,0x7F03027A,0x7F0302D8,0x7F0302DB,0x7F0302E2,0x7F03037E }
+			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F030053,0x7F03011C,0x7F030129,0x7F030143,0x7F030144,0x7F03016B,0x7F030175,0x7F0301F1,0x7F030251,0x7F03027D,0x7F0302DB,0x7F0302DE,0x7F0302E6,0x7F030382 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903101,
@@ -32978,13 +34094,13 @@ namespace TurnosFutbol.Droid
 					2130903364,
 					2130903403,
 					2130903413,
-					2130903536,
-					2130903631,
-					2130903674,
-					2130903768,
+					2130903537,
+					2130903633,
+					2130903677,
 					2130903771,
-					2130903778,
-					2130903934};
+					2130903774,
+					2130903782,
+					2130903938};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -33044,10 +34160,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F030199,0x7F0301B4 }
+			// aapt resource value: { 0x7F030199,0x7F0301B5 }
 			public static int[] FlowLayout = new int[] {
 					2130903449,
-					2130903476};
+					2130903477};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -33065,7 +34181,7 @@ namespace TurnosFutbol.Droid
 					2130903379,
 					2130903380};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03014C,0x7F030155,0x7F030156,0x7F030157,0x7F03037C }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03014C,0x7F030155,0x7F030156,0x7F030157,0x7F030380 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -33076,7 +34192,7 @@ namespace TurnosFutbol.Droid
 					2130903381,
 					2130903382,
 					2130903383,
-					2130903932};
+					2130903936};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -33232,11 +34348,11 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F03021C,0x7F03021E,0x7F03021F }
+			// aapt resource value: { 0x7F03021E,0x7F030220,0x7F030221 }
 			public static int[] Insets = new int[] {
-					2130903580,
 					2130903582,
-					2130903583};
+					2130903584,
+					2130903585};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -33254,7 +34370,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030108,0x7F03010A,0x7F0301F3,0x7F0302E1 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030108,0x7F03010A,0x7F0301F4,0x7F0302E5 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -33263,8 +34379,8 @@ namespace TurnosFutbol.Droid
 					16843048,
 					2130903304,
 					2130903306,
-					2130903539,
-					2130903777};
+					2130903540,
+					2130903781};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -33345,13 +34461,13 @@ namespace TurnosFutbol.Droid
 					2130903096,
 					2130903097};
 			
-			// aapt resource value: { 0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD }
+			// aapt resource value: { 0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903513,
 					2130903514,
 					2130903515,
 					2130903516,
-					2130903517};
+					2130903517,
+					2130903518};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -33387,7 +34503,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300EF,0x7F03011C,0x7F030176,0x7F030178,0x7F030179,0x7F03017A,0x7F03017C,0x7F03017D,0x7F03027A,0x7F0302D8,0x7F0302DB,0x7F030303,0x7F030304 }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300EF,0x7F03011C,0x7F030176,0x7F030178,0x7F030179,0x7F03017A,0x7F03017C,0x7F03017D,0x7F03027D,0x7F0302DB,0x7F0302DE,0x7F030307,0x7F030308 }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -33405,17 +34521,17 @@ namespace TurnosFutbol.Droid
 					2130903418,
 					2130903420,
 					2130903421,
-					2130903674,
-					2130903768,
+					2130903677,
 					2130903771,
-					2130903811,
-					2130903812};
+					2130903774,
+					2130903815,
+					2130903816};
 			
-			// aapt resource value: { 0x7F030087,0x7F0302D7,0x7F0302E8 }
+			// aapt resource value: { 0x7F030087,0x7F0302DA,0x7F0302EC }
 			public static int[] MaterialButtonToggleGroup = new int[] {
 					2130903175,
-					2130903767,
-					2130903784};
+					2130903770,
+					2130903788};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -33489,17 +34605,17 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030258,0x7F03038E,0x7F03038F,0x7F030390 }
+			// aapt resource value: { 0x101020D,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F03025B,0x7F030392,0x7F030393,0x7F030394 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
 					2130903293,
 					2130903294,
 					2130903295,
 					2130903296,
-					2130903640,
-					2130903950,
-					2130903951,
-					2130903952};
+					2130903643,
+					2130903954,
+					2130903955,
+					2130903956};
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030189,0x7F030192,0x7F030193,0x7F03019A,0x7F03019B,0x7F03019F }
 			public static int[] MaterialCalendarItem = new int[] {
@@ -33571,18 +34687,18 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 8
 			public const int MaterialCalendar_yearTodayStyle = 8;
 			
-			// aapt resource value: { 0x10101E5,0x7F03007B,0x7F030089,0x7F03008B,0x7F03027A,0x7F0302D8,0x7F0302DB,0x7F0302FC,0x7F030303,0x7F030304 }
+			// aapt resource value: { 0x10101E5,0x7F03007B,0x7F030089,0x7F03008B,0x7F03027D,0x7F0302DB,0x7F0302DE,0x7F030300,0x7F030307,0x7F030308 }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903163,
 					2130903177,
 					2130903179,
-					2130903674,
-					2130903768,
+					2130903677,
 					2130903771,
-					2130903804,
-					2130903811,
-					2130903812};
+					2130903774,
+					2130903808,
+					2130903815,
+					2130903816};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -33614,10 +34730,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 9
 			public const int MaterialCardView_strokeWidth = 9;
 			
-			// aapt resource value: { 0x7F030076,0x7F03037F }
+			// aapt resource value: { 0x7F030076,0x7F030383 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903158,
-					2130903935};
+					2130903939};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -33625,10 +34741,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030076,0x7F03037F }
+			// aapt resource value: { 0x7F030076,0x7F030383 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903158,
-					2130903935};
+					2130903939};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -33636,10 +34752,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0302D8,0x7F0302DB }
+			// aapt resource value: { 0x7F0302DB,0x7F0302DE }
 			public static int[] MaterialShape = new int[] {
-					2130903768,
-					2130903771};
+					2130903771,
+					2130903774};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -33647,10 +34763,10 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x101057F,0x7F0301B3 }
+			// aapt resource value: { 0x101057F,0x7F0301B4 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16844159,
-					2130903475};
+					2130903476};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_lineHeight = 0;
@@ -33658,11 +34774,11 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int MaterialTextAppearance_lineHeight = 1;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F0301B3 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F0301B4 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903475};
+					2130903476};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -33673,13 +34789,13 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03013C,0x7F03013D,0x7F0301F7 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F03013C,0x7F03013D,0x7F0301F8 }
 			public static int[] MediaRouteButton = new int[] {
 					16843071,
 					16843072,
 					2130903356,
 					2130903357,
-					2130903543};
+					2130903544};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -33723,7 +34839,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300DB,0x7F03017C,0x7F03017D,0x7F030219,0x7F0302E0,0x7F030373 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300DB,0x7F03017C,0x7F03017D,0x7F03021B,0x7F0302E4,0x7F030377 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -33745,9 +34861,9 @@ namespace TurnosFutbol.Droid
 					2130903259,
 					2130903420,
 					2130903421,
-					2130903577,
-					2130903776,
-					2130903923};
+					2130903579,
+					2130903780,
+					2130903927};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -33818,7 +34934,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03024E,0x7F030305 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030250,0x7F030309 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -33827,8 +34943,8 @@ namespace TurnosFutbol.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903630,
-					2130903813};
+					2130903632,
+					2130903817};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -33857,7 +34973,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03011C,0x7F030165,0x7F030188,0x7F03018A,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F03019C,0x7F03019F,0x7F030204 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03011C,0x7F030165,0x7F030188,0x7F03018A,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F03019C,0x7F03019F,0x7F030205 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
@@ -33879,7 +34995,7 @@ namespace TurnosFutbol.Droid
 					2130903448,
 					2130903452,
 					2130903455,
-					2130903556};
+					2130903557};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -33944,15 +35060,15 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 20
 			public const int NavigationView_menu = 20;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F03021A }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F03021C }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903578};
+					2130903580};
 			
-			// aapt resource value: { 0x7F0302F9 }
+			// aapt resource value: { 0x7F0302FD }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903801};
+					2130903805};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -33966,17 +35082,17 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030380 }
+			// aapt resource value: { 0x7F030384 }
 			public static int[] RangeSlider = new int[] {
-					2130903936};
+					2130903940};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_values = 0;
 			
-			// aapt resource value: { 0x7F03021B,0x7F030221 }
+			// aapt resource value: { 0x7F03021D,0x7F030223 }
 			public static int[] RecycleListView = new int[] {
-					2130903579,
-					2130903585};
+					2130903581,
+					2130903587};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -33984,7 +35100,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030145,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F0301A6,0x7F030279,0x7F0302ED,0x7F0302F3 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030145,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F0301A7,0x7F03027C,0x7F0302F1,0x7F0302F7 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
@@ -33994,10 +35110,10 @@ namespace TurnosFutbol.Droid
 					2130903367,
 					2130903368,
 					2130903369,
-					2130903462,
-					2130903673,
-					2130903789,
-					2130903795};
+					2130903463,
+					2130903676,
+					2130903793,
+					2130903799};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -34049,14 +35165,14 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F0302C0 }
+			// aapt resource value: { 0x7F0302C3 }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903744};
+					2130903747};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300B6,0x7F0300DA,0x7F030101,0x7F030162,0x7F03017E,0x7F0301A5,0x7F030252,0x7F030253,0x7F0302C1,0x7F0302C2,0x7F030306,0x7F03030E,0x7F030383 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300B6,0x7F0300DA,0x7F030101,0x7F030162,0x7F03017E,0x7F0301A6,0x7F030254,0x7F030255,0x7F0302C4,0x7F0302C5,0x7F03030A,0x7F030312,0x7F030387 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -34067,14 +35183,14 @@ namespace TurnosFutbol.Droid
 					2130903297,
 					2130903394,
 					2130903422,
-					2130903461,
-					2130903634,
-					2130903635,
-					2130903745,
-					2130903746,
-					2130903814,
-					2130903822,
-					2130903939};
+					2130903462,
+					2130903636,
+					2130903637,
+					2130903748,
+					2130903749,
+					2130903818,
+					2130903826,
+					2130903943};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -34142,7 +35258,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int SfCheckBox_isthreestate = 2;
 			
-			// aapt resource value: { 0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030259,0x7F03025A,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F030262,0x7F030263,0x7F030264,0x7F030265,0x7F030268,0x7F030289,0x7F03028A,0x7F030291,0x7F030292,0x7F030293,0x7F03029B,0x7F03029E,0x7F03029F,0x7F0302A1,0x7F0302A5,0x7F0302A8,0x7F0302A9,0x7F0302AB,0x7F0302AD,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302B4,0x7F0302B6,0x7F0302B7,0x7F0302B9,0x7F0302BA,0x7F0302BB }
+			// aapt resource value: { 0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F03025C,0x7F03025D,0x7F03025F,0x7F030260,0x7F030261,0x7F030262,0x7F030263,0x7F030264,0x7F030265,0x7F030266,0x7F030267,0x7F030268,0x7F03026B,0x7F03028C,0x7F03028D,0x7F030294,0x7F030295,0x7F030296,0x7F03029E,0x7F0302A1,0x7F0302A2,0x7F0302A4,0x7F0302A8,0x7F0302AB,0x7F0302AC,0x7F0302AE,0x7F0302B0,0x7F0302B4,0x7F0302B5,0x7F0302B6,0x7F0302B7,0x7F0302B9,0x7F0302BA,0x7F0302BC,0x7F0302BD,0x7F0302BE }
 			public static int[] SfCircularGauge = new int[] {
 					2130903203,
 					2130903204,
@@ -34170,13 +35286,12 @@ namespace TurnosFutbol.Droid
 					2130903390,
 					2130903391,
 					2130903392,
-					2130903507,
 					2130903508,
 					2130903509,
 					2130903510,
 					2130903511,
 					2130903512,
-					2130903563,
+					2130903513,
 					2130903564,
 					2130903565,
 					2130903566,
@@ -34189,11 +35304,9 @@ namespace TurnosFutbol.Droid
 					2130903573,
 					2130903574,
 					2130903575,
-					2130903641,
-					2130903642,
+					2130903576,
 					2130903644,
 					2130903645,
-					2130903646,
 					2130903647,
 					2130903648,
 					2130903649,
@@ -34201,30 +35314,33 @@ namespace TurnosFutbol.Droid
 					2130903651,
 					2130903652,
 					2130903653,
+					2130903654,
+					2130903655,
 					2130903656,
-					2130903689,
-					2130903690,
-					2130903697,
-					2130903698,
-					2130903699,
-					2130903707,
+					2130903659,
+					2130903692,
+					2130903693,
+					2130903700,
+					2130903701,
+					2130903702,
 					2130903710,
-					2130903711,
 					2130903713,
-					2130903717,
+					2130903714,
+					2130903716,
 					2130903720,
-					2130903721,
 					2130903723,
-					2130903725,
-					2130903729,
-					2130903730,
-					2130903731,
+					2130903724,
+					2130903726,
+					2130903728,
 					2130903732,
+					2130903733,
 					2130903734,
 					2130903735,
 					2130903737,
 					2130903738,
-					2130903739};
+					2130903740,
+					2130903741,
+					2130903742};
 			
 			// aapt resource value: 0
 			public const int SfCircularGauge_circularGaugeScaleDirection = 0;
@@ -34469,7 +35585,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 80
 			public const int SfCircularGauge_scaleStartValue = 80;
 			
-			// aapt resource value: { 0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030105,0x7F030106,0x7F0302CE }
+			// aapt resource value: { 0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030105,0x7F030106,0x7F0302D1 }
 			public static int[] SfDigitalGauge = new int[] {
 					2130903168,
 					2130903169,
@@ -34478,7 +35594,7 @@ namespace TurnosFutbol.Droid
 					2130903172,
 					2130903301,
 					2130903302,
-					2130903758};
+					2130903761};
 			
 			// aapt resource value: 0
 			public const int SfDigitalGauge_characterHeight = 0;
@@ -34504,53 +35620,53 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 7
 			public const int SfDigitalGauge_segmentStrokeWidth = 7;
 			
-			// aapt resource value: { 0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F0301F2,0x7F030255,0x7F030256,0x7F030257,0x7F03025B,0x7F030266,0x7F030267,0x7F03028B,0x7F03028C,0x7F03028D,0x7F03028E,0x7F03028F,0x7F030290,0x7F030294,0x7F030295,0x7F030296,0x7F030297,0x7F030298,0x7F030299,0x7F03029A,0x7F03029C,0x7F03029D,0x7F0302A0,0x7F0302A2,0x7F0302A3,0x7F0302A4,0x7F0302A6,0x7F0302A7,0x7F0302AA,0x7F0302AC,0x7F0302AE,0x7F0302AF,0x7F0302B0,0x7F0302B5,0x7F0302B8,0x7F030314,0x7F030315,0x7F030316,0x7F030317,0x7F030318 }
+			// aapt resource value: { 0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F0301F3,0x7F030258,0x7F030259,0x7F03025A,0x7F03025E,0x7F030269,0x7F03026A,0x7F03028E,0x7F03028F,0x7F030290,0x7F030291,0x7F030292,0x7F030293,0x7F030297,0x7F030298,0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C,0x7F03029D,0x7F03029F,0x7F0302A0,0x7F0302A3,0x7F0302A5,0x7F0302A6,0x7F0302A7,0x7F0302A9,0x7F0302AA,0x7F0302AD,0x7F0302AF,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302B8,0x7F0302BB,0x7F030318,0x7F030319,0x7F03031A,0x7F03031B,0x7F03031C }
 			public static int[] SfLinearGauge = new int[] {
 					2130903107,
 					2130903108,
 					2130903109,
 					2130903110,
 					2130903111,
-					2130903538,
-					2130903637,
-					2130903638,
-					2130903639,
-					2130903643,
-					2130903654,
-					2130903655,
-					2130903691,
-					2130903692,
-					2130903693,
+					2130903539,
+					2130903640,
+					2130903641,
+					2130903642,
+					2130903646,
+					2130903657,
+					2130903658,
 					2130903694,
 					2130903695,
 					2130903696,
-					2130903700,
-					2130903701,
-					2130903702,
+					2130903697,
+					2130903698,
+					2130903699,
 					2130903703,
 					2130903704,
 					2130903705,
 					2130903706,
+					2130903707,
 					2130903708,
 					2130903709,
+					2130903711,
 					2130903712,
-					2130903714,
 					2130903715,
-					2130903716,
+					2130903717,
 					2130903718,
 					2130903719,
+					2130903721,
 					2130903722,
-					2130903724,
-					2130903726,
+					2130903725,
 					2130903727,
-					2130903728,
-					2130903733,
+					2130903729,
+					2130903730,
+					2130903731,
 					2130903736,
-					2130903828,
-					2130903829,
-					2130903830,
-					2130903831,
-					2130903832};
+					2130903739,
+					2130903832,
+					2130903833,
+					2130903834,
+					2130903835,
+					2130903836};
 			
 			// aapt resource value: 0
 			public const int SfLinearGauge_barPointerColor = 0;
@@ -34687,7 +35803,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 44
 			public const int SfLinearGauge_symbolPosition = 44;
 			
-			// aapt resource value: { 0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03011F,0x7F030120,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0302D4,0x7F0302D5,0x7F0302D6,0x7F0302DD,0x7F0302DE,0x7F0302DF,0x7F03037D }
+			// aapt resource value: { 0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03011F,0x7F030120,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0302D7,0x7F0302D8,0x7F0302D9,0x7F0302E0,0x7F0302E1,0x7F0302E2,0x7F030381 }
 			public static int[] SfMaps = new int[] {
 					2130903140,
 					2130903141,
@@ -34697,7 +35813,6 @@ namespace TurnosFutbol.Droid
 					2130903145,
 					2130903327,
 					2130903328,
-					2130903494,
 					2130903495,
 					2130903496,
 					2130903497,
@@ -34710,13 +35825,14 @@ namespace TurnosFutbol.Droid
 					2130903504,
 					2130903505,
 					2130903506,
-					2130903764,
-					2130903765,
-					2130903766,
-					2130903773,
-					2130903774,
-					2130903775,
-					2130903933};
+					2130903507,
+					2130903767,
+					2130903768,
+					2130903769,
+					2130903776,
+					2130903777,
+					2130903778,
+					2130903937};
 			
 			// aapt resource value: 0
 			public const int SfMaps_bubbleAlpha = 0;
@@ -34802,10 +35918,8 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 27
 			public const int SfMaps_uri = 27;
 			
-			// aapt resource value: { 0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243 }
+			// aapt resource value: { 0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245 }
 			public static int[] SfPicker = new int[] {
-					2130903594,
-					2130903595,
 					2130903596,
 					2130903597,
 					2130903598,
@@ -34829,7 +35943,9 @@ namespace TurnosFutbol.Droid
 					2130903616,
 					2130903617,
 					2130903618,
-					2130903619};
+					2130903619,
+					2130903620,
+					2130903621};
 			
 			// aapt resource value: 0
 			public const int SfPicker_pickerBackgroundColor = 0;
@@ -34909,11 +36025,8 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 25
 			public const int SfPicker_pickerWidth = 25;
 			
-			// aapt resource value: { 0x7F03026C,0x7F03026D,0x7F03026E,0x7F03026F,0x7F030270,0x7F030271,0x7F030272,0x7F030273,0x7F030274,0x7F030275,0x7F030276,0x7F030277 }
+			// aapt resource value: { 0x7F03026F,0x7F030270,0x7F030271,0x7F030272,0x7F030273,0x7F030274,0x7F030275,0x7F030276,0x7F030277,0x7F030278,0x7F030279,0x7F03027A }
 			public static int[] SfRating = new int[] {
-					2130903660,
-					2130903661,
-					2130903662,
 					2130903663,
 					2130903664,
 					2130903665,
@@ -34922,7 +36035,10 @@ namespace TurnosFutbol.Droid
 					2130903668,
 					2130903669,
 					2130903670,
-					2130903671};
+					2130903671,
+					2130903672,
+					2130903673,
+					2130903674};
 			
 			// aapt resource value: 0
 			public const int SfRating_ratingControlValue = 0;
@@ -34960,11 +36076,8 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 11
 			public const int SfRating_ratingUnratedStrokeWidth = 11;
 			
-			// aapt resource value: { 0x7F03027B,0x7F03027C,0x7F03027D,0x7F03027E,0x7F03027F,0x7F030280,0x7F030281,0x7F030282,0x7F030283,0x7F030284,0x7F030285,0x7F030286,0x7F030287,0x7F030288 }
+			// aapt resource value: { 0x7F03027E,0x7F03027F,0x7F030280,0x7F030281,0x7F030282,0x7F030283,0x7F030284,0x7F030285,0x7F030286,0x7F030287,0x7F030288,0x7F030289,0x7F03028A,0x7F03028B }
 			public static int[] SfRotator = new int[] {
-					2130903675,
-					2130903676,
-					2130903677,
 					2130903678,
 					2130903679,
 					2130903680,
@@ -34975,7 +36088,10 @@ namespace TurnosFutbol.Droid
 					2130903685,
 					2130903686,
 					2130903687,
-					2130903688};
+					2130903688,
+					2130903689,
+					2130903690,
+					2130903691};
 			
 			// aapt resource value: 0
 			public const int SfRotator_rotatorDotsBorderColor = 0;
@@ -35019,20 +36135,20 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 13
 			public const int SfRotator_rotatorUnselectedDotsColor = 13;
 			
-			// aapt resource value: { 0x7F0302C5,0x7F0302C6,0x7F0302C7,0x7F0302C8,0x7F0302C9,0x7F0302CA,0x7F0302CB,0x7F0302CC,0x7F0302CD,0x7F0302CF,0x7F0302D0,0x7F0302D1 }
+			// aapt resource value: { 0x7F0302C8,0x7F0302C9,0x7F0302CA,0x7F0302CB,0x7F0302CC,0x7F0302CD,0x7F0302CE,0x7F0302CF,0x7F0302D0,0x7F0302D2,0x7F0302D3,0x7F0302D4 }
 			public static int[] SfSegmentedControl = new int[] {
-					2130903749,
-					2130903750,
-					2130903751,
 					2130903752,
 					2130903753,
 					2130903754,
 					2130903755,
 					2130903756,
 					2130903757,
+					2130903758,
 					2130903759,
 					2130903760,
-					2130903761};
+					2130903762,
+					2130903763,
+					2130903764};
 			
 			// aapt resource value: 0
 			public const int SfSegmentedControl_segmentBackColor = 0;
@@ -35070,12 +36186,12 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 8
 			public const int SfSegmentedControl_segmentStrokeThickness = 8;
 			
-			// aapt resource value: { 0x7F0302D8,0x7F0302DB,0x7F030303,0x7F030304 }
+			// aapt resource value: { 0x7F0302DB,0x7F0302DE,0x7F030307,0x7F030308 }
 			public static int[] ShapeableImageView = new int[] {
-					2130903768,
 					2130903771,
-					2130903811,
-					2130903812};
+					2130903774,
+					2130903815,
+					2130903816};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_shapeAppearance = 0;
@@ -35132,11 +36248,11 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x7F030073,0x7F0300D5,0x7F0302BC }
+			// aapt resource value: { 0x7F030073,0x7F0300D5,0x7F0302BF }
 			public static int[] SignInButton = new int[] {
 					2130903155,
 					2130903253,
-					2130903740};
+					2130903743};
 			
 			// aapt resource value: 0
 			public const int SignInButton_buttonSize = 0;
@@ -35147,7 +36263,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int SignInButton_scopeUris = 2;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F030163,0x7F030164,0x7F0301A1,0x7F0301A2,0x7F030354,0x7F030355,0x7F030356,0x7F03035A,0x7F03035B,0x7F03035C,0x7F030375,0x7F030376,0x7F030377,0x7F030378 }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F030163,0x7F030164,0x7F0301A2,0x7F0301A3,0x7F030358,0x7F030359,0x7F03035A,0x7F03035E,0x7F03035F,0x7F030360,0x7F030379,0x7F03037A,0x7F03037B,0x7F03037C }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
@@ -35156,18 +36272,18 @@ namespace TurnosFutbol.Droid
 					16843487,
 					2130903395,
 					2130903396,
-					2130903457,
 					2130903458,
-					2130903892,
-					2130903893,
-					2130903894,
+					2130903459,
+					2130903896,
+					2130903897,
 					2130903898,
-					2130903899,
-					2130903900,
-					2130903925,
-					2130903926,
-					2130903927,
-					2130903928};
+					2130903902,
+					2130903903,
+					2130903904,
+					2130903929,
+					2130903930,
+					2130903931,
+					2130903932};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -35226,13 +36342,13 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 18
 			public const int Slider_trackHeight = 18;
 			
-			// aapt resource value: { 0x7F0302EA,0x7F0302EB,0x7F0302EC }
+			// aapt resource value: { 0x7F0302EE,0x7F0302EF,0x7F0302F0 }
 			public static int[] Snackbar = new int[] {
-					2130903786,
-					2130903787,
-					2130903788};
+					2130903790,
+					2130903791,
+					2130903792};
 			
-			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F03011C,0x7F0301ED }
+			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F03011C,0x7F0301EE }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903072,
@@ -35241,7 +36357,7 @@ namespace TurnosFutbol.Droid
 					2130903101,
 					2130903102,
 					2130903324,
-					2130903533};
+					2130903534};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -35276,13 +36392,13 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030249 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03024B }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903625};
+					2130903627};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -35333,29 +36449,29 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F03030F }
+			// aapt resource value: { 0x7F030313 }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903823};
+					2130903827};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0302E3,0x7F0302F1,0x7F030310,0x7F030311,0x7F030313,0x7F030357,0x7F030358,0x7F030359,0x7F030374,0x7F030379,0x7F03037A }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0302E7,0x7F0302F5,0x7F030314,0x7F030315,0x7F030317,0x7F03035B,0x7F03035C,0x7F03035D,0x7F030378,0x7F03037D,0x7F03037E }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903779,
-					2130903793,
-					2130903824,
-					2130903825,
-					2130903827,
-					2130903895,
-					2130903896,
-					2130903897,
-					2130903924,
-					2130903929,
-					2130903930};
+					2130903783,
+					2130903797,
+					2130903828,
+					2130903829,
+					2130903831,
+					2130903899,
+					2130903900,
+					2130903901,
+					2130903928,
+					2130903933,
+					2130903934};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -35399,9 +36515,9 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F03037F }
+			// aapt resource value: { 0x7F030383 }
 			public static int[] SwitchMaterial = new int[] {
-					2130903935};
+					2130903939};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -35421,12 +36537,8 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030319,0x7F03031A,0x7F03031B,0x7F03031C,0x7F03031D,0x7F03031E,0x7F03031F,0x7F030320,0x7F030321,0x7F030322,0x7F030323,0x7F030324,0x7F030325,0x7F030326,0x7F030327,0x7F030328,0x7F030329,0x7F03032A,0x7F03032B,0x7F03032C,0x7F03032D,0x7F03032E,0x7F030330,0x7F030331,0x7F030332 }
+			// aapt resource value: { 0x7F03031D,0x7F03031E,0x7F03031F,0x7F030320,0x7F030321,0x7F030322,0x7F030323,0x7F030324,0x7F030325,0x7F030326,0x7F030327,0x7F030328,0x7F030329,0x7F03032A,0x7F03032B,0x7F03032C,0x7F03032D,0x7F03032E,0x7F03032F,0x7F030330,0x7F030331,0x7F030332,0x7F030334,0x7F030335,0x7F030336 }
 			public static int[] TabLayout = new int[] {
-					2130903833,
-					2130903834,
-					2130903835,
-					2130903836,
 					2130903837,
 					2130903838,
 					2130903839,
@@ -35445,9 +36557,13 @@ namespace TurnosFutbol.Droid
 					2130903852,
 					2130903853,
 					2130903854,
+					2130903855,
 					2130903856,
 					2130903857,
-					2130903858};
+					2130903858,
+					2130903860,
+					2130903861,
+					2130903862};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -35524,7 +36640,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03014D,0x7F030156,0x7F030333,0x7F03034F }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03014D,0x7F030156,0x7F030337,0x7F030353 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -35540,8 +36656,8 @@ namespace TurnosFutbol.Droid
 					16844165,
 					2130903373,
 					2130903382,
-					2130903859,
-					2130903887};
+					2130903863,
+					2130903891};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -35591,14 +36707,14 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F03034D }
+			// aapt resource value: { 0x7F030351 }
 			public static int[] TextInputEditText = new int[] {
-					2130903885};
+					2130903889};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030126,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F030244,0x7F030245,0x7F030246,0x7F03024B,0x7F03024C,0x7F03024D,0x7F0302D8,0x7F0302DB,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7,0x7F0302F8,0x7F03030B,0x7F03030C,0x7F03030D }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030126,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F030246,0x7F030247,0x7F030248,0x7F03024D,0x7F03024E,0x7F03024F,0x7F0302DB,0x7F0302DE,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F03030F,0x7F030310,0x7F030311 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -35641,27 +36757,27 @@ namespace TurnosFutbol.Droid
 					2130903407,
 					2130903408,
 					2130903409,
-					2130903589,
-					2130903590,
 					2130903591,
 					2130903592,
 					2130903593,
-					2130903620,
-					2130903621,
+					2130903594,
+					2130903595,
 					2130903622,
-					2130903627,
-					2130903628,
+					2130903623,
+					2130903624,
 					2130903629,
-					2130903768,
+					2130903630,
+					2130903631,
 					2130903771,
-					2130903796,
-					2130903797,
-					2130903798,
-					2130903799,
+					2130903774,
 					2130903800,
-					2130903819,
-					2130903820,
-					2130903821};
+					2130903801,
+					2130903802,
+					2130903803,
+					2130903804,
+					2130903823,
+					2130903824,
+					2130903825};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -35864,7 +36980,7 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030070,0x7F0300BE,0x7F0300BF,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0301C4,0x7F0301C5,0x7F0301EE,0x7F030204,0x7F030207,0x7F030208,0x7F030249,0x7F030307,0x7F030308,0x7F030309,0x7F030362,0x7F030364,0x7F030365,0x7F030366,0x7F030367,0x7F030368,0x7F030369,0x7F03036A,0x7F03036B }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030070,0x7F0300BE,0x7F0300BF,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0301C5,0x7F0301C6,0x7F0301EF,0x7F030205,0x7F030208,0x7F030209,0x7F03024B,0x7F03030B,0x7F03030C,0x7F03030D,0x7F030366,0x7F030368,0x7F030369,0x7F03036A,0x7F03036B,0x7F03036C,0x7F03036D,0x7F03036E,0x7F03036F }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -35877,25 +36993,25 @@ namespace TurnosFutbol.Droid
 					2130903263,
 					2130903264,
 					2130903265,
-					2130903492,
 					2130903493,
-					2130903534,
-					2130903556,
-					2130903559,
+					2130903494,
+					2130903535,
+					2130903557,
 					2130903560,
-					2130903625,
-					2130903815,
-					2130903816,
-					2130903817,
-					2130903906,
-					2130903908,
-					2130903909,
+					2130903561,
+					2130903627,
+					2130903819,
+					2130903820,
+					2130903821,
 					2130903910,
-					2130903911,
 					2130903912,
 					2130903913,
 					2130903914,
-					2130903915};
+					2130903915,
+					2130903916,
+					2130903917,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -36018,13 +37134,13 @@ namespace TurnosFutbol.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F03021D,0x7F030220,0x7F030351 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F03021F,0x7F030222,0x7F030355 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903581,
-					2130903584,
-					2130903889};
+					2130903583,
+					2130903586,
+					2130903893};
 			
 			// aapt resource value: { 0x10100D4,0x7F03003D,0x7F03003E }
 			public static int[] ViewBackgroundHelper = new int[] {

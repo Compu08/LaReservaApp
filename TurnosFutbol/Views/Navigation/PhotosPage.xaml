@@ -179,6 +179,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
                         <Grid.ColumnDefinitions>
@@ -189,7 +190,7 @@
 
 
                     <cards:SfCardView CornerRadius="4" Grid.ColumnSpan="3"
-                                          HeightRequest="245"
+                                          HeightRequest="360"
                                           Margin="0,-40,0,5"
                                           BackgroundColor="{DynamicResource ItemsBackground}"
                                           Style="{StaticResource CardsClub}"
@@ -249,7 +250,7 @@
 
                     </cards:SfCardView>
                 </Grid>
-                <Image Style="{DynamicResource MainPageUrbanLogo}" Grid.Row="3" Aspect="AspectFit" />
+                
             </Grid>
         </StackLayout>
     </ContentPage.Content>

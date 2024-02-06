@@ -16,7 +16,7 @@ namespace TurnosFutbol
         public static Theme AppTheme { get; set; }
         public App()
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDEzODI4QDMxMzgyZTM0MmUzMFRzZnlVaTV5UXpmT1dSUjZkcjBUZS8wLzhDa2hId0FYeVp4UXJWMEJNYmc9");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mjk4NTExMEAzMjM0MmUzMDJlMzBXZXZ6N05vd1JrcnF2UCtzeUZBT0RUcTk0VjFJSS9YMW5rL2wwSnlvdkU4PQ==");
 
 
             InitializeComponent();

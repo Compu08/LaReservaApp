@@ -117,6 +117,7 @@
                       SwipeEnded="lstView_SwipeEnded"
                       SwipeOffset="60"
                       SwipeThreshold="30"
+                                 
                       >
 
                 <listView:SfListView.LeftSwipeTemplate>

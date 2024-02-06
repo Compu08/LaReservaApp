@@ -51,9 +51,12 @@ namespace TurnosFutbol.Views.Navigation
                 "Futbol" => "CANCHA",
                 "Tenis" => "CANCHA",
                 "Paddel" => "CANCHA",
-                "Restaurantes" => "MESA",
+                "Squash" => "CANCHA",
                 "Peluqueria" => "SILLA",
-                "Gimnasios" => "CLASES",
+                "Salud" => "TURNO",
+                "Lavadero" => "TURNO",
+                "Belleza" => "TURNO",
+                "Restaurantes" => "MESA",
                 _ => stringTypeSpot
             };
         }

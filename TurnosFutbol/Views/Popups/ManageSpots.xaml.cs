@@ -121,6 +121,9 @@ namespace TurnosFutbol.Views.Popups
                 case "Gimnasios":
                     TextType = "CLASES";
                     break;
+                default:
+                    TextType = "TURNOS";
+                    break;
             }
 
         }

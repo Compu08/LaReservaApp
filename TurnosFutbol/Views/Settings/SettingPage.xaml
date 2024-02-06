@@ -272,6 +272,42 @@
                 </Grid>
                 <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
 
+                <Grid
+                    BackgroundColor="{DynamicResource ItemsBackground}"
+                    ColumnSpacing="0"
+                    RowSpacing="0">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangePaymentLink"></TapGestureRecognizer>
+                    </Grid.GestureRecognizers>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!--  Edit profile icon  -->
+                    <Label
+                        Grid.Column="0"
+                        Margin="16,0,0,0"
+                        Style="{StaticResource IconLabelStyle}"
+                        Text="{StaticResource Account}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        />
+                    <!--  Edit profile label  -->
+                    <Label
+                        Grid.Column="1"
+                        Style="{StaticResource LabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="Link de pago" />
+                    <!--  Navigation icon  -->
+                    <Label
+                        x:Name="PaymentLink"
+                        Grid.Column="2"
+                        Style="{StaticResource IconLabelStyle}"
+                        TextColor="{DynamicResource ItemTextColor}"
+                        Text="{StaticResource Next}" />
+                </Grid>
+                <BoxView Style="{StaticResource SeparatorStyle}" BackgroundColor="{DynamicResource DivisionLines}"/>
+
 
                 <!--  Header lable for notifications  -->
                 <Label

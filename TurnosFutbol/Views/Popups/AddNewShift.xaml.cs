@@ -12,6 +12,7 @@ using TurnosFutbol.Models.Dashboard;
 using TurnosFutbol.Models.Navigation;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Diagnostics;
 
 namespace TurnosFutbol.Views.Popups
 {
@@ -48,7 +49,17 @@ namespace TurnosFutbol.Views.Popups
             todaysTime.Add(daytime.Hour.ToString());
             todaysTime.Add("0");
             SelectedTime = todaysTime;
-            pickerTime = new CustomTimePicker(_text)
+
+            var helper = 0;
+            var aux = 0;
+
+            while (helper != _spots)
+            {
+                aux = helper + 1;
+                helper++;
+            }
+
+            pickerTime = new CustomTimePicker(_text, aux)
             {
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center,
@@ -65,17 +76,9 @@ namespace TurnosFutbol.Views.Popups
             pickerTime.CancelButtonClicked += GoBack;
             pickerTime.OkButtonClicked += AddShiftClicked;
             pickerTime.IsOpen = !pickerTime.IsOpen;
-            pickerTime.EnableLooping = true;
+            pickerTime.EnableLooping = false;
 
-            MainStackLayout.Children.Add(pickerTime);
-
-            var helper = 0;
-            while (helper != _spots)
-            {
-                pickerTime.Places.Add(helper+1);
-                helper++;
-            }
-            pickerTime.Time.Add(pickerTime.Places);
+            MainStackLayout.Children.Add(pickerTime);            
 
             if (_sport == "Gimnasios")
             {

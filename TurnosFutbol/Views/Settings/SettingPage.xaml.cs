@@ -62,6 +62,11 @@ namespace TurnosFutbol.Views.Settings
             PopupNavigation.Instance.PushAsync(new SetAdminKey());
         }
 
+        private void ChangePaymentLink(object sender, System.EventArgs e)
+        {
+            PopupNavigation.Instance.PushAsync(new ChangePaymentLink());
+        }
+
         private void PushPrivacyPolicy(object sender, System.EventArgs e)
         {
             Navigation.PushModalAsync(new PrivacyPolicy());

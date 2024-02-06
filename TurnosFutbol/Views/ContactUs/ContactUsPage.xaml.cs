@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
+using Xamarin.Forms.OpenWhatsApp;
 using Xamarin.Forms.Xaml;
 
 namespace TurnosFutbol.Views.ContactUs
@@ -117,6 +118,14 @@ namespace TurnosFutbol.Views.ContactUs
             {
                 await DisplayAlert("¡Error!", "No se puedo enviar el E-mail", "Ok");
             }
+        }
+
+        private void ContactUs(object sender, System.EventArgs e)
+        {
+
+            var text = "¡Hola! Me gustaría unirme a La Reserva";
+
+            Chat.Open("5401137582872", text);
         }
     }
 }

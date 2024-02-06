@@ -11,20 +11,21 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Firebase.Iid;
+using Firebase.Messaging;
 using Xamarin.Essentials;
 
 namespace TurnosFutbol.Droid
 {
-    [Service]
-    [IntentFilter(new[] {"com.google.firebase.INSTANCE_ID_EVENT"})]
-    public class MyFirebaseIIDService : FirebaseInstanceIdService
+    [Service (Exported = true)]
+    [IntentFilter(new[] { "com.google.firebase.MESSAGING_EVENT" })]
+    public class MyFirebaseIIDService : FirebaseMessagingService
     {
-        const string TAG = "MyFirebaseIIDService";
+        const string TAG = "Firebase";
 
-        public override void OnTokenRefresh()
+        public override void OnNewToken(string token)
         {
-            var refreshedToken = FirebaseInstanceId.Instance.Token;
-            SendRegistrationToServer(refreshedToken);
+            base.OnNewToken(token);
+            SendRegistrationToServer(token);
         }
 
         void SendRegistrationToServer(string token)

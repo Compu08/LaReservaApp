@@ -60,10 +60,13 @@
                                 <x:String>Futbol</x:String>
                                 <x:String>Tenis</x:String>
                                 <x:String>Paddel</x:String>
-                                <x:String>Restaurantes</x:String>
+                                <x:String>Squash</x:String>
                                 <x:String>Peluqueria</x:String>
-                                <x:String>Gimnasios</x:String>
-                            </Picker.Items>
+                                <x:String>Salud</x:String>
+                                <x:String>Lavadero</x:String>
+                                <x:String>Belleza</x:String>
+                                <x:String>Restaurantes</x:String>   
+                        </Picker.Items>
                         </Picker>
                     </textinputlayout:SfTextInputLayout>
 

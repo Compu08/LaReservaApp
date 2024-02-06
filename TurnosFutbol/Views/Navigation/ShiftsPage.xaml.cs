@@ -123,6 +123,9 @@ namespace TurnosFutbol.Views.Navigation
                 case "Gimnasios":
                     textType = "clases";
                     break;
+                default:
+                    textType = "turno";
+                    break;
             }
         }
 
@@ -826,7 +829,13 @@ namespace TurnosFutbol.Views.Navigation
                     Chat.Open("54" + selectedObj.telefono, "");
                 else
                 {
-                    CrossMessaging.Current.PhoneDialer.MakePhoneCall("+54" + selectedObj.telefono);
+                    // CrossMessaging.Current.PhoneDialer.MakePhoneCall("+54" + selectedObj.telefono);
+
+                    var alias = Preferences.Get("paymentLink", "");
+
+                    var text = "¡Hola! Te escribimos de " + titleName.Text + " para solicitarte la seña del turno que reservaste, de lo contrario será cancelado a la brevedad." + Environment.NewLine + "Por favor adjuntar comprobante de pago." + Environment.NewLine + Environment.NewLine + alias;
+
+                    Chat.Open("54" + selectedObj.telefono, text);
                 }
             }
 

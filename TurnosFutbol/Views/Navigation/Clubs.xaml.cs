@@ -73,6 +73,9 @@ namespace TurnosFutbol.Views.Navigation
                 case "Gimnasios":
                     textType = "clases";
                     break;
+                default:
+                    textType = "turnos";
+                    break;
             }
         }
         private void SfListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
@@ -129,8 +132,8 @@ namespace TurnosFutbol.Views.Navigation
                     linearGradientBrush = new SfLinearGradientBrush
                     {
                         GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){
-                    new SfGradientStop(){ Color = Color.FromHex("#5691c8"), Offset=0.0},
-                    new SfGradientStop(){ Color = Color.FromHex("#457fca"), Offset=1.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#143bff"), Offset=0.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#0d1d71"), Offset=1.0},
                     }
                     };
                     gradient.BackgroundBrush = linearGradientBrush;
@@ -159,6 +162,61 @@ namespace TurnosFutbol.Views.Navigation
                     break;
 
                 case "Gimnasios":
+                    linearGradientBrush = new SfLinearGradientBrush
+                    {
+                        GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){
+                    new SfGradientStop(){ Color = Color.FromHex("#414345"), Offset=0.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#232526"), Offset=1.0},
+                    }
+                    };
+                    gradient.BackgroundBrush = linearGradientBrush;
+                    break;
+
+                case "Lavadero":
+                    linearGradientBrush = new SfLinearGradientBrush
+                    {
+                        GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){
+                    new SfGradientStop(){ Color = Color.FromHex("#17bf8a"), Offset=0.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#117c5a"), Offset=1.0},
+                    }
+                    };
+                    gradient.BackgroundBrush = linearGradientBrush;
+                    break;
+
+                case "Squash":
+                    linearGradientBrush = new SfLinearGradientBrush
+                    {
+                        GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){
+                    new SfGradientStop(){ Color = Color.FromHex("#414345"), Offset=0.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#232526"), Offset=1.0},
+                    }
+                    };
+                    gradient.BackgroundBrush = linearGradientBrush;
+                    break;
+
+                case "Salud":
+                    linearGradientBrush = new SfLinearGradientBrush
+                    {
+                        GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){
+                    new SfGradientStop(){ Color = Color.FromHex("#5691c8"), Offset=0.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#457fca"), Offset=1.0},
+                    }
+                    };
+                    gradient.BackgroundBrush = linearGradientBrush;
+                    break;
+
+                case "Belleza":
+                    linearGradientBrush = new SfLinearGradientBrush
+                    {
+                        GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){
+                    new SfGradientStop(){ Color = Color.FromHex("#7f17bf"), Offset=0.0},
+                    new SfGradientStop(){ Color = Color.FromHex("#400c60"), Offset=1.0},
+                    }
+                    };
+                    gradient.BackgroundBrush = linearGradientBrush;
+                    break;
+
+                default:
                     linearGradientBrush = new SfLinearGradientBrush
                     {
                         GradientStops = new Syncfusion.XForms.Graphics.GradientStopCollection(){

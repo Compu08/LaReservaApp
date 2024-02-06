@@ -32,9 +32,8 @@
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <MtouchFastDev>false</MtouchFastDev>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <CodesignProvision>
-    </CodesignProvision>
+    <CodesignKey>Apple Development: Created via API (QK25YY8H9D)</CodesignKey>
+    <CodesignProvision>VS: com.urbansi.lareserva Development</CodesignProvision>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <CodesignResourceRules>
     </CodesignResourceRules>
@@ -67,14 +66,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>Apple Distribution: Gaston Hernandez (KCCZD332RZ)</CodesignKey>
+    <CodesignKey>Apple Development: Created via API (QK25YY8H9D)</CodesignKey>
     <MtouchDebug>false</MtouchDebug>
     <CodesignEntitlements>
     </CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
     <LangVersion>latest</LangVersion>
-    <CodesignProvision>LaReserva.AppStore</CodesignProvision>
+    <CodesignProvision>VS: com.urbansi.lareserva Development</CodesignProvision>
     <CodesignResourceRules>
     </CodesignResourceRules>
     <MtouchFastDev>false</MtouchFastDev>
@@ -91,7 +90,7 @@
     <CodesignKey>Apple Distribution: Gaston Hernandez (KCCZD332RZ)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <LangVersion>latest</LangVersion>
-    <CodesignProvision>La Reserva Distribution</CodesignProvision>
+    <CodesignProvision>LRprofile</CodesignProvision>
     <MtouchSdkVersion>
     </MtouchSdkVersion>
     <MtouchUseLlvm>true</MtouchUseLlvm>
@@ -227,37 +226,37 @@
       <Version>8.1.97</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Cards">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.DataSource">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCalendar">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfComboBox">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfGauge">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfMaps">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfRating">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfRotator">
-      <Version>18.4.0.48</Version>
+      <Version>24.1.41</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugin.LatestVersion">
       <Version>2.1.0</Version>

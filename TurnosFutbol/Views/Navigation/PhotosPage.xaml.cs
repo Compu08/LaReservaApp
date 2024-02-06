@@ -26,7 +26,7 @@ namespace TurnosFutbol.Views.Navigation
         {
             InitializeComponent();
             PopupNavigation.Instance.PushAsync(new Popups.Loading());
-            CheckVersion();
+            //CheckVersion();
             CityPicker.BindingContext = new CityViewModel();
             PopupNavigation.Instance.PopAsync();
             FillListView();
@@ -115,13 +115,13 @@ namespace TurnosFutbol.Views.Navigation
             {
                 Sport = "Paddel",
                 Icon = "\uf45d",
-                BarColor = "#159be8"
+                BarColor = "#143bff"
             };
-            TypeListView restaurant = new TypeListView()
+            TypeListView squash = new TypeListView()
             {
-                Sport = "Restaurantes",
-                Icon = "\uf2e6",
-                BarColor = "Red"
+                Sport = "Squash",
+                Icon = "\uf45a",
+                BarColor = "Black"
             };
             TypeListView peluqueria = new TypeListView()
             {
@@ -129,18 +129,39 @@ namespace TurnosFutbol.Views.Navigation
                 Icon = "\uf0c4",
                 BarColor = "#fc6fe7"
             };
-            TypeListView gimnasio = new TypeListView()
+            TypeListView health = new TypeListView()
             {
-                Sport = "Gimnasios",
-                Icon = "\uf44b",
-                BarColor = "Black"
+                Sport = "Salud",
+                Icon = "\uf479",
+                BarColor = "#159be8"
+            };
+            TypeListView laundry = new TypeListView()
+            {
+                Sport = "Lavadero",
+                Icon = "\uf1b9",
+                BarColor = "#17bf8a"
+            };
+            TypeListView beauty = new TypeListView()
+            {
+                Sport = "Belleza",
+                Icon = "\uf5bb",
+                BarColor = "#7f17bf"
+            };
+            TypeListView restaurants = new TypeListView()
+            {
+                Sport = "Restaurantes",
+                Icon = "\uf2e6",
+                BarColor = "Red"
             };
             items.Add(futbol);
             items.Add(tenis);
             items.Add(paddle);
-            items.Add(restaurant);
+            items.Add(squash);
             items.Add(peluqueria);
-            items.Add(gimnasio);
+            items.Add(health);
+            items.Add(laundry);
+            items.Add(beauty);
+            items.Add(restaurants);
             SfListView.ItemsSource = items;
         }
 

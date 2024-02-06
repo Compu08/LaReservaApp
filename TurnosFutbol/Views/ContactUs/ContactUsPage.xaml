@@ -146,8 +146,20 @@
                             Clicked="SendClicked"
                             Text="ENVIAR" />
 
+
+
                     </StackLayout>
+
                 </Frame>
+                
+                    <StackLayout>
+                        <buttons:SfButton
+                            Command="{Binding SendCommand}"
+                             Style="{StaticResource SfGradientButtonStyleBlue}"
+                             Clicked="ContactUs"
+                             Text="SUMATE A LA RESERVA" />  
+                 </StackLayout>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
